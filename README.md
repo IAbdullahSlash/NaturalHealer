@@ -41,7 +41,7 @@ Further reading: [BACKEND.md](BACKEND.md) (API, data model, deployment), [KNOWLE
 
 ## Getting started
 
-Requires Node 22.9 or newer.
+Requires Node 22.12 or newer.
 
 ```bash
 npm install
