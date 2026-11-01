@@ -25,6 +25,7 @@ export async function requireUser(req) {
       console.error('[auth]', err.message)
       throw new HttpError(503, 'The server is not configured yet.')
     }
+    console.error('[auth] token rejected:', err.code, err.message)
     throw new HttpError(401, 'Your session has expired. Sign in again.')
   }
 }
