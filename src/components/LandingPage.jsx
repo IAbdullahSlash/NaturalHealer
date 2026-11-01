@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import Navbar from './Navbar'
 import Icon from './Icon'
-import Vaidya, { VaidyaAvatar } from './Vaidya'
+import Vaidya from './Vaidya'
 import BotanicalPlate, { HerbMark } from './Botanicals'
 import { HerbPlates, ClayBowl } from './Herbs'
 import { Mandala, VineDivider } from './Garden'
@@ -64,9 +64,6 @@ const method = [
     text: 'Vanya, the AI guide, answers follow-up questions from an Ayurvedic point of view, keeps your conversations, and tells you when a question needs a clinician.',
   },
 ]
-
-// The hero's example consult is built from the library itself
-const sample = diseases.find(d => d.id === 'cold') || diseases[0]
 
 function matches(disease, query) {
   const q = query.toLowerCase()
@@ -223,26 +220,6 @@ export default function LandingPage({ user, onLogout, onOpenAIChat }) {
                   <Vaidya size={330} />
                 </div>
               </div>
-
-              {/* An example consult, assembled from the library's own entry */}
-              <figure className="consult" aria-label="Example answer from the AI guide">
-                <figcaption className="consult-head">
-                  <VaidyaAvatar size={34} />
-                  <span>
-                    <strong>Vanya</strong>
-                    <span className="consult-role">AI Ayurveda guide · example</span>
-                  </span>
-                </figcaption>
-                <p className="consult-q">I have a mild cold. What can I make at home?</p>
-                <ul className="consult-a">
-                  {sample.remedies.slice(0, 2).map(r => <li key={r}>{r}</li>)}
-                </ul>
-                <p className="consult-meta">
-                  <span>Usually {sample.duration}</span>
-                  <span className="consult-dot" aria-hidden="true" />
-                  <span>Dosha: {sample.doshas.join(', ')}</span>
-                </p>
-              </figure>
             </div>
           </div>
         </section>
