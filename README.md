@@ -8,7 +8,7 @@ Natural Healer offers general wellness information, not medical advice.
 
 - **Remedy library:** 12 everyday conditions and 60 kitchen remedies. Each condition has severity, typical duration, doshas and prevention, and serious ones are flagged for a doctor.
 - **Materia medica:** each category is anchored to a herb, shown as a botanical plate with its species, the plant part used and the compounds researchers study.
-- **Knowledge base:** 27 herb and kitchen-substance entries with classical properties, typical adult amounts, cautions, medicine interactions and an honest evidence rating. They're drafts awaiting practitioner review, and the site says so. See [KNOWLEDGE_BASE.md](KNOWLEDGE_BASE.md).
+- **Knowledge base:** 27 herb and kitchen-substance entries with classical properties, typical adult amounts, cautions, medicine interactions and an honest evidence rating. They're drafts awaiting practitioner review, and the site says so.
 - **AI guide (Vanya):** answers stream in from Google Gemini on the server, grounded in the knowledge base with numbered citations, and personalised by your prakriti. Conversations are saved to your account.
 - **Safety triage:** emergency signs (for example chest pain, trouble breathing or thoughts of self-harm) get an immediate "seek care now" reply instead of a remedy.
 - **Prakriti assessment:** 12 questions scored on the server, with balancing guidance.
@@ -37,18 +37,15 @@ firestore.rules browsers may read their own data and never write
 vercel.json     function limits and SPA rewrites
 ```
 
-Further reading: [BACKEND.md](BACKEND.md) (API, data model, deployment), [KNOWLEDGE_BASE.md](KNOWLEDGE_BASE.md) (content schema, editorial rules, retrieval), [KNOWLEDGE_SOURCES.md](KNOWLEDGE_SOURCES.md) (outside sources, licences, unification plan), [DESIGN.md](DESIGN.md) (design system), [PRODUCT.md](PRODUCT.md) (who it is for and why).
-
 ## Getting started
 
 Requires Node 22.12 or newer.
 
 ```bash
 npm install
-cp .env.example .env        # then fill in the server keys
 ```
 
-Run the API and the site in two terminals:
+Create a `.env` file with the server keys listed under [Environment variables](#environment-variables). Then run the API and the site in two terminals:
 
 ```bash
 npm run dev:api:memory      # API on :3001, in-memory data, fake signed-in user (no keys needed except Gemini)
@@ -69,7 +66,7 @@ Use `npm run dev:api` instead to run against real Firestore and Firebase Auth.
 
 ## Environment variables
 
-These are server-only, and none may start with `VITE_`, because Vite puts `VITE_` variables into the public bundle. See `.env.example`.
+These are server-only, and none may start with `VITE_`, because Vite puts `VITE_` variables into the public bundle.
 
 | Variable | Purpose |
 | --- | --- |
@@ -79,7 +76,7 @@ These are server-only, and none may start with `VITE_`, because Vite puts `VITE_
 
 ## Deployment
 
-The project deploys to Vercel from the repository root: the site builds with Vite, and `api/` becomes serverless functions. Set the environment variables in the Vercel project, and publish `firestore.rules` to Firebase. [BACKEND.md](BACKEND.md) has the step-by-step setup.
+The project deploys to Vercel from the repository root: the site builds with Vite, and `api/` becomes serverless functions. Set the environment variables in the Vercel project, and publish `firestore.rules` to Firebase.
 
 ## License
 

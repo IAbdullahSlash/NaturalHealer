@@ -1,6 +1,6 @@
 // Natural Healer knowledge base: herbs, spices and kitchen substances (dravya).
 //
-// Schema and editorial rules: docs/KNOWLEDGE_BASE.md. In short:
+// Editorial rules, in short:
 // - Every entry starts as review.status 'draft' until a qualified practitioner (BAMS) checks it.
 // - Classical properties are filled only where widely agreed; unknown fields stay null.
 // - Sources are named only at the level we are sure of. No invented verse numbers or studies.
