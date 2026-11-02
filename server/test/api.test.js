@@ -125,3 +125,24 @@ test('chat is rate limited per user', async () => {
   }
   assert.equal(status, 429)
 })
+
+test('deleting the account needs confirmation, then erases everything the user stored', async () => {
+  await call(favorites, { method: 'PUT', body: { favorites: ['cold'] } })
+  await call(chat, { method: 'POST', body: { message: 'I have crushing chest pain' } })
+  const other = await store.createChat('someone-else', { title: 'Theirs' })
+  await store.logSafetyEvent({ uid: 'someone-else', chatId: other.id, level: 'emergency', categories: [] })
+  assert.ok((await store.listChats('test-user')).length > 0)
+
+  const unconfirmed = await call(profile, { method: 'DELETE', body: {} })
+  assert.equal(unconfirmed.status, 400)
+  assert.ok(await store.getProfile('test-user'))
+
+  const res = await call(profile, { method: 'DELETE', body: { confirm: 'DELETE' } })
+  assert.equal(res.status, 200)
+  assert.equal(await store.getProfile('test-user'), null)
+  assert.deepEqual(await store.listChats('test-user'), [])
+  assert.ok(store.safetyEvents.every(e => e.uid !== 'test-user'))
+  // Other people's data is untouched
+  assert.equal((await store.listChats('someone-else')).length, 1)
+  assert.equal(store.safetyEvents.filter(e => e.uid === 'someone-else').length, 1)
+})

@@ -9,6 +9,7 @@ import Signup from './components/Signup'
 import ForgotPassword from './components/ForgotPassword'
 import Homepage from './components/Homepage'
 import Prakriti from './components/Prakriti'
+import Account from './components/Account'
 import FloatingAIChat from './components/FloatingAIChat'
 import { VaidyaAvatar } from './components/Vaidya'
 import SitePage from './components/SitePage'
@@ -54,6 +55,11 @@ function AppRoutes() {
     await signOutUser()
     setIsAIChatOpen(false)
     navigate('/')
+  }
+
+  const handleAccountDeleted = () => {
+    setIsAIChatOpen(false)
+    navigate('/', { replace: true })
   }
 
   // Public pages render immediately; only the private dashboard waits for the session
@@ -125,6 +131,17 @@ function AppRoutes() {
               <Navigate to="/login" replace />
             )
           } 
+        />
+
+        <Route
+          path="/account"
+          element={
+            isLoading ? sessionPending : isAuthenticated ? (
+              <Account user={user} onLogout={handleLogout} onOpenAIChat={() => setIsAIChatOpen(true)} onDeleted={handleAccountDeleted} />
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
         />
 
         <Route

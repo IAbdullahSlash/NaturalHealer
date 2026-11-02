@@ -9,6 +9,9 @@ export const LIMITS = {
   prakriti: { limit: 10, windowMs: 60 * 60 * 1000 },
 }
 
+// Every counter a user can have, so deleting an account can remove them all
+export const rateLimitBuckets = (uid) => Object.keys(LIMITS).map(name => `${uid}_${name}`)
+
 export async function enforceLimit(uid, name) {
   const { limit, windowMs } = LIMITS[name]
   const result = await getStore().hitRateLimit(`${uid}_${name}`, limit, windowMs)

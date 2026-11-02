@@ -68,8 +68,10 @@ export default function Navbar({ user, onLogout, onOpenAIChat, overHero = false 
                 <span className="navbar-ask-label">Ask Vanya</span>
               </button>
               <div className="navbar-user">
-                <span className="navbar-avatar" aria-hidden="true">{initial}</span>
-                <span className="navbar-user-name">{user.displayName}</span>
+                <Link to="/account" className="navbar-account" title="Account">
+                  <span className="navbar-avatar" aria-hidden="true">{initial}</span>
+                  <span className="navbar-user-name">{user.displayName}</span>
+                </Link>
                 <button
                   className="icon-btn navbar-hide-mobile"
                   onClick={onLogout}
@@ -102,6 +104,7 @@ export default function Navbar({ user, onLogout, onOpenAIChat, overHero = false 
           {links.map(link => (
             <Link key={link.to} to={link.to} className="navbar-link">{link.label}</Link>
           ))}
+          {isAuthenticated && <Link to="/account" className="navbar-link">Account</Link>}
           {isAuthenticated ? (
             <button className="btn btn-paper" onClick={onLogout}>
               <Icon name="logout" size={18} />

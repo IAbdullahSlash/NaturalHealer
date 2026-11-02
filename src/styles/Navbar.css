@@ -112,6 +112,19 @@
   gap: 8px;
 }
 
+.navbar-account {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 2px 8px 2px 2px;
+  border-radius: var(--r-full);
+  text-decoration: none;
+  transition: background-color 200ms ease;
+}
+
+.navbar-account:hover { background: var(--paper-2); }
+.navbar-account:focus-visible { outline: 2px solid var(--leaf-700); outline-offset: 2px; }
+
 .navbar-avatar {
   display: grid;
   place-items: center;

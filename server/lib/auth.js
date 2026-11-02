@@ -10,7 +10,7 @@ import { adminAuth } from './firebaseAdmin.js'
  */
 export async function requireUser(req) {
   if (process.env.DEV_FAKE_UID && !process.env.VERCEL) {
-    return { uid: process.env.DEV_FAKE_UID, email: 'dev@localhost', name: 'Local Developer' }
+    return { uid: process.env.DEV_FAKE_UID, email: 'dev@localhost', name: 'Local Developer', authTime: Math.floor(Date.now() / 1000) }
   }
 
   const header = req.headers.authorization || req.headers.Authorization || ''
@@ -19,7 +19,8 @@ export async function requireUser(req) {
 
   try {
     const decoded = await adminAuth().verifyIdToken(match[1])
-    return { uid: decoded.uid, email: decoded.email || null, name: decoded.name || null }
+    // authTime: when the person last entered their password or picked their Google account
+    return { uid: decoded.uid, email: decoded.email || null, name: decoded.name || null, authTime: decoded.auth_time || 0 }
   } catch (err) {
     if (err.message?.includes('credentials are not configured')) {
       console.error('[auth]', err.message)

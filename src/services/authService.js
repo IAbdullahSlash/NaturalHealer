@@ -5,7 +5,10 @@ import {
   sendPasswordResetEmail,
   updateProfile,
   GoogleAuthProvider,
-  signInWithPopup
+  signInWithPopup,
+  EmailAuthProvider,
+  reauthenticateWithCredential,
+  reauthenticateWithPopup
 } from 'firebase/auth';
 import { auth } from './firebase';
 import { api } from './api';
@@ -166,6 +169,47 @@ export const resetPassword = async (email) => {
       error: errorMessage
     };
   }
+};
+
+// Password accounts confirm with their password; Google accounts pick their account again
+export const usesPassword = (user = auth.currentUser) =>
+  Boolean(user?.providerData.some(p => p.providerId === 'password'));
+
+// Erase the account and everything saved to it. The server insists on a sign-in from
+// the last few minutes, so confirm the person's identity first.
+export const deleteAccount = async (password) => {
+  const user = auth.currentUser;
+  if (!user) return { success: false, error: 'You are signed out. Sign in and try again.' };
+  try {
+    if (usesPassword(user)) {
+      await reauthenticateWithCredential(user, EmailAuthProvider.credential(user.email, password));
+    } else {
+      await reauthenticateWithPopup(user, new GoogleAuthProvider());
+    }
+    await user.getIdToken(true);
+    await api('/profile', { method: 'DELETE', body: { confirm: 'DELETE' } });
+  } catch (error) {
+    console.error('Delete account error:', error);
+    let errorMessage = error.status ? error.message : 'Could not delete your account. Please try again.';
+    if (error.code === 'auth/invalid-credential' || error.code === 'auth/wrong-password') {
+      errorMessage = 'That password is not correct.';
+    } else if (error.code === 'auth/popup-closed-by-user' || error.code === 'auth/cancelled-popup-request') {
+      errorMessage = 'Google confirmation was cancelled, so nothing was deleted.';
+    } else if (error.code === 'auth/user-mismatch') {
+      errorMessage = 'Choose the same Google account you are signed in with.';
+    } else if (error.code === 'auth/too-many-requests') {
+      errorMessage = 'Too many attempts. Wait a few minutes and try again.';
+    }
+    return { success: false, error: errorMessage };
+  }
+  try {
+    localStorage.removeItem('naturalhealer_favorites');
+  } catch {
+    // Storage unavailable: nothing was kept there
+  }
+  // The sign-in no longer exists on the server; end the local session too
+  await signOut(auth).catch(() => {});
+  return { success: true };
 };
 
 export const getCurrentUser = () => {

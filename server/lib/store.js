@@ -10,6 +10,7 @@ import { adminDb } from './firebaseAdmin.js'
 //   users/{uid}/chats/{chatId}/messages  role ('user' | 'assistant'), text, triage, createdAt
 //   safetyEvents/{id}                    uid, chatId, level, categories, createdAt (no message text)
 //   rateLimits/{bucket}                  count, windowStart
+//   Users/{uid}/Chats/...                legacy layout, kept until migrated (scripts/migrate-legacy-chats.mjs)
 
 const toDate = (v) => (v instanceof Timestamp ? v.toDate() : v instanceof Date ? v : v ? new Date(v) : null)
 
@@ -86,6 +87,22 @@ function firestoreStore() {
       await db.collection('safetyEvents').add({ ...event, createdAt: FieldValue.serverTimestamp() })
     },
 
+    // Erase everything stored for a user: profile, chats and messages, the legacy copy
+    // of their chats, their safety events and their rate-limit counters
+    async deleteUserData(uid, rateLimitBuckets = []) {
+      await db.recursiveDelete(user(uid))
+      await db.recursiveDelete(db.collection('Users').doc(uid))
+      const refs = [
+        ...(await db.collection('safetyEvents').where('uid', '==', uid).select().get()).docs.map(d => d.ref),
+        ...rateLimitBuckets.map(b => db.collection('rateLimits').doc(b)),
+      ]
+      for (let i = 0; i < refs.length; i += 400) {
+        const batch = db.batch()
+        refs.slice(i, i + 400).forEach(ref => batch.delete(ref))
+        await batch.commit()
+      }
+    },
+
     // Fixed-window counter, transactional so concurrent function instances agree
     async hitRateLimit(bucket, limit, windowMs) {
       const ref = db.collection('rateLimits').doc(bucket)
@@ -152,6 +169,12 @@ function memoryStore() {
       if (c) { c.messageCount += 1; c.updatedAt = new Date() }
     },
     async logSafetyEvent(event) { safety.push({ ...event, createdAt: new Date() }) },
+    async deleteUserData(uid, rateLimitBuckets = []) {
+      users.delete(uid)
+      for (const key of [...chats.keys()]) if (key.startsWith(`${uid}/`)) { chats.delete(key); msgs.delete(key) }
+      for (let i = safety.length - 1; i >= 0; i--) if (safety[i].uid === uid) safety.splice(i, 1)
+      rateLimitBuckets.forEach(b => limits.delete(b))
+    },
     async hitRateLimit(bucket, limit, windowMs) {
       const now = Date.now()
       const d = limits.get(bucket)
