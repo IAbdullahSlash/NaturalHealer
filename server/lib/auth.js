@@ -22,7 +22,7 @@ export async function requireUser(req) {
     // authTime: when the person last entered their password or picked their Google account
     return { uid: decoded.uid, email: decoded.email || null, name: decoded.name || null, authTime: decoded.auth_time || 0 }
   } catch (err) {
-    if (err.message?.includes('credentials are not configured')) {
+    if (/credentials are (not configured|invalid)/.test(err.message || '')) {
       console.error('[auth]', err.message)
       throw new HttpError(503, 'The server is not configured yet.')
     }
