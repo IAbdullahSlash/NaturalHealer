@@ -5,6 +5,7 @@ import Icon from './Icon'
 import BotanicalPlate from './Botanicals'
 import { herbs, herbById } from '../data/knowledge/herbs'
 import enrichment from '../data/knowledge/enrichment'
+import compounds from '../data/knowledge/compounds'
 import { CAUTION_GROUPS, DRUG_CLASSES, EVIDENCE_LEVELS, GLOSSARY } from '../data/knowledge/vocabulary'
 import { shelfInUse } from '../data/kitchen'
 import { diseases } from '../data/diseases'
@@ -42,6 +43,24 @@ function NamesAndBotany({ id }) {
       <p className="kb-note">
         Names from {e.wikidata ? <a href={`https://www.wikidata.org/wiki/${e.wikidata.qid}`} target="_blank" rel="noreferrer">Wikidata</a> : 'Wikidata'} (CC0)
         {b && <>; botany from <a href={`https://www.gbif.org/species/${b.gbifKey}`} target="_blank" rel="noreferrer">the World Checklist of Vascular Plants, Royal Botanic Gardens, Kew</a> (CC BY 4.0)</>}.
+      </p>
+    </section>
+  )
+}
+
+// Plant chemistry from Dr. Duke's databases (USDA, CC0): background, not evidence
+function Compounds({ id }) {
+  const c = compounds.herbs[id]
+  if (!c) return null
+  const parts = c.parts.slice(0, 3).map(p => (p.part === 'Plant' ? 'whole plant' : p.part.toLowerCase()))
+  const partList = parts.length > 1 ? `${parts.slice(0, -1).join(', ')} and ${parts.at(-1)}` : parts[0]
+  return (
+    <section className="kb-section">
+      <h2>Plant chemistry</h2>
+      <p>Researchers have recorded {c.compoundCount} compounds in this plant{partList && <>, most often in the {partList}</>}. Those found in the largest amounts include:</p>
+      <ul className="kb-compounds">{c.highestAmounts.map(x => <li key={x.name}>{x.name}</li>)}</ul>
+      <p className="kb-note">
+        Finding a compound in a plant does not show that a home remedy works or is safe. From <a href={compounds.source} target="_blank" rel="noreferrer">Dr. Duke's Phytochemical and Ethnobotanical Databases</a>, U.S. Department of Agriculture (public domain, CC0), last updated 2016.
       </p>
     </section>
   )
@@ -195,6 +214,8 @@ function HerbDetail({ herb, user, onOpenAIChat }) {
         <p>{herb.evidence.summary}</p>
         <a className="site-inline-link" href={herb.evidence.pubmedQuery} target="_blank" rel="noreferrer">Search the research on PubMed <Icon name="arrowRight" size={16} /></a>
       </section>
+
+      <Compounds id={herb.id} />
 
       {usedIn.length > 0 && (
         <section className="kb-section">

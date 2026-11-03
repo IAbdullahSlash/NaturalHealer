@@ -191,3 +191,7 @@
 .kb-langs strong { font-family: "Mukta", var(--font-body); font-weight: 600; color: var(--leaf-900); }
 .kb-synonyms { display: flex; flex-wrap: wrap; gap: 4px 10px; font-weight: 500; }
 .kb-note a { color: var(--leaf-700); }
+
+/* Plant chemistry: compound names as quiet chips */
+.kb-compounds { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 4px; padding: 0; list-style: none; }
+.kb-compounds li { padding: 4px 10px; border-radius: var(--r-full); background: var(--paper-2); border: 1px solid var(--line); font-size: 0.86rem; color: var(--ink-2); overflow-wrap: anywhere; }
