@@ -1,4 +1,4 @@
-import { FieldValue, Timestamp } from 'firebase-admin/firestore'
+import { FieldValue, Timestamp } from '@google-cloud/firestore'
 import { adminDb } from './firebaseAdmin.js'
 
 // Persistence for the API. Firestore in production; an in-memory store for local

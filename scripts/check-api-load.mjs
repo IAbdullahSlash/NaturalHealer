@@ -31,7 +31,7 @@ for (const file of files) {
 // firebase-admin loads its token checker lazily; load it too
 try {
   await import('firebase-admin/auth')
-  await import('firebase-admin/firestore')
+  await import('@google-cloud/firestore')
 } catch (err) {
   failed++
   console.error(`FAIL  firebase-admin: ${err.code || ''} ${err.message.split('\n')[0]}`)

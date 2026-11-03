@@ -9,7 +9,7 @@
 //   npm run migrate:chats            dry run, prints what it would copy
 //   npm run migrate:chats -- --write copy for real
 
-import { Timestamp } from 'firebase-admin/firestore'
+import { Timestamp } from '@google-cloud/firestore'
 import { adminDb } from '../server/lib/firebaseAdmin.js'
 
 const write = process.argv.includes('--write')

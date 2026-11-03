@@ -1,6 +1,7 @@
 import { initializeApp, getApps, cert } from 'firebase-admin/app'
 import { getAuth } from 'firebase-admin/auth'
-import { getFirestore } from 'firebase-admin/firestore'
+import { Firestore } from '@google-cloud/firestore'
+import { JWT } from 'google-auth-library'
 import { createPrivateKey } from 'node:crypto'
 
 // Credentials come from the environment, never from the repo. Either:
@@ -63,4 +64,18 @@ function app() {
 }
 
 export const adminAuth = () => getAuth(app())
-export const adminDb = () => getFirestore(app())
+
+// Firestore is built here rather than through firebase-admin, which hands the key to
+// Google's auth library in a deprecated way and logs a warning on every cold start.
+// A signed JWT client is the supported way to pass a service account.
+let db = null
+export function adminDb() {
+  if (db) return db
+  const creds = credentials()
+  if (!creds) throw new Error('Firebase Admin credentials are not configured.')
+  db = new Firestore({
+    projectId: creds.projectId,
+    authClient: new JWT({ email: creds.clientEmail, key: creds.privateKey, scopes: ['https://www.googleapis.com/auth/datastore'] }),
+  })
+  return db
+}
