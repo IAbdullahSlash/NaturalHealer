@@ -46,23 +46,36 @@ const doshas = [
 
 const doshaCount = (id) => diseases.filter(d => d.doshas.includes(id)).length
 
+// Knowledge base figures, computed at build time in vite.config.js
+const kb = __KB_STATS__
+
 // How the product works, stated plainly
 const method = [
   {
     icon: 'leaf',
     title: 'Botanical identity',
-    text: 'Every herb is named by species, the part of the plant used and the compounds researchers study, beside the household name you already know.',
+    text: `Every plant carries its accepted botanical name from Kew's World Checklist, its names in ${kb.languages} Indian languages, and the compounds USDA researchers have recorded in it, beside the household name you already know.`,
   },
   {
     icon: 'shield',
     title: 'Safety before remedy',
-    text: 'Each condition carries a severity level and a typical duration. Serious ones are flagged for a doctor’s care, with remedies offered only as support.',
+    text: 'Each herb lists who should avoid it and which medicines it interacts with. Those covered by US National Institutes of Health safety sources have been checked against them. Serious conditions are flagged for a doctor, with remedies offered only as support.',
   },
   {
     icon: 'sparkle',
     title: 'An assistant with limits',
-    text: 'Vanya, the AI guide, answers follow-up questions from an Ayurvedic point of view, keeps your conversations, and tells you when a question needs a clinician.',
+    text: 'Vanya, the AI guide, answers from this knowledge base and shows the entries it used. Signs of an emergency get a "seek care now" reply instead of a remedy, and it says so when a question is beyond what it covers.',
   },
+]
+
+// What the knowledge base holds today, including what is still missing
+const kbFacts = [
+  { value: kb.herbs, label: 'herb and kitchen entries', note: 'Classical properties, uses, adult amounts and evidence ratings' },
+  { value: kb.cautions + kb.interactions, label: 'safety notes', note: `${kb.cautions} cautions for groups such as pregnancy and children, and ${kb.interactions} medicine interactions` },
+  { value: kb.safetyChecked, label: 'herbs checked against NIH', note: 'Cross-checked with NCCIH fact sheets and the LiverTox database' },
+  { value: kb.regionalNames, label: 'names in Indian languages', note: `Hindi, Tamil, Bengali and ${kb.languages - 3} more, so you can search the way you speak` },
+  { value: kb.withChemistry, label: 'plants with chemistry', note: "Recorded compounds from the USDA's Dr. Duke databases" },
+  { value: kb.coded, label: 'conditions with ICD-11 codes', note: "Matched to the World Health Organization's classification" },
 ]
 
 function matches(disease, query) {
@@ -165,9 +178,9 @@ export default function LandingPage({ user, onLogout, onOpenAIChat }) {
                 Ayurvedic care, <em>read with evidence.</em>
               </h1>
               <p className="t-lead hero-lead">
-                A reference of {diseases.length} everyday conditions and {totalRemedies} kitchen remedies.
-                Every herb is named by its botanical species and studied compounds, and an AI
-                assistant answers your follow-up questions and tells you plainly when to see a doctor.
+                A reference of {diseases.length} everyday conditions, {totalRemedies} kitchen remedies and {kb.herbs} herb entries
+                with botanical names, cautions and medicine interactions. Vanya, the AI guide, answers your
+                questions from these entries, shows its sources and tells you plainly when to see a doctor.
               </p>
 
               <form className="hero-search" role="search" onSubmit={(e) => {
@@ -209,7 +222,7 @@ export default function LandingPage({ user, onLogout, onOpenAIChat }) {
               <dl className="hero-facts">
                 <div><dt>Conditions</dt><dd>{diseases.length}</dd></div>
                 <div><dt>Remedies</dt><dd>{totalRemedies}</dd></div>
-                <div><dt>Kitchen ingredients</dt><dd>{shelfInUse.length}</dd></div>
+                <div><dt>Herb entries</dt><dd>{kb.herbs}</dd></div>
               </dl>
             </div>
 
@@ -241,6 +254,41 @@ export default function LandingPage({ user, onLogout, onOpenAIChat }) {
                 </li>
               ))}
             </ol>
+          </div>
+        </section>
+
+        {/* What the knowledge base holds, and what it doesn't yet */}
+        <section className="section kb-section-landing" aria-labelledby="kb-title">
+          <div className="container">
+            <header className="section-head" data-reveal>
+              <p className="eyebrow">Knowledge base</p>
+              <h2 id="kb-title" className="t-title">What Vanya answers from.</h2>
+              <p className="t-lead">
+                Built from open, citable sources and checked against official safety data. Where sources disagree
+                or we aren't sure, the entry says so instead of guessing.
+              </p>
+            </header>
+            <ul className="kb-facts">
+              {kbFacts.map((f, i) => (
+                <li key={f.label} data-reveal style={{ '--d': i }}>
+                  <strong>{f.value}</strong>
+                  <span className="kb-facts-label">{f.label}</span>
+                  <span className="kb-facts-note">{f.note}</span>
+                </li>
+              ))}
+            </ul>
+            <p className="kb-facts-draft" data-reveal>
+              <Icon name="info" size={18} />
+              <span>
+                {kb.reviewed === 0
+                  ? 'Every entry is still a draft: a qualified Ayurvedic practitioner has not reviewed them yet, and each herb page says so.'
+                  : `${kb.reviewed} of ${kb.herbs} entries have been reviewed by a qualified Ayurvedic practitioner; the rest are marked as drafts.`}
+              </span>
+            </p>
+            <div className="kb-facts-actions" data-reveal>
+              <Link to="/herbs" className="btn btn-leaf">Browse the herbs <Icon name="arrowRight" size={17} className="btn-arrow" /></Link>
+              <Link to="/safety" className="btn btn-paper">Read the safety guide</Link>
+            </div>
           </div>
         </section>
 
@@ -379,6 +427,7 @@ export default function LandingPage({ user, onLogout, onOpenAIChat }) {
               <p className="t-lead">
                 Every entry states how long a condition usually lasts and when it is time to see a doctor.
                 Create a free account to save the remedies your family relies on and ask Vanya what the page doesn't answer.
+                You can delete the account, and everything saved to it, whenever you like.
               </p>
               <div className="closing-actions">
                 <button className="btn btn-leaf btn-lg" onClick={continueTo}>

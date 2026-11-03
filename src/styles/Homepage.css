@@ -123,6 +123,7 @@
 
 .guide-strip p { flex: 1; min-width: 240px; }
 .guide-strip strong { color: #FFFDF5; }
+.guide-strip a { color: #F3E4BC; text-decoration: underline; text-underline-offset: 3px; }
 .guide-strip .btn-leaf { background: #E8D6A8; color: #1F2A18; box-shadow: none; }
 
 @media (max-width: 720px) {

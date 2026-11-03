@@ -296,6 +296,67 @@
 }
 
 /* --------------------------------------------------------------------------
+   Knowledge base figures
+   -------------------------------------------------------------------------- */
+
+.kb-section-landing { padding-top: clamp(24px, 4vw, 48px); }
+
+.kb-facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 40px;
+  list-style: none;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: var(--r-xl);
+  overflow: hidden;
+}
+
+.kb-facts li {
+  display: grid;
+  align-content: start;
+  gap: 4px;
+  padding: clamp(20px, 3vw, 28px);
+  background: var(--card);
+}
+
+.kb-facts strong {
+  font-family: var(--font-display);
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--leaf-900);
+  font-variant-numeric: lining-nums;
+}
+
+.kb-facts-label { font-weight: 700; color: var(--leaf-900); }
+.kb-facts-note { font-size: 0.92rem; color: var(--ink-2); }
+
+.kb-facts-draft {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin-top: 20px;
+  padding: 16px 20px;
+  border-radius: var(--r-md);
+  background: var(--haldi-soft);
+  color: var(--ink);
+  font-size: 0.95rem;
+}
+
+.kb-facts-draft svg { flex: none; margin-top: 2px; color: var(--brass-deep); }
+.kb-facts-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+
+@media (max-width: 860px) {
+  .kb-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 520px) {
+  .kb-facts { grid-template-columns: 1fr; }
+}
+
+/* --------------------------------------------------------------------------
    Library
    -------------------------------------------------------------------------- */
 
@@ -364,6 +425,9 @@
 .shelf-section {
   background: var(--paper-2);
   border-block: 1px solid var(--line);
+  /* The shelves slide in from the right; clip that so phones can't scroll sideways.
+     clip, unlike hidden, keeps the sticky intro working */
+  overflow-x: clip;
 }
 
 .shelf-grid {

@@ -170,7 +170,7 @@ const Homepage = ({ user, onLogout, onOpenAIChat }) => {
 
         <aside className="guide-strip">
           <p>
-            <strong>Not sure where to start?</strong> Describe how you feel and Vanya will point you to remedies, foods and habits.
+            <strong>Not sure where to start?</strong> Describe how you feel and Vanya will point you to remedies, foods and habits, answering from the <Link to="/herbs">herb knowledge base</Link> and showing which entries it used.
           </p>
           <button className="btn btn-leaf" onClick={onOpenAIChat}>
             Ask Vanya
