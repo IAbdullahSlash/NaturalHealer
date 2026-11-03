@@ -60,8 +60,11 @@ Use `npm run dev:api` instead to run against real Firestore and Firebase Auth.
 | `npm run dev:api` | Local API using Firestore and Firebase Auth |
 | `npm run dev:api:memory` | Local API with in-memory data and a fake user |
 | `npm test` | Server tests |
+| `npm run test:web` | Frontend tests (Vitest) |
+| `npm run check:api` | Load every API route under Vercel's module rules |
 | `npm run build` | Production build of the site |
 | `npm run kb:enrich` | Refresh botanical names and Indian-language names from Kew and Wikidata |
+| `npm run kb:compounds` | Refresh plant chemistry from Dr. Duke's databases (USDA, CC0); run after `kb:enrich` |
 | `npm run migrate:chats` | Copy chats from the old layout (dry run; add `-- --write`) |
 
 ## Environment variables

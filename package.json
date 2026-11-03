@@ -11,7 +11,10 @@
     "preview": "vite preview",
     "test": "node --test \"server/test/*.test.js\"",
     "migrate:chats": "node --env-file-if-exists=.env scripts/migrate-legacy-chats.mjs",
-    "kb:enrich": "node scripts/kb/enrich.mjs"
+    "kb:enrich": "node scripts/kb/enrich.mjs",
+    "test:web": "vitest run",
+    "check:api": "node --no-experimental-require-module scripts/check-api-load.mjs",
+    "kb:compounds": "node scripts/kb/duke.mjs"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
@@ -22,7 +25,11 @@
     "react-router-dom": "^7.9.5"
   },
   "devDependencies": {
-    "vite": "^8.3.5"
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/react": "^16.3.3",
+    "jsdom": "^29.1.1",
+    "vite": "^8.3.5",
+    "vitest": "^5.1.0"
   },
   "engines": {
     "node": ">=22.12"
