@@ -16,6 +16,29 @@ const LAST_ATTEMPT_TIMEOUT_MS = 25_000
 // Hard cap on a whole answer, inside Vercel's 60s function limit
 const ANSWER_TIMEOUT_MS = 50_000
 
+// A model that just failed is likely to fail again for a while (overload tends to last
+// minutes), so skip it until the cooldown ends instead of making every question wait on
+// it. It still gets tried last if nothing else answers. Kept per warm function instance.
+const COOLDOWN_MS = 5 * 60 * 1000
+const coolingUntil = new Map()
+
+export function markUnavailable(name, now = Date.now()) {
+  coolingUntil.set(name, now + COOLDOWN_MS)
+}
+
+// Healthy models in the configured order, then cooling ones, soonest to recover first
+export function modelOrder(now = Date.now(), models = MODELS) {
+  const cooling = (m) => (coolingUntil.get(m) || 0) > now
+  return [
+    ...models.filter(m => !cooling(m)),
+    ...models.filter(cooling).sort((a, b) => coolingUntil.get(a) - coolingUntil.get(b)),
+  ]
+}
+
+export function resetModelHealth() {
+  coolingUntil.clear()
+}
+
 const isRetryable = (err) => RETRYABLE.has(err.status) || err.name === 'AbortError' || /aborted|timed? ?out|fetch failed/i.test(String(err.message))
 
 export function isGeminiConfigured() {
@@ -38,9 +61,10 @@ function getModel(name, systemInstruction, signal) {
 // mid-stream, so we drive cancellation with our own signal.)
 async function openStream({ systemInstruction, contents }) {
   let lastError
-  for (const [i, name] of MODELS.entries()) {
+  const order = modelOrder()
+  for (const [i, name] of order.entries()) {
     const controller = new AbortController()
-    const wait = i === MODELS.length - 1 ? LAST_ATTEMPT_TIMEOUT_MS : FIRST_TOKEN_TIMEOUT_MS
+    const wait = i === order.length - 1 ? LAST_ATTEMPT_TIMEOUT_MS : FIRST_TOKEN_TIMEOUT_MS
     const startTimer = setTimeout(() => controller.abort(), wait)
     try {
       const result = await getModel(name, systemInstruction, controller.signal).generateContentStream({ contents })
@@ -51,7 +75,9 @@ async function openStream({ systemInstruction, contents }) {
       clearTimeout(startTimer)
       lastError = err
       if (err.code === 'not-configured' || !isRetryable(err)) throw err
-      console.warn(`[gemini] ${name} unavailable (${err.status || err.name}); trying the next model`)
+      markUnavailable(name)
+      const why = controller.signal.aborted ? `no answer within ${wait / 1000}s` : `${err.status || err.name}: ${String(err.message).slice(0, 120)}`
+      console.warn(`[gemini] ${name} unavailable (${why}); skipping it for ${COOLDOWN_MS / 60000} minutes`)
     }
   }
   throw lastError
