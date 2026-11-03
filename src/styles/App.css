@@ -20,3 +20,6 @@
 }
 
 .auth-loading .vaidya-avatar { animation: fade-in 1.2s ease infinite alternate; }
+
+/* Holds the page height while a page's code loads, so the footer does not jump up */
+.page-loading { min-height: 70vh; }

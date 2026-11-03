@@ -1,19 +1,21 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, lazy, Suspense } from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from 'react-router-dom'
 import { onAuthStateChanged } from 'firebase/auth'
 import { auth } from './services/firebase'
 import { signOutUser } from './services/authService'
 import LandingPage from './components/LandingPage'
-import Login from './components/Login'
-import Signup from './components/Signup'
-import ForgotPassword from './components/ForgotPassword'
-import Homepage from './components/Homepage'
-import Prakriti from './components/Prakriti'
-import Account from './components/Account'
-import FloatingAIChat from './components/FloatingAIChat'
+
+// Every page but the landing page loads on demand, so the first visit downloads less
+const Login = lazy(() => import('./components/Login'))
+const Signup = lazy(() => import('./components/Signup'))
+const ForgotPassword = lazy(() => import('./components/ForgotPassword'))
+const Homepage = lazy(() => import('./components/Homepage'))
+const Prakriti = lazy(() => import('./components/Prakriti'))
+const Account = lazy(() => import('./components/Account'))
+const FloatingAIChat = lazy(() => import('./components/FloatingAIChat'))
+const SitePage = lazy(() => import('./components/SitePage'))
+const HerbPages = lazy(() => import('./components/HerbPages'))
 import { VaidyaAvatar } from './components/Vaidya'
-import SitePage from './components/SitePage'
-import HerbPages from './components/HerbPages'
 import SiteFooter from './components/SiteFooter'
 
 function AppRoutes() {
@@ -73,6 +75,7 @@ function AppRoutes() {
   return (
     <>
       <a className="skip-link" href="#main-content">Skip to content</a>
+      <Suspense fallback={<div className="page-loading" role="status" aria-label="Loading" />}>
       <Routes>
         {/* Public Routes */}
         <Route
@@ -167,16 +170,19 @@ function AppRoutes() {
 
         <Route path="*" element={<SitePage user={user} onLogout={handleLogout} page="not-found" />} />
       </Routes>
+      </Suspense>
 
       <SiteFooter />
       
       {/* Floating AI Chat - only show when authenticated */}
       {isAuthenticated && user && (
-        <FloatingAIChat 
-          isOpen={isAIChatOpen} 
-          onClose={() => setIsAIChatOpen(false)}
-          user={user}
-        />
+        <Suspense fallback={null}>
+          <FloatingAIChat 
+            isOpen={isAIChatOpen} 
+            onClose={() => setIsAIChatOpen(false)}
+            user={user}
+          />
+        </Suspense>
       )}
     </>
   )
