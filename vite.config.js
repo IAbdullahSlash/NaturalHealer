@@ -6,6 +6,7 @@ import compounds from './src/data/knowledge/compounds.js'
 import { conditionCodes } from './src/data/knowledge/conditionCodes.js'
 import { EVIDENCE_LEVELS } from './src/data/knowledge/vocabulary.js'
 import { shelfInUse } from './src/data/kitchen.js'
+import { datasetFiles } from './scripts/data/export.mjs'
 
 // Knowledge base figures for the landing page, worked out here so the first page
 // doesn't have to download the whole knowledge base to show a few numbers
@@ -22,6 +23,7 @@ const kbStats = {
   conditions: diseases.length,
   coded: Object.keys(conditionCodes).length,
   reviewed: herbs.filter(h => h.review?.status === 'reviewed').length,
+  remedies: diseases.reduce((n, d) => n + d.remedies.length, 0),
 }
 
 // The landing page's herb tray: the first kitchen ingredients that have a herb entry, with
@@ -60,7 +62,7 @@ const trayLegend = Object.fromEntries(Object.entries(EVIDENCE_TIER)
 // and the sign-in forms are left out and disallowed in robots.txt.
 const SITE_URL = (process.env.SITE_URL || 'https://natural-healer.vercel.app').replace(/\/$/, '')
 const publicPaths = [
-  '/', '/remedies', '/ingredients', '/herbs', '/about', '/safety', '/privacy', '/terms',
+  '/', '/remedies', '/ingredients', '/herbs', '/dataset', '/about', '/safety', '/privacy', '/terms',
   ...diseases.map(d => `/conditions/${d.id}`),
   ...herbs.map(h => `/herbs/${h.id}`),
 ]
@@ -81,9 +83,32 @@ function seoFiles() {
   }
 }
 
+// The public dataset, published at /data/ (scripts/data/export.mjs). The dev server serves
+// the same files so the dataset page's links work locally.
+const DATA_TYPES = { json: 'application/json', csv: 'text/csv', md: 'text/markdown' }
+function datasetFolder() {
+  return {
+    name: 'dataset-files',
+    configureServer(server) {
+      server.middlewares.use('/data/', (req, res, next) => {
+        const name = decodeURIComponent(req.url.split('?')[0].replace(/^\//, ''))
+        const text = datasetFiles({ siteUrl: SITE_URL })[name]
+        if (text === undefined) return next()
+        res.setHeader('Content-Type', `${DATA_TYPES[name.split('.').pop()] || 'text/plain'}; charset=utf-8`)
+        res.end(text)
+      })
+    },
+    generateBundle() {
+      for (const [name, text] of Object.entries(datasetFiles({ siteUrl: SITE_URL }))) {
+        this.emitFile({ type: 'asset', fileName: `data/${name}`, source: text })
+      }
+    },
+  }
+}
+
 // In development the API runs separately (server/dev.js); Vite forwards /api to it.
 export default defineConfig({
-  plugins: [seoFiles()],
+  plugins: [seoFiles(), datasetFolder()],
   define: {
     __KB_STATS__: JSON.stringify(kbStats),
     __KB_TRAY__: JSON.stringify({ items: kbTray, legend: trayLegend }),

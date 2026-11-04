@@ -63,6 +63,9 @@ Use `npm run dev:api` instead to run against real Firestore and Firebase Auth.
 | `npm run test:web` | Frontend tests (Vitest) |
 | `npm run check:api` | Load every API route under Vercel's module rules |
 | `npm run build` | Production build of the site |
+| `npm run data:build` | Validate `data/` against its schemas and regenerate the modules the site uses |
+| `npm run data:check` | Validate and fail if the generated modules are out of date (runs in CI) |
+| `npm run data:export` | Write the public dataset to `dataset-export/` (it is also published at `/data/` on every build) |
 | `npm run kb:enrich` | Refresh botanical names and Indian-language names from Kew and Wikidata |
 | `npm run kb:compounds` | Refresh plant chemistry from Dr. Duke's databases (USDA, CC0); run after `kb:enrich` |
 | `npm run migrate:chats` | Copy chats from the old layout (dry run; add `-- --write`) |

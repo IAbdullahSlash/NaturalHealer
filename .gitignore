@@ -21,3 +21,6 @@ plans/
 
 # Private project documents
 Documents/
+
+# Local dataset exports (npm run data:export)
+dataset-export/

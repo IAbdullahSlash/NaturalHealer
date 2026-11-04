@@ -75,6 +75,38 @@ function PrivacyPage() {
   </>
 }
 
+// The public dataset (files built by scripts/data/export.mjs, served at /data/)
+const kb = __KB_STATS__
+const DATA_FILES = [
+  { path: 'datapackage.json', title: 'Data package descriptor', note: 'Column definitions, licences and sources (Frictionless Data Package)' },
+  { path: 'herbs.csv', title: 'Herbs', note: 'One row per herb, spice or food' },
+  { path: 'herb-cautions.csv', title: 'Cautions', note: 'Who should take care with each herb, and why' },
+  { path: 'herb-interactions.csv', title: 'Medicine interactions', note: 'Medicine classes each herb interacts with' },
+  { path: 'conditions.csv', title: 'Conditions', note: 'Severity, duration, ICD-11 code and when to see a doctor' },
+  { path: 'remedies.csv', title: 'Remedies', note: 'Home remedies for each condition' },
+  { path: 'botany.csv', title: 'Botany', note: "Kew-accepted names and synonyms (CC BY 4.0, Royal Botanic Gardens, Kew)" },
+  { path: 'regional-names.csv', title: 'Regional names', note: 'Names in Indian languages (Wikidata, CC0)' },
+  { path: 'plant-chemistry.json', title: 'Plant chemistry', note: "Recorded compounds (Dr. Duke's databases, USDA, CC0)" },
+  { path: 'herbs.json', title: 'Herbs, complete', note: 'Every field, as JSON' },
+  { path: 'conditions.json', title: 'Conditions, complete', note: 'Every field, as JSON' },
+  { path: 'README.md', title: 'Read me', note: 'Contents, licences and limits' },
+]
+
+function DatasetPage() {
+  return <>
+    <PageIntro eyebrow="Open dataset" title="The knowledge base, as data." lead={`Everything Vanya answers from, as CSV and JSON files: ${kb.herbs} herb entries, ${kb.conditions} conditions, ${kb.remedies} remedies, ${kb.cautions} cautions and ${kb.interactions} medicine interactions.`} />
+    <div className="site-legal-note"><Icon name="info" size={18} /><p>{kb.reviewed === 0 ? 'Every entry is a draft' : `${kb.herbs - kb.reviewed} entries are drafts`} until a qualified Ayurvedic practitioner reviews it; each row's review_status says which. This is educational information, not medical advice. Do not use it to diagnose or treat anyone.</p></div>
+    <section className="condition-section"><h2>Download</h2>
+      <ul className="dataset-files">{DATA_FILES.map(f => <li key={f.path}><a href={`/data/${f.path}`} download={f.path.endsWith('.json') && f.path !== 'datapackage.json' ? f.path : undefined}>{f.path}</a><span><strong>{f.title}.</strong> {f.note}</span></li>)}</ul>
+    </section>
+    <div className="site-content-grid">
+      <InfoSection title="How it is built"><p>Each herb and condition is one JSON file, checked against a published schema before every build. Botanical names come from Kew's World Checklist, regional names from Wikidata, and plant chemistry from the USDA's Dr. Duke databases, merged by script.</p><p>The schemas are at <a className="site-inline-link" href="/data/schema/herb.schema.json">herb.schema.json</a> and <a className="site-inline-link" href="/data/schema/condition.schema.json">condition.schema.json</a>.</p></InfoSection>
+      <InfoSection title="Licences"><p>Natural Healer's own entries are shared under the Creative Commons Attribution 4.0 licence: you may reuse them if you credit Natural Healer. Merged data keeps its source's licence: Kew's checklist is CC BY 4.0; Wikidata and the Duke databases are public domain (CC0).</p><p>ICD-11 codes belong to the World Health Organization and are included as references only.</p></InfoSection>
+    </div>
+    <p className="site-updated">Rebuilt with every update to the site. See the <Link to="/herbs">herb pages</Link> for the same content in readable form.</p>
+  </>
+}
+
 function TermsPage() {
   return <>
     <PageIntro eyebrow="Terms of use" title="Use this reference with care." lead="These plain-language terms explain the intended use and limits of Natural Healer." />
@@ -132,6 +164,7 @@ function ConditionPage({ user, onOpenAIChat }) {
     <section className="condition-section"><h2>From your kitchen shelf</h2><ShelfTags disease={disease} limit={20} /></section>
     <section className="condition-section"><h2>Remedies and supportive habits</h2><ol className="condition-remedies">{disease.remedies.map((remedy, index) => <li key={remedy}><span>{String(index + 1).padStart(2, '0')}</span><p>{remedy}</p></li>)}</ol></section>
     <section className="condition-section"><h2>Prevention and daily care</h2><ul className="condition-prevention">{disease.prevention.map(tip => <li key={tip}><Icon name="check" size={16} /><span>{tip}</span></li>)}</ul></section>
+    {disease.seeDoctor?.length > 0 && <section className="condition-section condition-doctor"><h2>When to see a doctor</h2><ul>{disease.seeDoctor.map(sign => <li key={sign}><Icon name="alert" size={16} /><span>{sign}</span></li>)}</ul></section>}
     <p className="site-legal-note"><Icon name="info" size={18} /><span>Educational information, not medical advice. Check with a qualified clinician before starting a remedy, especially if pregnant, breastfeeding, caring for a child, or taking medicine. Ingredient information does not prove a remedy is effective.</span></p>
     <div className="site-page-actions">{user ? <button className="btn btn-leaf" onClick={onOpenAIChat}><Icon name="sparkle" size={16} /> Ask Vanya about this</button> : <Link className="btn btn-leaf" to="/signup">Create an account to ask Vanya <Icon name="arrowRight" size={17} /></Link>}<Link className="btn btn-paper" to="/remedies">Back to the library</Link></div>
     <p className="site-updated">Ingredients shown: {ingredientsFor(disease).map(item => item.name).join(', ') || 'none listed'}.</p>
@@ -141,7 +174,7 @@ function ConditionPage({ user, onOpenAIChat }) {
 export default function SitePage({ page, user, onLogout, onOpenAIChat }) {
   const isCondition = !page
   const location = useLocation()
-  const titles = { about: 'About', safety: 'Safety guide', privacy: 'Privacy', terms: 'Terms of use', remedies: 'Materia medica', ingredients: 'Ingredients', 'not-found': 'Page not found' }
+  const titles = { dataset: 'Open dataset', about: 'About', safety: 'Safety guide', privacy: 'Privacy', terms: 'Terms of use', remedies: 'Materia medica', ingredients: 'Ingredients', 'not-found': 'Page not found' }
   useEffect(() => {
     const conditionTitle = isCondition ? diseases.find(item => item.id === window.location.pathname.split('/').pop())?.title : null
     document.title = `${conditionTitle || titles[page] || 'Natural Healer'} | Natural Healer`
@@ -151,6 +184,7 @@ export default function SitePage({ page, user, onLogout, onOpenAIChat }) {
     : page === 'safety' ? <SafetyPage />
       : page === 'privacy' ? <PrivacyPage />
         : page === 'terms' ? <TermsPage />
+          : page === 'dataset' ? <DatasetPage />
           : page === 'remedies' ? <LibraryPage />
             : page === 'ingredients' ? <IngredientsPage />
           : page === 'not-found' ? <><PageIntro eyebrow="404 · Page not found" title="This page isn't in the garden." lead="The address may be old or typed incorrectly. Head back to the library and start again." /><Link className="btn btn-leaf" to="/">Go to the home page <Icon name="arrowRight" size={17} /></Link></>

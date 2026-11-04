@@ -14,7 +14,7 @@ const at = (path, element, pattern = path) => render(
 const title = () => screen.getByRole('heading', { level: 1 }).textContent
 
 describe('public pages', () => {
-  it.each(['about', 'safety', 'privacy', 'terms', 'remedies', 'ingredients'])('%s renders a heading', (page) => {
+  it.each(['about', 'safety', 'privacy', 'terms', 'remedies', 'ingredients', 'dataset'])('%s renders a heading', (page) => {
     at(`/${page}`, <SitePage page={page} user={null} />)
     expect(title().length).toBeGreaterThan(0)
   })

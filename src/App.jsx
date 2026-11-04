@@ -167,6 +167,7 @@ function AppRoutes() {
         <Route path="/safety" element={<SitePage user={user} onLogout={handleLogout} onOpenAIChat={() => setIsAIChatOpen(true)} page="safety" />} />
         <Route path="/privacy" element={<SitePage user={user} onLogout={handleLogout} onOpenAIChat={() => setIsAIChatOpen(true)} page="privacy" />} />
         <Route path="/terms" element={<SitePage user={user} onLogout={handleLogout} onOpenAIChat={() => setIsAIChatOpen(true)} page="terms" />} />
+        <Route path="/dataset" element={<SitePage user={user} onLogout={handleLogout} onOpenAIChat={() => setIsAIChatOpen(true)} page="dataset" />} />
 
         <Route path="*" element={<SitePage user={user} onLogout={handleLogout} page="not-found" />} />
       </Routes>

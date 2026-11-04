@@ -42,6 +42,12 @@
 .condition-prevention { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
 .condition-prevention li { display: flex; gap: 9px; color: var(--ink-2); }
 .condition-prevention svg { flex: none; margin-top: 5px; color: var(--leaf-700); }
+.dataset-files { list-style: none; display: grid; gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--r-md); overflow: hidden; }
+.dataset-files li { display: grid; grid-template-columns: minmax(10rem, 14rem) 1fr; gap: 6px 18px; padding: 12px 16px; background: var(--card); font-size: 0.94rem; color: var(--ink-2); }
+.dataset-files a { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 0.86rem; color: var(--leaf-700); font-weight: 600; overflow-wrap: anywhere; }
+.condition-doctor ul { list-style: none; display: grid; gap: 10px; padding: 18px 20px; border-radius: var(--r-md); background: var(--chilli-soft); }
+.condition-doctor li { display: flex; gap: 9px; color: var(--ink); }
+.condition-doctor svg { flex: none; margin-top: 4px; color: var(--chilli-text); }
 .library-controls { display: grid; gap: 18px; margin: -20px 0 14px; }
 .library-search { display: flex; align-items: center; gap: 12px; max-width: 620px; min-height: 54px; padding: 0 16px; border: 1px solid var(--line-strong); border-radius: var(--r-md); background: var(--card); color: var(--ink-3); }
 .library-search:focus-within { border-color: var(--leaf-600); box-shadow: 0 0 0 3px var(--leaf-100); }
@@ -106,6 +112,7 @@
   .condition-facts { grid-template-columns: 1fr; }
   .condition-facts div { padding: 14px 16px; }
   .condition-prevention { grid-template-columns: 1fr; }
+  .dataset-files li { grid-template-columns: 1fr; }
   .library-results, .ingredient-directory { grid-template-columns: 1fr; }
   .site-footer-inner { grid-template-columns: 1fr auto; }
   .site-footer-note { grid-column: 1 / -1; grid-row: 2; }

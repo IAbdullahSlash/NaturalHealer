@@ -16,6 +16,7 @@ export default function SiteFooter() {
           <Link to="/remedies">Materia medica</Link>
           <Link to="/herbs">Herbs</Link>
           <Link to="/ingredients">Ingredients</Link>
+          <Link to="/dataset">Dataset</Link>
           <Link to="/about">About</Link>
           <Link to="/safety">Safety</Link>
           <Link to="/privacy">Privacy</Link>
