@@ -5,11 +5,11 @@
   "title": "LiverTox: Centella asiatica",
   "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
   "url": "https://www.ncbi.nlm.nih.gov/books/n/livertox/Centella/",
-  "updated": null,
-  "accessed": "2026-11-04",
+  "updated": "24 April 2024",
+  "accessed": "2026-11-05",
   "pmid": null,
   "doi": null,
   "year": null,
   "licence": null,
-  "notes": "NCBI shows a CAPTCHA to scripts, so links are checked by hand."
+  "notes": "NCBI shows a CAPTCHA to scripts, so the weekly check lists these links for checking by hand. Read from the official bulk download (ftp.ncbi.nlm.nih.gov/pub/litarch, livertox_NBK547852)."
 }

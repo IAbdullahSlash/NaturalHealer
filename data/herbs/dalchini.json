@@ -58,6 +58,10 @@
         {
           "source": "nccih-cinnamon",
           "locator": "What Do We Know About Safety?"
+        },
+        {
+          "source": "livertox-cinnamon",
+          "locator": "Hepatotoxicity"
         }
       ]
     },

@@ -42,6 +42,10 @@
         {
           "source": "nccih-green-tea",
           "locator": "What Do We Know About Safety?"
+        },
+        {
+          "source": "livertox-green-tea",
+          "locator": "Hepatotoxicity"
         }
       ]
     },

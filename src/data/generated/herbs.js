@@ -190,10 +190,11 @@ export const herbs = [
         "title": "LiverTox: Ginger",
         "url": "https://www.ncbi.nlm.nih.gov/books/NBK600585/",
         "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
-        "updated": null,
+        "updated": "10 February 2024",
         "pmid": null,
         "doi": null,
-        "year": null
+        "year": null,
+        "detail": "Last updated 10 February 2024"
       }
     ],
     "review": {
@@ -1045,6 +1046,19 @@ export const herbs = [
             "year": null,
             "locator": "What Do We Know About Safety?",
             "detail": "What Do We Know About Safety?"
+          },
+          {
+            "id": "livertox-ashwagandha",
+            "kind": "safety",
+            "title": "LiverTox: Ashwagandha",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK548536/",
+            "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+            "updated": "3 December 2024",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "Hepatotoxicity",
+            "detail": "Hepatotoxicity"
           }
         ]
       },
@@ -1251,10 +1265,11 @@ export const herbs = [
         "title": "LiverTox: Ashwagandha",
         "url": "https://www.ncbi.nlm.nih.gov/books/NBK548536/",
         "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
-        "updated": null,
+        "updated": "3 December 2024",
         "pmid": null,
         "doi": null,
-        "year": null
+        "year": null,
+        "detail": "Last updated 3 December 2024"
       }
     ],
     "review": {
@@ -1469,10 +1484,11 @@ export const herbs = [
         "title": "LiverTox: Bacopa monnieri",
         "url": "https://www.ncbi.nlm.nih.gov/books/n/livertox/Bacopa/",
         "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
-        "updated": null,
+        "updated": "24 April 2024",
         "pmid": null,
         "doi": null,
-        "year": null
+        "year": null,
+        "detail": "Last updated 24 April 2024"
       }
     ],
     "review": {
@@ -1636,6 +1652,19 @@ export const herbs = [
             "year": null,
             "locator": "What Do We Know About Safety?",
             "detail": "What Do We Know About Safety?"
+          },
+          {
+            "id": "livertox-cinnamon",
+            "kind": "safety",
+            "title": "LiverTox: Cinnamon",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK623885/",
+            "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+            "updated": "1 July 2026",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "Hepatotoxicity",
+            "detail": "Hepatotoxicity"
           }
         ]
       },
@@ -1747,10 +1776,11 @@ export const herbs = [
         "title": "LiverTox: Cinnamon",
         "url": "https://www.ncbi.nlm.nih.gov/books/NBK623885/",
         "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
-        "updated": null,
+        "updated": "1 July 2026",
         "pmid": null,
         "doi": null,
-        "year": null
+        "year": null,
+        "detail": "Last updated 1 July 2026"
       }
     ],
     "review": {
@@ -2087,7 +2117,21 @@ export const herbs = [
       {
         "group": "liver",
         "note": "Cases of liver injury have been reported, mostly with long or heavy use.",
-        "refs": []
+        "refs": [
+          {
+            "id": "livertox-tinospora",
+            "kind": "safety",
+            "title": "LiverTox: Tinospora",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK608429/",
+            "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+            "updated": "27 June 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "Hepatotoxicity",
+            "detail": "Hepatotoxicity"
+          }
+        ]
       },
       {
         "group": "pregnancy",
@@ -2118,7 +2162,21 @@ export const herbs = [
       "level": "limited-human",
       "summary": "Small human studies only. Reports of liver injury, ranging from mild to severe, have prompted caution.",
       "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Tinospora%20cordifolia%20clinical",
-      "refs": []
+      "refs": [
+        {
+          "id": "livertox-tinospora",
+          "kind": "safety",
+          "title": "LiverTox: Tinospora",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK608429/",
+          "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+          "updated": "27 June 2025",
+          "pmid": null,
+          "doi": null,
+          "year": null,
+          "locator": "Hepatotoxicity",
+          "detail": "Hepatotoxicity"
+        }
+      ]
     },
     "sources": [
       {
@@ -2149,10 +2207,11 @@ export const herbs = [
         "title": "LiverTox: Tinospora",
         "url": "https://www.ncbi.nlm.nih.gov/books/NBK608429/",
         "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
-        "updated": null,
+        "updated": "27 June 2025",
         "pmid": null,
         "doi": null,
-        "year": null
+        "year": null,
+        "detail": "Last updated 27 June 2025"
       }
     ],
     "review": {
@@ -2618,6 +2677,19 @@ export const herbs = [
             "year": null,
             "locator": "What Do We Know About Safety?",
             "detail": "What Do We Know About Safety?"
+          },
+          {
+            "id": "livertox-aloe-vera",
+            "kind": "safety",
+            "title": "LiverTox: Aloe Vera",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK548634/",
+            "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+            "updated": "24 May 2022",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "Hepatotoxicity",
+            "detail": "Hepatotoxicity"
           }
         ]
       },
@@ -2746,10 +2818,11 @@ export const herbs = [
         "title": "LiverTox: Aloe Vera",
         "url": "https://www.ncbi.nlm.nih.gov/books/NBK548634/",
         "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
-        "updated": null,
+        "updated": "24 May 2022",
         "pmid": null,
         "doi": null,
-        "year": null
+        "year": null,
+        "detail": "Last updated 24 May 2022"
       }
     ],
     "review": {
@@ -2833,6 +2906,19 @@ export const herbs = [
             "year": null,
             "locator": "What Do We Know About Safety?",
             "detail": "What Do We Know About Safety?"
+          },
+          {
+            "id": "livertox-turmeric",
+            "kind": "safety",
+            "title": "LiverTox: Turmeric",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK548561/",
+            "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+            "updated": "16 June 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "Hepatotoxicity",
+            "detail": "Hepatotoxicity"
           }
         ]
       },
@@ -2950,10 +3036,11 @@ export const herbs = [
         "title": "LiverTox: Turmeric",
         "url": "https://www.ncbi.nlm.nih.gov/books/NBK548561/",
         "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
-        "updated": null,
+        "updated": "16 June 2025",
         "pmid": null,
         "doi": null,
-        "year": null
+        "year": null,
+        "detail": "Last updated 16 June 2025"
       }
     ],
     "review": {
@@ -3014,6 +3101,19 @@ export const herbs = [
             "year": null,
             "locator": "What Do We Know About Safety?",
             "detail": "What Do We Know About Safety?"
+          },
+          {
+            "id": "livertox-green-tea",
+            "kind": "safety",
+            "title": "LiverTox: Green Tea",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK547925/",
+            "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+            "updated": "20 November 2020",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "Hepatotoxicity",
+            "detail": "Hepatotoxicity"
           }
         ]
       },
@@ -3123,10 +3223,11 @@ export const herbs = [
         "title": "LiverTox: Green Tea",
         "url": "https://www.ncbi.nlm.nih.gov/books/NBK547925/",
         "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
-        "updated": null,
+        "updated": "20 November 2020",
         "pmid": null,
         "doi": null,
-        "year": null
+        "year": null,
+        "detail": "Last updated 20 November 2020"
       }
     ],
     "review": {
@@ -4200,10 +4301,11 @@ export const herbs = [
         "title": "LiverTox: Bitter Melon",
         "url": "https://www.ncbi.nlm.nih.gov/books/NBK590483/",
         "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
-        "updated": null,
+        "updated": "20 March 2023",
         "pmid": null,
         "doi": null,
-        "year": null
+        "year": null,
+        "detail": "Last updated 20 March 2023"
       }
     ],
     "review": {
@@ -4367,6 +4469,19 @@ export const herbs = [
             "year": null,
             "locator": "What Do We Know About Safety?",
             "detail": "What Do We Know About Safety?"
+          },
+          {
+            "id": "livertox-garcinia-cambogia",
+            "kind": "safety",
+            "title": "LiverTox: Garcinia Cambogia",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK548087/",
+            "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+            "updated": "13 February 2019",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "Hepatotoxicity",
+            "detail": "Hepatotoxicity"
           }
         ]
       },
@@ -4471,10 +4586,11 @@ export const herbs = [
         "title": "LiverTox: Garcinia Cambogia",
         "url": "https://www.ncbi.nlm.nih.gov/books/NBK548087/",
         "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
-        "updated": null,
+        "updated": "13 February 2019",
         "pmid": null,
         "doi": null,
-        "year": null
+        "year": null,
+        "detail": "Last updated 13 February 2019"
       }
     ],
     "review": {
@@ -4878,7 +4994,21 @@ export const herbs = [
       {
         "group": "liver",
         "note": "Rare cases of liver injury have been reported, usually resolving after stopping.",
-        "refs": []
+        "refs": [
+          {
+            "id": "livertox-centella-asiatica",
+            "kind": "safety",
+            "title": "LiverTox: Centella asiatica",
+            "url": "https://www.ncbi.nlm.nih.gov/books/n/livertox/Centella/",
+            "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+            "updated": "24 April 2024",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "Hepatotoxicity",
+            "detail": "Hepatotoxicity"
+          }
+        ]
       },
       {
         "group": "pregnancy",
@@ -4934,10 +5064,11 @@ export const herbs = [
         "title": "LiverTox: Centella asiatica",
         "url": "https://www.ncbi.nlm.nih.gov/books/n/livertox/Centella/",
         "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
-        "updated": null,
+        "updated": "24 April 2024",
         "pmid": null,
         "doi": null,
-        "year": null
+        "year": null,
+        "detail": "Last updated 24 April 2024"
       }
     ],
     "review": {
@@ -5198,7 +5329,21 @@ export const herbs = [
         "drugClass": "anticoagulants",
         "effect": "May add to the effect of blood thinners.",
         "level": "caution",
-        "refs": []
+        "refs": [
+          {
+            "id": "livertox-fenugreek",
+            "kind": "safety",
+            "title": "LiverTox: Fenugreek",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK548826/",
+            "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+            "updated": "29 January 2018",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "Hepatotoxicity",
+            "detail": "Hepatotoxicity"
+          }
+        ]
       }
     ],
     "evidence": {
@@ -5262,10 +5407,11 @@ export const herbs = [
         "title": "LiverTox: Fenugreek",
         "url": "https://www.ncbi.nlm.nih.gov/books/NBK548826/",
         "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
-        "updated": null,
+        "updated": "29 January 2018",
         "pmid": null,
         "doi": null,
-        "year": null
+        "year": null,
+        "detail": "Last updated 29 January 2018"
       }
     ],
     "review": {
@@ -6907,7 +7053,21 @@ export const herbs = [
       {
         "group": "liver",
         "note": "High doses taken for a long time have caused liver injury.",
-        "refs": []
+        "refs": [
+          {
+            "id": "livertox-senna",
+            "kind": "safety",
+            "title": "LiverTox: Senna",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK547922/",
+            "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+            "updated": "1 April 2020",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "Hepatotoxicity",
+            "detail": "Hepatotoxicity"
+          }
+        ]
       },
       {
         "group": "heart",
@@ -6965,10 +7125,11 @@ export const herbs = [
         "title": "LiverTox: Senna",
         "url": "https://www.ncbi.nlm.nih.gov/books/NBK547922/",
         "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
-        "updated": null,
+        "updated": "1 April 2020",
         "pmid": null,
         "doi": null,
-        "year": null
+        "year": null,
+        "detail": "Last updated 1 April 2020"
       }
     ],
     "review": {

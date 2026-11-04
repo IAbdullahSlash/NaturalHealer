@@ -104,6 +104,10 @@
         {
           "source": "nccih-ashwagandha",
           "locator": "What Do We Know About Safety?"
+        },
+        {
+          "source": "livertox-ashwagandha",
+          "locator": "Hepatotoxicity"
         }
       ]
     },

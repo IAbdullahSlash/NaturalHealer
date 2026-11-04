@@ -62,7 +62,12 @@
     {
       "group": "liver",
       "note": "High doses taken for a long time have caused liver injury.",
-      "refs": []
+      "refs": [
+        {
+          "source": "livertox-senna",
+          "locator": "Hepatotoxicity"
+        }
+      ]
     },
     {
       "group": "heart",

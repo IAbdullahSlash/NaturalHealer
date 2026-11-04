@@ -49,7 +49,12 @@
     {
       "group": "liver",
       "note": "Rare cases of liver injury have been reported, usually resolving after stopping.",
-      "refs": []
+      "refs": [
+        {
+          "source": "livertox-centella-asiatica",
+          "locator": "Hepatotoxicity"
+        }
+      ]
     },
     {
       "group": "pregnancy",

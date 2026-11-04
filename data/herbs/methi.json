@@ -111,7 +111,12 @@
       "drugClass": "anticoagulants",
       "effect": "May add to the effect of blood thinners.",
       "level": "caution",
-      "refs": []
+      "refs": [
+        {
+          "source": "livertox-fenugreek",
+          "locator": "Hepatotoxicity"
+        }
+      ]
     }
   ],
   "evidence": {

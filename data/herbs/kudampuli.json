@@ -49,6 +49,10 @@
         {
           "source": "nccih-garcinia-cambogia",
           "locator": "What Do We Know About Safety?"
+        },
+        {
+          "source": "livertox-garcinia-cambogia",
+          "locator": "Hepatotoxicity"
         }
       ]
     },

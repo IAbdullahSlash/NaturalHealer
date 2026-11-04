@@ -49,13 +49,13 @@ export const sources = [
     "title": "LiverTox: Aloe Vera",
     "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK548634/",
-    "updated": null,
-    "accessed": "2026-10-23",
+    "updated": "24 May 2022",
+    "accessed": "2026-11-05",
     "pmid": null,
     "doi": null,
     "year": null,
     "licence": null,
-    "notes": "NCBI shows a CAPTCHA to scripts, so links are checked by hand."
+    "notes": "NCBI shows a CAPTCHA to scripts, so the weekly check lists these links for checking by hand. Read from the official bulk download (ftp.ncbi.nlm.nih.gov/pub/litarch, livertox_NBK547852)."
   },
   {
     "id": "livertox-ashwagandha",
@@ -63,13 +63,13 @@ export const sources = [
     "title": "LiverTox: Ashwagandha",
     "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK548536/",
-    "updated": null,
-    "accessed": "2026-10-23",
+    "updated": "3 December 2024",
+    "accessed": "2026-11-05",
     "pmid": null,
     "doi": null,
     "year": null,
     "licence": null,
-    "notes": "NCBI shows a CAPTCHA to scripts, so links are checked by hand."
+    "notes": "NCBI shows a CAPTCHA to scripts, so the weekly check lists these links for checking by hand. Read from the official bulk download (ftp.ncbi.nlm.nih.gov/pub/litarch, livertox_NBK547852)."
   },
   {
     "id": "livertox-bacopa-monnieri",
@@ -77,13 +77,13 @@ export const sources = [
     "title": "LiverTox: Bacopa monnieri",
     "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
     "url": "https://www.ncbi.nlm.nih.gov/books/n/livertox/Bacopa/",
-    "updated": null,
-    "accessed": "2026-10-23",
+    "updated": "24 April 2024",
+    "accessed": "2026-11-05",
     "pmid": null,
     "doi": null,
     "year": null,
     "licence": null,
-    "notes": "NCBI shows a CAPTCHA to scripts, so links are checked by hand."
+    "notes": "NCBI shows a CAPTCHA to scripts, so the weekly check lists these links for checking by hand. Read from the official bulk download (ftp.ncbi.nlm.nih.gov/pub/litarch, livertox_NBK547852)."
   },
   {
     "id": "livertox-bitter-melon",
@@ -91,13 +91,13 @@ export const sources = [
     "title": "LiverTox: Bitter Melon",
     "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK590483/",
-    "updated": null,
-    "accessed": "2026-10-23",
+    "updated": "20 March 2023",
+    "accessed": "2026-11-05",
     "pmid": null,
     "doi": null,
     "year": null,
     "licence": null,
-    "notes": "NCBI shows a CAPTCHA to scripts, so links are checked by hand."
+    "notes": "NCBI shows a CAPTCHA to scripts, so the weekly check lists these links for checking by hand. Read from the official bulk download (ftp.ncbi.nlm.nih.gov/pub/litarch, livertox_NBK547852)."
   },
   {
     "id": "livertox-centella-asiatica",
@@ -105,13 +105,13 @@ export const sources = [
     "title": "LiverTox: Centella asiatica",
     "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
     "url": "https://www.ncbi.nlm.nih.gov/books/n/livertox/Centella/",
-    "updated": null,
-    "accessed": "2026-11-04",
+    "updated": "24 April 2024",
+    "accessed": "2026-11-05",
     "pmid": null,
     "doi": null,
     "year": null,
     "licence": null,
-    "notes": "NCBI shows a CAPTCHA to scripts, so links are checked by hand."
+    "notes": "NCBI shows a CAPTCHA to scripts, so the weekly check lists these links for checking by hand. Read from the official bulk download (ftp.ncbi.nlm.nih.gov/pub/litarch, livertox_NBK547852)."
   },
   {
     "id": "livertox-cinnamon",
@@ -119,13 +119,13 @@ export const sources = [
     "title": "LiverTox: Cinnamon",
     "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK623885/",
-    "updated": null,
-    "accessed": "2026-10-23",
+    "updated": "1 July 2026",
+    "accessed": "2026-11-05",
     "pmid": null,
     "doi": null,
     "year": null,
     "licence": null,
-    "notes": "NCBI shows a CAPTCHA to scripts, so links are checked by hand."
+    "notes": "NCBI shows a CAPTCHA to scripts, so the weekly check lists these links for checking by hand. Read from the official bulk download (ftp.ncbi.nlm.nih.gov/pub/litarch, livertox_NBK547852)."
   },
   {
     "id": "livertox-fenugreek",
@@ -133,13 +133,13 @@ export const sources = [
     "title": "LiverTox: Fenugreek",
     "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK548826/",
-    "updated": null,
-    "accessed": "2026-10-23",
+    "updated": "29 January 2018",
+    "accessed": "2026-11-05",
     "pmid": null,
     "doi": null,
     "year": null,
     "licence": null,
-    "notes": "NCBI shows a CAPTCHA to scripts, so links are checked by hand."
+    "notes": "NCBI shows a CAPTCHA to scripts, so the weekly check lists these links for checking by hand. Read from the official bulk download (ftp.ncbi.nlm.nih.gov/pub/litarch, livertox_NBK547852)."
   },
   {
     "id": "livertox-garcinia-cambogia",
@@ -147,13 +147,13 @@ export const sources = [
     "title": "LiverTox: Garcinia Cambogia",
     "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK548087/",
-    "updated": null,
-    "accessed": "2026-11-04",
+    "updated": "13 February 2019",
+    "accessed": "2026-11-05",
     "pmid": null,
     "doi": null,
     "year": null,
     "licence": null,
-    "notes": "NCBI shows a CAPTCHA to scripts, so links are checked by hand."
+    "notes": "NCBI shows a CAPTCHA to scripts, so the weekly check lists these links for checking by hand. Read from the official bulk download (ftp.ncbi.nlm.nih.gov/pub/litarch, livertox_NBK547852)."
   },
   {
     "id": "livertox-ginger",
@@ -161,13 +161,13 @@ export const sources = [
     "title": "LiverTox: Ginger",
     "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK600585/",
-    "updated": null,
-    "accessed": "2026-10-23",
+    "updated": "10 February 2024",
+    "accessed": "2026-11-05",
     "pmid": null,
     "doi": null,
     "year": null,
     "licence": null,
-    "notes": "NCBI shows a CAPTCHA to scripts, so links are checked by hand."
+    "notes": "NCBI shows a CAPTCHA to scripts, so the weekly check lists these links for checking by hand. Read from the official bulk download (ftp.ncbi.nlm.nih.gov/pub/litarch, livertox_NBK547852)."
   },
   {
     "id": "livertox-green-tea",
@@ -175,13 +175,13 @@ export const sources = [
     "title": "LiverTox: Green Tea",
     "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK547925/",
-    "updated": null,
-    "accessed": "2026-11-04",
+    "updated": "20 November 2020",
+    "accessed": "2026-11-05",
     "pmid": null,
     "doi": null,
     "year": null,
     "licence": null,
-    "notes": "NCBI shows a CAPTCHA to scripts, so links are checked by hand."
+    "notes": "NCBI shows a CAPTCHA to scripts, so the weekly check lists these links for checking by hand. Read from the official bulk download (ftp.ncbi.nlm.nih.gov/pub/litarch, livertox_NBK547852)."
   },
   {
     "id": "livertox-senna",
@@ -189,13 +189,13 @@ export const sources = [
     "title": "LiverTox: Senna",
     "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK547922/",
-    "updated": null,
-    "accessed": "2026-11-04",
+    "updated": "1 April 2020",
+    "accessed": "2026-11-05",
     "pmid": null,
     "doi": null,
     "year": null,
     "licence": null,
-    "notes": "NCBI shows a CAPTCHA to scripts, so links are checked by hand."
+    "notes": "NCBI shows a CAPTCHA to scripts, so the weekly check lists these links for checking by hand. Read from the official bulk download (ftp.ncbi.nlm.nih.gov/pub/litarch, livertox_NBK547852)."
   },
   {
     "id": "livertox-tinospora",
@@ -203,13 +203,13 @@ export const sources = [
     "title": "LiverTox: Tinospora",
     "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK608429/",
-    "updated": null,
-    "accessed": "2026-10-23",
+    "updated": "27 June 2025",
+    "accessed": "2026-11-05",
     "pmid": null,
     "doi": null,
     "year": null,
     "licence": null,
-    "notes": "NCBI shows a CAPTCHA to scripts, so links are checked by hand."
+    "notes": "NCBI shows a CAPTCHA to scripts, so the weekly check lists these links for checking by hand. Read from the official bulk download (ftp.ncbi.nlm.nih.gov/pub/litarch, livertox_NBK547852)."
   },
   {
     "id": "livertox-turmeric",
@@ -217,13 +217,13 @@ export const sources = [
     "title": "LiverTox: Turmeric",
     "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK548561/",
-    "updated": null,
-    "accessed": "2026-10-23",
+    "updated": "16 June 2025",
+    "accessed": "2026-11-05",
     "pmid": null,
     "doi": null,
     "year": null,
     "licence": null,
-    "notes": "NCBI shows a CAPTCHA to scripts, so links are checked by hand."
+    "notes": "NCBI shows a CAPTCHA to scripts, so the weekly check lists these links for checking by hand. Read from the official bulk download (ftp.ncbi.nlm.nih.gov/pub/litarch, livertox_NBK547852)."
   },
   {
     "id": "nccih-aloe-vera",

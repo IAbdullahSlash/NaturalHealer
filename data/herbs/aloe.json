@@ -70,6 +70,10 @@
         {
           "source": "nccih-aloe-vera",
           "locator": "What Do We Know About Safety?"
+        },
+        {
+          "source": "livertox-aloe-vera",
+          "locator": "Hepatotoxicity"
         }
       ]
     },

@@ -65,6 +65,10 @@
         {
           "source": "nccih-turmeric",
           "locator": "What Do We Know About Safety?"
+        },
+        {
+          "source": "livertox-turmeric",
+          "locator": "Hepatotoxicity"
         }
       ]
     },
