@@ -64,6 +64,11 @@ const trayItems = trayHerbs.map(h => ({
     `${h.cautions} ${h.cautions === 1 ? 'caution' : 'cautions'}`,
     ...(h.interactions ? [`${h.interactions} medicine ${h.interactions === 1 ? 'interaction' : 'interactions'}`] : []),
   ],
+  sections: [
+    { title: 'Benefits', items: h.benefits, footnote: `As described in Ayurveda. Evidence: ${h.evidence.toLowerCase()}.` },
+    { title: 'Traditionally used for', items: h.uses },
+    { title: 'Remedies you can make', items: h.remedies.map(r => ({ text: r.text, note: `For ${r.condition.toLowerCase()}`, to: `/conditions/${r.conditionId}` })) },
+  ],
 }))
 const trayLabels = { add: 'Open herb page', close: 'Close', previous: 'Previous herb', next: 'Next herb', pause: 'Pause the tray' }
 const trayArt = (item, size) => <ClayBowl spice={item.fill} size={size} />
@@ -326,6 +331,7 @@ export default function LandingPage({ user, onLogout, onOpenAIChat }) {
                 autoplay
                 interval={3600}
                 onAdd={(item) => navigate(`/herbs/${item.id}`)}
+                onLink={(to) => navigate(to)}
               />
             </Suspense>
           </div>

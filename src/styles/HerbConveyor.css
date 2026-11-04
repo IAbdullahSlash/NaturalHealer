@@ -159,8 +159,6 @@
   inset: 0;
   z-index: 1000;
   display: flex;
-  align-items: center;
-  justify-content: center;
   overflow-y: auto;
   padding: 16px;
   color: var(--ink);
@@ -192,7 +190,8 @@
   align-items: center;
   gap: 24px;
   width: 100%;
-  max-width: 52rem;
+  max-width: 56rem;
+  margin: auto;
   padding: 20px;
 }
 
@@ -252,6 +251,13 @@
 .conv-dialog-count { display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 0.72rem; letter-spacing: 0.2em; color: var(--ink-3); font-variant-numeric: tabular-nums; }
 .conv-dialog-title { font-family: var(--font-display); font-size: 2rem; line-height: 1.1; color: var(--leaf-900); }
 .conv-dialog-desc { font-size: 0.95rem; line-height: 1.55; color: var(--ink-2); }
+.conv-dialog-section { display: grid; gap: 6px; text-align: left; }
+.conv-dialog-section h4 { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); }
+.conv-dialog-section ul { display: grid; gap: 6px; padding-left: 18px; font-size: 0.92rem; line-height: 1.45; color: var(--ink); }
+.conv-dialog-section li::marker { color: var(--leaf-500); }
+.conv-dialog-section li a, .conv-dialog-section li em { display: block; font-size: 0.8rem; font-style: normal; color: var(--ink-3); }
+.conv-dialog-section li a { width: fit-content; color: var(--leaf-700); font-weight: 600; text-underline-offset: 3px; }
+.conv-dialog-footnote { font-size: 0.78rem; color: var(--ink-3); }
 .conv-dialog-details { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; list-style: none; }
 .conv-dialog-details li { padding: 4px 12px; border-radius: var(--r-full); border: 1px solid var(--line-strong); font-size: 0.8rem; color: var(--ink-2); }
 .conv-dialog-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 16px; margin-top: 8px; }
@@ -262,7 +268,7 @@
 
 @media (min-width: 640px) {
   .conv-dialog { padding: 32px; }
-  .conv-dialog-body { grid-template-columns: minmax(0, 1fr) minmax(0, 19rem); gap: 40px; padding: 32px; }
+  .conv-dialog-body { grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 40px; padding: 32px; }
   .conv-dialog-text { text-align: left; }
   .conv-dialog-count, .conv-dialog-details, .conv-dialog-actions { justify-content: flex-start; }
 }

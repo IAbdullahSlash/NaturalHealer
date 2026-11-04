@@ -7,7 +7,9 @@ import '../styles/HerbConveyor.css'
 // tapped, and open into a dialog. Here each dish is drawn by renderArt (a top-down
 // bowl) instead of a photo, and the ring colour marks a tier from 1 to 5.
 //
-// items: [{ id, name, price, tier, description, details[] }]  price is the short chip text
+// items: [{ id, name, price, tier, description, details[], sections[] }]  price is the short chip text
+// sections: [{ title, items: [text | { text, note, to }], footnote }] shown in the dialog;
+// an entry's note links to `to`, through onLink when given (for in-app navigation)
 
 const SPACING = 1.35
 const CURVE = 0.95
@@ -161,6 +163,7 @@ export default function HerbConveyor({
   onActiveChange,
   onOpenChange,
   onAdd,
+  onLink,
   legend,
   labels = DEFAULT_LABELS,
   className = '',
@@ -813,6 +816,7 @@ export default function HerbConveyor({
           labels={labels}
           reduced={reduced}
           renderArt={renderArt}
+          onLink={onLink}
           source={openSource}
           onLift={onLift}
           onAdd={onDialogAdd}
@@ -823,7 +827,7 @@ export default function HerbConveyor({
   )
 }
 
-function DishDialog({ uid, item, index, total, labels, reduced, renderArt, source, onLift, onAdd, onClose }) {
+function DishDialog({ uid, item, index, total, labels, reduced, renderArt, onLink, source, onLift, onAdd, onClose }) {
   const dialogRef = React.useRef(null)
   const figureRef = React.useRef(null)
   const closeRef = React.useRef(null)
@@ -935,6 +939,25 @@ function DishDialog({ uid, item, index, total, labels, reduced, renderArt, sourc
           <p className="conv-dialog-count"><span className="conv-chip-dot" data-tier={tier} aria-hidden="true" />{pad(index + 1)} / {pad(total)}</p>
           <h3 id={titleId} className="conv-dialog-title">{item.name}</h3>
           {item.description && <p className="conv-dialog-desc">{item.description}</p>}
+          {item.sections?.map((section) => section.items.length > 0 && (
+            <section key={section.title} className="conv-dialog-section">
+              <h4>{section.title}</h4>
+              <ul>
+                {section.items.map((entry) => {
+                  const text = typeof entry === 'string' ? entry : entry.text
+                  return (
+                    <li key={text}>
+                      <span>{text}</span>
+                      {entry.note && (entry.to
+                        ? <a href={entry.to} onClick={(event) => { if (onLink) { event.preventDefault(); onLink(entry.to) } }}>{entry.note}</a>
+                        : <em>{entry.note}</em>)}
+                    </li>
+                  )
+                })}
+              </ul>
+              {section.footnote && <p className="conv-dialog-footnote">{section.footnote}</p>}
+            </section>
+          ))}
           {item.details?.length > 0 && (
             <ul className="conv-dialog-details">{item.details.map((detail) => <li key={detail}>{detail}</li>)}</ul>
           )}

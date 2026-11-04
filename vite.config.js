@@ -46,6 +46,10 @@ const kbTray = shelfInUse
     part: herb.part,
     cautions: herb.cautions.length,
     interactions: herb.interactions.length,
+    benefits: herb.actions,
+    uses: herb.traditionalUses,
+    // Library remedies that name this ingredient, with the condition each one is for
+    remedies: diseases.flatMap(d => d.remedies.filter(r => item.match.test(r)).map(text => ({ text, condition: d.title, conditionId: d.id }))),
   }))
 // Legend lists only the ring colours that are on the tray
 const trayLegend = Object.fromEntries(Object.entries(EVIDENCE_TIER)
