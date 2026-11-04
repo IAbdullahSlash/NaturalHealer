@@ -53,7 +53,12 @@
     {
       "group": "gerd",
       "note": "Large amounts can worsen heartburn and acidity.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-ginger",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "bleeding-disorder",
@@ -63,12 +68,22 @@
     {
       "group": "pregnancy",
       "note": "Small amounts are widely used for morning sickness; check with a doctor before regular use.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-ginger",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "breastfeeding",
       "note": "Little is known about ginger supplements while breastfeeding; keep to food amounts.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-ginger",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     }
   ],
   "interactions": [
@@ -89,7 +104,12 @@
     "level": "moderate-human",
     "summary": "Human research supports ginger for nausea and vomiting in pregnancy, and it may ease menstrual cramps. It has mostly not helped motion sickness, and evidence for other uses is weaker.",
     "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=ginger%20nausea%20randomized%20controlled%20trial",
-    "refs": []
+    "refs": [
+      {
+        "source": "nccih-ginger",
+        "locator": "What Have We Learned?"
+      }
+    ]
   },
   "sources": [
     {

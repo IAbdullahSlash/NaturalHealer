@@ -38,12 +38,22 @@
     {
       "group": "liver",
       "note": "Concentrated green tea extract (capsules and weight-loss products) has caused liver injury, sometimes severe. Brewed tea has not been linked to this.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-green-tea",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "pregnancy",
       "note": "Contains caffeine; keep total caffeine within what your doctor advises in pregnancy and while breastfeeding.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-green-tea",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "heart",
@@ -56,20 +66,35 @@
       "drugClass": "antihypertensives",
       "effect": "Large amounts can reduce the effect of the beta-blocker nadolol.",
       "level": "caution",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-green-tea",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "drugClass": "statins",
       "effect": "Green tea extract can lower blood levels of atorvastatin.",
       "level": "caution",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-green-tea",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Many studies, but results for weight, heart health and other uses are inconsistent.",
     "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=green%20tea%20catechins%20meta-analysis",
-    "refs": []
+    "refs": [
+      {
+        "source": "nccih-green-tea",
+        "locator": "What Have We Learned?"
+      }
+    ]
   },
   "sources": [
     {

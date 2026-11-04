@@ -52,27 +52,52 @@
     {
       "group": "pregnancy",
       "note": "Not safe in pregnancy in amounts above those in food; its use has been linked to birth defects.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-fenugreek",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "breastfeeding",
       "note": "Little is known about amounts above those in food while breastfeeding.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-fenugreek",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "children",
       "note": "Food amounts are considered safe; larger amounts have not been shown to be safe for children.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-fenugreek",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "allergy",
       "note": "Can cause allergic reactions, sometimes serious, and may cross-react with peanut or chickpea allergy.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-fenugreek",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "diabetes",
       "note": "Large amounts can lower blood sugar too far; monitor if you have diabetes.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-fenugreek",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     }
   ],
   "interactions": [
@@ -93,7 +118,12 @@
     "level": "limited-human",
     "summary": "Studies suggest fenugreek may lower blood sugar in type 2 diabetes, but many were not of high quality. Its effect on breast milk supply is uncertain.",
     "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=fenugreek%20glycemic%20control%20randomized",
-    "refs": []
+    "refs": [
+      {
+        "source": "nccih-fenugreek",
+        "locator": "What Have We Learned?"
+      }
+    ]
   },
   "sources": [
     {

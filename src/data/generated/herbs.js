@@ -55,7 +55,21 @@ export const herbs = [
       {
         "group": "gerd",
         "note": "Large amounts can worsen heartburn and acidity.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-ginger",
+            "kind": "safety",
+            "title": "Ginger: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/ginger",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "bleeding-disorder",
@@ -65,12 +79,40 @@ export const herbs = [
       {
         "group": "pregnancy",
         "note": "Small amounts are widely used for morning sickness; check with a doctor before regular use.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-ginger",
+            "kind": "safety",
+            "title": "Ginger: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/ginger",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "breastfeeding",
         "note": "Little is known about ginger supplements while breastfeeding; keep to food amounts.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-ginger",
+            "kind": "safety",
+            "title": "Ginger: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/ginger",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       }
     ],
     "interactions": [
@@ -91,7 +133,21 @@ export const herbs = [
       "level": "moderate-human",
       "summary": "Human research supports ginger for nausea and vomiting in pregnancy, and it may ease menstrual cramps. It has mostly not helped motion sickness, and evidence for other uses is weaker.",
       "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=ginger%20nausea%20randomized%20controlled%20trial",
-      "refs": []
+      "refs": [
+        {
+          "id": "nccih-ginger",
+          "kind": "safety",
+          "title": "Ginger: Usefulness and Safety",
+          "url": "https://www.nccih.nih.gov/health/ginger",
+          "publisher": "National Center for Complementary and Integrative Health (NIH)",
+          "updated": "February 2025",
+          "pmid": null,
+          "doi": null,
+          "year": null,
+          "locator": "What Have We Learned?",
+          "detail": "What Have We Learned?"
+        }
+      ]
     },
     "sources": [
       {
@@ -297,17 +353,59 @@ export const herbs = [
       {
         "group": "pregnancy",
         "note": "Medicinal amounts may not be safe in pregnancy; the evidence is unclear, so keep to food amounts.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-flaxseed-and-flaxseed-oil",
+            "kind": "safety",
+            "title": "Flaxseed and Flaxseed Oil: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/flaxseed-and-flaxseed-oil",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "breastfeeding",
         "note": "Little is known about medicinal amounts while breastfeeding.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-flaxseed-and-flaxseed-oil",
+            "kind": "safety",
+            "title": "Flaxseed and Flaxseed Oil: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/flaxseed-and-flaxseed-oil",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "digestive-illness",
         "note": "Avoid with a narrowed or blocked bowel. Take with enough water; large amounts can cause bloating. Do not eat raw or unripe seeds.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-flaxseed-and-flaxseed-oil",
+            "kind": "safety",
+            "title": "Flaxseed and Flaxseed Oil: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/flaxseed-and-flaxseed-oil",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       }
     ],
     "interactions": [
@@ -315,7 +413,21 @@ export const herbs = [
         "drugClass": "anticoagulants",
         "effect": "Flaxseed or its oil may add to the effect of blood thinners.",
         "level": "caution",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-flaxseed-and-flaxseed-oil",
+            "kind": "safety",
+            "title": "Flaxseed and Flaxseed Oil: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/flaxseed-and-flaxseed-oil",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "drugClass": "many-medicines",
@@ -328,7 +440,21 @@ export const herbs = [
       "level": "limited-human",
       "summary": "Flaxseed may modestly help weight loss in adults with obesity and insulin resistance in gestational diabetes; its effect on other conditions is unclear.",
       "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=flaxseed%20randomized%20controlled%20trial",
-      "refs": []
+      "refs": [
+        {
+          "id": "nccih-flaxseed-and-flaxseed-oil",
+          "kind": "safety",
+          "title": "Flaxseed and Flaxseed Oil: Usefulness and Safety",
+          "url": "https://www.nccih.nih.gov/health/flaxseed-and-flaxseed-oil",
+          "publisher": "National Center for Complementary and Integrative Health (NIH)",
+          "updated": "February 2025",
+          "pmid": null,
+          "doi": null,
+          "year": null,
+          "locator": "What Have We Learned?",
+          "detail": "What Have We Learned?"
+        }
+      ]
     },
     "sources": [
       {
@@ -539,12 +665,40 @@ export const herbs = [
       {
         "group": "allergy",
         "note": "Avoid if pomegranate has caused an allergic reaction.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-pomegranate",
+            "kind": "safety",
+            "title": "Pomegranate: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/pomegranate",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "April 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "digestive-illness",
         "note": "Large amounts of the root, stem or peel contain harmful substances; eat the fruit, not extracts of these parts.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-pomegranate",
+            "kind": "safety",
+            "title": "Pomegranate: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/pomegranate",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "April 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       }
     ],
     "interactions": [
@@ -565,7 +719,21 @@ export const herbs = [
       "level": "limited-human",
       "summary": "Juice or extract may lower blood pressure and blood sugar a little, but more research is needed.",
       "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=pomegranate%20juice%20blood%20pressure%20meta-analysis",
-      "refs": []
+      "refs": [
+        {
+          "id": "nccih-pomegranate",
+          "kind": "safety",
+          "title": "Pomegranate: Usefulness and Safety",
+          "url": "https://www.nccih.nih.gov/health/pomegranate",
+          "publisher": "National Center for Complementary and Integrative Health (NIH)",
+          "updated": "April 2025",
+          "pmid": null,
+          "doi": null,
+          "year": null,
+          "locator": "What Have We Learned?",
+          "detail": "What Have We Learned?"
+        }
+      ]
     },
     "sources": [
       {
@@ -769,37 +937,135 @@ export const herbs = [
       {
         "group": "pregnancy",
         "note": "Avoid in pregnancy.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-ashwagandha",
+            "kind": "safety",
+            "title": "Ashwagandha: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/ashwagandha",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "March 2023",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "breastfeeding",
         "note": "Do not use while breastfeeding.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-ashwagandha",
+            "kind": "safety",
+            "title": "Ashwagandha: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/ashwagandha",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "March 2023",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "thyroid",
         "note": "Not recommended with thyroid disorders; it may raise thyroid hormone levels.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-ashwagandha",
+            "kind": "safety",
+            "title": "Ashwagandha: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/ashwagandha",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "March 2023",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "autoimmune",
         "note": "Not recommended with autoimmune conditions.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-ashwagandha",
+            "kind": "safety",
+            "title": "Ashwagandha: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/ashwagandha",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "March 2023",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "hormone-sensitive",
         "note": "May raise testosterone; avoid with hormone-sensitive prostate cancer.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-ashwagandha",
+            "kind": "safety",
+            "title": "Ashwagandha: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/ashwagandha",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "March 2023",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "liver",
         "note": "Rare cases of liver injury have been reported with supplements.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-ashwagandha",
+            "kind": "safety",
+            "title": "Ashwagandha: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/ashwagandha",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "March 2023",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "surgery",
         "note": "Not recommended before surgery; stop at least two weeks ahead.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-ashwagandha",
+            "kind": "safety",
+            "title": "Ashwagandha: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/ashwagandha",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "March 2023",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       }
     ],
     "interactions": [
@@ -807,44 +1073,142 @@ export const herbs = [
         "drugClass": "sedatives",
         "effect": "May add to drowsiness from sleeping pills and sedatives.",
         "level": "caution",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-ashwagandha",
+            "kind": "safety",
+            "title": "Ashwagandha: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/ashwagandha",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "March 2023",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "drugClass": "thyroid",
         "effect": "May add to thyroid hormone medicine.",
         "level": "caution",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-ashwagandha",
+            "kind": "safety",
+            "title": "Ashwagandha: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/ashwagandha",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "March 2023",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "drugClass": "immunosuppressants",
         "effect": "May work against immune-suppressing medicines.",
         "level": "avoid",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-ashwagandha",
+            "kind": "safety",
+            "title": "Ashwagandha: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/ashwagandha",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "March 2023",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "drugClass": "antidiabetics",
         "effect": "May lower blood sugar further.",
         "level": "caution",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-ashwagandha",
+            "kind": "safety",
+            "title": "Ashwagandha: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/ashwagandha",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "March 2023",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "drugClass": "antihypertensives",
         "effect": "May interact with blood pressure medicines.",
         "level": "caution",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-ashwagandha",
+            "kind": "safety",
+            "title": "Ashwagandha: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/ashwagandha",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "March 2023",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "drugClass": "anticonvulsants",
         "effect": "May interact with anti-seizure medicines.",
         "level": "caution",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-ashwagandha",
+            "kind": "safety",
+            "title": "Ashwagandha: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/ashwagandha",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "March 2023",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Some preparations may help with insomnia and stress; the evidence on anxiety is unclear. Studies are short, and products vary.",
       "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Withania%20somnifera%20randomized%20controlled%20trial%20stress",
-      "refs": []
+      "refs": [
+        {
+          "id": "nccih-ashwagandha",
+          "kind": "safety",
+          "title": "Ashwagandha: Usefulness and Safety",
+          "url": "https://www.nccih.nih.gov/health/ashwagandha",
+          "publisher": "National Center for Complementary and Integrative Health (NIH)",
+          "updated": "March 2023",
+          "pmid": null,
+          "doi": null,
+          "year": null,
+          "locator": "What Have We Learned?",
+          "detail": "What Have We Learned?"
+        }
+      ]
     },
     "sources": [
       {
@@ -1259,17 +1623,59 @@ export const herbs = [
       {
         "group": "liver",
         "note": "Large daily amounts of cassia cinnamon contain coumarin, which can harm the liver.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-cinnamon",
+            "kind": "safety",
+            "title": "Cinnamon: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/cinnamon",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "November 2024",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "pregnancy",
         "note": "Food amounts appear safe; larger amounts of Ceylon cinnamon are considered unsafe in pregnancy.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-cinnamon",
+            "kind": "safety",
+            "title": "Cinnamon: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/cinnamon",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "November 2024",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "skin-use",
         "note": "Cinnamon oil or powder on the skin can cause irritation.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-cinnamon",
+            "kind": "safety",
+            "title": "Cinnamon: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/cinnamon",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "November 2024",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       }
     ],
     "interactions": [
@@ -1284,7 +1690,21 @@ export const herbs = [
       "level": "limited-human",
       "summary": "Research does not clearly support cinnamon for any health condition; results on blood sugar are mixed.",
       "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=cinnamon%20glycemic%20control%20meta-analysis",
-      "refs": []
+      "refs": [
+        {
+          "id": "nccih-cinnamon",
+          "kind": "safety",
+          "title": "Cinnamon: Usefulness and Safety",
+          "url": "https://www.nccih.nih.gov/health/cinnamon",
+          "publisher": "National Center for Complementary and Integrative Health (NIH)",
+          "updated": "November 2024",
+          "pmid": null,
+          "doi": null,
+          "year": null,
+          "locator": "What Have We Learned?",
+          "detail": "What Have We Learned?"
+        }
+      ]
     },
     "sources": [
       {
@@ -2147,17 +2567,59 @@ export const herbs = [
       {
         "group": "pregnancy",
         "note": "Aloe gel, latex or whole-leaf extract taken by mouth may be unsafe in pregnancy.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-aloe-vera",
+            "kind": "safety",
+            "title": "Aloe Vera: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/aloe-vera",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "breastfeeding",
         "note": "Aloe taken by mouth may be unsafe while breastfeeding.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-aloe-vera",
+            "kind": "safety",
+            "title": "Aloe Vera: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/aloe-vera",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "liver",
         "note": "Aloe leaf extracts taken by mouth have been linked to acute hepatitis.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-aloe-vera",
+            "kind": "safety",
+            "title": "Aloe Vera: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/aloe-vera",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "kidney",
@@ -2172,7 +2634,21 @@ export const herbs = [
       {
         "group": "skin-use",
         "note": "The gel is usually well tolerated, but it occasionally causes burning, itching or a rash.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-aloe-vera",
+            "kind": "safety",
+            "title": "Aloe Vera: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/aloe-vera",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       }
     ],
     "interactions": [
@@ -2192,14 +2668,42 @@ export const herbs = [
         "drugClass": "heart-rhythm",
         "effect": "Overuse of aloe latex can increase side effects of digoxin.",
         "level": "avoid",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-aloe-vera",
+            "kind": "safety",
+            "title": "Aloe Vera: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/aloe-vera",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Clinical research suggests the gel on the skin may speed burn healing and reduce burn pain. Evidence for oral use is weak.",
       "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=aloe%20vera%20burn%20healing",
-      "refs": []
+      "refs": [
+        {
+          "id": "nccih-aloe-vera",
+          "kind": "safety",
+          "title": "Aloe Vera: Usefulness and Safety",
+          "url": "https://www.nccih.nih.gov/health/aloe-vera",
+          "publisher": "National Center for Complementary and Integrative Health (NIH)",
+          "updated": "February 2025",
+          "pmid": null,
+          "doi": null,
+          "year": null,
+          "locator": "What Have We Learned?",
+          "detail": "What Have We Learned?"
+        }
+      ]
     },
     "sources": [
       {
@@ -2316,17 +2820,59 @@ export const herbs = [
       {
         "group": "liver",
         "note": "Liver injury has been reported with turmeric and curcumin supplements, especially products made to be highly absorbed. Stop and see a doctor if you notice tiredness, nausea, poor appetite, dark urine or yellowing of the skin or eyes.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-turmeric",
+            "kind": "safety",
+            "title": "Turmeric: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/turmeric",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "April 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "pregnancy",
         "note": "Culinary amounts are fine; turmeric supplements may be unsafe in pregnancy.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-turmeric",
+            "kind": "safety",
+            "title": "Turmeric: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/turmeric",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "April 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "breastfeeding",
         "note": "Little is known about amounts above those in food while breastfeeding; keep to culinary use.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-turmeric",
+            "kind": "safety",
+            "title": "Turmeric: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/turmeric",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "April 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       }
     ],
     "interactions": [
@@ -2347,7 +2893,21 @@ export const herbs = [
       "level": "limited-human",
       "summary": "Many human trials, especially for knee osteoarthritis pain, look promising, but higher-quality studies are needed before firm conclusions. Absorption from plain turmeric is low.",
       "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=curcumin%20randomized%20controlled%20trial%20osteoarthritis",
-      "refs": []
+      "refs": [
+        {
+          "id": "nccih-turmeric",
+          "kind": "safety",
+          "title": "Turmeric: Usefulness and Safety",
+          "url": "https://www.nccih.nih.gov/health/turmeric",
+          "publisher": "National Center for Complementary and Integrative Health (NIH)",
+          "updated": "April 2025",
+          "pmid": null,
+          "doi": null,
+          "year": null,
+          "locator": "What Have We Learned?",
+          "detail": "What Have We Learned?"
+        }
+      ]
     },
     "sources": [
       {
@@ -2441,12 +3001,40 @@ export const herbs = [
       {
         "group": "liver",
         "note": "Concentrated green tea extract (capsules and weight-loss products) has caused liver injury, sometimes severe. Brewed tea has not been linked to this.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-green-tea",
+            "kind": "safety",
+            "title": "Green Tea: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/green-tea",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "pregnancy",
         "note": "Contains caffeine; keep total caffeine within what your doctor advises in pregnancy and while breastfeeding.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-green-tea",
+            "kind": "safety",
+            "title": "Green Tea: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/green-tea",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "heart",
@@ -2459,20 +3047,62 @@ export const herbs = [
         "drugClass": "antihypertensives",
         "effect": "Large amounts can reduce the effect of the beta-blocker nadolol.",
         "level": "caution",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-green-tea",
+            "kind": "safety",
+            "title": "Green Tea: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/green-tea",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "drugClass": "statins",
         "effect": "Green tea extract can lower blood levels of atorvastatin.",
         "level": "caution",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-green-tea",
+            "kind": "safety",
+            "title": "Green Tea: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/green-tea",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Many studies, but results for weight, heart health and other uses are inconsistent.",
       "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=green%20tea%20catechins%20meta-analysis",
-      "refs": []
+      "refs": [
+        {
+          "id": "nccih-green-tea",
+          "kind": "safety",
+          "title": "Green Tea: Usefulness and Safety",
+          "url": "https://www.nccih.nih.gov/health/green-tea",
+          "publisher": "National Center for Complementary and Integrative Health (NIH)",
+          "updated": "February 2025",
+          "pmid": null,
+          "doi": null,
+          "year": null,
+          "locator": "What Have We Learned?",
+          "detail": "What Have We Learned?"
+        }
+      ]
     },
     "sources": [
       {
@@ -3724,12 +4354,40 @@ export const herbs = [
       {
         "group": "liver",
         "note": "Weight-loss supplements containing garcinia have been linked to liver injury; avoid them, especially with liver disease. The rind used in cooking is a food.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-garcinia-cambogia",
+            "kind": "safety",
+            "title": "Garcinia Cambogia: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/garcinia-cambogia",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "pregnancy",
         "note": "Avoid the supplements in pregnancy and while breastfeeding.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-garcinia-cambogia",
+            "kind": "safety",
+            "title": "Garcinia Cambogia: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/garcinia-cambogia",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       }
     ],
     "interactions": [
@@ -3737,20 +4395,62 @@ export const herbs = [
         "drugClass": "antidepressants",
         "effect": "Supplements have been reported to interact with medicines that affect serotonin.",
         "level": "avoid",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-garcinia-cambogia",
+            "kind": "safety",
+            "title": "Garcinia Cambogia: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/garcinia-cambogia",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "drugClass": "many-medicines",
         "effect": "Supplements may interact with medicines processed by the liver.",
         "level": "caution",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-garcinia-cambogia",
+            "kind": "safety",
+            "title": "Garcinia Cambogia: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/garcinia-cambogia",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Supplements may have a small effect on weight loss, but the evidence is mixed.",
       "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Garcinia%20cambogia%20hydroxycitric%20acid%20weight%20loss%20meta-analysis",
-      "refs": []
+      "refs": [
+        {
+          "id": "nccih-garcinia-cambogia",
+          "kind": "safety",
+          "title": "Garcinia Cambogia: Usefulness and Safety",
+          "url": "https://www.nccih.nih.gov/health/garcinia-cambogia",
+          "publisher": "National Center for Complementary and Integrative Health (NIH)",
+          "updated": "February 2025",
+          "pmid": null,
+          "doi": null,
+          "year": null,
+          "locator": "What Have We Learned?",
+          "detail": "What Have We Learned?"
+        }
+      ]
     },
     "sources": [
       {
@@ -3838,7 +4538,21 @@ export const herbs = [
       {
         "group": "surgery",
         "note": "Garlic supplements may increase bleeding; stop them at least a week before surgery and tell your surgeon.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-garlic",
+            "kind": "safety",
+            "title": "Garlic: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/garlic",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "gerd",
@@ -3848,22 +4562,78 @@ export const herbs = [
       {
         "group": "bleeding-disorder",
         "note": "Avoid supplements with bleeding disorders.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-garlic",
+            "kind": "safety",
+            "title": "Garlic: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/garlic",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "pregnancy",
         "note": "Food amounts are fine; garlic supplements may not be safe in pregnancy.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-garlic",
+            "kind": "safety",
+            "title": "Garlic: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/garlic",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "breastfeeding",
         "note": "Food amounts are fine; garlic supplements may not be safe while breastfeeding.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-garlic",
+            "kind": "safety",
+            "title": "Garlic: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/garlic",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "skin-use",
         "note": "Raw garlic held on the skin can cause severe irritation and chemical burns.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-garlic",
+            "kind": "safety",
+            "title": "Garlic: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/garlic",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       }
     ],
     "interactions": [
@@ -3871,7 +4641,21 @@ export const herbs = [
         "drugClass": "anticoagulants",
         "effect": "Supplements may increase bleeding risk with blood thinners.",
         "level": "caution",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-garlic",
+            "kind": "safety",
+            "title": "Garlic: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/garlic",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "drugClass": "antiretrovirals",
@@ -3884,7 +4668,21 @@ export const herbs = [
       "level": "moderate-human",
       "summary": "Garlic supplements may lower total and LDL cholesterol slightly in people with high cholesterol; limited evidence suggests a small drop in high blood pressure.",
       "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=garlic%20blood%20pressure%20meta-analysis",
-      "refs": []
+      "refs": [
+        {
+          "id": "nccih-garlic",
+          "kind": "safety",
+          "title": "Garlic: Usefulness and Safety",
+          "url": "https://www.nccih.nih.gov/health/garlic",
+          "publisher": "National Center for Complementary and Integrative Health (NIH)",
+          "updated": "February 2025",
+          "pmid": null,
+          "doi": null,
+          "year": null,
+          "locator": "What Have We Learned?",
+          "detail": "What Have We Learned?"
+        }
+      ]
     },
     "sources": [
       {
@@ -4296,27 +5094,97 @@ export const herbs = [
       {
         "group": "pregnancy",
         "note": "Not safe in pregnancy in amounts above those in food; its use has been linked to birth defects.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-fenugreek",
+            "kind": "safety",
+            "title": "Fenugreek: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/fenugreek",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "breastfeeding",
         "note": "Little is known about amounts above those in food while breastfeeding.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-fenugreek",
+            "kind": "safety",
+            "title": "Fenugreek: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/fenugreek",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "children",
         "note": "Food amounts are considered safe; larger amounts have not been shown to be safe for children.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-fenugreek",
+            "kind": "safety",
+            "title": "Fenugreek: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/fenugreek",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "allergy",
         "note": "Can cause allergic reactions, sometimes serious, and may cross-react with peanut or chickpea allergy.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-fenugreek",
+            "kind": "safety",
+            "title": "Fenugreek: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/fenugreek",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "diabetes",
         "note": "Large amounts can lower blood sugar too far; monitor if you have diabetes.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-fenugreek",
+            "kind": "safety",
+            "title": "Fenugreek: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/fenugreek",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "February 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       }
     ],
     "interactions": [
@@ -4337,7 +5205,21 @@ export const herbs = [
       "level": "limited-human",
       "summary": "Studies suggest fenugreek may lower blood sugar in type 2 diabetes, but many were not of high quality. Its effect on breast milk supply is uncertain.",
       "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=fenugreek%20glycemic%20control%20randomized",
-      "refs": []
+      "refs": [
+        {
+          "id": "nccih-fenugreek",
+          "kind": "safety",
+          "title": "Fenugreek: Usefulness and Safety",
+          "url": "https://www.nccih.nih.gov/health/fenugreek",
+          "publisher": "National Center for Complementary and Integrative Health (NIH)",
+          "updated": "February 2025",
+          "pmid": null,
+          "doi": null,
+          "year": null,
+          "locator": "What Have We Learned?",
+          "detail": "What Have We Learned?"
+        }
+      ]
     },
     "sources": [
       {
@@ -4444,27 +5326,97 @@ export const herbs = [
       {
         "group": "hypertension",
         "note": "Raises blood pressure and lowers potassium with regular use. Even small amounts have caused serious problems in people with high blood pressure or a salty diet. Avoid.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-licorice-root",
+            "kind": "safety",
+            "title": "Licorice Root: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/licorice-root",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "April 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "heart",
         "note": "Large or long use can cause an irregular heartbeat and, rarely, cardiac arrest. Avoid with heart disease.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-licorice-root",
+            "kind": "safety",
+            "title": "Licorice Root: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/licorice-root",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "April 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "kidney",
         "note": "Avoid with kidney disease.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-licorice-root",
+            "kind": "safety",
+            "title": "Licorice Root: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/licorice-root",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "April 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "pregnancy",
         "note": "Avoid in pregnancy; large amounts are linked to earlier delivery.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-licorice-root",
+            "kind": "safety",
+            "title": "Licorice Root: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/licorice-root",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "April 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "breastfeeding",
         "note": "Little is known about safety while breastfeeding; avoid.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-licorice-root",
+            "kind": "safety",
+            "title": "Licorice Root: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/licorice-root",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "April 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       }
     ],
     "interactions": [
@@ -4484,7 +5436,21 @@ export const herbs = [
         "drugClass": "corticosteroids",
         "effect": "Increases steroid effects and side effects.",
         "level": "avoid",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-licorice-root",
+            "kind": "safety",
+            "title": "Licorice Root: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/licorice-root",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "April 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "drugClass": "heart-rhythm",
@@ -4497,7 +5463,21 @@ export const herbs = [
       "level": "moderate-human",
       "summary": "Its side effects (high blood pressure, low potassium, heart rhythm problems) are well documented in humans. Evidence for benefits is limited; a licorice gargle may ease sore throat after surgery.",
       "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=glycyrrhizin%20hypokalemia%20hypertension",
-      "refs": []
+      "refs": [
+        {
+          "id": "nccih-licorice-root",
+          "kind": "safety",
+          "title": "Licorice Root: Usefulness and Safety",
+          "url": "https://www.nccih.nih.gov/health/licorice-root",
+          "publisher": "National Center for Complementary and Integrative Health (NIH)",
+          "updated": "April 2025",
+          "pmid": null,
+          "doi": null,
+          "year": null,
+          "locator": "What Have We Learned?",
+          "detail": "What Have We Learned?"
+        }
+      ]
     },
     "sources": [
       {
@@ -4980,17 +5960,59 @@ export const herbs = [
       {
         "group": "gerd",
         "note": "Mint can relax the valve at the top of the stomach and make acid reflux worse.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-peppermint-oil",
+            "kind": "safety",
+            "title": "Peppermint Oil: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/peppermint-oil",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "May 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "infants",
         "note": "Never put mint or peppermint oil on or near a baby's or small child's face; menthol can affect their breathing.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-peppermint-oil",
+            "kind": "safety",
+            "title": "Peppermint Oil: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/peppermint-oil",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "May 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "allergy",
         "note": "Avoid if mint has caused an allergic reaction before.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-peppermint-oil",
+            "kind": "safety",
+            "title": "Peppermint Oil: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/peppermint-oil",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "May 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       }
     ],
     "interactions": [],
@@ -4998,7 +6020,21 @@ export const herbs = [
       "level": "limited-human",
       "summary": "Peppermint oil capsules have reasonable evidence for easing irritable bowel symptoms; evidence for mint leaf tea is limited.",
       "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=peppermint%20oil%20irritable%20bowel%20syndrome%20randomized",
-      "refs": []
+      "refs": [
+        {
+          "id": "nccih-peppermint-oil",
+          "kind": "safety",
+          "title": "Peppermint Oil: Usefulness and Safety",
+          "url": "https://www.nccih.nih.gov/health/peppermint-oil",
+          "publisher": "National Center for Complementary and Integrative Health (NIH)",
+          "updated": "May 2025",
+          "pmid": null,
+          "doi": null,
+          "year": null,
+          "locator": "What Have We Learned?",
+          "detail": "What Have We Learned?"
+        }
+      ]
     },
     "sources": [
       {
@@ -5484,17 +6520,59 @@ export const herbs = [
       {
         "group": "asthma",
         "note": "Talk to your doctor first if you have asthma; it may interact with asthma medicines.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-boswellia",
+            "kind": "safety",
+            "title": "Boswellia: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/boswellia",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "April 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "cancer",
         "note": "If you are being treated for cancer, ask your cancer team before using it.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-boswellia",
+            "kind": "safety",
+            "title": "Boswellia: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/boswellia",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "April 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       },
       {
         "group": "pregnancy",
         "note": "Little is known about medicinal amounts in pregnancy or while breastfeeding.",
-        "refs": []
+        "refs": [
+          {
+            "id": "nccih-boswellia",
+            "kind": "safety",
+            "title": "Boswellia: Usefulness and Safety",
+            "url": "https://www.nccih.nih.gov/health/boswellia",
+            "publisher": "National Center for Complementary and Integrative Health (NIH)",
+            "updated": "April 2025",
+            "pmid": null,
+            "doi": null,
+            "year": null,
+            "locator": "What Do We Know About Safety?",
+            "detail": "What Do We Know About Safety?"
+          }
+        ]
       }
     ],
     "interactions": [],
@@ -5502,7 +6580,21 @@ export const herbs = [
       "level": "limited-human",
       "summary": "Trials suggest boswellia may ease osteoarthritis pain and swelling, but more rigorous studies are needed.",
       "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Boswellia%20serrata%20osteoarthritis%20randomized",
-      "refs": []
+      "refs": [
+        {
+          "id": "nccih-boswellia",
+          "kind": "safety",
+          "title": "Boswellia: Usefulness and Safety",
+          "url": "https://www.nccih.nih.gov/health/boswellia",
+          "publisher": "National Center for Complementary and Integrative Health (NIH)",
+          "updated": "April 2025",
+          "pmid": null,
+          "doi": null,
+          "year": null,
+          "locator": "What Have We Learned?",
+          "detail": "What Have We Learned?"
+        }
+      ]
     },
     "sources": [
       {

@@ -51,27 +51,52 @@
     {
       "group": "hypertension",
       "note": "Raises blood pressure and lowers potassium with regular use. Even small amounts have caused serious problems in people with high blood pressure or a salty diet. Avoid.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-licorice-root",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "heart",
       "note": "Large or long use can cause an irregular heartbeat and, rarely, cardiac arrest. Avoid with heart disease.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-licorice-root",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "kidney",
       "note": "Avoid with kidney disease.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-licorice-root",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "pregnancy",
       "note": "Avoid in pregnancy; large amounts are linked to earlier delivery.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-licorice-root",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "breastfeeding",
       "note": "Little is known about safety while breastfeeding; avoid.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-licorice-root",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     }
   ],
   "interactions": [
@@ -91,7 +116,12 @@
       "drugClass": "corticosteroids",
       "effect": "Increases steroid effects and side effects.",
       "level": "avoid",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-licorice-root",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "drugClass": "heart-rhythm",
@@ -104,7 +134,12 @@
     "level": "moderate-human",
     "summary": "Its side effects (high blood pressure, low potassium, heart rhythm problems) are well documented in humans. Evidence for benefits is limited; a licorice gargle may ease sore throat after surgery.",
     "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=glycyrrhizin%20hypokalemia%20hypertension",
-    "refs": []
+    "refs": [
+      {
+        "source": "nccih-licorice-root",
+        "locator": "What Have We Learned?"
+      }
+    ]
   },
   "sources": [
     {

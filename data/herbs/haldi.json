@@ -61,17 +61,32 @@
     {
       "group": "liver",
       "note": "Liver injury has been reported with turmeric and curcumin supplements, especially products made to be highly absorbed. Stop and see a doctor if you notice tiredness, nausea, poor appetite, dark urine or yellowing of the skin or eyes.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-turmeric",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "pregnancy",
       "note": "Culinary amounts are fine; turmeric supplements may be unsafe in pregnancy.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-turmeric",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "breastfeeding",
       "note": "Little is known about amounts above those in food while breastfeeding; keep to culinary use.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-turmeric",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     }
   ],
   "interactions": [
@@ -92,7 +107,12 @@
     "level": "limited-human",
     "summary": "Many human trials, especially for knee osteoarthritis pain, look promising, but higher-quality studies are needed before firm conclusions. Absorption from plain turmeric is low.",
     "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=curcumin%20randomized%20controlled%20trial%20osteoarthritis",
-    "refs": []
+    "refs": [
+      {
+        "source": "nccih-turmeric",
+        "locator": "What Have We Learned?"
+      }
+    ]
   },
   "sources": [
     {

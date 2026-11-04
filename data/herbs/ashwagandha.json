@@ -50,37 +50,72 @@
     {
       "group": "pregnancy",
       "note": "Avoid in pregnancy.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-ashwagandha",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "breastfeeding",
       "note": "Do not use while breastfeeding.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-ashwagandha",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "thyroid",
       "note": "Not recommended with thyroid disorders; it may raise thyroid hormone levels.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-ashwagandha",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "autoimmune",
       "note": "Not recommended with autoimmune conditions.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-ashwagandha",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "hormone-sensitive",
       "note": "May raise testosterone; avoid with hormone-sensitive prostate cancer.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-ashwagandha",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "liver",
       "note": "Rare cases of liver injury have been reported with supplements.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-ashwagandha",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "surgery",
       "note": "Not recommended before surgery; stop at least two weeks ahead.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-ashwagandha",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     }
   ],
   "interactions": [
@@ -88,44 +123,79 @@
       "drugClass": "sedatives",
       "effect": "May add to drowsiness from sleeping pills and sedatives.",
       "level": "caution",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-ashwagandha",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "drugClass": "thyroid",
       "effect": "May add to thyroid hormone medicine.",
       "level": "caution",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-ashwagandha",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "drugClass": "immunosuppressants",
       "effect": "May work against immune-suppressing medicines.",
       "level": "avoid",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-ashwagandha",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "drugClass": "antidiabetics",
       "effect": "May lower blood sugar further.",
       "level": "caution",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-ashwagandha",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "drugClass": "antihypertensives",
       "effect": "May interact with blood pressure medicines.",
       "level": "caution",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-ashwagandha",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "drugClass": "anticonvulsants",
       "effect": "May interact with anti-seizure medicines.",
       "level": "caution",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-ashwagandha",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Some preparations may help with insomnia and stress; the evidence on anxiety is unclear. Studies are short, and products vary.",
     "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Withania%20somnifera%20randomized%20controlled%20trial%20stress",
-    "refs": []
+    "refs": [
+      {
+        "source": "nccih-ashwagandha",
+        "locator": "What Have We Learned?"
+      }
+    ]
   },
   "sources": [
     {

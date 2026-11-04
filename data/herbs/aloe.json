@@ -46,17 +46,32 @@
     {
       "group": "pregnancy",
       "note": "Aloe gel, latex or whole-leaf extract taken by mouth may be unsafe in pregnancy.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-aloe-vera",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "breastfeeding",
       "note": "Aloe taken by mouth may be unsafe while breastfeeding.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-aloe-vera",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "liver",
       "note": "Aloe leaf extracts taken by mouth have been linked to acute hepatitis.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-aloe-vera",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "kidney",
@@ -71,7 +86,12 @@
     {
       "group": "skin-use",
       "note": "The gel is usually well tolerated, but it occasionally causes burning, itching or a rash.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-aloe-vera",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     }
   ],
   "interactions": [
@@ -91,14 +111,24 @@
       "drugClass": "heart-rhythm",
       "effect": "Overuse of aloe latex can increase side effects of digoxin.",
       "level": "avoid",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-aloe-vera",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Clinical research suggests the gel on the skin may speed burn healing and reduce burn pain. Evidence for oral use is weak.",
     "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=aloe%20vera%20burn%20healing",
-    "refs": []
+    "refs": [
+      {
+        "source": "nccih-aloe-vera",
+        "locator": "What Have We Learned?"
+      }
+    ]
   },
   "sources": [
     {

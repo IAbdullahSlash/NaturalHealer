@@ -54,7 +54,12 @@
     {
       "group": "surgery",
       "note": "Garlic supplements may increase bleeding; stop them at least a week before surgery and tell your surgeon.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-garlic",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "gerd",
@@ -64,22 +69,42 @@
     {
       "group": "bleeding-disorder",
       "note": "Avoid supplements with bleeding disorders.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-garlic",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "pregnancy",
       "note": "Food amounts are fine; garlic supplements may not be safe in pregnancy.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-garlic",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "breastfeeding",
       "note": "Food amounts are fine; garlic supplements may not be safe while breastfeeding.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-garlic",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "skin-use",
       "note": "Raw garlic held on the skin can cause severe irritation and chemical burns.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-garlic",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     }
   ],
   "interactions": [
@@ -87,7 +112,12 @@
       "drugClass": "anticoagulants",
       "effect": "Supplements may increase bleeding risk with blood thinners.",
       "level": "caution",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-garlic",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "drugClass": "antiretrovirals",
@@ -100,7 +130,12 @@
     "level": "moderate-human",
     "summary": "Garlic supplements may lower total and LDL cholesterol slightly in people with high cholesterol; limited evidence suggests a small drop in high blood pressure.",
     "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=garlic%20blood%20pressure%20meta-analysis",
-    "refs": []
+    "refs": [
+      {
+        "source": "nccih-garlic",
+        "locator": "What Have We Learned?"
+      }
+    ]
   },
   "sources": [
     {

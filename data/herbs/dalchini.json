@@ -54,17 +54,32 @@
     {
       "group": "liver",
       "note": "Large daily amounts of cassia cinnamon contain coumarin, which can harm the liver.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-cinnamon",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "pregnancy",
       "note": "Food amounts appear safe; larger amounts of Ceylon cinnamon are considered unsafe in pregnancy.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-cinnamon",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "skin-use",
       "note": "Cinnamon oil or powder on the skin can cause irritation.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-cinnamon",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     }
   ],
   "interactions": [
@@ -79,7 +94,12 @@
     "level": "limited-human",
     "summary": "Research does not clearly support cinnamon for any health condition; results on blood sugar are mixed.",
     "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=cinnamon%20glycemic%20control%20meta-analysis",
-    "refs": []
+    "refs": [
+      {
+        "source": "nccih-cinnamon",
+        "locator": "What Have We Learned?"
+      }
+    ]
   },
   "sources": [
     {

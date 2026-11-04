@@ -45,12 +45,22 @@
     {
       "group": "liver",
       "note": "Weight-loss supplements containing garcinia have been linked to liver injury; avoid them, especially with liver disease. The rind used in cooking is a food.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-garcinia-cambogia",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "pregnancy",
       "note": "Avoid the supplements in pregnancy and while breastfeeding.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-garcinia-cambogia",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     }
   ],
   "interactions": [
@@ -58,20 +68,35 @@
       "drugClass": "antidepressants",
       "effect": "Supplements have been reported to interact with medicines that affect serotonin.",
       "level": "avoid",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-garcinia-cambogia",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "drugClass": "many-medicines",
       "effect": "Supplements may interact with medicines processed by the liver.",
       "level": "caution",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-garcinia-cambogia",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Supplements may have a small effect on weight loss, but the evidence is mixed.",
     "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Garcinia%20cambogia%20hydroxycitric%20acid%20weight%20loss%20meta-analysis",
-    "refs": []
+    "refs": [
+      {
+        "source": "nccih-garcinia-cambogia",
+        "locator": "What Have We Learned?"
+      }
+    ]
   },
   "sources": [
     {

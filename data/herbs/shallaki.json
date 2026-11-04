@@ -47,17 +47,32 @@
     {
       "group": "asthma",
       "note": "Talk to your doctor first if you have asthma; it may interact with asthma medicines.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-boswellia",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "cancer",
       "note": "If you are being treated for cancer, ask your cancer team before using it.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-boswellia",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "pregnancy",
       "note": "Little is known about medicinal amounts in pregnancy or while breastfeeding.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-boswellia",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     }
   ],
   "interactions": [],
@@ -65,7 +80,12 @@
     "level": "limited-human",
     "summary": "Trials suggest boswellia may ease osteoarthritis pain and swelling, but more rigorous studies are needed.",
     "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Boswellia%20serrata%20osteoarthritis%20randomized",
-    "refs": []
+    "refs": [
+      {
+        "source": "nccih-boswellia",
+        "locator": "What Have We Learned?"
+      }
+    ]
   },
   "sources": [
     {

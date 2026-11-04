@@ -51,17 +51,32 @@
     {
       "group": "pregnancy",
       "note": "Medicinal amounts may not be safe in pregnancy; the evidence is unclear, so keep to food amounts.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-flaxseed-and-flaxseed-oil",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "breastfeeding",
       "note": "Little is known about medicinal amounts while breastfeeding.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-flaxseed-and-flaxseed-oil",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "group": "digestive-illness",
       "note": "Avoid with a narrowed or blocked bowel. Take with enough water; large amounts can cause bloating. Do not eat raw or unripe seeds.",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-flaxseed-and-flaxseed-oil",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     }
   ],
   "interactions": [
@@ -69,7 +84,12 @@
       "drugClass": "anticoagulants",
       "effect": "Flaxseed or its oil may add to the effect of blood thinners.",
       "level": "caution",
-      "refs": []
+      "refs": [
+        {
+          "source": "nccih-flaxseed-and-flaxseed-oil",
+          "locator": "What Do We Know About Safety?"
+        }
+      ]
     },
     {
       "drugClass": "many-medicines",
@@ -82,7 +102,12 @@
     "level": "limited-human",
     "summary": "Flaxseed may modestly help weight loss in adults with obesity and insulin resistance in gestational diabetes; its effect on other conditions is unclear.",
     "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=flaxseed%20randomized%20controlled%20trial",
-    "refs": []
+    "refs": [
+      {
+        "source": "nccih-flaxseed-and-flaxseed-oil",
+        "locator": "What Have We Learned?"
+      }
+    ]
   },
   "sources": [
     {
