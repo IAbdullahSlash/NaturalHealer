@@ -4,6 +4,8 @@ import { herbs } from './src/data/knowledge/herbs.js'
 import enrichment from './src/data/knowledge/enrichment.js'
 import compounds from './src/data/knowledge/compounds.js'
 import { conditionCodes } from './src/data/knowledge/conditionCodes.js'
+import { EVIDENCE_LEVELS } from './src/data/knowledge/vocabulary.js'
+import { shelfInUse } from './src/data/kitchen.js'
 
 // Knowledge base figures for the landing page, worked out here so the first page
 // doesn't have to download the whole knowledge base to show a few numbers
@@ -21,6 +23,34 @@ const kbStats = {
   coded: Object.keys(conditionCodes).length,
   reviewed: herbs.filter(h => h.review?.status === 'reviewed').length,
 }
+
+// The landing page's herb tray: the first kitchen ingredients that have a herb entry, with
+// just what the tray shows. Ten keeps the belt's loop narrow enough to fit a laptop screen.
+// The ring colour (tier) follows the evidence level.
+const TRAY_SIZE = 10
+const EVIDENCE_TIER = Object.fromEntries(Object.keys(EVIDENCE_LEVELS).map((level, i) => [level, i + 1]))
+const firstSentence = (text) => (text.match(/^.*?[.!?](\s|$)/)?.[0] || text).trim()
+const kbTray = shelfInUse
+  .map(item => ({ item, herb: herbs.find(h => h.id === item.id) }))
+  .filter(({ herb }) => herb)
+  .slice(0, TRAY_SIZE)
+  .map(({ item, herb }) => ({
+    id: herb.id,
+    name: herb.name,
+    hindi: herb.hindi,
+    latin: herb.latin || herb.english,
+    fill: item.fill,
+    tier: EVIDENCE_TIER[herb.evidence.level],
+    evidence: EVIDENCE_LEVELS[herb.evidence.level].label,
+    description: firstSentence(herb.kitchenUse),
+    part: herb.part,
+    cautions: herb.cautions.length,
+    interactions: herb.interactions.length,
+  }))
+// Legend lists only the ring colours that are on the tray
+const trayLegend = Object.fromEntries(Object.entries(EVIDENCE_TIER)
+  .filter(([, tier]) => kbTray.some(h => h.tier === tier))
+  .map(([level, tier]) => [tier, EVIDENCE_LEVELS[level].label]))
 
 // Public pages search engines may index. Signed-in pages (/home, /prakriti, /account)
 // and the sign-in forms are left out and disallowed in robots.txt.
@@ -50,7 +80,10 @@ function seoFiles() {
 // In development the API runs separately (server/dev.js); Vite forwards /api to it.
 export default defineConfig({
   plugins: [seoFiles()],
-  define: { __KB_STATS__: JSON.stringify(kbStats) },
+  define: {
+    __KB_STATS__: JSON.stringify(kbStats),
+    __KB_TRAY__: JSON.stringify({ items: kbTray, legend: trayLegend }),
+  },
   server: {
     proxy: {
       '/api': {

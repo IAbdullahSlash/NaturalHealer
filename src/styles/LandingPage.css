@@ -356,6 +356,10 @@
   .kb-facts { grid-template-columns: 1fr; }
 }
 
+/* Herb tray (the conveyor itself is styled in HerbConveyor.css) */
+.tray-section { padding-top: clamp(16px, 3vw, 40px); }
+.tray-placeholder { min-height: 420px; }
+
 /* --------------------------------------------------------------------------
    Library
    -------------------------------------------------------------------------- */

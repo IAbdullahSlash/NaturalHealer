@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react'
+import React, { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import Navbar from './Navbar'
 import Icon from './Icon'
@@ -11,6 +11,9 @@ import { diseases } from '../data/diseases'
 import { beds, bedFor, ingredientsFor, shelfInUse, totalRemedies } from '../data/kitchen'
 import { useReveal, useParallax } from '../hooks/useGardenMotion'
 import '../styles/LandingPage.css'
+
+// The herb tray animates a whole belt, so its code loads after the rest of the page
+const HerbConveyor = lazy(() => import('./HerbConveyor'))
 
 const counts = Object.fromEntries(
   beds.map(b => [b.id, b.id === 'all' ? diseases.length : diseases.filter(d => d.category === b.id).length])
@@ -48,6 +51,22 @@ const doshaCount = (id) => diseases.filter(d => d.doshas.includes(id)).length
 
 // Knowledge base figures, computed at build time in vite.config.js
 const kb = __KB_STATS__
+
+// Herbs for the tray, prepared in vite.config.js. The chip shows the Hindi name and the
+// ring colour shows how strong the evidence is.
+const { items: trayHerbs, legend: trayLegend } = __KB_TRAY__
+const trayItems = trayHerbs.map(h => ({
+  ...h,
+  price: h.hindi,
+  details: [
+    h.part,
+    h.evidence,
+    `${h.cautions} ${h.cautions === 1 ? 'caution' : 'cautions'}`,
+    ...(h.interactions ? [`${h.interactions} medicine ${h.interactions === 1 ? 'interaction' : 'interactions'}`] : []),
+  ],
+}))
+const trayLabels = { add: 'Open herb page', close: 'Close', previous: 'Previous herb', next: 'Next herb', pause: 'Pause the tray' }
+const trayArt = (item, size) => <ClayBowl spice={item.fill} size={size} />
 
 // How the product works, stated plainly
 const method = [
@@ -289,6 +308,26 @@ export default function LandingPage({ user, onLogout, onOpenAIChat }) {
               <Link to="/herbs" className="btn btn-leaf">Browse the herbs <Icon name="arrowRight" size={17} className="btn-arrow" /></Link>
               <Link to="/safety" className="btn btn-paper">Read the safety guide</Link>
             </div>
+          </div>
+        </section>
+
+        {/* Herb tray: the kitchen herbs going round on a belt */}
+        <section className="section tray-section" aria-label="Herb tray">
+          <div className="container">
+            <Suspense fallback={<div className="tray-placeholder" />}>
+              <HerbConveyor
+                items={trayItems}
+                renderArt={trayArt}
+                eyebrow="Herb tray"
+                heading="Take a herb off the tray."
+                caption="Hover, tap or use the arrow keys to lift a bowl. The ring colour shows how strong the evidence is."
+                legend={trayLegend}
+                labels={trayLabels}
+                autoplay
+                interval={3600}
+                onAdd={(item) => navigate(`/herbs/${item.id}`)}
+              />
+            </Suspense>
           </div>
         </section>
 
