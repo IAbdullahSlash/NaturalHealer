@@ -1,0 +1,60 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "joint",
+  "title": "Joint Pain (Vata)",
+  "category": "musculoskeletal",
+  "summary": "Warmth, lubrication, and gentle mobility",
+  "severity": "moderate",
+  "icon": "🦴",
+  "duration": "Ongoing",
+  "doshas": [
+    "vata"
+  ],
+  "ayurvedicView": "Joint pain typically indicates Vata aggravation. Warmth, oil, and gentle movement help lubricate and strengthen joints.",
+  "remedies": [
+    "Golden milk: turmeric + black pepper in warm milk",
+    "Warm castor oil compress on affected joints",
+    "Gentle yoga poses (Pawanmuktasana) daily",
+    "Abhyanga (oil massage) with warm sesame oil",
+    "Stay warm and avoid cold, damp environments",
+    "A warm ginger compress over the stiff joint"
+  ],
+  "prevention": [
+    "Regular gentle exercise",
+    "Maintain healthy weight",
+    "Stay warm in cold weather"
+  ],
+  "tips": [
+    "Practice gentle yoga daily",
+    "Stay warm, especially in cold weather",
+    "Massage with warm oil regularly",
+    "Maintain a healthy weight"
+  ],
+  "herbs": [
+    "Turmeric",
+    "Guggulu",
+    "Ashwagandha",
+    "Ginger",
+    "Shallaki"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "ME82",
+      "title": "Pain in joint"
+    },
+    "tm2Group": {
+      "range": "SP10–SP1Z",
+      "title": "Joint disorders (TM2)"
+    }
+  },
+  "seeDoctor": [
+    "A joint that is hot, red and swollen, or pain with fever",
+    "Pain after an injury, or being unable to bear weight",
+    "Pain that lasts more than a few weeks"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

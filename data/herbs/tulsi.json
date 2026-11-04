@@ -1,0 +1,92 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "tulsi",
+  "name": "Tulsi",
+  "hindi": "तुलसी",
+  "sanskrit": "Tulasi, Surasa",
+  "english": "Holy basil",
+  "latin": "Ocimum tenuiflorum",
+  "kind": "herb",
+  "part": "Leaf",
+  "properties": {
+    "rasa": [
+      "katu",
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "vata"
+    ],
+    "aggravates": [
+      "pitta"
+    ]
+  },
+  "actions": [
+    "Clears congestion (kaphaghna)",
+    "Supports breathing in coughs and colds",
+    "Warming and aromatic"
+  ],
+  "traditionalUses": [
+    "Common cold, cough and congestion",
+    "Low-grade fever in kapha conditions",
+    "Daily tonic tea"
+  ],
+  "kitchenUse": "A few fresh leaves steeped in hot water, often with ginger and black pepper; honey added once it has cooled to drinking warmth.",
+  "typicalUse": {
+    "forms": [
+      "Fresh leaves",
+      "Tea",
+      "Dried leaf powder"
+    ],
+    "adultAmount": "5–10 fresh leaves a day as tea",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Avoid medicinal amounts in pregnancy and when trying to conceive; culinary use is generally considered fine."
+    },
+    {
+      "group": "surgery",
+      "note": "Stop medicinal use two weeks before planned surgery because of a possible effect on clotting."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "anticoagulants",
+      "effect": "May add to the effect of blood thinners.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "antidiabetics",
+      "effect": "May lower blood sugar further.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "A small number of human trials have looked at stress, blood sugar and immunity, mostly short and small. Not established as a treatment.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Ocimum%20tenuiflorum%20clinical%20trial"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

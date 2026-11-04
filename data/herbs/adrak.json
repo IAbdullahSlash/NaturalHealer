@@ -1,0 +1,112 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "adrak",
+  "name": "Adrak / Saunth",
+  "hindi": "अदरक / सोंठ",
+  "sanskrit": "Ardraka (fresh), Shunthi or Nagara (dry)",
+  "english": "Ginger",
+  "latin": "Zingiber officinale",
+  "kind": "spice",
+  "part": "Rhizome",
+  "properties": {
+    "rasa": [
+      "katu"
+    ],
+    "guna": [
+      "laghu",
+      "snigdha"
+    ],
+    "virya": "ushna",
+    "vipaka": "madhura",
+    "pacifies": [
+      "kapha",
+      "vata"
+    ],
+    "aggravates": [
+      "pitta"
+    ]
+  },
+  "actions": [
+    "Kindles digestion (deepana)",
+    "Digests ama (pachana)",
+    "Eases nausea",
+    "Warming"
+  ],
+  "traditionalUses": [
+    "Poor appetite and indigestion",
+    "Nausea",
+    "Colds and coughs",
+    "Joint stiffness (dry ginger)"
+  ],
+  "kitchenUse": "Fresh ginger slices with a pinch of rock salt before meals to wake the appetite; ginger tea for colds; dry ginger powder in winter cooking.",
+  "typicalUse": {
+    "forms": [
+      "Fresh root",
+      "Tea",
+      "Dry powder (saunth)"
+    ],
+    "adultAmount": "1–2 g of dry powder, or a thumb-sized piece of fresh root, a day",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "gerd",
+      "note": "Large amounts can worsen heartburn and acidity."
+    },
+    {
+      "group": "bleeding-disorder",
+      "note": "Use medicinal amounts carefully with bleeding disorders."
+    },
+    {
+      "group": "pregnancy",
+      "note": "Small amounts are widely used for morning sickness; check with a doctor before regular use."
+    },
+    {
+      "group": "breastfeeding",
+      "note": "Little is known about ginger supplements while breastfeeding; keep to food amounts."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "anticoagulants",
+      "effect": "High amounts may add to the effect of blood thinners.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "antidiabetics",
+      "effect": "May lower blood sugar slightly.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "moderate-human",
+    "summary": "Human research supports ginger for nausea and vomiting in pregnancy, and it may ease menstrual cramps. It has mostly not helped motion sickness, and evidence for other uses is weaker.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=ginger%20nausea%20randomized%20controlled%20trial"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    },
+    {
+      "kind": "safety",
+      "title": "NCCIH: Ginger: Usefulness and Safety",
+      "detail": "Last updated February 2025",
+      "url": "https://www.nccih.nih.gov/health/ginger"
+    },
+    {
+      "kind": "safety",
+      "title": "LiverTox (NIH): Ginger",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK600585/"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

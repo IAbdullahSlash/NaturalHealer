@@ -1,0 +1,95 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "amla",
+  "name": "Amla",
+  "hindi": "आंवला",
+  "sanskrit": "Amalaki, Dhatri",
+  "english": "Indian gooseberry",
+  "latin": "Phyllanthus emblica",
+  "kind": "herb",
+  "part": "Fruit",
+  "properties": {
+    "rasa": [
+      "amla",
+      "madhura",
+      "tikta",
+      "katu",
+      "kashaya"
+    ],
+    "guna": [
+      "guru",
+      "ruksha"
+    ],
+    "virya": "shita",
+    "vipaka": "madhura",
+    "pacifies": [
+      "pitta",
+      "vata",
+      "kapha"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Rejuvenative (rasayana)",
+    "Cooling; pacifies pitta",
+    "Rich in vitamin C"
+  ],
+  "traditionalUses": [
+    "General rasayana",
+    "Acidity and pitta complaints",
+    "Hair and eye health",
+    "One of the three fruits in Triphala"
+  ],
+  "kitchenUse": "Fresh fruit, amla juice diluted with water, murabba, or powder with honey.",
+  "typicalUse": {
+    "forms": [
+      "Fresh fruit",
+      "Powder",
+      "Juice"
+    ],
+    "adultAmount": "3–6 g of powder a day",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "bleeding-disorder",
+      "note": "Use medicinal amounts carefully with bleeding disorders."
+    },
+    {
+      "group": "surgery",
+      "note": "Stop concentrated use two weeks before surgery."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "anticoagulants",
+      "effect": "May add to the effect of blood thinners in large amounts.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "antidiabetics",
+      "effect": "May lower blood sugar further.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Small human trials on cholesterol, blood sugar and digestion. Not established as a treatment.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Phyllanthus%20emblica%20clinical%20trial"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "kalmegh",
+  "name": "Kalmegh",
+  "hindi": "कालमेघ",
+  "sanskrit": "Kalamegha",
+  "english": "Andrographis",
+  "latin": "Andrographis paniculata",
+  "kind": "herb",
+  "part": "Whole plant",
+  "properties": {
+    "rasa": [
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "pitta"
+    ],
+    "aggravates": [
+      "vata"
+    ]
+  },
+  "actions": [
+    "Very bitter",
+    "Traditionally used for fevers and the liver",
+    "Studied for colds"
+  ],
+  "traditionalUses": [
+    "Fever and colds",
+    "Sluggish digestion and liver in tradition"
+  ],
+  "kitchenUse": "Not a kitchen herb; extremely bitter, taken as powder, decoction or tablets.",
+  "typicalUse": {
+    "forms": [
+      "Powder",
+      "Tablets",
+      "Decoction"
+    ],
+    "adultAmount": "Only as a qualified practitioner advises; products and strengths vary",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Avoid in pregnancy; it may cause miscarriage. Also avoid while breastfeeding."
+    },
+    {
+      "group": "allergy",
+      "note": "Serious allergic reactions, including anaphylaxis, have been reported."
+    },
+    {
+      "group": "autoimmune",
+      "note": "It may stimulate the immune system; avoid with autoimmune conditions."
+    },
+    {
+      "group": "surgery",
+      "note": "May slow blood clotting; stop two weeks before surgery."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "immunosuppressants",
+      "effect": "May work against immune-suppressing medicines.",
+      "level": "avoid"
+    },
+    {
+      "drugClass": "anticoagulants",
+      "effect": "May add to the effect of blood thinners.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "antihypertensives",
+      "effect": "May lower blood pressure further.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Several trials suggest andrographis may ease cold and sore throat symptoms, but many were small or of uncertain quality.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Andrographis%20paniculata%20respiratory%20tract%20infection%20systematic%20review"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

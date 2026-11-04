@@ -1,0 +1,82 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "ajwain",
+  "name": "Ajwain",
+  "hindi": "अजवाइन",
+  "sanskrit": "Yavani",
+  "english": "Carom seed",
+  "latin": "Trachyspermum ammi",
+  "kind": "spice",
+  "part": "Seed",
+  "properties": {
+    "rasa": [
+      "katu",
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha",
+      "tikshna"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "vata"
+    ],
+    "aggravates": [
+      "pitta"
+    ]
+  },
+  "actions": [
+    "Relieves colic and gas (shulaghna)",
+    "Kindles digestion",
+    "Clears nasal congestion when inhaled as steam"
+  ],
+  "traditionalUses": [
+    "Stomach ache from gas",
+    "Indigestion after heavy food",
+    "Blocked nose (steam inhalation)"
+  ],
+  "kitchenUse": "Half a teaspoon chewed with a pinch of salt after a heavy meal, ajwain water, or a spoonful in steam for congestion.",
+  "typicalUse": {
+    "forms": [
+      "Seeds",
+      "Ajwain water",
+      "Steam inhalation"
+    ],
+    "adultAmount": "1–3 g of seeds a day",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Avoid medicinal amounts in pregnancy."
+    },
+    {
+      "group": "gerd",
+      "note": "Strongly heating; can aggravate acidity and ulcers."
+    }
+  ],
+  "interactions": [],
+  "evidence": {
+    "level": "preclinical",
+    "summary": "Mostly laboratory and animal studies on digestion and its main oil, thymol. Little human research.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Trachyspermum%20ammi"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

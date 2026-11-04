@@ -1,0 +1,115 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "methi",
+  "name": "Methi",
+  "hindi": "मेथी",
+  "sanskrit": "Methika",
+  "english": "Fenugreek",
+  "latin": "Trigonella foenum-graecum",
+  "kind": "spice",
+  "part": "Seed",
+  "properties": {
+    "rasa": [
+      "katu",
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "snigdha"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "vata"
+    ],
+    "aggravates": [
+      "pitta"
+    ]
+  },
+  "actions": [
+    "Kindles digestion",
+    "Traditionally used for joint stiffness",
+    "Supports healthy blood sugar in diet"
+  ],
+  "traditionalUses": [
+    "Joint stiffness in vata conditions",
+    "Sluggish digestion",
+    "Part of a blood-sugar-aware diet"
+  ],
+  "kitchenUse": "A teaspoon of seeds soaked overnight and eaten in the morning, or cooked into dal and vegetables.",
+  "typicalUse": {
+    "forms": [
+      "Soaked seeds",
+      "Powder",
+      "Leaves as a vegetable"
+    ],
+    "adultAmount": "5–10 g of seeds a day",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Not safe in pregnancy in amounts above those in food; its use has been linked to birth defects."
+    },
+    {
+      "group": "breastfeeding",
+      "note": "Little is known about amounts above those in food while breastfeeding."
+    },
+    {
+      "group": "children",
+      "note": "Food amounts are considered safe; larger amounts have not been shown to be safe for children."
+    },
+    {
+      "group": "allergy",
+      "note": "Can cause allergic reactions, sometimes serious, and may cross-react with peanut or chickpea allergy."
+    },
+    {
+      "group": "diabetes",
+      "note": "Large amounts can lower blood sugar too far; monitor if you have diabetes."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "antidiabetics",
+      "effect": "May lower blood sugar further; monitor closely.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "anticoagulants",
+      "effect": "May add to the effect of blood thinners.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Studies suggest fenugreek may lower blood sugar in type 2 diabetes, but many were not of high quality. Its effect on breast milk supply is uncertain.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=fenugreek%20glycemic%20control%20randomized"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    },
+    {
+      "kind": "safety",
+      "title": "NCCIH: Fenugreek: Usefulness and Safety",
+      "detail": "Last updated February 2025",
+      "url": "https://www.nccih.nih.gov/health/fenugreek"
+    },
+    {
+      "kind": "safety",
+      "title": "LiverTox (NIH): Fenugreek",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK548826/"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

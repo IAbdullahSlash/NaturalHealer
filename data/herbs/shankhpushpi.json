@@ -1,0 +1,84 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "shankhpushpi",
+  "name": "Shankhpushpi",
+  "hindi": "शंखपुष्पी",
+  "sanskrit": "Shankhapushpi",
+  "english": "Shankhpushpi",
+  "latin": "Convolvulus prostratus",
+  "kind": "herb",
+  "part": "Whole plant",
+  "properties": {
+    "rasa": [
+      "kashaya",
+      "tikta"
+    ],
+    "guna": [
+      "snigdha",
+      "pichchhila"
+    ],
+    "virya": "shita",
+    "vipaka": "madhura",
+    "pacifies": [
+      "vata",
+      "pitta"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Traditionally used as a brain tonic (medhya)",
+    "Calming"
+  ],
+  "traditionalUses": [
+    "Memory and study",
+    "Anxiety and restlessness",
+    "Poor sleep"
+  ],
+  "kitchenUse": "Not a kitchen herb; taken as a syrup, powder in milk, or juice.",
+  "typicalUse": {
+    "forms": [
+      "Syrup",
+      "Powder"
+    ],
+    "adultAmount": "Only as a qualified practitioner advises; products and strengths vary",
+    "note": "Several different plants are sold as shankhpushpi; the pharmacopoeia species is Convolvulus prostratus (syn. C. pluricaulis)."
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Not enough is known; avoid in pregnancy and while breastfeeding."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "anticonvulsants",
+      "effect": "In studies it lowered phenytoin levels and seizure control; do not combine.",
+      "level": "avoid"
+    },
+    {
+      "drugClass": "sedatives",
+      "effect": "May add to drowsiness.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "preclinical",
+    "summary": "Mostly animal studies on memory and anxiety; very few small human studies.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Convolvulus%20pluricaulis"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

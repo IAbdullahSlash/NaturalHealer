@@ -282,3 +282,8 @@
   @keyframes dm-sheet-in { from { transform: translateY(100%); } }
   @keyframes dm-sheet-out { to { transform: translateY(100%); } }
 }
+
+/* Warning signs that home care is not enough */
+.thali-doctor ul { list-style: none; display: grid; gap: 8px; padding: 14px 16px; border-radius: var(--r-md); background: var(--chilli-soft); }
+.thali-doctor li { display: flex; gap: 8px; font-size: 0.92rem; color: var(--ink); }
+.thali-doctor svg { flex: none; margin-top: 3px; color: var(--chilli-text); }

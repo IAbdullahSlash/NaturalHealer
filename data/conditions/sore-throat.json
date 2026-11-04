@@ -1,0 +1,57 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "sore-throat",
+  "title": "Sore Throat",
+  "category": "respiratory",
+  "summary": "Soothe a scratchy throat with warm gargles",
+  "severity": "mild",
+  "icon": "🗣️",
+  "duration": "3-7 days",
+  "doshas": [
+    "kapha",
+    "pitta"
+  ],
+  "ayurvedicView": "A sore throat with mucus is linked to Kapha; burning and redness to Pitta. Warm gargles and soothing, sweet herbs calm both.",
+  "remedies": [
+    "Warm salt-water gargle with a pinch of turmeric, three to four times a day",
+    "Honey in warm water or ginger tea (no honey for children under one)",
+    "Mulethi (licorice) root to chew or as tea, for a few days only",
+    "Tulsi leaves steeped in hot water",
+    "Rest your voice and sip warm fluids"
+  ],
+  "prevention": [
+    "Wash hands often",
+    "Avoid smoking and smoky rooms",
+    "Do not share cups or utensils when someone is ill"
+  ],
+  "tips": [
+    "Keep sipping warm fluids",
+    "Avoid very cold drinks and ice cream",
+    "Use steam to ease dryness"
+  ],
+  "herbs": [
+    "Mulethi",
+    "Haldi",
+    "Honey",
+    "Tulsi",
+    "Kalmegh"
+  ],
+  "seeDoctor": [
+    "Trouble swallowing saliva or breathing, or drooling",
+    "Fever above 38.5°C with white patches on the tonsils",
+    "A sore throat lasting more than a week",
+    "A new rash, or very tender swollen glands in the neck"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "CA02",
+      "title": "Acute pharyngitis"
+    },
+    "tm2Group": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

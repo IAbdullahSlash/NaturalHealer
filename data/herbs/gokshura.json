@@ -1,0 +1,92 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "gokshura",
+  "name": "Gokshura",
+  "hindi": "गोखरू",
+  "sanskrit": "Gokshura",
+  "english": "Puncture vine",
+  "latin": "Tribulus terrestris",
+  "kind": "herb",
+  "part": "Fruit",
+  "properties": {
+    "rasa": [
+      "madhura"
+    ],
+    "guna": [
+      "guru",
+      "snigdha"
+    ],
+    "virya": "shita",
+    "vipaka": "madhura",
+    "pacifies": [
+      "vata",
+      "pitta"
+    ],
+    "aggravates": [
+      "kapha"
+    ]
+  },
+  "actions": [
+    "Diuretic in tradition",
+    "Traditionally used as a tonic for the urinary and reproductive organs"
+  ],
+  "traditionalUses": [
+    "Urinary complaints",
+    "Strength and vitality in tradition"
+  ],
+  "kitchenUse": "Not a kitchen herb; taken as powder or decoction, or in formulations such as Gokshuradi guggulu.",
+  "typicalUse": {
+    "forms": [
+      "Powder",
+      "Decoction"
+    ],
+    "adultAmount": "Only as a qualified practitioner advises; products and strengths vary",
+    "note": "Pain or burning on passing urine needs a doctor, especially with fever."
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Animal studies raise concern for the developing baby; avoid in pregnancy and while breastfeeding."
+    },
+    {
+      "group": "hormone-sensitive",
+      "note": "Sold to raise hormones; avoid with hormone-sensitive conditions."
+    },
+    {
+      "group": "diabetes",
+      "note": "May lower blood sugar."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "antidiabetics",
+      "effect": "May lower blood sugar further.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "lithium",
+      "effect": "Diuretic herbs can raise lithium to harmful levels.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Small trials on sexual function and hormones give mixed results; not established.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Tribulus%20terrestris%20randomized"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

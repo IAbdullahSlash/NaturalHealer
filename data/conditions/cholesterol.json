@@ -1,0 +1,55 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "cholesterol",
+  "title": "High Cholesterol",
+  "category": "chronic",
+  "summary": "Diet and activity alongside your doctor's care",
+  "severity": "serious",
+  "icon": "🫀",
+  "duration": "Ongoing management",
+  "doshas": [
+    "kapha"
+  ],
+  "ayurvedicView": "High cholesterol is linked to excess Kapha and meda (fat tissue). Lighter food, activity and \"scraping\" (lekhana) herbs are the traditional approach; medicines are often needed as well.",
+  "remedies": [
+    "One to two teaspoons of isabgol (psyllium husk) a day, which modestly lowers LDL cholesterol",
+    "A tablespoon of ground alsi (flaxseed) in food",
+    "Less ghee, butter, coconut oil and fried food",
+    "At least 30 minutes of brisk walking on most days",
+    "Take prescribed medicines such as statins as advised, and tell your doctor about any herbs you use"
+  ],
+  "prevention": [
+    "Get your cholesterol checked from your 30s, or earlier with a family history of heart disease",
+    "Stay active and keep a healthy weight",
+    "Do not smoke"
+  ],
+  "tips": [
+    "Fill half the plate with vegetables",
+    "Choose whole grains and dals over refined flour",
+    "Cut down on sweets and packaged snacks"
+  ],
+  "herbs": [
+    "Guggulu",
+    "Arjuna",
+    "Lahsun",
+    "Methi",
+    "Isabgol"
+  ],
+  "seeDoctor": [
+    "Chest pain or pressure, breathlessness, or pain spreading to the arm or jaw: call 112",
+    "A family history of heart attack before 55 in men or 65 in women",
+    "Muscle pain or weakness after starting a statin"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "5C80.0",
+      "title": "Hypercholesterolaemia"
+    },
+    "tm2Group": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

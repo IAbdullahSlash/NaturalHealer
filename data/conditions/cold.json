@@ -1,0 +1,61 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "cold",
+  "title": "Common Cold",
+  "category": "respiratory",
+  "summary": "Soothe Kapha imbalance with warmth and steam",
+  "severity": "mild",
+  "icon": "🌬️",
+  "duration": "3-7 days",
+  "doshas": [
+    "kapha"
+  ],
+  "ayurvedicView": "Common cold is typically a Kapha imbalance causing congestion and heaviness. Warmth, steam, and light foods help restore balance.",
+  "remedies": [
+    "Tulsi (Holy Basil) + ginger tea with honey, 2-3 times daily",
+    "Steam inhalation with eucalyptus or ajwain seeds",
+    "Warm saline gargle with a pinch of turmeric",
+    "Rest in a warm, well-ventilated room",
+    "Avoid cold drinks and dairy products",
+    "A pinch of pippali (long pepper) powder with honey for a wet cough (no honey for children under one)"
+  ],
+  "prevention": [
+    "Maintain good hand hygiene",
+    "Stay warm in cold weather",
+    "Boost immunity with regular Chyawanprash"
+  ],
+  "tips": [
+    "Stay warm and avoid cold drafts",
+    "Sip warm liquids throughout the day",
+    "Rest is crucial for recovery",
+    "Avoid dairy as it increases mucus production"
+  ],
+  "herbs": [
+    "Tulsi (Holy Basil)",
+    "Ginger",
+    "Turmeric",
+    "Black pepper",
+    "Cinnamon"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "CA00",
+      "title": "Acute nasopharyngitis"
+    },
+    "tm2Group": {
+      "range": "SK90–SK9Z",
+      "title": "Nose disorders (TM2)"
+    }
+  },
+  "seeDoctor": [
+    "Fever above 39°C (102°F), or lasting more than three days",
+    "Trouble breathing, wheezing or chest pain",
+    "Symptoms lasting more than ten days, or getting worse after improving",
+    "Any fever in a baby under three months"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

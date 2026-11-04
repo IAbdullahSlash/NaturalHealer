@@ -23,6 +23,8 @@ export const CAUTION_GROUPS = {
   allergy: 'Allergies',
   'skin-infection': 'Broken or infected skin',
   'skin-use': 'Applying to the skin',
+  asthma: 'Asthma',
+  cancer: 'Cancer or cancer treatment',
 }
 
 export const DRUG_CLASSES = {
@@ -39,6 +41,8 @@ export const DRUG_CLASSES = {
   antiretrovirals: 'HIV medicines',
   anticonvulsants: 'Anti-seizure medicines',
   'many-medicines': 'Many medicines (changes absorption)',
+  statins: 'Cholesterol medicines (statins)',
+  antidepressants: 'Antidepressants and other medicines that affect serotonin',
 }
 
 export const EVIDENCE_LEVELS = {

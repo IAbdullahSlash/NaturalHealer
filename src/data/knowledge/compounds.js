@@ -5,272 +5,6 @@ export default {
   "attribution": "Dr. Duke's Phytochemical and Ethnobotanical Databases, U.S. Department of Agriculture, Agricultural Research Service, 1992-2016. doi:10.15482/USDA.ADC/1239279. Licence: CC0 1.0 (public domain).",
   "source": "https://doi.org/10.15482/USDA.ADC/1239279",
   "herbs": {
-    "tulsi": {
-      "dukeTaxon": "Ocimum tenuiflorum",
-      "compoundCount": 113,
-      "parts": [
-        {
-          "part": "Leaf",
-          "count": 69
-        },
-        {
-          "part": "Plant",
-          "count": 29
-        },
-        {
-          "part": "Seed",
-          "count": 15
-        },
-        {
-          "part": "Stem",
-          "count": 6
-        },
-        {
-          "part": "Inflorescence",
-          "count": 5
-        },
-        {
-          "part": "Root",
-          "count": 2
-        },
-        {
-          "part": "Shoot",
-          "count": 2
-        }
-      ],
-      "highestAmounts": [
-        {
-          "name": "Methyl-chavicol",
-          "ppm": 35950,
-          "parts": [
-            "Leaf"
-          ]
-        },
-        {
-          "name": "Methyl-eugenol",
-          "ppm": 7740,
-          "parts": [
-            "Leaf"
-          ]
-        },
-        {
-          "name": "Chavibetol",
-          "ppm": 6300,
-          "parts": [
-            "Leaf"
-          ]
-        },
-        {
-          "name": "Eugenol",
-          "ppm": 5580,
-          "parts": [
-            "Inflorescence",
-            "Leaf",
-            "Stem"
-          ]
-        },
-        {
-          "name": "Ursolic acid",
-          "ppm": 4780,
-          "parts": [
-            "Inflorescence",
-            "Leaf",
-            "Plant",
-            "Stem"
-          ]
-        },
-        {
-          "name": "Geranial",
-          "ppm": 3150,
-          "parts": [
-            "Plant"
-          ]
-        },
-        {
-          "name": "Neral",
-          "ppm": 3150,
-          "parts": [
-            "Plant"
-          ]
-        },
-        {
-          "name": "β-Caryophyllene",
-          "ppm": 3060,
-          "parts": [
-            "Leaf"
-          ]
-        },
-        {
-          "name": "β-Bisabolene",
-          "ppm": 2970,
-          "parts": [
-            "Leaf"
-          ]
-        },
-        {
-          "name": "Oleanolic acid",
-          "ppm": 2180,
-          "parts": [
-            "Leaf"
-          ]
-        },
-        {
-          "name": "(Z)-α-bisabolene",
-          "ppm": 1800,
-          "parts": [
-            "Leaf"
-          ]
-        },
-        {
-          "name": "Camphor",
-          "ppm": 1785,
-          "parts": [
-            "Leaf"
-          ]
-        }
-      ]
-    },
-    "haldi": {
-      "dukeTaxon": "Curcuma longa",
-      "compoundCount": 174,
-      "parts": [
-        {
-          "part": "Rhizome",
-          "count": 141
-        },
-        {
-          "part": "Plant",
-          "count": 35
-        },
-        {
-          "part": "Root",
-          "count": 22
-        },
-        {
-          "part": "Rhizome Essent. Oil",
-          "count": 20
-        },
-        {
-          "part": "Leaf",
-          "count": 15
-        },
-        {
-          "part": "Tuber",
-          "count": 14
-        },
-        {
-          "part": "Essential Oil",
-          "count": 2
-        },
-        {
-          "part": "Resin, Exudate, Sap",
-          "count": 1
-        },
-        {
-          "part": "Root Essent. Oil",
-          "count": 1
-        }
-      ],
-      "highestAmounts": [
-        {
-          "name": "Curcumin",
-          "ppm": 175000,
-          "parts": [
-            "Plant",
-            "Resin, Exudate, Sap",
-            "Rhizome",
-            "Root"
-          ]
-        },
-        {
-          "name": "Curcuminoids",
-          "ppm": 80000,
-          "parts": [
-            "Root"
-          ]
-        },
-        {
-          "name": "Turmerone",
-          "ppm": 43200,
-          "parts": [
-            "Rhizome",
-            "Rhizome Essent. Oil",
-            "Root"
-          ]
-        },
-        {
-          "name": "Cyclo-isoprenemyrcene",
-          "ppm": 29750,
-          "parts": [
-            "Rhizome"
-          ]
-        },
-        {
-          "name": "Demethoxycurcumin",
-          "ppm": 28000,
-          "parts": [
-            "Plant",
-            "Rhizome",
-            "Root"
-          ]
-        },
-        {
-          "name": "Bis-demethoxycurcumin",
-          "ppm": 28000,
-          "parts": [
-            "Plant",
-            "Rhizome",
-            "Root"
-          ]
-        },
-        {
-          "name": "L-β-curcumene",
-          "ppm": 18000,
-          "parts": [
-            "Rhizome"
-          ]
-        },
-        {
-          "name": "L-α-curcumene",
-          "ppm": 18000,
-          "parts": [
-            "Rhizome"
-          ]
-        },
-        {
-          "name": "Zingiberene",
-          "ppm": 18000,
-          "parts": [
-            "Rhizome",
-            "Rhizome Essent. Oil",
-            "Root"
-          ]
-        },
-        {
-          "name": "1,8-Cineole",
-          "ppm": 9575,
-          "parts": [
-            "Leaf",
-            "Rhizome",
-            "Root"
-          ]
-        },
-        {
-          "name": "Cyclocurcumin",
-          "ppm": 8000,
-          "parts": [
-            "Rhizome"
-          ]
-        },
-        {
-          "name": "Ukonan A",
-          "ppm": 6600,
-          "parts": [
-            "Rhizome"
-          ]
-        }
-      ]
-    },
     "adrak": {
       "dukeTaxon": "Zingiber officinale",
       "compoundCount": 438,
@@ -424,6 +158,2714 @@ export default {
         }
       ]
     },
+    "ajwain": {
+      "dukeTaxon": "Trachyspermum ammi",
+      "compoundCount": 38,
+      "parts": [
+        {
+          "part": "Fruit",
+          "count": 35
+        },
+        {
+          "part": "Plant",
+          "count": 4
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Thymol",
+          "ppm": 33000,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "γ-Terpinene",
+          "ppm": 13960,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "P-cymene",
+          "ppm": 9512,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "Phytin-phosphorus",
+          "ppm": 3197,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "Carvacrol",
+          "ppm": 2720,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "Limonene",
+          "ppm": 2040,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "β-Pinene",
+          "ppm": 1400,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "α-Pinene",
+          "ppm": 720,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "δ-3-Carene",
+          "ppm": 320,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "Camphene",
+          "ppm": 252,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "Myrcene",
+          "ppm": 120,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "Nicotinic acid",
+          "ppm": 23,
+          "parts": [
+            "Fruit"
+          ]
+        }
+      ]
+    },
+    "alsi": {
+      "dukeTaxon": "Linum usitatissimum",
+      "compoundCount": 200,
+      "parts": [
+        {
+          "part": "Seed",
+          "count": 161
+        },
+        {
+          "part": "Flower",
+          "count": 17
+        },
+        {
+          "part": "Seed Oil",
+          "count": 11
+        },
+        {
+          "part": "Hay",
+          "count": 10
+        },
+        {
+          "part": "Plant",
+          "count": 8
+        },
+        {
+          "part": "Sprout Seedling",
+          "count": 8
+        },
+        {
+          "part": "Leaf",
+          "count": 8
+        },
+        {
+          "part": "Root",
+          "count": 2
+        },
+        {
+          "part": "Oil",
+          "count": 2
+        },
+        {
+          "part": "Cotyledon",
+          "count": 2
+        },
+        {
+          "part": "Tissue Culture",
+          "count": 2
+        },
+        {
+          "part": "Shoot",
+          "count": 1
+        },
+        {
+          "part": "Hull Husk",
+          "count": 1
+        },
+        {
+          "part": "Hypocotyl",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "α-Linolenic acid",
+          "ppm": 228000,
+          "parts": [
+            "Flower",
+            "Seed",
+            "Sprout Seedling"
+          ]
+        },
+        {
+          "name": "Phenolic acids",
+          "ppm": 103400,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Phytin",
+          "ppm": 64000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Galacturonic acid",
+          "ppm": 48489,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Phytic acid",
+          "ppm": 33000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Mannuronic acid",
+          "ppm": 9000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Lecithin",
+          "ppm": 8800,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Cyanogenic-glycosides",
+          "ppm": 8350,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Phosphatides",
+          "ppm": 7000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Hcn",
+          "ppm": 6920,
+          "parts": [
+            "Flower",
+            "Hull Husk",
+            "Root",
+            "Seed",
+            "Shoot"
+          ]
+        },
+        {
+          "name": "Oleoresin",
+          "ppm": 5850,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Phenolic acid-esters",
+          "ppm": 5420,
+          "parts": [
+            "Seed"
+          ]
+        }
+      ]
+    },
+    "amla": {
+      "dukeTaxon": "Phyllanthus emblica",
+      "compoundCount": 99,
+      "parts": [
+        {
+          "part": "Fruit",
+          "count": 84
+        },
+        {
+          "part": "Leaf",
+          "count": 10
+        },
+        {
+          "part": "Shoot",
+          "count": 9
+        },
+        {
+          "part": "Seed Oil",
+          "count": 7
+        },
+        {
+          "part": "Seed",
+          "count": 6
+        },
+        {
+          "part": "Tissue Culture",
+          "count": 5
+        },
+        {
+          "part": "Pericarp",
+          "count": 4
+        },
+        {
+          "part": "Bark",
+          "count": 4
+        },
+        {
+          "part": "Plant",
+          "count": 2
+        },
+        {
+          "part": "Root",
+          "count": 2
+        },
+        {
+          "part": "Twig",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Phyllemblinic acid",
+          "ppm": 90000,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "Phyllemblic acid",
+          "ppm": 63000,
+          "parts": [
+            "Fruit",
+            "Pericarp"
+          ]
+        },
+        {
+          "name": "Gallic acid",
+          "ppm": 50000,
+          "parts": [
+            "Fruit",
+            "Pericarp",
+            "Shoot"
+          ]
+        },
+        {
+          "name": "Emblicol",
+          "ppm": 45000,
+          "parts": [
+            "Fruit",
+            "Pericarp"
+          ]
+        },
+        {
+          "name": "Leucodelphinidin",
+          "ppm": 37500,
+          "parts": [
+            "Bark"
+          ]
+        },
+        {
+          "name": "Lupeol",
+          "ppm": 22500,
+          "parts": [
+            "Bark",
+            "Root",
+            "Shoot"
+          ]
+        },
+        {
+          "name": "Rutin",
+          "ppm": 21000,
+          "parts": [
+            "Fruit",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Quercetin",
+          "ppm": 11850,
+          "parts": [
+            "Tissue Culture"
+          ]
+        },
+        {
+          "name": "β-Sitosterol",
+          "ppm": 5500,
+          "parts": [
+            "Bark",
+            "Seed Oil",
+            "Shoot",
+            "Tissue Culture"
+          ]
+        },
+        {
+          "name": "Gallic acid-ethyl-ester",
+          "ppm": 5200,
+          "parts": [
+            "Fruit",
+            "Tissue Culture"
+          ]
+        },
+        {
+          "name": "Silica",
+          "ppm": 1163,
+          "parts": [
+            "Fruit"
+          ]
+        }
+      ]
+    },
+    "anar": {
+      "dukeTaxon": "Punica granatum",
+      "compoundCount": 259,
+      "parts": [
+        {
+          "part": "Fruit",
+          "count": 77
+        },
+        {
+          "part": "Leaf",
+          "count": 73
+        },
+        {
+          "part": "Seed",
+          "count": 54
+        },
+        {
+          "part": "Stem Bark",
+          "count": 31
+        },
+        {
+          "part": "Pericarp",
+          "count": 30
+        },
+        {
+          "part": "Fruit Juice",
+          "count": 24
+        },
+        {
+          "part": "Root Bark",
+          "count": 20
+        },
+        {
+          "part": "Flower",
+          "count": 14
+        },
+        {
+          "part": "Bark",
+          "count": 13
+        },
+        {
+          "part": "Plant",
+          "count": 12
+        },
+        {
+          "part": "Heart Wood",
+          "count": 4
+        },
+        {
+          "part": "Twig",
+          "count": 3
+        },
+        {
+          "part": "Root",
+          "count": 2
+        },
+        {
+          "part": "Stem",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Gallotannins",
+          "ppm": 280000,
+          "parts": [
+            "Pericarp"
+          ]
+        },
+        {
+          "name": "Invert-sugars",
+          "ppm": 200000,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "Punicic acid",
+          "ppm": 147100,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Gallic acid",
+          "ppm": 40000,
+          "parts": [
+            "Fruit Juice",
+            "Pericarp"
+          ]
+        },
+        {
+          "name": "Mannitol",
+          "ppm": 19000,
+          "parts": [
+            "Pericarp",
+            "Twig"
+          ]
+        },
+        {
+          "name": "Granatins",
+          "ppm": 15000,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Citric acid",
+          "ppm": 12300,
+          "parts": [
+            "Fruit Juice"
+          ]
+        },
+        {
+          "name": "Polyphenols",
+          "ppm": 10500,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "Inulin",
+          "ppm": 10000,
+          "parts": [
+            "Pericarp"
+          ]
+        },
+        {
+          "name": "Sorbitol",
+          "ppm": 9100,
+          "parts": [
+            "Twig"
+          ]
+        },
+        {
+          "name": "Piperidines",
+          "ppm": 8000,
+          "parts": [
+            "Root Bark",
+            "Stem Bark"
+          ]
+        },
+        {
+          "name": "Wax",
+          "ppm": 8000,
+          "parts": [
+            "Pericarp"
+          ]
+        }
+      ]
+    },
+    "arjuna": {
+      "dukeTaxon": "Terminalia arjuna",
+      "compoundCount": 65,
+      "parts": [
+        {
+          "part": "Bark",
+          "count": 29
+        },
+        {
+          "part": "Leaf",
+          "count": 18
+        },
+        {
+          "part": "Root Bark",
+          "count": 16
+        },
+        {
+          "part": "Fruit",
+          "count": 13
+        },
+        {
+          "part": "Heart Wood",
+          "count": 5
+        },
+        {
+          "part": "Flower",
+          "count": 4
+        },
+        {
+          "part": "Seed",
+          "count": 4
+        },
+        {
+          "part": "Stem",
+          "count": 4
+        },
+        {
+          "part": "Shoot",
+          "count": 3
+        },
+        {
+          "part": "Plant",
+          "count": 2
+        },
+        {
+          "part": "Wood",
+          "count": 2
+        },
+        {
+          "part": "Root",
+          "count": 2
+        },
+        {
+          "part": "Stem Bark",
+          "count": 2
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Arjunolic acid",
+          "ppm": 30000,
+          "parts": [
+            "Bark",
+            "Flower",
+            "Heart Wood",
+            "Leaf",
+            "Root Bark",
+            "Seed",
+            "Stem",
+            "Wood"
+          ]
+        },
+        {
+          "name": "Arjunetin",
+          "ppm": 1600,
+          "parts": [
+            "Bark",
+            "Leaf",
+            "Root Bark"
+          ]
+        },
+        {
+          "name": "Arjunolic acid-saponin",
+          "ppm": 1300,
+          "parts": [
+            "Heart Wood",
+            "Root Bark"
+          ]
+        },
+        {
+          "name": "β-Sitosterol",
+          "ppm": 1000,
+          "parts": [
+            "Bark",
+            "Fruit",
+            "Heart Wood",
+            "Leaf",
+            "Root",
+            "Root Bark"
+          ]
+        },
+        {
+          "name": "Arjunglucoside-ii",
+          "ppm": 933.3,
+          "parts": [
+            "Bark",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Castalagin",
+          "ppm": 692.3,
+          "parts": [
+            "Bark"
+          ]
+        },
+        {
+          "name": "(+)-Leucodelphinidin",
+          "ppm": 500,
+          "parts": [
+            "Heart Wood",
+            "Wood"
+          ]
+        },
+        {
+          "name": "Arjunglucoside i",
+          "ppm": 280,
+          "parts": [
+            "Bark",
+            "Root Bark"
+          ]
+        },
+        {
+          "name": "Ellagic acid",
+          "ppm": 250,
+          "parts": [
+            "Bark",
+            "Heart Wood",
+            "Leaf",
+            "Root Bark"
+          ]
+        },
+        {
+          "name": "2,3(S)-hhdp-d-glucoside",
+          "ppm": 190.3,
+          "parts": [
+            "Bark"
+          ]
+        },
+        {
+          "name": "Terchebulin",
+          "ppm": 174.6,
+          "parts": [
+            "Bark"
+          ]
+        },
+        {
+          "name": "Arjunic acid",
+          "ppm": 160,
+          "parts": [
+            "Bark",
+            "Flower",
+            "Leaf",
+            "Root Bark",
+            "Seed",
+            "Stem"
+          ]
+        }
+      ]
+    },
+    "ashwagandha": {
+      "dukeTaxon": "Withania somnifera",
+      "compoundCount": 146,
+      "parts": [
+        {
+          "part": "Plant",
+          "count": 51
+        },
+        {
+          "part": "Leaf",
+          "count": 44
+        },
+        {
+          "part": "Root",
+          "count": 43
+        },
+        {
+          "part": "Shoot",
+          "count": 9
+        },
+        {
+          "part": "Tissue Culture",
+          "count": 5
+        },
+        {
+          "part": "Stem Bark",
+          "count": 5
+        },
+        {
+          "part": "Fruit",
+          "count": 4
+        },
+        {
+          "part": "Seed Oil",
+          "count": 1
+        },
+        {
+          "part": "Seed",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Withaferin A",
+          "ppm": 8600,
+          "parts": [
+            "Leaf",
+            "Plant",
+            "Root",
+            "Shoot"
+          ]
+        },
+        {
+          "name": "Withanolide D",
+          "ppm": 3000,
+          "parts": [
+            "Leaf",
+            "Plant",
+            "Root",
+            "Shoot"
+          ]
+        },
+        {
+          "name": "Somniwithanolide",
+          "ppm": 1500,
+          "parts": [
+            "Stem Bark"
+          ]
+        },
+        {
+          "name": "Somniferanolide",
+          "ppm": 1400,
+          "parts": [
+            "Stem Bark"
+          ]
+        },
+        {
+          "name": "Withaniol",
+          "ppm": 800,
+          "parts": [
+            "Root"
+          ]
+        },
+        {
+          "name": "4-β-20-α-(R)-dihydroxy-1-oxo-5-β-6-β-epoxywith-2-enolide",
+          "ppm": 500,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Withasomnilide",
+          "ppm": 270,
+          "parts": [
+            "Stem Bark"
+          ]
+        },
+        {
+          "name": "Withasomniferanolide",
+          "ppm": 220,
+          "parts": [
+            "Stem Bark"
+          ]
+        },
+        {
+          "name": "β-Sitosterol",
+          "ppm": 200,
+          "parts": [
+            "Leaf",
+            "Root",
+            "Tissue Culture"
+          ]
+        },
+        {
+          "name": "5-α-20-α-(R)-dihydroxy-6-α-7-α-epoxy-1-oxowitha-2,24-dienolide",
+          "ppm": 180,
+          "parts": [
+            "Root"
+          ]
+        },
+        {
+          "name": "Somniferawithanolide",
+          "ppm": 150,
+          "parts": [
+            "Stem Bark"
+          ]
+        },
+        {
+          "name": "2-3-Dihydrowithaferin",
+          "ppm": 133,
+          "parts": [
+            "Leaf"
+          ]
+        }
+      ]
+    },
+    "bibhitaki": {
+      "dukeTaxon": "Terminalia bellirica",
+      "compoundCount": 54,
+      "parts": [
+        {
+          "part": "Fruit",
+          "count": 25
+        },
+        {
+          "part": "Seed",
+          "count": 12
+        },
+        {
+          "part": "Leaf",
+          "count": 11
+        },
+        {
+          "part": "Stem Bark",
+          "count": 9
+        },
+        {
+          "part": "Pericarp",
+          "count": 4
+        },
+        {
+          "part": "Bark",
+          "count": 3
+        },
+        {
+          "part": "Wood",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Bellericagenin b",
+          "ppm": 200,
+          "parts": [
+            "Stem Bark"
+          ]
+        },
+        {
+          "name": "Bellericaside a",
+          "ppm": 200,
+          "parts": [
+            "Stem Bark"
+          ]
+        },
+        {
+          "name": "Arjunglucoside i",
+          "ppm": 166.6,
+          "parts": [
+            "Stem Bark"
+          ]
+        },
+        {
+          "name": "Bellericaside b",
+          "ppm": 150,
+          "parts": [
+            "Stem Bark"
+          ]
+        },
+        {
+          "name": "Bellericoside",
+          "ppm": 100,
+          "parts": [
+            "Stem Bark"
+          ]
+        },
+        {
+          "name": "Bellericagenin a",
+          "ppm": 15,
+          "parts": [
+            "Stem Bark"
+          ]
+        }
+      ]
+    },
+    "brahmi": {
+      "dukeTaxon": "Bacopa monnieri",
+      "compoundCount": 43,
+      "parts": [
+        {
+          "part": "Plant",
+          "count": 31
+        },
+        {
+          "part": "Shoot",
+          "count": 12
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Brahmine",
+          "ppm": 200,
+          "parts": [
+            "Plant"
+          ]
+        },
+        {
+          "name": "Nicotinic acid",
+          "ppm": 3,
+          "parts": [
+            "Shoot"
+          ]
+        }
+      ]
+    },
+    "curry-patta": {
+      "dukeTaxon": "Murraya koenigii",
+      "compoundCount": 148,
+      "parts": [
+        {
+          "part": "Leaf",
+          "count": 114
+        },
+        {
+          "part": "Plant",
+          "count": 21
+        },
+        {
+          "part": "Bark",
+          "count": 13
+        },
+        {
+          "part": "Seed",
+          "count": 5
+        },
+        {
+          "part": "Root",
+          "count": 4
+        },
+        {
+          "part": "Twig",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Sabinene",
+          "ppm": 11700,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "α-Pinene",
+          "ppm": 9880,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "β-Caryophyllene",
+          "ppm": 7540,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Caryophyllene",
+          "ppm": 6840,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "α-Phellandrene",
+          "ppm": 6240,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "β-Gurjunene",
+          "ppm": 5460,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Cadinene",
+          "ppm": 4730,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Cadinol",
+          "ppm": 3330,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "D-sabinene",
+          "ppm": 2390,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Dipentene",
+          "ppm": 1770,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "D-α-pinene",
+          "ppm": 1430,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Oxalic acid",
+          "ppm": 1320,
+          "parts": [
+            "Leaf"
+          ]
+        }
+      ]
+    },
+    "dalchini": {
+      "dukeTaxon": "Cinnamomum verum",
+      "compoundCount": 205,
+      "parts": [
+        {
+          "part": "Bark",
+          "count": 133
+        },
+        {
+          "part": "Leaf",
+          "count": 81
+        },
+        {
+          "part": "Root Bark",
+          "count": 52
+        },
+        {
+          "part": "Leaf Essent. Oil",
+          "count": 41
+        },
+        {
+          "part": "Stem Bark",
+          "count": 41
+        },
+        {
+          "part": "Bark Essent. Oil",
+          "count": 22
+        },
+        {
+          "part": "Plant",
+          "count": 17
+        },
+        {
+          "part": "Essential Oil",
+          "count": 8
+        },
+        {
+          "part": "Seed",
+          "count": 5
+        },
+        {
+          "part": "Root",
+          "count": 1
+        },
+        {
+          "part": "Twig",
+          "count": 1
+        },
+        {
+          "part": "Wood Essent. Oil",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Trans-cinnamaldehyde",
+          "ppm": 54000,
+          "parts": [
+            "Bark",
+            "Bark Essent. Oil",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Eugenol",
+          "ppm": 38270,
+          "parts": [
+            "Bark",
+            "Bark Essent. Oil",
+            "Essential Oil",
+            "Leaf",
+            "Leaf Essent. Oil",
+            "Root Bark",
+            "Stem Bark"
+          ]
+        },
+        {
+          "name": "Cinnamaldehyde",
+          "ppm": 30000,
+          "parts": [
+            "Bark",
+            "Bark Essent. Oil",
+            "Essential Oil",
+            "Leaf Essent. Oil",
+            "Root",
+            "Root Bark",
+            "Stem Bark"
+          ]
+        },
+        {
+          "name": "Benzyl-benzoate",
+          "ppm": 3895,
+          "parts": [
+            "Bark",
+            "Essential Oil",
+            "Leaf",
+            "Leaf Essent. Oil",
+            "Root Bark",
+            "Stem Bark"
+          ]
+        },
+        {
+          "name": "Cinnamyl-acetate",
+          "ppm": 2040,
+          "parts": [
+            "Bark",
+            "Leaf",
+            "Leaf Essent. Oil"
+          ]
+        },
+        {
+          "name": "Eugenyl-acetate",
+          "ppm": 1340,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Caryophyllene",
+          "ppm": 1316,
+          "parts": [
+            "Bark",
+            "Leaf",
+            "Root Bark"
+          ]
+        },
+        {
+          "name": "Terpinen-4-ol",
+          "ppm": 1160,
+          "parts": [
+            "Bark",
+            "Bark Essent. Oil",
+            "Leaf",
+            "Root Bark"
+          ]
+        },
+        {
+          "name": "Proanthocyanidin",
+          "ppm": 958,
+          "parts": [
+            "Bark"
+          ]
+        },
+        {
+          "name": "Linalool",
+          "ppm": 956,
+          "parts": [
+            "Bark",
+            "Bark Essent. Oil",
+            "Leaf",
+            "Leaf Essent. Oil",
+            "Root Bark",
+            "Stem Bark",
+            "Twig"
+          ]
+        },
+        {
+          "name": "1,8-Cineole",
+          "ppm": 800,
+          "parts": [
+            "Bark",
+            "Bark Essent. Oil",
+            "Essential Oil",
+            "Leaf",
+            "Leaf Essent. Oil",
+            "Root Bark",
+            "Stem Bark"
+          ]
+        },
+        {
+          "name": "Linalol",
+          "ppm": 740,
+          "parts": [
+            "Leaf"
+          ]
+        }
+      ]
+    },
+    "dhania": {
+      "dukeTaxon": "Coriandrum sativum",
+      "compoundCount": 246,
+      "parts": [
+        {
+          "part": "Fruit",
+          "count": 155
+        },
+        {
+          "part": "Leaf",
+          "count": 52
+        },
+        {
+          "part": "Essential Oil",
+          "count": 47
+        },
+        {
+          "part": "Seed Essent. Oil",
+          "count": 43
+        },
+        {
+          "part": "Plant",
+          "count": 32
+        },
+        {
+          "part": "Seed",
+          "count": 20
+        },
+        {
+          "part": "Shoot",
+          "count": 10
+        },
+        {
+          "part": "Seed Oil",
+          "count": 3
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Petroselinic acid",
+          "ppm": 718000,
+          "parts": [
+            "Fruit",
+            "Seed",
+            "Seed Oil"
+          ]
+        },
+        {
+          "name": "Furfurol",
+          "ppm": 60000,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "Linalool",
+          "ppm": 16900,
+          "parts": [
+            "Essential Oil",
+            "Fruit",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "α-Pinene",
+          "ppm": 13780,
+          "parts": [
+            "Essential Oil",
+            "Fruit",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "Coriandrol",
+          "ppm": 10250,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "Diphenylamine",
+          "ppm": 9500,
+          "parts": [
+            "Fruit",
+            "Plant"
+          ]
+        },
+        {
+          "name": "γ-Terpinene",
+          "ppm": 2626,
+          "parts": [
+            "Essential Oil",
+            "Fruit",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "7-Dodecenal",
+          "ppm": 2131,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Dodecanal",
+          "ppm": 1627,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Cis-p-coumaric acid",
+          "ppm": 1440,
+          "parts": [
+            "Fruit",
+            "Plant"
+          ]
+        },
+        {
+          "name": "Choline",
+          "ppm": 1387,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Cis-ferulic acid",
+          "ppm": 1360,
+          "parts": [
+            "Fruit",
+            "Plant"
+          ]
+        }
+      ]
+    },
+    "elaichi": {
+      "dukeTaxon": "Elettaria cardamomum",
+      "compoundCount": 151,
+      "parts": [
+        {
+          "part": "Fruit",
+          "count": 73
+        },
+        {
+          "part": "Seed",
+          "count": 58
+        },
+        {
+          "part": "Seed Essent. Oil",
+          "count": 30
+        },
+        {
+          "part": "Fruit Essent. Oil",
+          "count": 26
+        },
+        {
+          "part": "Seed Oil",
+          "count": 10
+        },
+        {
+          "part": "Root Essent. Oil",
+          "count": 9
+        },
+        {
+          "part": "Leaf",
+          "count": 5
+        },
+        {
+          "part": "Plant",
+          "count": 2
+        },
+        {
+          "part": "Pericarp",
+          "count": 2
+        },
+        {
+          "part": "Essential Oil",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "1,4-Cineole",
+          "ppm": 56000,
+          "parts": [
+            "Fruit",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "1,8-Cineole",
+          "ppm": 56000,
+          "parts": [
+            "Fruit",
+            "Fruit Essent. Oil",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "α-Terpinyl-acetate",
+          "ppm": 50000,
+          "parts": [
+            "Fruit",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "P-cymene",
+          "ppm": 28000,
+          "parts": [
+            "Fruit",
+            "Fruit Essent. Oil",
+            "Root Essent. Oil",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "Terpinen-4-ol",
+          "ppm": 23200,
+          "parts": [
+            "Fruit",
+            "Fruit Essent. Oil",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "Limonene",
+          "ppm": 9481,
+          "parts": [
+            "Fruit",
+            "Fruit Essent. Oil",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "Linalool",
+          "ppm": 8000,
+          "parts": [
+            "Fruit",
+            "Fruit Essent. Oil",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "Borneol",
+          "ppm": 8000,
+          "parts": [
+            "Fruit",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "Linalyl-acetate",
+          "ppm": 8000,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "α-Terpineol",
+          "ppm": 4300,
+          "parts": [
+            "Fruit",
+            "Fruit Essent. Oil",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "Choline",
+          "ppm": 4195,
+          "parts": [
+            "Pericarp",
+            "Seed"
+          ]
+        },
+        {
+          "name": "α-Thujene",
+          "ppm": 3047,
+          "parts": [
+            "Fruit",
+            "Root Essent. Oil"
+          ]
+        }
+      ]
+    },
+    "gokshura": {
+      "dukeTaxon": "Tribulus terrestris",
+      "compoundCount": 47,
+      "parts": [
+        {
+          "part": "Leaf",
+          "count": 15
+        },
+        {
+          "part": "Shoot",
+          "count": 11
+        },
+        {
+          "part": "Fruit",
+          "count": 7
+        },
+        {
+          "part": "Plant",
+          "count": 7
+        },
+        {
+          "part": "Flower",
+          "count": 7
+        },
+        {
+          "part": "Seed",
+          "count": 3
+        }
+      ],
+      "highestAmounts": []
+    },
+    "gudmar": {
+      "dukeTaxon": "Gymnema sylvestre",
+      "compoundCount": 86,
+      "parts": [
+        {
+          "part": "Leaf",
+          "count": 85
+        },
+        {
+          "part": "Plant",
+          "count": 2
+        },
+        {
+          "part": "Seed",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Gymnemic acid",
+          "ppm": 2500,
+          "parts": [
+            "Leaf",
+            "Plant",
+            "Seed"
+          ]
+        },
+        {
+          "name": "Gymnemic acid-vii",
+          "ppm": 333,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Gymnemasaponin-v",
+          "ppm": 160,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Gymnemic acid-ii",
+          "ppm": 160,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Gymnemaside-v",
+          "ppm": 133,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Gymnemic acid-i",
+          "ppm": 120,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Gymnemic acid-iii",
+          "ppm": 91,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Gymnemasin A",
+          "ppm": 83,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Gymnemoside A",
+          "ppm": 83,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Gymnemic acid-iv",
+          "ppm": 73,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Gymnemasin C",
+          "ppm": 73,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Gymnemasaponin-i",
+          "ppm": 60,
+          "parts": [
+            "Leaf"
+          ]
+        }
+      ]
+    },
+    "guggul": {
+      "dukeTaxon": "Commiphora wightii",
+      "compoundCount": 54,
+      "parts": [
+        {
+          "part": "Resin, Exudate, Sap",
+          "count": 25
+        },
+        {
+          "part": "Inflorescence",
+          "count": 15
+        },
+        {
+          "part": "Gum",
+          "count": 8
+        },
+        {
+          "part": "Flower",
+          "count": 8
+        },
+        {
+          "part": "Plant",
+          "count": 6
+        },
+        {
+          "part": "Shoot",
+          "count": 2
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Cis-guggulsterone",
+          "ppm": 12000,
+          "parts": [
+            "Inflorescence",
+            "Plant",
+            "Resin, Exudate, Sap"
+          ]
+        },
+        {
+          "name": "Allyl-cembrol",
+          "ppm": 2620,
+          "parts": [
+            "Shoot"
+          ]
+        },
+        {
+          "name": "Mukulol",
+          "ppm": 1350,
+          "parts": [
+            "Resin, Exudate, Sap"
+          ]
+        },
+        {
+          "name": "Cembrene A",
+          "ppm": 400,
+          "parts": [
+            "Resin, Exudate, Sap"
+          ]
+        },
+        {
+          "name": "(+)-Sesamin",
+          "ppm": 60,
+          "parts": [
+            "Inflorescence"
+          ]
+        },
+        {
+          "name": "Trans-guggulsterone",
+          "ppm": 25,
+          "parts": [
+            "Inflorescence",
+            "Plant",
+            "Resin, Exudate, Sap"
+          ]
+        },
+        {
+          "name": "Guggulsterol-i",
+          "ppm": 18,
+          "parts": [
+            "Inflorescence",
+            "Resin, Exudate, Sap"
+          ]
+        },
+        {
+          "name": "Guggulsterol-iii",
+          "ppm": 2.3,
+          "parts": [
+            "Inflorescence",
+            "Resin, Exudate, Sap"
+          ]
+        },
+        {
+          "name": "Guggulsterol-ii",
+          "ppm": 1.8,
+          "parts": [
+            "Inflorescence",
+            "Resin, Exudate, Sap"
+          ]
+        }
+      ]
+    },
+    "aloe": {
+      "dukeTaxon": "Aloe vera",
+      "compoundCount": 269,
+      "parts": [
+        {
+          "part": "Plant",
+          "count": 104
+        },
+        {
+          "part": "Leaf",
+          "count": 103
+        },
+        {
+          "part": "Juice",
+          "count": 84
+        },
+        {
+          "part": "Shoot",
+          "count": 14
+        },
+        {
+          "part": "Stem Essent. Oil",
+          "count": 2
+        },
+        {
+          "part": "Root",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Aloins",
+          "ppm": 300000,
+          "parts": [
+            "Plant"
+          ]
+        },
+        {
+          "name": "Barbaloin",
+          "ppm": 42400,
+          "parts": [
+            "Juice",
+            "Leaf",
+            "Plant"
+          ]
+        },
+        {
+          "name": "10-Hydroxyaloin A",
+          "ppm": 3535,
+          "parts": [
+            "Juice"
+          ]
+        },
+        {
+          "name": "10-Hydroxyaloin B",
+          "ppm": 2172,
+          "parts": [
+            "Juice"
+          ]
+        },
+        {
+          "name": "7-Hydroxy-8-o-methyl-aloin A",
+          "ppm": 2143,
+          "parts": [
+            "Juice"
+          ]
+        },
+        {
+          "name": "7-Hydroxy-8-o-methyl-aloin B",
+          "ppm": 1608,
+          "parts": [
+            "Juice"
+          ]
+        },
+        {
+          "name": "Isorabaichromone",
+          "ppm": 1457,
+          "parts": [
+            "Juice"
+          ]
+        },
+        {
+          "name": "Galactan",
+          "ppm": 100,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "8-C-glucosyl-7-o-methyl-aloediol",
+          "ppm": 71.6,
+          "parts": [
+            "Juice"
+          ]
+        },
+        {
+          "name": "Purine",
+          "ppm": 56,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "8-C-glucosyl-(s)-aloesol",
+          "ppm": 50.9,
+          "parts": [
+            "Juice"
+          ]
+        },
+        {
+          "name": "Aloe-emodin",
+          "ppm": 45.4,
+          "parts": [
+            "Juice",
+            "Leaf",
+            "Plant"
+          ]
+        }
+      ]
+    },
+    "haldi": {
+      "dukeTaxon": "Curcuma longa",
+      "compoundCount": 174,
+      "parts": [
+        {
+          "part": "Rhizome",
+          "count": 141
+        },
+        {
+          "part": "Plant",
+          "count": 35
+        },
+        {
+          "part": "Root",
+          "count": 22
+        },
+        {
+          "part": "Rhizome Essent. Oil",
+          "count": 20
+        },
+        {
+          "part": "Leaf",
+          "count": 15
+        },
+        {
+          "part": "Tuber",
+          "count": 14
+        },
+        {
+          "part": "Essential Oil",
+          "count": 2
+        },
+        {
+          "part": "Resin, Exudate, Sap",
+          "count": 1
+        },
+        {
+          "part": "Root Essent. Oil",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Curcumin",
+          "ppm": 175000,
+          "parts": [
+            "Plant",
+            "Resin, Exudate, Sap",
+            "Rhizome",
+            "Root"
+          ]
+        },
+        {
+          "name": "Curcuminoids",
+          "ppm": 80000,
+          "parts": [
+            "Root"
+          ]
+        },
+        {
+          "name": "Turmerone",
+          "ppm": 43200,
+          "parts": [
+            "Rhizome",
+            "Rhizome Essent. Oil",
+            "Root"
+          ]
+        },
+        {
+          "name": "Cyclo-isoprenemyrcene",
+          "ppm": 29750,
+          "parts": [
+            "Rhizome"
+          ]
+        },
+        {
+          "name": "Demethoxycurcumin",
+          "ppm": 28000,
+          "parts": [
+            "Plant",
+            "Rhizome",
+            "Root"
+          ]
+        },
+        {
+          "name": "Bis-demethoxycurcumin",
+          "ppm": 28000,
+          "parts": [
+            "Plant",
+            "Rhizome",
+            "Root"
+          ]
+        },
+        {
+          "name": "L-β-curcumene",
+          "ppm": 18000,
+          "parts": [
+            "Rhizome"
+          ]
+        },
+        {
+          "name": "L-α-curcumene",
+          "ppm": 18000,
+          "parts": [
+            "Rhizome"
+          ]
+        },
+        {
+          "name": "Zingiberene",
+          "ppm": 18000,
+          "parts": [
+            "Rhizome",
+            "Rhizome Essent. Oil",
+            "Root"
+          ]
+        },
+        {
+          "name": "1,8-Cineole",
+          "ppm": 9575,
+          "parts": [
+            "Leaf",
+            "Rhizome",
+            "Root"
+          ]
+        },
+        {
+          "name": "Cyclocurcumin",
+          "ppm": 8000,
+          "parts": [
+            "Rhizome"
+          ]
+        },
+        {
+          "name": "Ukonan A",
+          "ppm": 6600,
+          "parts": [
+            "Rhizome"
+          ]
+        }
+      ]
+    },
+    "hari-chai": {
+      "dukeTaxon": "Camellia sinensis",
+      "compoundCount": 637,
+      "parts": [
+        {
+          "part": "Leaf",
+          "count": 530
+        },
+        {
+          "part": "Shoot",
+          "count": 46
+        },
+        {
+          "part": "Plant",
+          "count": 33
+        },
+        {
+          "part": "Seed Oil",
+          "count": 29
+        },
+        {
+          "part": "Seed",
+          "count": 16
+        },
+        {
+          "part": "Leaf Essent. Oil",
+          "count": 15
+        },
+        {
+          "part": "Endosperm",
+          "count": 9
+        },
+        {
+          "part": "Anther",
+          "count": 6
+        },
+        {
+          "part": "Tissue Culture",
+          "count": 6
+        },
+        {
+          "part": "Stem",
+          "count": 5
+        },
+        {
+          "part": "Flower",
+          "count": 3
+        },
+        {
+          "part": "Pericarp",
+          "count": 2
+        },
+        {
+          "part": "Seed Coat",
+          "count": 2
+        },
+        {
+          "part": "Pollen Or Spore",
+          "count": 2
+        },
+        {
+          "part": "Cotyledon",
+          "count": 1
+        },
+        {
+          "part": "Fruit Essent. Oil",
+          "count": 1
+        },
+        {
+          "part": "Fruit",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Polyphenols",
+          "ppm": 390000,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Catechol-tannins",
+          "ppm": 200000,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Thearubigin",
+          "ppm": 157400,
+          "parts": [
+            "Leaf",
+            "Shoot"
+          ]
+        },
+        {
+          "name": "Caffeine",
+          "ppm": 93000,
+          "parts": [
+            "Anther",
+            "Flower",
+            "Leaf",
+            "Pericarp",
+            "Plant",
+            "Seed",
+            "Seed Coat",
+            "Shoot",
+            "Stem",
+            "Tissue Culture"
+          ]
+        },
+        {
+          "name": "L-gallocatechin-gallate",
+          "ppm": 79920,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Epigallocatechin-gallate",
+          "ppm": 75000,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Pectins",
+          "ppm": 65000,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Thearubigens",
+          "ppm": 59400,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "(-)-Epigallocatechin-gallate",
+          "ppm": 54300,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Theasinensin A",
+          "ppm": 48718,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Methyl-xanthines",
+          "ppm": 35000,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "(-)-Epicatechin",
+          "ppm": 32500,
+          "parts": [
+            "Flower",
+            "Leaf",
+            "Stem",
+            "Tissue Culture"
+          ]
+        }
+      ]
+    },
+    "haritaki": {
+      "dukeTaxon": "Terminalia chebula",
+      "compoundCount": 83,
+      "parts": [
+        {
+          "part": "Fruit",
+          "count": 57
+        },
+        {
+          "part": "Leaf",
+          "count": 15
+        },
+        {
+          "part": "Seed Oil",
+          "count": 6
+        },
+        {
+          "part": "Plant",
+          "count": 5
+        },
+        {
+          "part": "Seed",
+          "count": 4
+        },
+        {
+          "part": "Stem Bark",
+          "count": 4
+        },
+        {
+          "part": "Pericarp",
+          "count": 3
+        },
+        {
+          "part": "Bark",
+          "count": 2
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Punicalagin",
+          "ppm": 51429,
+          "parts": [
+            "Fruit",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Shikimic acid",
+          "ppm": 22000,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "Quinic acid",
+          "ppm": 15000,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "Chebulinic acid",
+          "ppm": 11241.3,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "Chebulic acid",
+          "ppm": 8620.6,
+          "parts": [
+            "Fruit",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Corilagin",
+          "ppm": 8500,
+          "parts": [
+            "Fruit",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Chebulagic acid",
+          "ppm": 5300,
+          "parts": [
+            "Fruit",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Gallic acid",
+          "ppm": 4310,
+          "parts": [
+            "Fruit",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Ellagic acid",
+          "ppm": 690,
+          "parts": [
+            "Fruit",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Colosolic acid",
+          "ppm": 312.5,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Maslinic acid",
+          "ppm": 312.5,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Arjunglucoside i",
+          "ppm": 300,
+          "parts": [
+            "Pericarp",
+            "Stem Bark"
+          ]
+        }
+      ]
+    },
+    "hing": {
+      "dukeTaxon": "Ferula assa-foetida",
+      "compoundCount": 105,
+      "parts": [
+        {
+          "part": "Gum",
+          "count": 59
+        },
+        {
+          "part": "Essential Oil",
+          "count": 24
+        },
+        {
+          "part": "Plant",
+          "count": 8
+        },
+        {
+          "part": "Root",
+          "count": 8
+        },
+        {
+          "part": "Rhizome",
+          "count": 7
+        },
+        {
+          "part": "Resin, Exudate, Sap",
+          "count": 6
+        },
+        {
+          "part": "Seed Essent. Oil",
+          "count": 6
+        },
+        {
+          "part": "Seed",
+          "count": 3
+        },
+        {
+          "part": "Fruit",
+          "count": 2
+        },
+        {
+          "part": "Resin Essent. Oil",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Petroselinic acid",
+          "ppm": 765000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Ferulic acid-esters",
+          "ppm": 600000,
+          "parts": [
+            "Resin, Exudate, Sap"
+          ]
+        },
+        {
+          "name": "α-Pinene",
+          "ppm": 143000,
+          "parts": [
+            "Essential Oil",
+            "Gum",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "Phellandrene",
+          "ppm": 64000,
+          "parts": [
+            "Gum",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "Galbanic acid",
+          "ppm": 20600,
+          "parts": [
+            "Gum"
+          ]
+        },
+        {
+          "name": "Farnesiferol C",
+          "ppm": 16666,
+          "parts": [
+            "Gum",
+            "Root"
+          ]
+        },
+        {
+          "name": "Ferulic acid",
+          "ppm": 13000,
+          "parts": [
+            "Essential Oil",
+            "Gum",
+            "Resin, Exudate, Sap"
+          ]
+        },
+        {
+          "name": "Sec-butyl-propenyl-disulfide",
+          "ppm": 7650,
+          "parts": [
+            "Essential Oil",
+            "Resin, Exudate, Sap"
+          ]
+        },
+        {
+          "name": "Jaeschkeanadiol",
+          "ppm": 6100,
+          "parts": [
+            "Rhizome"
+          ]
+        },
+        {
+          "name": "Farnesiferol A",
+          "ppm": 6000,
+          "parts": [
+            "Gum"
+          ]
+        },
+        {
+          "name": "Samarcandin-acetate",
+          "ppm": 4000,
+          "parts": [
+            "Gum"
+          ]
+        },
+        {
+          "name": "Karatavicinol",
+          "ppm": 3000,
+          "parts": [
+            "Gum"
+          ]
+        }
+      ]
+    },
+    "isabgol": {
+      "dukeTaxon": "Plantago ovata",
+      "compoundCount": 83,
+      "parts": [
+        {
+          "part": "Seed",
+          "count": 47
+        },
+        {
+          "part": "Seed Coat",
+          "count": 34
+        },
+        {
+          "part": "Plant",
+          "count": 5
+        },
+        {
+          "part": "Seed Oil",
+          "count": 4
+        },
+        {
+          "part": "Endosperm",
+          "count": 1
+        },
+        {
+          "part": "Leaf",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Arabinoxylans",
+          "ppm": 255000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Fixed-oil",
+          "ppm": 88000,
+          "parts": [
+            "Endosperm"
+          ]
+        },
+        {
+          "name": "Lignoceric acid",
+          "ppm": 400,
+          "parts": [
+            "Seed"
+          ]
+        }
+      ]
+    },
+    "jaiphal": {
+      "dukeTaxon": "Myristica fragrans",
+      "compoundCount": 180,
+      "parts": [
+        {
+          "part": "Seed",
+          "count": 111
+        },
+        {
+          "part": "Essential Oil",
+          "count": 66
+        },
+        {
+          "part": "Seed Essent. Oil",
+          "count": 59
+        },
+        {
+          "part": "Aril",
+          "count": 32
+        },
+        {
+          "part": "Plant",
+          "count": 15
+        },
+        {
+          "part": "Leaf Essent. Oil",
+          "count": 8
+        },
+        {
+          "part": "Fruit",
+          "count": 5
+        },
+        {
+          "part": "Leaf",
+          "count": 3
+        },
+        {
+          "part": "Bark",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Amylodextrin",
+          "ppm": 250000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "D-β-pinene",
+          "ppm": 64000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "D-α-pinene",
+          "ppm": 64000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Macilenic acid",
+          "ppm": 50000,
+          "parts": [
+            "Aril"
+          ]
+        },
+        {
+          "name": "Macilolic acid",
+          "ppm": 50000,
+          "parts": [
+            "Aril"
+          ]
+        },
+        {
+          "name": "Sabinene",
+          "ppm": 43360,
+          "parts": [
+            "Essential Oil",
+            "Seed",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "D-borneol",
+          "ppm": 25600,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Furfural",
+          "ppm": 15000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Furfurol",
+          "ppm": 15000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Dipentene",
+          "ppm": 12800,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Myristicin",
+          "ppm": 12800,
+          "parts": [
+            "Essential Oil",
+            "Fruit",
+            "Leaf",
+            "Leaf Essent. Oil",
+            "Seed",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "α-Terpineol",
+          "ppm": 9600,
+          "parts": [
+            "Essential Oil",
+            "Seed",
+            "Seed Essent. Oil"
+          ]
+        }
+      ]
+    },
+    "jatamansi": {
+      "dukeTaxon": "Nardostachys jatamansi",
+      "compoundCount": 42,
+      "parts": [
+        {
+          "part": "Root",
+          "count": 33
+        },
+        {
+          "part": "Plant",
+          "count": 9
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "β-Ionone",
+          "ppm": 180,
+          "parts": [
+            "Root"
+          ]
+        },
+        {
+          "name": "1(10)-Aristolen-2-one",
+          "ppm": 120,
+          "parts": [
+            "Root"
+          ]
+        },
+        {
+          "name": "18,9,10-Dehydroaristolan0ne-(2)",
+          "ppm": 40,
+          "parts": [
+            "Root"
+          ]
+        }
+      ]
+    },
     "jeera": {
       "dukeTaxon": "Cuminum cyminum",
       "compoundCount": 115,
@@ -557,102 +2999,2055 @@ export default {
         }
       ]
     },
-    "ajwain": {
-      "dukeTaxon": "Trachyspermum ammi",
-      "compoundCount": 38,
+    "kali-mirch": {
+      "dukeTaxon": "Piper nigrum",
+      "compoundCount": 302,
       "parts": [
         {
           "part": "Fruit",
-          "count": 35
+          "count": 238
+        },
+        {
+          "part": "Fruit Essent. Oil",
+          "count": 86
+        },
+        {
+          "part": "Seed Essent. Oil",
+          "count": 24
+        },
+        {
+          "part": "Essential Oil",
+          "count": 13
+        },
+        {
+          "part": "Seed",
+          "count": 8
+        },
+        {
+          "part": "Stem",
+          "count": 8
+        },
+        {
+          "part": "Leaf",
+          "count": 7
+        },
+        {
+          "part": "Leaf Essent. Oil",
+          "count": 6
         },
         {
           "part": "Plant",
-          "count": 4
+          "count": 6
+        },
+        {
+          "part": "Seed Oil",
+          "count": 2
+        },
+        {
+          "part": "Resin, Exudate, Sap",
+          "count": 2
+        },
+        {
+          "part": "Root",
+          "count": 1
+        },
+        {
+          "part": "Shoot",
+          "count": 1
         }
       ],
       "highestAmounts": [
         {
-          "name": "Thymol",
-          "ppm": 33000,
+          "name": "Carbohydrate",
+          "ppm": 648100,
           "parts": [
             "Fruit"
           ]
         },
         {
-          "name": "γ-Terpinene",
-          "ppm": 13960,
+          "name": "Polysaccharides",
+          "ppm": 450000,
           "parts": [
             "Fruit"
           ]
         },
         {
-          "name": "P-cymene",
-          "ppm": 9512,
+          "name": "Piperine",
+          "ppm": 90000,
+          "parts": [
+            "Fruit",
+            "Leaf",
+            "Leaf Essent. Oil",
+            "Root",
+            "Seed",
+            "Seed Essent. Oil",
+            "Seed Oil",
+            "Shoot",
+            "Stem"
+          ]
+        },
+        {
+          "name": "Oxalic acid",
+          "ppm": 34000,
           "parts": [
             "Fruit"
           ]
         },
         {
-          "name": "Phytin-phosphorus",
-          "ppm": 3197,
+          "name": "Trans-trans-piperine",
+          "ppm": 30000,
           "parts": [
             "Fruit"
           ]
         },
         {
-          "name": "Carvacrol",
-          "ppm": 2720,
+          "name": "Sabinene",
+          "ppm": 10000,
+          "parts": [
+            "Fruit",
+            "Fruit Essent. Oil",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "Piperettine",
+          "ppm": 8200,
           "parts": [
             "Fruit"
           ]
         },
         {
           "name": "Limonene",
-          "ppm": 2040,
+          "ppm": 8000,
           "parts": [
-            "Fruit"
+            "Fruit",
+            "Fruit Essent. Oil",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "Caryophyllene",
+          "ppm": 6000,
+          "parts": [
+            "Fruit",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "Tocopherols",
+          "ppm": 5400,
+          "parts": [
+            "Fruit",
+            "Resin, Exudate, Sap"
           ]
         },
         {
           "name": "β-Pinene",
-          "ppm": 1400,
+          "ppm": 4800,
           "parts": [
-            "Fruit"
+            "Essential Oil",
+            "Fruit",
+            "Fruit Essent. Oil",
+            "Seed Essent. Oil"
           ]
         },
         {
           "name": "α-Pinene",
-          "ppm": 720,
+          "ppm": 4800,
+          "parts": [
+            "Essential Oil",
+            "Fruit",
+            "Fruit Essent. Oil",
+            "Seed Essent. Oil"
+          ]
+        }
+      ]
+    },
+    "kalmegh": {
+      "dukeTaxon": "Andrographis paniculata",
+      "compoundCount": 11,
+      "parts": [
+        {
+          "part": "Plant",
+          "count": 8
+        },
+        {
+          "part": "Root",
+          "count": 2
+        },
+        {
+          "part": "Tissue Culture",
+          "count": 1
+        }
+      ],
+      "highestAmounts": []
+    },
+    "kalonji": {
+      "dukeTaxon": "Nigella sativa",
+      "compoundCount": 97,
+      "parts": [
+        {
+          "part": "Seed",
+          "count": 68
+        },
+        {
+          "part": "Seed Oil",
+          "count": 38
+        },
+        {
+          "part": "Seed Essent. Oil",
+          "count": 4
+        },
+        {
+          "part": "Plant",
+          "count": 3
+        },
+        {
+          "part": "Leaf",
+          "count": 2
+        },
+        {
+          "part": "Tissue Culture",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Fixed-oil",
+          "ppm": 380000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Eicosadienoic acid",
+          "ppm": 25000,
+          "parts": [
+            "Seed",
+            "Seed Oil"
+          ]
+        },
+        {
+          "name": "Arachidonic acid",
+          "ppm": 24900,
+          "parts": [
+            "Seed Oil"
+          ]
+        },
+        {
+          "name": "Melanthin",
+          "ppm": 15000,
+          "parts": [
+            "Plant",
+            "Seed"
+          ]
+        },
+        {
+          "name": "Hederagenin",
+          "ppm": 10000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Carvone",
+          "ppm": 9600,
+          "parts": [
+            "Seed",
+            "Seed Essent. Oil"
+          ]
+        },
+        {
+          "name": "β-Sitosterol",
+          "ppm": 3218,
+          "parts": [
+            "Seed",
+            "Seed Oil"
+          ]
+        },
+        {
+          "name": "Palmitoleic acid",
+          "ppm": 2000,
+          "parts": [
+            "Seed Oil"
+          ]
+        },
+        {
+          "name": "Quercetin-3-o-β-glucopyranosyl-(1,2)-o-β-galactopyranosyl-(1,2)-β-glucopyranoside",
+          "ppm": 1380,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Quercetin-3'-glucoside",
+          "ppm": 440,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Dehydroascorbic acid",
+          "ppm": 295,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Quercetin-3-o-(6-feruloyl-β-glucopyranosyl)-(1,2)-β-galactopyranosyl-(1,2)-β-glucopyranoside",
+          "ppm": 240,
+          "parts": [
+            "Seed"
+          ]
+        }
+      ]
+    },
+    "karela": {
+      "dukeTaxon": "Momordica charantia",
+      "compoundCount": 185,
+      "parts": [
+        {
+          "part": "Fruit",
+          "count": 99
+        },
+        {
+          "part": "Seed",
+          "count": 66
+        },
+        {
+          "part": "Leaf",
+          "count": 23
+        },
+        {
+          "part": "Seed Oil",
+          "count": 14
+        },
+        {
+          "part": "Pericarp",
+          "count": 11
+        },
+        {
+          "part": "Cotyledon",
+          "count": 7
+        },
+        {
+          "part": "Shoot",
+          "count": 6
+        },
+        {
+          "part": "Seed Essent. Oil",
+          "count": 6
+        },
+        {
+          "part": "Plant",
+          "count": 5
+        },
+        {
+          "part": "Tissue Culture",
+          "count": 4
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "α-Elaeostearic acid",
+          "ppm": 658900,
+          "parts": [
+            "Cotyledon",
+            "Seed"
+          ]
+        },
+        {
+          "name": "Inulin",
+          "ppm": 19000,
+          "parts": [
+            "Fruit",
+            "Tissue Culture"
+          ]
+        },
+        {
+          "name": "Vicine",
+          "ppm": 4000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Momordicin-ii",
+          "ppm": 1919,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Charantin",
+          "ppm": 1500,
+          "parts": [
+            "Fruit",
+            "Seed"
+          ]
+        },
+        {
+          "name": "Momordicoside A",
+          "ppm": 1287.4,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Momordicine-iii",
+          "ppm": 1200,
+          "parts": [
+            "Shoot"
+          ]
+        },
+        {
+          "name": "α-Momorcharin",
+          "ppm": 1000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "β-Momorcharin",
+          "ppm": 800,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Momordicoside-e-1",
+          "ppm": 756,
           "parts": [
             "Fruit"
           ]
         },
         {
-          "name": "δ-3-Carene",
-          "ppm": 320,
+          "name": "Momordicine-i",
+          "ppm": 700,
+          "parts": [
+            "Shoot"
+          ]
+        },
+        {
+          "name": "Momordicine-ii",
+          "ppm": 700,
+          "parts": [
+            "Leaf",
+            "Shoot"
+          ]
+        }
+      ]
+    },
+    "kesar": {
+      "dukeTaxon": "Crocus sativus",
+      "compoundCount": 149,
+      "parts": [
+        {
+          "part": "Silk Stigma Style",
+          "count": 106
+        },
+        {
+          "part": "Bulb",
+          "count": 24
+        },
+        {
+          "part": "Flower",
+          "count": 14
+        },
+        {
+          "part": "Plant",
+          "count": 4
+        },
+        {
+          "part": "Tissue Culture",
+          "count": 3
+        },
+        {
+          "part": "Essential Oil",
+          "count": 2
+        },
+        {
+          "part": "Pollen Or Spore",
+          "count": 1
+        },
+        {
+          "part": "Petiole",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Safranal",
+          "ppm": 405000,
+          "parts": [
+            "Silk Stigma Style"
+          ]
+        },
+        {
+          "name": "Terpinen-4-ol",
+          "ppm": 265000,
+          "parts": [
+            "Silk Stigma Style"
+          ]
+        },
+        {
+          "name": "Crocin",
+          "ppm": 145000,
+          "parts": [
+            "Flower",
+            "Silk Stigma Style",
+            "Tissue Culture"
+          ]
+        },
+        {
+          "name": "Crocetin-(β-d-gentiobiosyl)-(β-d-glucosyl)-ester",
+          "ppm": 61000,
+          "parts": [
+            "Silk Stigma Style"
+          ]
+        },
+        {
+          "name": "Picrocrocin",
+          "ppm": 36000,
+          "parts": [
+            "Essential Oil",
+            "Flower",
+            "Silk Stigma Style",
+            "Tissue Culture"
+          ]
+        },
+        {
+          "name": "Crocin-1",
+          "ppm": 20000,
+          "parts": [
+            "Silk Stigma Style"
+          ]
+        },
+        {
+          "name": "α-Crocetin",
+          "ppm": 17500,
+          "parts": [
+            "Flower",
+            "Silk Stigma Style"
+          ]
+        },
+        {
+          "name": "Mangicrocin",
+          "ppm": 10800,
+          "parts": [
+            "Silk Stigma Style"
+          ]
+        },
+        {
+          "name": "Crocetin-di-(β-d-glucosyl)-ester",
+          "ppm": 8000,
+          "parts": [
+            "Silk Stigma Style"
+          ]
+        },
+        {
+          "name": "13-Cis-crocin",
+          "ppm": 400,
+          "parts": [
+            "Silk Stigma Style"
+          ]
+        },
+        {
+          "name": "β-Crocetin",
+          "ppm": 300,
+          "parts": [
+            "Silk Stigma Style"
+          ]
+        },
+        {
+          "name": "3,8-Dihydroxy-1-methylanthraquinone-2-carboxylic acid",
+          "ppm": 40,
+          "parts": [
+            "Tissue Culture"
+          ]
+        }
+      ]
+    },
+    "kudampuli": {
+      "dukeTaxon": "Garcinia cambogia",
+      "compoundCount": 11,
+      "parts": [
+        {
+          "part": "Fruit",
+          "count": 4
+        },
+        {
+          "part": "Bark",
+          "count": 3
+        },
+        {
+          "part": "Latex Exudate",
+          "count": 2
+        },
+        {
+          "part": "Pericarp",
+          "count": 2
+        },
+        {
+          "part": "Plant",
+          "count": 1
+        },
+        {
+          "part": "Root",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Garcinol",
+          "ppm": 370000,
+          "parts": [
+            "Bark",
+            "Latex Exudate"
+          ]
+        },
+        {
+          "name": "(-)-Hydroxycitric acid",
+          "ppm": 180000,
+          "parts": [
+            "Fruit",
+            "Pericarp"
+          ]
+        },
+        {
+          "name": "Cambogin",
+          "ppm": 55000,
+          "parts": [
+            "Latex Exudate"
+          ]
+        },
+        {
+          "name": "Rheediaxanthone A",
+          "ppm": 500,
+          "parts": [
+            "Bark"
+          ]
+        },
+        {
+          "name": "Isogarcinol",
+          "ppm": 8,
+          "parts": [
+            "Bark"
+          ]
+        },
+        {
+          "name": "Garbogiol",
+          "ppm": 1,
+          "parts": [
+            "Root"
+          ]
+        }
+      ]
+    },
+    "lahsun": {
+      "dukeTaxon": "Allium sativum var. sativum",
+      "compoundCount": 447,
+      "parts": [
+        {
+          "part": "Bulb",
+          "count": 405
+        },
+        {
+          "part": "Leaf",
+          "count": 44
+        },
+        {
+          "part": "Root",
+          "count": 36
+        },
+        {
+          "part": "Plant",
+          "count": 22
+        },
+        {
+          "part": "Shoot",
+          "count": 19
+        },
+        {
+          "part": "Essential Oil",
+          "count": 18
+        },
+        {
+          "part": "Flower",
+          "count": 15
+        },
+        {
+          "part": "Fruit Juice",
+          "count": 13
+        },
+        {
+          "part": "Tissue Culture",
+          "count": 5
+        },
+        {
+          "part": "Bud",
+          "count": 3
+        },
+        {
+          "part": "Tuber",
+          "count": 2
+        },
+        {
+          "part": "Fruit Essent. Oil",
+          "count": 1
+        },
+        {
+          "part": "Epidermis",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "γ-L-glutamyl-cysteines",
+          "ppm": 45715,
+          "parts": [
+            "Bulb"
+          ]
+        },
+        {
+          "name": "Scordinin A",
+          "ppm": 39000,
+          "parts": [
+            "Bulb"
+          ]
+        },
+        {
+          "name": "Scordonin A",
+          "ppm": 39000,
+          "parts": [
+            "Bulb"
+          ]
+        },
+        {
+          "name": "Scordinine A-1",
+          "ppm": 30000,
+          "parts": [
+            "Bulb"
+          ]
+        },
+        {
+          "name": "Scorodinin A-1",
+          "ppm": 30000,
+          "parts": [
+            "Bulb"
+          ]
+        },
+        {
+          "name": "Alliinase",
+          "ppm": 28500,
+          "parts": [
+            "Bulb"
+          ]
+        },
+        {
+          "name": "Allicin",
+          "ppm": 27800,
+          "parts": [
+            "Bulb"
+          ]
+        },
+        {
+          "name": "γ-Glutamyl-s-trans-1-propenylcysteine",
+          "ppm": 25715,
+          "parts": [
+            "Bulb"
+          ]
+        },
+        {
+          "name": "γ-Glutamyl-s-allylcysteine",
+          "ppm": 17145,
+          "parts": [
+            "Bulb"
+          ]
+        },
+        {
+          "name": "Allin",
+          "ppm": 13000,
+          "parts": [
+            "Bulb"
+          ]
+        },
+        {
+          "name": "Thiosulfinates",
+          "ppm": 11800,
+          "parts": [
+            "Bulb"
+          ]
+        },
+        {
+          "name": "Allyl-2-propenethiosulfinate",
+          "ppm": 11430,
+          "parts": [
+            "Bulb"
+          ]
+        }
+      ]
+    },
+    "laung": {
+      "dukeTaxon": "Syzygium aromaticum",
+      "compoundCount": 226,
+      "parts": [
+        {
+          "part": "Fruit",
+          "count": 143
+        },
+        {
+          "part": "Leaf",
+          "count": 56
+        },
+        {
+          "part": "Plant",
+          "count": 28
+        },
+        {
+          "part": "Essential Oil",
+          "count": 24
+        },
+        {
+          "part": "Bark",
+          "count": 9
+        },
+        {
+          "part": "Stem",
+          "count": 4
+        },
+        {
+          "part": "Seed",
+          "count": 3
+        },
+        {
+          "part": "Leaf Essent. Oil",
+          "count": 1
+        },
+        {
+          "part": "Bulb",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Eugenol",
+          "ppm": 180000,
+          "parts": [
+            "Bark",
+            "Bulb",
+            "Essential Oil",
+            "Fruit",
+            "Leaf",
+            "Leaf Essent. Oil",
+            "Stem"
+          ]
+        },
+        {
+          "name": "β-Caryophyllene",
+          "ppm": 69365,
+          "parts": [
+            "Essential Oil",
+            "Fruit",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Eugenyl-acetate",
+          "ppm": 56700,
           "parts": [
             "Fruit"
           ]
         },
         {
-          "name": "Camphene",
-          "ppm": 252,
+          "name": "α-Cubebene",
+          "ppm": 37800,
+          "parts": [
+            "Fruit",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Oleanolic acid",
+          "ppm": 20000,
+          "parts": [
+            "Essential Oil",
+            "Fruit",
+            "Seed"
+          ]
+        },
+        {
+          "name": "Gallic acid",
+          "ppm": 12600,
           "parts": [
             "Fruit"
           ]
         },
         {
-          "name": "Myrcene",
-          "ppm": 120,
+          "name": "1-Degalloyl-eugeniin",
+          "ppm": 12175,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Eugeniin",
+          "ppm": 8950,
+          "parts": [
+            "Fruit",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Caryophyllene",
+          "ppm": 8160,
+          "parts": [
+            "Essential Oil",
+            "Fruit"
+          ]
+        },
+        {
+          "name": "Ellagitannin",
+          "ppm": 3200,
           "parts": [
             "Fruit"
           ]
         },
         {
-          "name": "Nicotinic acid",
-          "ppm": 23,
+          "name": "Caryophyllene-oxide",
+          "ppm": 2455,
+          "parts": [
+            "Essential Oil",
+            "Fruit",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "β-Sitosterol",
+          "ppm": 2420,
+          "parts": [
+            "Essential Oil",
+            "Fruit"
+          ]
+        }
+      ]
+    },
+    "mandukparni": {
+      "dukeTaxon": "Centella asiatica",
+      "compoundCount": 151,
+      "parts": [
+        {
+          "part": "Plant",
+          "count": 72
+        },
+        {
+          "part": "Leaf",
+          "count": 43
+        },
+        {
+          "part": "Shoot",
+          "count": 40
+        },
+        {
+          "part": "Essential Oil",
+          "count": 16
+        },
+        {
+          "part": "Bark",
+          "count": 1
+        },
+        {
+          "part": "Root",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Isobrahmic acid",
+          "ppm": 9000,
+          "parts": [
+            "Plant"
+          ]
+        },
+        {
+          "name": "Indocentelloside",
+          "ppm": 4000,
+          "parts": [
+            "Plant"
+          ]
+        },
+        {
+          "name": "Brahmoside",
+          "ppm": 3700,
+          "parts": [
+            "Plant"
+          ]
+        },
+        {
+          "name": "Brahminoside",
+          "ppm": 1600,
+          "parts": [
+            "Plant"
+          ]
+        },
+        {
+          "name": "Asiaticoside",
+          "ppm": 1200,
+          "parts": [
+            "Leaf",
+            "Plant",
+            "Shoot"
+          ]
+        },
+        {
+          "name": "Betulinic acid",
+          "ppm": 1100,
+          "parts": [
+            "Plant"
+          ]
+        },
+        {
+          "name": "Betulic acid",
+          "ppm": 1100,
+          "parts": [
+            "Plant"
+          ]
+        },
+        {
+          "name": "Brahmic acid",
+          "ppm": 970,
+          "parts": [
+            "Plant"
+          ]
+        },
+        {
+          "name": "Stigmasterol",
+          "ppm": 40,
+          "parts": [
+            "Essential Oil",
+            "Plant"
+          ]
+        },
+        {
+          "name": "Hydrocotyline",
+          "ppm": 16,
+          "parts": [
+            "Plant"
+          ]
+        },
+        {
+          "name": "Meso-inositol",
+          "ppm": 15,
+          "parts": [
+            "Plant"
+          ]
+        },
+        {
+          "name": "Thiamine",
+          "ppm": 14,
+          "parts": [
+            "Leaf"
+          ]
+        }
+      ]
+    },
+    "manjistha": {
+      "dukeTaxon": "Rubia cordifolia",
+      "compoundCount": 37,
+      "parts": [
+        {
+          "part": "Root",
+          "count": 22
+        },
+        {
+          "part": "Plant",
+          "count": 15
+        }
+      ],
+      "highestAmounts": []
+    },
+    "methi": {
+      "dukeTaxon": "Trigonella foenum-graecum",
+      "compoundCount": 257,
+      "parts": [
+        {
+          "part": "Seed",
+          "count": 188
+        },
+        {
+          "part": "Plant",
+          "count": 59
+        },
+        {
+          "part": "Leaf",
+          "count": 38
+        },
+        {
+          "part": "Tissue Culture",
+          "count": 10
+        },
+        {
+          "part": "Stem",
+          "count": 10
+        },
+        {
+          "part": "Fruit",
+          "count": 9
+        },
+        {
+          "part": "Seed Oil",
+          "count": 8
+        },
+        {
+          "part": "Root",
+          "count": 7
+        },
+        {
+          "part": "Sprout Seedling",
+          "count": 5
+        },
+        {
+          "part": "Pericarp",
+          "count": 4
+        },
+        {
+          "part": "Flower",
+          "count": 2
+        },
+        {
+          "part": "Shoot",
+          "count": 1
+        },
+        {
+          "part": "Cotyledon",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Octadecatrienoic acid",
+          "ppm": 300000,
+          "parts": [
+            "Seed Oil"
+          ]
+        },
+        {
+          "name": "Mucin",
+          "ppm": 280000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Polysaccharides",
+          "ppm": 280000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Fixed-oil",
+          "ppm": 200000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Phytate",
+          "ppm": 29760,
+          "parts": [
+            "Fruit",
+            "Seed"
+          ]
+        },
+        {
+          "name": "Flavonols",
+          "ppm": 27400,
+          "parts": [
+            "Fruit",
+            "Seed"
+          ]
+        },
+        {
+          "name": "Diosgenin",
+          "ppm": 19000,
+          "parts": [
+            "Leaf",
+            "Pericarp",
+            "Plant",
+            "Root",
+            "Seed",
+            "Sprout Seedling",
+            "Stem",
+            "Tissue Culture"
+          ]
+        },
+        {
+          "name": "Choline",
+          "ppm": 13500,
+          "parts": [
+            "Leaf",
+            "Seed"
+          ]
+        },
+        {
+          "name": "4-Hydroxyisoleucine",
+          "ppm": 7400,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Catechols",
+          "ppm": 5100,
+          "parts": [
+            "Fruit",
+            "Seed"
+          ]
+        },
+        {
+          "name": "Trigonelline",
+          "ppm": 4000,
+          "parts": [
+            "Cotyledon",
+            "Plant",
+            "Seed",
+            "Tissue Culture"
+          ]
+        },
+        {
+          "name": "Yamogenin",
+          "ppm": 3100,
+          "parts": [
+            "Leaf",
+            "Root",
+            "Seed",
+            "Stem"
+          ]
+        }
+      ]
+    },
+    "mulethi": {
+      "dukeTaxon": "Glycyrrhiza glabra",
+      "compoundCount": 408,
+      "parts": [
+        {
+          "part": "Root",
+          "count": 280
+        },
+        {
+          "part": "Root Essent. Oil",
+          "count": 63
+        },
+        {
+          "part": "Plant",
+          "count": 36
+        },
+        {
+          "part": "Rhizome",
+          "count": 24
+        },
+        {
+          "part": "Shoot",
+          "count": 21
+        },
+        {
+          "part": "Rhizome Essent. Oil",
+          "count": 16
+        },
+        {
+          "part": "Tissue Culture",
+          "count": 7
+        },
+        {
+          "part": "Leaf",
+          "count": 5
+        },
+        {
+          "part": "Seed",
+          "count": 4
+        },
+        {
+          "part": "Stem",
+          "count": 3
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Glycyrrhizic acid",
+          "ppm": 240000,
+          "parts": [
+            "Plant"
+          ]
+        },
+        {
+          "name": "Glycyrrhizin",
+          "ppm": 152000,
+          "parts": [
+            "Leaf",
+            "Rhizome",
+            "Root",
+            "Stem",
+            "Tissue Culture"
+          ]
+        },
+        {
+          "name": "18-β-Glycyrrhetinic acid",
+          "ppm": 95200,
+          "parts": [
+            "Root"
+          ]
+        },
+        {
+          "name": "Benzaldehyde",
+          "ppm": 75000,
+          "parts": [
+            "Rhizome Essent. Oil",
+            "Root",
+            "Root Essent. Oil"
+          ]
+        },
+        {
+          "name": "Glycyrrhiza-galactomannan",
+          "ppm": 50000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "β-Glycyrrhetinic acid",
+          "ppm": 43900,
+          "parts": [
+            "Root"
+          ]
+        },
+        {
+          "name": "Glycyrrhetinic acid-monoglucuronide",
+          "ppm": 22400,
+          "parts": [
+            "Root"
+          ]
+        },
+        {
+          "name": "Glycyrrhetinic acid",
+          "ppm": 22400,
+          "parts": [
+            "Rhizome",
+            "Root"
+          ]
+        },
+        {
+          "name": "Uralenic acid",
+          "ppm": 15000,
+          "parts": [
+            "Shoot"
+          ]
+        },
+        {
+          "name": "Uralozide acid",
+          "ppm": 15000,
+          "parts": [
+            "Shoot"
+          ]
+        },
+        {
+          "name": "Pinocembrin",
+          "ppm": 9700,
+          "parts": [
+            "Plant",
+            "Shoot"
+          ]
+        },
+        {
+          "name": "Isoliquiritigenin",
+          "ppm": 9610,
+          "parts": [
+            "Rhizome",
+            "Root"
+          ]
+        }
+      ]
+    },
+    "nariyal-tel": {
+      "dukeTaxon": "Cocos nucifera",
+      "compoundCount": 187,
+      "parts": [
+        {
+          "part": "Seed",
+          "count": 107
+        },
+        {
+          "part": "Leaf",
+          "count": 32
+        },
+        {
+          "part": "Endosperm",
+          "count": 29
+        },
+        {
+          "part": "Seed Oil",
+          "count": 26
+        },
+        {
+          "part": "Fruit",
+          "count": 8
+        },
+        {
+          "part": "Resin, Exudate, Sap",
+          "count": 7
+        },
+        {
+          "part": "Hull Husk",
+          "count": 7
+        },
+        {
+          "part": "Juice",
+          "count": 5
+        },
+        {
+          "part": "Root",
+          "count": 5
+        },
+        {
+          "part": "Plant",
+          "count": 4
+        },
+        {
+          "part": "Oil",
+          "count": 2
+        },
+        {
+          "part": "Pollen Or Spore",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Capric acid",
+          "ppm": 69743,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Caprylic acid",
+          "ppm": 68305,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Octanoic acid",
+          "ppm": 57520,
+          "parts": [
+            "Endosperm",
+            "Seed"
+          ]
+        },
+        {
+          "name": "Methoxyl",
+          "ppm": 56000,
+          "parts": [
+            "Hull Husk"
+          ]
+        },
+        {
+          "name": "Decanoic acid",
+          "ppm": 50330,
+          "parts": [
+            "Endosperm",
+            "Seed"
+          ]
+        },
+        {
+          "name": "Uronic-anhydrides",
+          "ppm": 35000,
+          "parts": [
+            "Hull Husk"
+          ]
+        },
+        {
+          "name": "Galactomannan",
+          "ppm": 16000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "D-sorbitol",
+          "ppm": 15000,
+          "parts": [
+            "Endosperm"
+          ]
+        },
+        {
+          "name": "Hexanoic acid",
+          "ppm": 7190,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Caproic acid",
+          "ppm": 3595,
+          "parts": [
+            "Endosperm",
+            "Seed"
+          ]
+        },
+        {
+          "name": "Scyllitol",
+          "ppm": 3200,
+          "parts": [
+            "Endosperm",
+            "Juice",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Phytate",
+          "ppm": 2370,
+          "parts": [
+            "Seed"
+          ]
+        }
+      ]
+    },
+    "neem": {
+      "dukeTaxon": "Azadirachta indica",
+      "compoundCount": 94,
+      "parts": [
+        {
+          "part": "Seed",
+          "count": 28
+        },
+        {
+          "part": "Leaf",
+          "count": 26
+        },
+        {
+          "part": "Fruit",
+          "count": 21
+        },
+        {
+          "part": "Stem Bark",
+          "count": 11
+        },
+        {
+          "part": "Plant",
+          "count": 9
+        },
+        {
+          "part": "Bark",
+          "count": 5
+        },
+        {
+          "part": "Flower",
+          "count": 5
+        },
+        {
+          "part": "Stem",
+          "count": 2
+        },
+        {
+          "part": "Wood",
+          "count": 2
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Nimbidin",
+          "ppm": 4000,
+          "parts": [
+            "Seed",
+            "Stem Bark"
+          ]
+        },
+        {
+          "name": "Kaempferol",
+          "ppm": 2000,
+          "parts": [
+            "Flower"
+          ]
+        },
+        {
+          "name": "Lignoceric acid",
+          "ppm": 1125,
           "parts": [
             "Fruit"
+          ]
+        },
+        {
+          "name": "Myricetin",
+          "ppm": 1000,
+          "parts": [
+            "Flower"
+          ]
+        },
+        {
+          "name": "Quercetin",
+          "ppm": 1000,
+          "parts": [
+            "Flower",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Nimbin",
+          "ppm": 400,
+          "parts": [
+            "Stem Bark"
+          ]
+        },
+        {
+          "name": "Nimbosterol",
+          "ppm": 300,
+          "parts": [
+            "Stem Bark"
+          ]
+        },
+        {
+          "name": "Nimbinin",
+          "ppm": 10,
+          "parts": [
+            "Stem Bark"
+          ]
+        }
+      ]
+    },
+    "nimbu": {
+      "dukeTaxon": "Citrus limon",
+      "compoundCount": 314,
+      "parts": [
+        {
+          "part": "Essential Oil",
+          "count": 92
+        },
+        {
+          "part": "Pericarp",
+          "count": 62
+        },
+        {
+          "part": "Petiole",
+          "count": 46
+        },
+        {
+          "part": "Fruit",
+          "count": 40
+        },
+        {
+          "part": "Leaf Essent. Oil",
+          "count": 38
+        },
+        {
+          "part": "Fruit Essent. Oil",
+          "count": 33
+        },
+        {
+          "part": "Plant",
+          "count": 31
+        },
+        {
+          "part": "Leaf",
+          "count": 29
+        },
+        {
+          "part": "Pericarp Essent. Oil",
+          "count": 20
+        },
+        {
+          "part": "Seed",
+          "count": 14
+        },
+        {
+          "part": "Flower",
+          "count": 9
+        },
+        {
+          "part": "Root",
+          "count": 7
+        },
+        {
+          "part": "Shoot",
+          "count": 4
+        },
+        {
+          "part": "Bark",
+          "count": 2
+        },
+        {
+          "part": "Tissue Culture",
+          "count": 2
+        },
+        {
+          "part": "Fruit Juice",
+          "count": 2
+        },
+        {
+          "part": "Pt",
+          "count": 2
+        },
+        {
+          "part": "Silk Stigma Style",
+          "count": 1
+        },
+        {
+          "part": "Sprout Seedling",
+          "count": 1
+        },
+        {
+          "part": "Exocarp",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Hesperidin",
+          "ppm": 68800,
+          "parts": [
+            "Fruit",
+            "Leaf",
+            "Pericarp"
+          ]
+        },
+        {
+          "name": "Citric acid",
+          "ppm": 59500,
+          "parts": [
+            "Fruit",
+            "Fruit Juice"
+          ]
+        },
+        {
+          "name": "Narirutin",
+          "ppm": 3600,
+          "parts": [
+            "Leaf",
+            "Pericarp"
+          ]
+        },
+        {
+          "name": "Limonene",
+          "ppm": 3090,
+          "parts": [
+            "Essential Oil",
+            "Fruit Essent. Oil",
+            "Leaf Essent. Oil",
+            "Petiole"
+          ]
+        },
+        {
+          "name": "β-Pinene",
+          "ppm": 595,
+          "parts": [
+            "Essential Oil",
+            "Fruit Essent. Oil",
+            "Leaf Essent. Oil",
+            "Pericarp",
+            "Pericarp Essent. Oil",
+            "Petiole"
+          ]
+        },
+        {
+          "name": "γ-Terpinene",
+          "ppm": 535,
+          "parts": [
+            "Essential Oil",
+            "Leaf Essent. Oil",
+            "Pericarp",
+            "Pericarp Essent. Oil",
+            "Petiole"
+          ]
+        },
+        {
+          "name": "Scoparone",
+          "ppm": 162.5,
+          "parts": [
+            "Bark",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "6,7-Dimethyoxycoumarin",
+          "ppm": 162,
+          "parts": [
+            "Bark"
+          ]
+        },
+        {
+          "name": "P-coumaric acid",
+          "ppm": 102,
+          "parts": [
+            "Fruit"
+          ]
+        },
+        {
+          "name": "Sabinene",
+          "ppm": 95,
+          "parts": [
+            "Essential Oil",
+            "Leaf Essent. Oil",
+            "Pericarp Essent. Oil",
+            "Petiole"
+          ]
+        },
+        {
+          "name": "α-Pinene",
+          "ppm": 90,
+          "parts": [
+            "Essential Oil",
+            "Fruit Essent. Oil",
+            "Leaf Essent. Oil",
+            "Pericarp",
+            "Pericarp Essent. Oil",
+            "Petiole"
+          ]
+        },
+        {
+          "name": "Geraniol",
+          "ppm": 80,
+          "parts": [
+            "Essential Oil",
+            "Leaf Essent. Oil",
+            "Pericarp",
+            "Petiole"
+          ]
+        }
+      ]
+    },
+    "pudina": {
+      "dukeTaxon": "Mentha spicata",
+      "compoundCount": 326,
+      "parts": [
+        {
+          "part": "Essential Oil",
+          "count": 211
+        },
+        {
+          "part": "Leaf",
+          "count": 118
+        },
+        {
+          "part": "Plant",
+          "count": 31
+        },
+        {
+          "part": "Shoot",
+          "count": 22
+        },
+        {
+          "part": "Inflorescence",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Carbohydrate",
+          "ppm": 588300,
+          "parts": [
+            "Plant"
+          ]
+        },
+        {
+          "name": "Rosmarinic acid",
+          "ppm": 43000,
+          "parts": [
+            "Inflorescence",
+            "Plant",
+            "Shoot"
+          ]
+        },
+        {
+          "name": "Carvone",
+          "ppm": 20000,
+          "parts": [
+            "Plant",
+            "Shoot"
+          ]
+        },
+        {
+          "name": "(+)-Piperitenone-oxide",
+          "ppm": 14250,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "(+)-Dihydrocarvone",
+          "ppm": 13750,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "(-)-Menthone",
+          "ppm": 10950,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "1,8-Cineole",
+          "ppm": 9375,
+          "parts": [
+            "Plant"
+          ]
+        },
+        {
+          "name": "Linalool",
+          "ppm": 9375,
+          "parts": [
+            "Essential Oil",
+            "Plant"
+          ]
+        },
+        {
+          "name": "Limonene",
+          "ppm": 9075,
+          "parts": [
+            "Essential Oil",
+            "Plant",
+            "Shoot"
+          ]
+        },
+        {
+          "name": "(+)-Pulegone",
+          "ppm": 8300,
+          "parts": [
+            "Essential Oil",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "(-)-Carvone",
+          "ppm": 6900,
+          "parts": [
+            "Essential Oil",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Dihydrocarvone",
+          "ppm": 4475,
+          "parts": [
+            "Essential Oil",
+            "Leaf",
+            "Shoot"
+          ]
+        }
+      ]
+    },
+    "sahjan": {
+      "dukeTaxon": "Moringa oleifera",
+      "compoundCount": 106,
+      "parts": [
+        {
+          "part": "Seed",
+          "count": 37
+        },
+        {
+          "part": "Shoot",
+          "count": 36
+        },
+        {
+          "part": "Leaf",
+          "count": 25
+        },
+        {
+          "part": "Fruit",
+          "count": 23
+        },
+        {
+          "part": "Stem",
+          "count": 8
+        },
+        {
+          "part": "Root",
+          "count": 7
+        },
+        {
+          "part": "Resin, Exudate, Sap",
+          "count": 6
+        },
+        {
+          "part": "Root Bark",
+          "count": 4
+        },
+        {
+          "part": "Flower",
+          "count": 2
+        },
+        {
+          "part": "Bark",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "4-(α-L-rhamnosyloxy)-benzylisothiocyanate",
+          "ppm": 100000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Glucosinolates",
+          "ppm": 70000,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Gadoleic acid",
+          "ppm": 12700,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "4-(α-L-rhamnosyloxy)-benzylglucocyanate",
+          "ppm": 10000,
+          "parts": [
+            "Root"
+          ]
+        },
+        {
+          "name": "Choline",
+          "ppm": 4230,
+          "parts": [
+            "Fruit",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Oxalic acid",
+          "ppm": 1010,
+          "parts": [
+            "Fruit",
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Glucotropaeolin",
+          "ppm": 500,
+          "parts": [
+            "Root"
+          ]
+        },
+        {
+          "name": "Tocopherols",
+          "ppm": 296,
+          "parts": [
+            "Leaf",
+            "Seed"
+          ]
+        },
+        {
+          "name": "Vit B-6",
+          "ppm": 56,
+          "parts": [
+            "Fruit",
+            "Shoot"
           ]
         }
       ]
@@ -836,2057 +5231,156 @@ export default {
         }
       ]
     },
-    "methi": {
-      "dukeTaxon": "Trigonella foenum-graecum",
-      "compoundCount": 257,
+    "shallaki": {
+      "dukeTaxon": "Boswellia serrata",
+      "compoundCount": 69,
       "parts": [
-        {
-          "part": "Seed",
-          "count": 188
-        },
-        {
-          "part": "Plant",
-          "count": 59
-        },
-        {
-          "part": "Leaf",
-          "count": 38
-        },
-        {
-          "part": "Tissue Culture",
-          "count": 10
-        },
-        {
-          "part": "Stem",
-          "count": 10
-        },
-        {
-          "part": "Fruit",
-          "count": 9
-        },
-        {
-          "part": "Seed Oil",
-          "count": 8
-        },
-        {
-          "part": "Root",
-          "count": 7
-        },
-        {
-          "part": "Sprout Seedling",
-          "count": 5
-        },
-        {
-          "part": "Pericarp",
-          "count": 4
-        },
-        {
-          "part": "Flower",
-          "count": 2
-        },
-        {
-          "part": "Shoot",
-          "count": 1
-        },
-        {
-          "part": "Cotyledon",
-          "count": 1
-        }
-      ],
-      "highestAmounts": [
-        {
-          "name": "Octadecatrienoic acid",
-          "ppm": 300000,
-          "parts": [
-            "Seed Oil"
-          ]
-        },
-        {
-          "name": "Mucin",
-          "ppm": 280000,
-          "parts": [
-            "Seed"
-          ]
-        },
-        {
-          "name": "Polysaccharides",
-          "ppm": 280000,
-          "parts": [
-            "Seed"
-          ]
-        },
-        {
-          "name": "Fixed-oil",
-          "ppm": 200000,
-          "parts": [
-            "Seed"
-          ]
-        },
-        {
-          "name": "Phytate",
-          "ppm": 29760,
-          "parts": [
-            "Fruit",
-            "Seed"
-          ]
-        },
-        {
-          "name": "Flavonols",
-          "ppm": 27400,
-          "parts": [
-            "Fruit",
-            "Seed"
-          ]
-        },
-        {
-          "name": "Diosgenin",
-          "ppm": 19000,
-          "parts": [
-            "Leaf",
-            "Pericarp",
-            "Plant",
-            "Root",
-            "Seed",
-            "Sprout Seedling",
-            "Stem",
-            "Tissue Culture"
-          ]
-        },
-        {
-          "name": "Choline",
-          "ppm": 13500,
-          "parts": [
-            "Leaf",
-            "Seed"
-          ]
-        },
-        {
-          "name": "4-Hydroxyisoleucine",
-          "ppm": 7400,
-          "parts": [
-            "Seed"
-          ]
-        },
-        {
-          "name": "Catechols",
-          "ppm": 5100,
-          "parts": [
-            "Fruit",
-            "Seed"
-          ]
-        },
-        {
-          "name": "Trigonelline",
-          "ppm": 4000,
-          "parts": [
-            "Cotyledon",
-            "Plant",
-            "Seed",
-            "Tissue Culture"
-          ]
-        },
-        {
-          "name": "Yamogenin",
-          "ppm": 3100,
-          "parts": [
-            "Leaf",
-            "Root",
-            "Seed",
-            "Stem"
-          ]
-        }
-      ]
-    },
-    "dalchini": {
-      "dukeTaxon": "Cinnamomum verum",
-      "compoundCount": 205,
-      "parts": [
-        {
-          "part": "Bark",
-          "count": 133
-        },
-        {
-          "part": "Leaf",
-          "count": 81
-        },
-        {
-          "part": "Root Bark",
-          "count": 52
-        },
-        {
-          "part": "Leaf Essent. Oil",
-          "count": 41
-        },
-        {
-          "part": "Stem Bark",
-          "count": 41
-        },
-        {
-          "part": "Bark Essent. Oil",
-          "count": 22
-        },
-        {
-          "part": "Plant",
-          "count": 17
-        },
-        {
-          "part": "Essential Oil",
-          "count": 8
-        },
-        {
-          "part": "Seed",
-          "count": 5
-        },
-        {
-          "part": "Root",
-          "count": 1
-        },
-        {
-          "part": "Twig",
-          "count": 1
-        },
-        {
-          "part": "Wood Essent. Oil",
-          "count": 1
-        }
-      ],
-      "highestAmounts": [
-        {
-          "name": "Trans-cinnamaldehyde",
-          "ppm": 54000,
-          "parts": [
-            "Bark",
-            "Bark Essent. Oil",
-            "Leaf"
-          ]
-        },
-        {
-          "name": "Eugenol",
-          "ppm": 38270,
-          "parts": [
-            "Bark",
-            "Bark Essent. Oil",
-            "Essential Oil",
-            "Leaf",
-            "Leaf Essent. Oil",
-            "Root Bark",
-            "Stem Bark"
-          ]
-        },
-        {
-          "name": "Cinnamaldehyde",
-          "ppm": 30000,
-          "parts": [
-            "Bark",
-            "Bark Essent. Oil",
-            "Essential Oil",
-            "Leaf Essent. Oil",
-            "Root",
-            "Root Bark",
-            "Stem Bark"
-          ]
-        },
-        {
-          "name": "Benzyl-benzoate",
-          "ppm": 3895,
-          "parts": [
-            "Bark",
-            "Essential Oil",
-            "Leaf",
-            "Leaf Essent. Oil",
-            "Root Bark",
-            "Stem Bark"
-          ]
-        },
-        {
-          "name": "Cinnamyl-acetate",
-          "ppm": 2040,
-          "parts": [
-            "Bark",
-            "Leaf",
-            "Leaf Essent. Oil"
-          ]
-        },
-        {
-          "name": "Eugenyl-acetate",
-          "ppm": 1340,
-          "parts": [
-            "Leaf"
-          ]
-        },
-        {
-          "name": "Caryophyllene",
-          "ppm": 1316,
-          "parts": [
-            "Bark",
-            "Leaf",
-            "Root Bark"
-          ]
-        },
-        {
-          "name": "Terpinen-4-ol",
-          "ppm": 1160,
-          "parts": [
-            "Bark",
-            "Bark Essent. Oil",
-            "Leaf",
-            "Root Bark"
-          ]
-        },
-        {
-          "name": "Proanthocyanidin",
-          "ppm": 958,
-          "parts": [
-            "Bark"
-          ]
-        },
-        {
-          "name": "Linalool",
-          "ppm": 956,
-          "parts": [
-            "Bark",
-            "Bark Essent. Oil",
-            "Leaf",
-            "Leaf Essent. Oil",
-            "Root Bark",
-            "Stem Bark",
-            "Twig"
-          ]
-        },
-        {
-          "name": "1,8-Cineole",
-          "ppm": 800,
-          "parts": [
-            "Bark",
-            "Bark Essent. Oil",
-            "Essential Oil",
-            "Leaf",
-            "Leaf Essent. Oil",
-            "Root Bark",
-            "Stem Bark"
-          ]
-        },
-        {
-          "name": "Linalol",
-          "ppm": 740,
-          "parts": [
-            "Leaf"
-          ]
-        }
-      ]
-    },
-    "kali-mirch": {
-      "dukeTaxon": "Piper nigrum",
-      "compoundCount": 302,
-      "parts": [
-        {
-          "part": "Fruit",
-          "count": 238
-        },
-        {
-          "part": "Fruit Essent. Oil",
-          "count": 86
-        },
-        {
-          "part": "Seed Essent. Oil",
-          "count": 24
-        },
-        {
-          "part": "Essential Oil",
-          "count": 13
-        },
-        {
-          "part": "Seed",
-          "count": 8
-        },
-        {
-          "part": "Stem",
-          "count": 8
-        },
-        {
-          "part": "Leaf",
-          "count": 7
-        },
-        {
-          "part": "Leaf Essent. Oil",
-          "count": 6
-        },
-        {
-          "part": "Plant",
-          "count": 6
-        },
-        {
-          "part": "Seed Oil",
-          "count": 2
-        },
         {
           "part": "Resin, Exudate, Sap",
-          "count": 2
+          "count": 40
         },
         {
-          "part": "Root",
+          "part": "Essential Oil",
+          "count": 32
+        },
+        {
+          "part": "Plant",
+          "count": 6
+        },
+        {
+          "part": "Inflorescence",
           "count": 1
         },
         {
-          "part": "Shoot",
+          "part": "Wood",
+          "count": 1
+        },
+        {
+          "part": "Bark",
           "count": 1
         }
       ],
       "highestAmounts": [
         {
-          "name": "Carbohydrate",
-          "ppm": 648100,
+          "name": "α-Thujene",
+          "ppm": 80000,
           "parts": [
-            "Fruit"
-          ]
-        },
-        {
-          "name": "Polysaccharides",
-          "ppm": 450000,
-          "parts": [
-            "Fruit"
-          ]
-        },
-        {
-          "name": "Piperine",
-          "ppm": 90000,
-          "parts": [
-            "Fruit",
-            "Leaf",
-            "Leaf Essent. Oil",
-            "Root",
-            "Seed",
-            "Seed Essent. Oil",
-            "Seed Oil",
-            "Shoot",
-            "Stem"
-          ]
-        },
-        {
-          "name": "Oxalic acid",
-          "ppm": 34000,
-          "parts": [
-            "Fruit"
-          ]
-        },
-        {
-          "name": "Trans-trans-piperine",
-          "ppm": 30000,
-          "parts": [
-            "Fruit"
-          ]
-        },
-        {
-          "name": "Sabinene",
-          "ppm": 10000,
-          "parts": [
-            "Fruit",
-            "Fruit Essent. Oil",
-            "Seed Essent. Oil"
-          ]
-        },
-        {
-          "name": "Piperettine",
-          "ppm": 8200,
-          "parts": [
-            "Fruit"
-          ]
-        },
-        {
-          "name": "Limonene",
-          "ppm": 8000,
-          "parts": [
-            "Fruit",
-            "Fruit Essent. Oil",
-            "Seed Essent. Oil"
-          ]
-        },
-        {
-          "name": "Caryophyllene",
-          "ppm": 6000,
-          "parts": [
-            "Fruit",
-            "Seed Essent. Oil"
-          ]
-        },
-        {
-          "name": "Tocopherols",
-          "ppm": 5400,
-          "parts": [
-            "Fruit",
+            "Essential Oil",
             "Resin, Exudate, Sap"
           ]
         },
         {
-          "name": "β-Pinene",
-          "ppm": 4800,
+          "name": "β-Boswellic acid",
+          "ppm": 63386,
           "parts": [
             "Essential Oil",
-            "Fruit",
-            "Fruit Essent. Oil",
-            "Seed Essent. Oil"
+            "Resin, Exudate, Sap"
           ]
         },
         {
-          "name": "α-Pinene",
-          "ppm": 4800,
+          "name": "11-Keto-β-boswellic acid",
+          "ppm": 23058,
           "parts": [
-            "Essential Oil",
-            "Fruit",
-            "Fruit Essent. Oil",
-            "Seed Essent. Oil"
-          ]
-        }
-      ]
-    },
-    "elaichi": {
-      "dukeTaxon": "Elettaria cardamomum",
-      "compoundCount": 151,
-      "parts": [
-        {
-          "part": "Fruit",
-          "count": 73
-        },
-        {
-          "part": "Seed",
-          "count": 58
-        },
-        {
-          "part": "Seed Essent. Oil",
-          "count": 30
-        },
-        {
-          "part": "Fruit Essent. Oil",
-          "count": 26
-        },
-        {
-          "part": "Seed Oil",
-          "count": 10
-        },
-        {
-          "part": "Root Essent. Oil",
-          "count": 9
-        },
-        {
-          "part": "Leaf",
-          "count": 5
-        },
-        {
-          "part": "Plant",
-          "count": 2
-        },
-        {
-          "part": "Pericarp",
-          "count": 2
-        },
-        {
-          "part": "Essential Oil",
-          "count": 1
-        }
-      ],
-      "highestAmounts": [
-        {
-          "name": "1,4-Cineole",
-          "ppm": 56000,
-          "parts": [
-            "Fruit",
-            "Seed Essent. Oil"
-          ]
-        },
-        {
-          "name": "1,8-Cineole",
-          "ppm": 56000,
-          "parts": [
-            "Fruit",
-            "Fruit Essent. Oil",
-            "Seed Essent. Oil"
-          ]
-        },
-        {
-          "name": "α-Terpinyl-acetate",
-          "ppm": 50000,
-          "parts": [
-            "Fruit",
-            "Seed Essent. Oil"
+            "Resin, Exudate, Sap"
           ]
         },
         {
           "name": "P-cymene",
-          "ppm": 28000,
-          "parts": [
-            "Fruit",
-            "Fruit Essent. Oil",
-            "Root Essent. Oil",
-            "Seed Essent. Oil"
-          ]
-        },
-        {
-          "name": "Terpinen-4-ol",
-          "ppm": 23200,
-          "parts": [
-            "Fruit",
-            "Fruit Essent. Oil",
-            "Seed Essent. Oil"
-          ]
-        },
-        {
-          "name": "Limonene",
-          "ppm": 9481,
-          "parts": [
-            "Fruit",
-            "Fruit Essent. Oil",
-            "Seed Essent. Oil"
-          ]
-        },
-        {
-          "name": "Linalool",
-          "ppm": 8000,
-          "parts": [
-            "Fruit",
-            "Fruit Essent. Oil",
-            "Seed Essent. Oil"
-          ]
-        },
-        {
-          "name": "Borneol",
-          "ppm": 8000,
-          "parts": [
-            "Fruit",
-            "Seed Essent. Oil"
-          ]
-        },
-        {
-          "name": "Linalyl-acetate",
-          "ppm": 8000,
-          "parts": [
-            "Fruit"
-          ]
-        },
-        {
-          "name": "α-Terpineol",
-          "ppm": 4300,
-          "parts": [
-            "Fruit",
-            "Fruit Essent. Oil",
-            "Seed Essent. Oil"
-          ]
-        },
-        {
-          "name": "Choline",
-          "ppm": 4195,
-          "parts": [
-            "Pericarp",
-            "Seed"
-          ]
-        },
-        {
-          "name": "α-Thujene",
-          "ppm": 3047,
-          "parts": [
-            "Fruit",
-            "Root Essent. Oil"
-          ]
-        }
-      ]
-    },
-    "laung": {
-      "dukeTaxon": "Syzygium aromaticum",
-      "compoundCount": 226,
-      "parts": [
-        {
-          "part": "Fruit",
-          "count": 143
-        },
-        {
-          "part": "Leaf",
-          "count": 56
-        },
-        {
-          "part": "Plant",
-          "count": 28
-        },
-        {
-          "part": "Essential Oil",
-          "count": 24
-        },
-        {
-          "part": "Bark",
-          "count": 9
-        },
-        {
-          "part": "Stem",
-          "count": 4
-        },
-        {
-          "part": "Seed",
-          "count": 3
-        },
-        {
-          "part": "Leaf Essent. Oil",
-          "count": 1
-        },
-        {
-          "part": "Bulb",
-          "count": 1
-        }
-      ],
-      "highestAmounts": [
-        {
-          "name": "Eugenol",
-          "ppm": 180000,
-          "parts": [
-            "Bark",
-            "Bulb",
-            "Essential Oil",
-            "Fruit",
-            "Leaf",
-            "Leaf Essent. Oil",
-            "Stem"
-          ]
-        },
-        {
-          "name": "β-Caryophyllene",
-          "ppm": 69365,
-          "parts": [
-            "Essential Oil",
-            "Fruit",
-            "Leaf"
-          ]
-        },
-        {
-          "name": "Eugenyl-acetate",
-          "ppm": 56700,
-          "parts": [
-            "Fruit"
-          ]
-        },
-        {
-          "name": "α-Cubebene",
-          "ppm": 37800,
-          "parts": [
-            "Fruit",
-            "Leaf"
-          ]
-        },
-        {
-          "name": "Oleanolic acid",
-          "ppm": 20000,
-          "parts": [
-            "Essential Oil",
-            "Fruit",
-            "Seed"
-          ]
-        },
-        {
-          "name": "Gallic acid",
-          "ppm": 12600,
-          "parts": [
-            "Fruit"
-          ]
-        },
-        {
-          "name": "1-Degalloyl-eugeniin",
-          "ppm": 12175,
-          "parts": [
-            "Leaf"
-          ]
-        },
-        {
-          "name": "Eugeniin",
-          "ppm": 8950,
-          "parts": [
-            "Fruit",
-            "Leaf"
-          ]
-        },
-        {
-          "name": "Caryophyllene",
-          "ppm": 8160,
-          "parts": [
-            "Essential Oil",
-            "Fruit"
-          ]
-        },
-        {
-          "name": "Ellagitannin",
-          "ppm": 3200,
-          "parts": [
-            "Fruit"
-          ]
-        },
-        {
-          "name": "Caryophyllene-oxide",
-          "ppm": 2455,
-          "parts": [
-            "Essential Oil",
-            "Fruit",
-            "Leaf"
-          ]
-        },
-        {
-          "name": "β-Sitosterol",
-          "ppm": 2420,
-          "parts": [
-            "Essential Oil",
-            "Fruit"
-          ]
-        }
-      ]
-    },
-    "amla": {
-      "dukeTaxon": "Phyllanthus emblica",
-      "compoundCount": 99,
-      "parts": [
-        {
-          "part": "Fruit",
-          "count": 84
-        },
-        {
-          "part": "Leaf",
-          "count": 10
-        },
-        {
-          "part": "Shoot",
-          "count": 9
-        },
-        {
-          "part": "Seed Oil",
-          "count": 7
-        },
-        {
-          "part": "Seed",
-          "count": 6
-        },
-        {
-          "part": "Tissue Culture",
-          "count": 5
-        },
-        {
-          "part": "Pericarp",
-          "count": 4
-        },
-        {
-          "part": "Bark",
-          "count": 4
-        },
-        {
-          "part": "Plant",
-          "count": 2
-        },
-        {
-          "part": "Root",
-          "count": 2
-        },
-        {
-          "part": "Twig",
-          "count": 1
-        }
-      ],
-      "highestAmounts": [
-        {
-          "name": "Phyllemblinic acid",
-          "ppm": 90000,
-          "parts": [
-            "Fruit"
-          ]
-        },
-        {
-          "name": "Phyllemblic acid",
-          "ppm": 63000,
-          "parts": [
-            "Fruit",
-            "Pericarp"
-          ]
-        },
-        {
-          "name": "Gallic acid",
-          "ppm": 50000,
-          "parts": [
-            "Fruit",
-            "Pericarp",
-            "Shoot"
-          ]
-        },
-        {
-          "name": "Emblicol",
-          "ppm": 45000,
-          "parts": [
-            "Fruit",
-            "Pericarp"
-          ]
-        },
-        {
-          "name": "Leucodelphinidin",
-          "ppm": 37500,
-          "parts": [
-            "Bark"
-          ]
-        },
-        {
-          "name": "Lupeol",
-          "ppm": 22500,
-          "parts": [
-            "Bark",
-            "Root",
-            "Shoot"
-          ]
-        },
-        {
-          "name": "Rutin",
-          "ppm": 21000,
-          "parts": [
-            "Fruit",
-            "Leaf"
-          ]
-        },
-        {
-          "name": "Quercetin",
-          "ppm": 11850,
-          "parts": [
-            "Tissue Culture"
-          ]
-        },
-        {
-          "name": "β-Sitosterol",
-          "ppm": 5500,
-          "parts": [
-            "Bark",
-            "Seed Oil",
-            "Shoot",
-            "Tissue Culture"
-          ]
-        },
-        {
-          "name": "Gallic acid-ethyl-ester",
-          "ppm": 5200,
-          "parts": [
-            "Fruit",
-            "Tissue Culture"
-          ]
-        },
-        {
-          "name": "Silica",
-          "ppm": 1163,
-          "parts": [
-            "Fruit"
-          ]
-        }
-      ]
-    },
-    "ashwagandha": {
-      "dukeTaxon": "Withania somnifera",
-      "compoundCount": 146,
-      "parts": [
-        {
-          "part": "Plant",
-          "count": 51
-        },
-        {
-          "part": "Leaf",
-          "count": 44
-        },
-        {
-          "part": "Root",
-          "count": 43
-        },
-        {
-          "part": "Shoot",
-          "count": 9
-        },
-        {
-          "part": "Tissue Culture",
-          "count": 5
-        },
-        {
-          "part": "Stem Bark",
-          "count": 5
-        },
-        {
-          "part": "Fruit",
-          "count": 4
-        },
-        {
-          "part": "Seed Oil",
-          "count": 1
-        },
-        {
-          "part": "Seed",
-          "count": 1
-        }
-      ],
-      "highestAmounts": [
-        {
-          "name": "Withaferin A",
-          "ppm": 8600,
-          "parts": [
-            "Leaf",
-            "Plant",
-            "Root",
-            "Shoot"
-          ]
-        },
-        {
-          "name": "Withanolide D",
-          "ppm": 3000,
-          "parts": [
-            "Leaf",
-            "Plant",
-            "Root",
-            "Shoot"
-          ]
-        },
-        {
-          "name": "Somniwithanolide",
-          "ppm": 1500,
-          "parts": [
-            "Stem Bark"
-          ]
-        },
-        {
-          "name": "Somniferanolide",
-          "ppm": 1400,
-          "parts": [
-            "Stem Bark"
-          ]
-        },
-        {
-          "name": "Withaniol",
-          "ppm": 800,
-          "parts": [
-            "Root"
-          ]
-        },
-        {
-          "name": "4-β-20-α-(R)-dihydroxy-1-oxo-5-β-6-β-epoxywith-2-enolide",
-          "ppm": 500,
-          "parts": [
-            "Leaf"
-          ]
-        },
-        {
-          "name": "Withasomnilide",
-          "ppm": 270,
-          "parts": [
-            "Stem Bark"
-          ]
-        },
-        {
-          "name": "Withasomniferanolide",
-          "ppm": 220,
-          "parts": [
-            "Stem Bark"
-          ]
-        },
-        {
-          "name": "β-Sitosterol",
-          "ppm": 200,
-          "parts": [
-            "Leaf",
-            "Root",
-            "Tissue Culture"
-          ]
-        },
-        {
-          "name": "5-α-20-α-(R)-dihydroxy-6-α-7-α-epoxy-1-oxowitha-2,24-dienolide",
-          "ppm": 180,
-          "parts": [
-            "Root"
-          ]
-        },
-        {
-          "name": "Somniferawithanolide",
-          "ppm": 150,
-          "parts": [
-            "Stem Bark"
-          ]
-        },
-        {
-          "name": "2-3-Dihydrowithaferin",
-          "ppm": 133,
-          "parts": [
-            "Leaf"
-          ]
-        }
-      ]
-    },
-    "brahmi": {
-      "dukeTaxon": "Bacopa monnieri",
-      "compoundCount": 43,
-      "parts": [
-        {
-          "part": "Plant",
-          "count": 31
-        },
-        {
-          "part": "Shoot",
-          "count": 12
-        }
-      ],
-      "highestAmounts": [
-        {
-          "name": "Brahmine",
-          "ppm": 200,
-          "parts": [
-            "Plant"
-          ]
-        },
-        {
-          "name": "Nicotinic acid",
-          "ppm": 3,
-          "parts": [
-            "Shoot"
-          ]
-        }
-      ]
-    },
-    "neem": {
-      "dukeTaxon": "Azadirachta indica",
-      "compoundCount": 94,
-      "parts": [
-        {
-          "part": "Seed",
-          "count": 28
-        },
-        {
-          "part": "Leaf",
-          "count": 26
-        },
-        {
-          "part": "Fruit",
-          "count": 21
-        },
-        {
-          "part": "Stem Bark",
-          "count": 11
-        },
-        {
-          "part": "Plant",
-          "count": 9
-        },
-        {
-          "part": "Bark",
-          "count": 5
-        },
-        {
-          "part": "Flower",
-          "count": 5
-        },
-        {
-          "part": "Stem",
-          "count": 2
-        },
-        {
-          "part": "Wood",
-          "count": 2
-        }
-      ],
-      "highestAmounts": [
-        {
-          "name": "Nimbidin",
-          "ppm": 4000,
-          "parts": [
-            "Seed",
-            "Stem Bark"
-          ]
-        },
-        {
-          "name": "Kaempferol",
-          "ppm": 2000,
-          "parts": [
-            "Flower"
-          ]
-        },
-        {
-          "name": "Lignoceric acid",
-          "ppm": 1125,
-          "parts": [
-            "Fruit"
-          ]
-        },
-        {
-          "name": "Myricetin",
-          "ppm": 1000,
-          "parts": [
-            "Flower"
-          ]
-        },
-        {
-          "name": "Quercetin",
-          "ppm": 1000,
-          "parts": [
-            "Flower",
-            "Leaf"
-          ]
-        },
-        {
-          "name": "Nimbin",
-          "ppm": 400,
-          "parts": [
-            "Stem Bark"
-          ]
-        },
-        {
-          "name": "Nimbosterol",
-          "ppm": 300,
-          "parts": [
-            "Stem Bark"
-          ]
-        },
-        {
-          "name": "Nimbinin",
-          "ppm": 10,
-          "parts": [
-            "Stem Bark"
-          ]
-        }
-      ]
-    },
-    "mulethi": {
-      "dukeTaxon": "Glycyrrhiza glabra",
-      "compoundCount": 408,
-      "parts": [
-        {
-          "part": "Root",
-          "count": 280
-        },
-        {
-          "part": "Root Essent. Oil",
-          "count": 63
-        },
-        {
-          "part": "Plant",
-          "count": 36
-        },
-        {
-          "part": "Rhizome",
-          "count": 24
-        },
-        {
-          "part": "Shoot",
-          "count": 21
-        },
-        {
-          "part": "Rhizome Essent. Oil",
-          "count": 16
-        },
-        {
-          "part": "Tissue Culture",
-          "count": 7
-        },
-        {
-          "part": "Leaf",
-          "count": 5
-        },
-        {
-          "part": "Seed",
-          "count": 4
-        },
-        {
-          "part": "Stem",
-          "count": 3
-        }
-      ],
-      "highestAmounts": [
-        {
-          "name": "Glycyrrhizic acid",
-          "ppm": 240000,
-          "parts": [
-            "Plant"
-          ]
-        },
-        {
-          "name": "Glycyrrhizin",
-          "ppm": 152000,
-          "parts": [
-            "Leaf",
-            "Rhizome",
-            "Root",
-            "Stem",
-            "Tissue Culture"
-          ]
-        },
-        {
-          "name": "18-β-Glycyrrhetinic acid",
-          "ppm": 95200,
-          "parts": [
-            "Root"
-          ]
-        },
-        {
-          "name": "Benzaldehyde",
-          "ppm": 75000,
-          "parts": [
-            "Rhizome Essent. Oil",
-            "Root",
-            "Root Essent. Oil"
-          ]
-        },
-        {
-          "name": "Glycyrrhiza-galactomannan",
-          "ppm": 50000,
-          "parts": [
-            "Seed"
-          ]
-        },
-        {
-          "name": "β-Glycyrrhetinic acid",
-          "ppm": 43900,
-          "parts": [
-            "Root"
-          ]
-        },
-        {
-          "name": "Glycyrrhetinic acid-monoglucuronide",
           "ppm": 22400,
           "parts": [
-            "Root"
-          ]
-        },
-        {
-          "name": "Glycyrrhetinic acid",
-          "ppm": 22400,
-          "parts": [
-            "Rhizome",
-            "Root"
-          ]
-        },
-        {
-          "name": "Uralenic acid",
-          "ppm": 15000,
-          "parts": [
-            "Shoot"
-          ]
-        },
-        {
-          "name": "Uralozide acid",
-          "ppm": 15000,
-          "parts": [
-            "Shoot"
-          ]
-        },
-        {
-          "name": "Pinocembrin",
-          "ppm": 9700,
-          "parts": [
-            "Plant",
-            "Shoot"
-          ]
-        },
-        {
-          "name": "Isoliquiritigenin",
-          "ppm": 9610,
-          "parts": [
-            "Rhizome",
-            "Root"
-          ]
-        }
-      ]
-    },
-    "arjuna": {
-      "dukeTaxon": "Terminalia arjuna",
-      "compoundCount": 65,
-      "parts": [
-        {
-          "part": "Bark",
-          "count": 29
-        },
-        {
-          "part": "Leaf",
-          "count": 18
-        },
-        {
-          "part": "Root Bark",
-          "count": 16
-        },
-        {
-          "part": "Fruit",
-          "count": 13
-        },
-        {
-          "part": "Heart Wood",
-          "count": 5
-        },
-        {
-          "part": "Flower",
-          "count": 4
-        },
-        {
-          "part": "Seed",
-          "count": 4
-        },
-        {
-          "part": "Stem",
-          "count": 4
-        },
-        {
-          "part": "Shoot",
-          "count": 3
-        },
-        {
-          "part": "Plant",
-          "count": 2
-        },
-        {
-          "part": "Wood",
-          "count": 2
-        },
-        {
-          "part": "Root",
-          "count": 2
-        },
-        {
-          "part": "Stem Bark",
-          "count": 2
-        }
-      ],
-      "highestAmounts": [
-        {
-          "name": "Arjunolic acid",
-          "ppm": 30000,
-          "parts": [
-            "Bark",
-            "Flower",
-            "Heart Wood",
-            "Leaf",
-            "Root Bark",
-            "Seed",
-            "Stem",
-            "Wood"
-          ]
-        },
-        {
-          "name": "Arjunetin",
-          "ppm": 1600,
-          "parts": [
-            "Bark",
-            "Leaf",
-            "Root Bark"
-          ]
-        },
-        {
-          "name": "Arjunolic acid-saponin",
-          "ppm": 1300,
-          "parts": [
-            "Heart Wood",
-            "Root Bark"
-          ]
-        },
-        {
-          "name": "β-Sitosterol",
-          "ppm": 1000,
-          "parts": [
-            "Bark",
-            "Fruit",
-            "Heart Wood",
-            "Leaf",
-            "Root",
-            "Root Bark"
-          ]
-        },
-        {
-          "name": "Arjunglucoside-ii",
-          "ppm": 933.3,
-          "parts": [
-            "Bark",
-            "Leaf"
-          ]
-        },
-        {
-          "name": "Castalagin",
-          "ppm": 692.3,
-          "parts": [
-            "Bark"
-          ]
-        },
-        {
-          "name": "(+)-Leucodelphinidin",
-          "ppm": 500,
-          "parts": [
-            "Heart Wood",
-            "Wood"
-          ]
-        },
-        {
-          "name": "Arjunglucoside i",
-          "ppm": 280,
-          "parts": [
-            "Bark",
-            "Root Bark"
-          ]
-        },
-        {
-          "name": "Ellagic acid",
-          "ppm": 250,
-          "parts": [
-            "Bark",
-            "Heart Wood",
-            "Leaf",
-            "Root Bark"
-          ]
-        },
-        {
-          "name": "2,3(S)-hhdp-d-glucoside",
-          "ppm": 190.3,
-          "parts": [
-            "Bark"
-          ]
-        },
-        {
-          "name": "Terchebulin",
-          "ppm": 174.6,
-          "parts": [
-            "Bark"
-          ]
-        },
-        {
-          "name": "Arjunic acid",
-          "ppm": 160,
-          "parts": [
-            "Bark",
-            "Flower",
-            "Leaf",
-            "Root Bark",
-            "Seed",
-            "Stem"
-          ]
-        }
-      ]
-    },
-    "karela": {
-      "dukeTaxon": "Momordica charantia",
-      "compoundCount": 185,
-      "parts": [
-        {
-          "part": "Fruit",
-          "count": 99
-        },
-        {
-          "part": "Seed",
-          "count": 66
-        },
-        {
-          "part": "Leaf",
-          "count": 23
-        },
-        {
-          "part": "Seed Oil",
-          "count": 14
-        },
-        {
-          "part": "Pericarp",
-          "count": 11
-        },
-        {
-          "part": "Cotyledon",
-          "count": 7
-        },
-        {
-          "part": "Shoot",
-          "count": 6
-        },
-        {
-          "part": "Seed Essent. Oil",
-          "count": 6
-        },
-        {
-          "part": "Plant",
-          "count": 5
-        },
-        {
-          "part": "Tissue Culture",
-          "count": 4
-        }
-      ],
-      "highestAmounts": [
-        {
-          "name": "α-Elaeostearic acid",
-          "ppm": 658900,
-          "parts": [
-            "Cotyledon",
-            "Seed"
-          ]
-        },
-        {
-          "name": "Inulin",
-          "ppm": 19000,
-          "parts": [
-            "Fruit",
-            "Tissue Culture"
-          ]
-        },
-        {
-          "name": "Vicine",
-          "ppm": 4000,
-          "parts": [
-            "Seed"
-          ]
-        },
-        {
-          "name": "Momordicin-ii",
-          "ppm": 1919,
-          "parts": [
-            "Leaf"
-          ]
-        },
-        {
-          "name": "Charantin",
-          "ppm": 1500,
-          "parts": [
-            "Fruit",
-            "Seed"
-          ]
-        },
-        {
-          "name": "Momordicoside A",
-          "ppm": 1287.4,
-          "parts": [
-            "Seed"
-          ]
-        },
-        {
-          "name": "Momordicine-iii",
-          "ppm": 1200,
-          "parts": [
-            "Shoot"
-          ]
-        },
-        {
-          "name": "α-Momorcharin",
-          "ppm": 1000,
-          "parts": [
-            "Seed"
-          ]
-        },
-        {
-          "name": "β-Momorcharin",
-          "ppm": 800,
-          "parts": [
-            "Seed"
-          ]
-        },
-        {
-          "name": "Momordicoside-e-1",
-          "ppm": 756,
-          "parts": [
-            "Fruit"
-          ]
-        },
-        {
-          "name": "Momordicine-i",
-          "ppm": 700,
-          "parts": [
-            "Shoot"
-          ]
-        },
-        {
-          "name": "Momordicine-ii",
-          "ppm": 700,
-          "parts": [
-            "Leaf",
-            "Shoot"
-          ]
-        }
-      ]
-    },
-    "lahsun": {
-      "dukeTaxon": "Allium sativum var. sativum",
-      "compoundCount": 447,
-      "parts": [
-        {
-          "part": "Bulb",
-          "count": 405
-        },
-        {
-          "part": "Leaf",
-          "count": 44
-        },
-        {
-          "part": "Root",
-          "count": 36
-        },
-        {
-          "part": "Plant",
-          "count": 22
-        },
-        {
-          "part": "Shoot",
-          "count": 19
-        },
-        {
-          "part": "Essential Oil",
-          "count": 18
-        },
-        {
-          "part": "Flower",
-          "count": 15
-        },
-        {
-          "part": "Fruit Juice",
-          "count": 13
-        },
-        {
-          "part": "Tissue Culture",
-          "count": 5
-        },
-        {
-          "part": "Bud",
-          "count": 3
-        },
-        {
-          "part": "Tuber",
-          "count": 2
-        },
-        {
-          "part": "Fruit Essent. Oil",
-          "count": 1
-        },
-        {
-          "part": "Epidermis",
-          "count": 1
-        }
-      ],
-      "highestAmounts": [
-        {
-          "name": "γ-L-glutamyl-cysteines",
-          "ppm": 45715,
-          "parts": [
-            "Bulb"
-          ]
-        },
-        {
-          "name": "Scordinin A",
-          "ppm": 39000,
-          "parts": [
-            "Bulb"
-          ]
-        },
-        {
-          "name": "Scordonin A",
-          "ppm": 39000,
-          "parts": [
-            "Bulb"
-          ]
-        },
-        {
-          "name": "Scordinine A-1",
-          "ppm": 30000,
-          "parts": [
-            "Bulb"
-          ]
-        },
-        {
-          "name": "Scorodinin A-1",
-          "ppm": 30000,
-          "parts": [
-            "Bulb"
-          ]
-        },
-        {
-          "name": "Alliinase",
-          "ppm": 28500,
-          "parts": [
-            "Bulb"
-          ]
-        },
-        {
-          "name": "Allicin",
-          "ppm": 27800,
-          "parts": [
-            "Bulb"
-          ]
-        },
-        {
-          "name": "γ-Glutamyl-s-trans-1-propenylcysteine",
-          "ppm": 25715,
-          "parts": [
-            "Bulb"
-          ]
-        },
-        {
-          "name": "γ-Glutamyl-s-allylcysteine",
-          "ppm": 17145,
-          "parts": [
-            "Bulb"
-          ]
-        },
-        {
-          "name": "Allin",
-          "ppm": 13000,
-          "parts": [
-            "Bulb"
-          ]
-        },
-        {
-          "name": "Thiosulfinates",
-          "ppm": 11800,
-          "parts": [
-            "Bulb"
-          ]
-        },
-        {
-          "name": "Allyl-2-propenethiosulfinate",
-          "ppm": 11430,
-          "parts": [
-            "Bulb"
-          ]
-        }
-      ]
-    },
-    "hing": {
-      "dukeTaxon": "Ferula assa-foetida",
-      "compoundCount": 105,
-      "parts": [
-        {
-          "part": "Gum",
-          "count": 59
-        },
-        {
-          "part": "Essential Oil",
-          "count": 24
-        },
-        {
-          "part": "Plant",
-          "count": 8
-        },
-        {
-          "part": "Root",
-          "count": 8
-        },
-        {
-          "part": "Rhizome",
-          "count": 7
-        },
-        {
-          "part": "Resin, Exudate, Sap",
-          "count": 6
-        },
-        {
-          "part": "Seed Essent. Oil",
-          "count": 6
-        },
-        {
-          "part": "Seed",
-          "count": 3
-        },
-        {
-          "part": "Fruit",
-          "count": 2
-        },
-        {
-          "part": "Resin Essent. Oil",
-          "count": 1
-        }
-      ],
-      "highestAmounts": [
-        {
-          "name": "Petroselinic acid",
-          "ppm": 765000,
-          "parts": [
-            "Seed"
-          ]
-        },
-        {
-          "name": "Ferulic acid-esters",
-          "ppm": 600000,
-          "parts": [
+            "Essential Oil",
             "Resin, Exudate, Sap"
           ]
         },
         {
           "name": "α-Pinene",
-          "ppm": 143000,
-          "parts": [
-            "Essential Oil",
-            "Gum",
-            "Seed Essent. Oil"
-          ]
-        },
-        {
-          "name": "Phellandrene",
-          "ppm": 64000,
-          "parts": [
-            "Gum",
-            "Seed Essent. Oil"
-          ]
-        },
-        {
-          "name": "Galbanic acid",
-          "ppm": 20600,
-          "parts": [
-            "Gum"
-          ]
-        },
-        {
-          "name": "Farnesiferol C",
-          "ppm": 16666,
-          "parts": [
-            "Gum",
-            "Root"
-          ]
-        },
-        {
-          "name": "Ferulic acid",
-          "ppm": 13000,
-          "parts": [
-            "Essential Oil",
-            "Gum",
-            "Resin, Exudate, Sap"
-          ]
-        },
-        {
-          "name": "Sec-butyl-propenyl-disulfide",
-          "ppm": 7650,
+          "ppm": 9920,
           "parts": [
             "Essential Oil",
             "Resin, Exudate, Sap"
           ]
         },
         {
-          "name": "Jaeschkeanadiol",
-          "ppm": 6100,
+          "name": "D-limonene",
+          "ppm": 7200,
           "parts": [
-            "Rhizome"
+            "Essential Oil",
+            "Resin, Exudate, Sap"
           ]
         },
         {
-          "name": "Farnesiferol A",
-          "ppm": 6000,
+          "name": "Cadinene",
+          "ppm": 6400,
           "parts": [
-            "Gum"
+            "Essential Oil",
+            "Resin, Exudate, Sap"
           ]
         },
         {
-          "name": "Samarcandin-acetate",
-          "ppm": 4000,
+          "name": "Elemol",
+          "ppm": 2080,
           "parts": [
-            "Gum"
+            "Essential Oil",
+            "Resin, Exudate, Sap"
           ]
         },
         {
-          "name": "Karatavicinol",
-          "ppm": 3000,
+          "name": "Geraniol",
+          "ppm": 1280,
           "parts": [
-            "Gum"
+            "Essential Oil",
+            "Resin, Exudate, Sap"
+          ]
+        },
+        {
+          "name": "3-O-acetyl-11-keto-β-boswellic acid",
+          "ppm": 550,
+          "parts": [
+            "Resin, Exudate, Sap"
+          ]
+        },
+        {
+          "name": "3-O-acetyl-β-boswellic acid",
+          "ppm": 150,
+          "parts": [
+            "Resin, Exudate, Sap"
           ]
         }
       ]
     },
-    "aloe": {
-      "dukeTaxon": "Aloe vera",
-      "compoundCount": 269,
+    "sonamukhi": {
+      "dukeTaxon": "Senna alexandrina",
+      "compoundCount": 36,
       "parts": [
         {
-          "part": "Plant",
-          "count": 104
-        },
-        {
           "part": "Leaf",
-          "count": 103
+          "count": 29
         },
         {
-          "part": "Juice",
-          "count": 84
-        },
-        {
-          "part": "Shoot",
-          "count": 14
-        },
-        {
-          "part": "Stem Essent. Oil",
-          "count": 2
-        },
-        {
-          "part": "Root",
-          "count": 1
+          "part": "Plant",
+          "count": 7
         }
       ],
       "highestAmounts": [
         {
-          "name": "Aloins",
-          "ppm": 300000,
-          "parts": [
-            "Plant"
-          ]
-        },
-        {
-          "name": "Barbaloin",
-          "ppm": 42400,
-          "parts": [
-            "Juice",
-            "Leaf",
-            "Plant"
-          ]
-        },
-        {
-          "name": "10-Hydroxyaloin A",
-          "ppm": 3535,
-          "parts": [
-            "Juice"
-          ]
-        },
-        {
-          "name": "10-Hydroxyaloin B",
-          "ppm": 2172,
-          "parts": [
-            "Juice"
-          ]
-        },
-        {
-          "name": "7-Hydroxy-8-o-methyl-aloin A",
-          "ppm": 2143,
-          "parts": [
-            "Juice"
-          ]
-        },
-        {
-          "name": "7-Hydroxy-8-o-methyl-aloin B",
-          "ppm": 1608,
-          "parts": [
-            "Juice"
-          ]
-        },
-        {
-          "name": "Isorabaichromone",
-          "ppm": 1457,
-          "parts": [
-            "Juice"
-          ]
-        },
-        {
-          "name": "Galactan",
-          "ppm": 100,
+          "name": "Sennoside",
+          "ppm": 45000,
           "parts": [
             "Leaf"
           ]
         },
         {
-          "name": "8-C-glucosyl-7-o-methyl-aloediol",
-          "ppm": 71.6,
-          "parts": [
-            "Juice"
-          ]
-        },
-        {
-          "name": "Purine",
-          "ppm": 56,
+          "name": "Sitosterol",
+          "ppm": 3300,
           "parts": [
             "Leaf"
           ]
         },
         {
-          "name": "8-C-glucosyl-(s)-aloesol",
-          "ppm": 50.9,
+          "name": "Thiamine",
+          "ppm": 11.3,
           "parts": [
-            "Juice"
-          ]
-        },
-        {
-          "name": "Aloe-emodin",
-          "ppm": 45.4,
-          "parts": [
-            "Juice",
-            "Leaf",
-            "Plant"
+            "Leaf"
           ]
         }
       ]
@@ -3020,6 +5514,186 @@ export default {
         {
           "name": "α-Linolenic acid",
           "ppm": 3945,
+          "parts": [
+            "Seed"
+          ]
+        }
+      ]
+    },
+    "tulsi": {
+      "dukeTaxon": "Ocimum tenuiflorum",
+      "compoundCount": 113,
+      "parts": [
+        {
+          "part": "Leaf",
+          "count": 69
+        },
+        {
+          "part": "Plant",
+          "count": 29
+        },
+        {
+          "part": "Seed",
+          "count": 15
+        },
+        {
+          "part": "Stem",
+          "count": 6
+        },
+        {
+          "part": "Inflorescence",
+          "count": 5
+        },
+        {
+          "part": "Root",
+          "count": 2
+        },
+        {
+          "part": "Shoot",
+          "count": 2
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Methyl-chavicol",
+          "ppm": 35950,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Methyl-eugenol",
+          "ppm": 7740,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Chavibetol",
+          "ppm": 6300,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Eugenol",
+          "ppm": 5580,
+          "parts": [
+            "Inflorescence",
+            "Leaf",
+            "Stem"
+          ]
+        },
+        {
+          "name": "Ursolic acid",
+          "ppm": 4780,
+          "parts": [
+            "Inflorescence",
+            "Leaf",
+            "Plant",
+            "Stem"
+          ]
+        },
+        {
+          "name": "Geranial",
+          "ppm": 3150,
+          "parts": [
+            "Plant"
+          ]
+        },
+        {
+          "name": "Neral",
+          "ppm": 3150,
+          "parts": [
+            "Plant"
+          ]
+        },
+        {
+          "name": "β-Caryophyllene",
+          "ppm": 3060,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "β-Bisabolene",
+          "ppm": 2970,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Oleanolic acid",
+          "ppm": 2180,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "(Z)-α-bisabolene",
+          "ppm": 1800,
+          "parts": [
+            "Leaf"
+          ]
+        },
+        {
+          "name": "Camphor",
+          "ppm": 1785,
+          "parts": [
+            "Leaf"
+          ]
+        }
+      ]
+    },
+    "vasaka": {
+      "dukeTaxon": "Justicia adhatoda",
+      "compoundCount": 34,
+      "parts": [
+        {
+          "part": "Plant",
+          "count": 18
+        },
+        {
+          "part": "Seed",
+          "count": 8
+        },
+        {
+          "part": "Root",
+          "count": 5
+        },
+        {
+          "part": "Flower",
+          "count": 2
+        },
+        {
+          "part": "Leaf",
+          "count": 2
+        },
+        {
+          "part": "Shoot",
+          "count": 1
+        }
+      ],
+      "highestAmounts": [
+        {
+          "name": "Lignoceric acid",
+          "ppm": 27600,
+          "parts": [
+            "Seed"
+          ]
+        },
+        {
+          "name": "Vasicine",
+          "ppm": 19000,
+          "parts": [
+            "Leaf",
+            "Plant",
+            "Shoot"
+          ]
+        },
+        {
+          "name": "Cerotic acid",
+          "ppm": 12900,
           "parts": [
             "Seed"
           ]

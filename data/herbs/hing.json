@@ -1,0 +1,87 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "hing",
+  "name": "Hing",
+  "hindi": "हींग",
+  "sanskrit": "Hingu",
+  "english": "Asafoetida",
+  "latin": "Ferula assa-foetida",
+  "kind": "spice",
+  "part": "Resin",
+  "properties": {
+    "rasa": [
+      "katu"
+    ],
+    "guna": [
+      "laghu",
+      "snigdha",
+      "tikshna"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "vata"
+    ],
+    "aggravates": [
+      "pitta"
+    ]
+  },
+  "actions": [
+    "Relieves gas and colic (vatanulomana)",
+    "Kindles digestion"
+  ],
+  "traditionalUses": [
+    "Gas and bloating",
+    "Added to beans and lentils to make them easier to digest"
+  ],
+  "kitchenUse": "A pinch fried in ghee or oil when tempering dal.",
+  "typicalUse": {
+    "forms": [
+      "Pinch in cooking"
+    ],
+    "adultAmount": "A pinch (under 0.5 g) a day",
+    "note": "Shop hing is usually blended with flour; some contains wheat."
+  },
+  "cautions": [
+    {
+      "group": "infants",
+      "note": "Do not give to babies (risk of a blood disorder in infants)."
+    },
+    {
+      "group": "pregnancy",
+      "note": "Avoid medicinal amounts in pregnancy."
+    },
+    {
+      "group": "allergy",
+      "note": "Compounded hing often contains wheat flour; check if you avoid gluten."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "anticoagulants",
+      "effect": "May add to the effect of blood thinners in medicinal amounts.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "preclinical",
+    "summary": "Mostly laboratory and animal studies.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Ferula%20assa-foetida"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

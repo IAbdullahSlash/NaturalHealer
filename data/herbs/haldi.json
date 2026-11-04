@@ -1,0 +1,114 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "haldi",
+  "name": "Haldi",
+  "hindi": "हल्दी",
+  "sanskrit": "Haridra",
+  "english": "Turmeric",
+  "latin": "Curcuma longa",
+  "kind": "spice",
+  "part": "Rhizome",
+  "properties": {
+    "rasa": [
+      "tikta",
+      "katu"
+    ],
+    "guna": [
+      "ruksha",
+      "laghu"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "vata"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Anti-inflammatory",
+    "Supports skin health (varnya)",
+    "Used on minor wounds (vranaropana)"
+  ],
+  "traditionalUses": [
+    "Skin complaints and minor cuts",
+    "Sore throat gargle with salt water",
+    "Joint aches",
+    "Coughs and colds in warm milk"
+  ],
+  "kitchenUse": "Cooked into food with a little fat and black pepper, which help absorption; or a pinch in warm milk (haldi doodh).",
+  "typicalUse": {
+    "forms": [
+      "Powder in food",
+      "Warm milk",
+      "Paste on skin"
+    ],
+    "adultAmount": "1–3 g of powder a day",
+    "note": "Concentrated curcumin supplements are much stronger than kitchen turmeric."
+  },
+  "cautions": [
+    {
+      "group": "gallstones",
+      "note": "Avoid medicinal amounts with gallstones or bile duct obstruction."
+    },
+    {
+      "group": "surgery",
+      "note": "Stop supplements two weeks before surgery."
+    },
+    {
+      "group": "liver",
+      "note": "Liver injury has been reported with turmeric and curcumin supplements, especially products made to be highly absorbed. Stop and see a doctor if you notice tiredness, nausea, poor appetite, dark urine or yellowing of the skin or eyes."
+    },
+    {
+      "group": "pregnancy",
+      "note": "Culinary amounts are fine; turmeric supplements may be unsafe in pregnancy."
+    },
+    {
+      "group": "breastfeeding",
+      "note": "Little is known about amounts above those in food while breastfeeding; keep to culinary use."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "anticoagulants",
+      "effect": "Supplements may increase bleeding risk with blood thinners.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "antidiabetics",
+      "effect": "May lower blood sugar further.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Many human trials, especially for knee osteoarthritis pain, look promising, but higher-quality studies are needed before firm conclusions. Absorption from plain turmeric is low.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=curcumin%20randomized%20controlled%20trial%20osteoarthritis"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    },
+    {
+      "kind": "safety",
+      "title": "NCCIH: Turmeric: Usefulness and Safety",
+      "detail": "Last updated April 2025",
+      "url": "https://www.nccih.nih.gov/health/turmeric"
+    },
+    {
+      "kind": "safety",
+      "title": "LiverTox (NIH): Turmeric",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK548561/"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

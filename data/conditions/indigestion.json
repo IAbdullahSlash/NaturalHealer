@@ -1,0 +1,63 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "indigestion",
+  "title": "Indigestion",
+  "category": "digestive",
+  "summary": "Kindle Agni gently with warming spices",
+  "severity": "mild",
+  "icon": "🍃",
+  "duration": "1-3 days",
+  "doshas": [
+    "pitta",
+    "kapha"
+  ],
+  "ayurvedicView": "Indigestion, with heaviness, bloating and gas after meals, indicates weakened digestive fire (Agni). Warming spices and mindful eating help restore digestive power.",
+  "remedies": [
+    "Jeera (cumin) + ajwain + saunf (fennel) tea after meals",
+    "Buttermilk with roasted cumin powder and rock salt",
+    "Small, warm, easily digestible meals",
+    "Avoid cold, raw, and heavy foods",
+    "Take a short walk after meals",
+    "A teaspoon of dhania (coriander) seeds soaked overnight, the water sipped in the morning"
+  ],
+  "prevention": [
+    "Eat at regular times",
+    "Avoid overeating",
+    "Chew food thoroughly"
+  ],
+  "tips": [
+    "Eat smaller, more frequent meals",
+    "Avoid eating late at night",
+    "Take a short walk after meals",
+    "Sip warm water with meals"
+  ],
+  "herbs": [
+    "Cumin",
+    "Fennel",
+    "Ajwain",
+    "Ginger",
+    "Cardamom"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "DD90.3",
+      "title": "Functional dyspepsia",
+      "note": "ICD-11 lists \"indigestion\" as a synonym."
+    },
+    "tm2Group": {
+      "range": "SM10–SM7Z",
+      "title": "Gastro-intestinal disorders (TM2)"
+    }
+  },
+  "seeDoctor": [
+    "Vomiting blood, or black, tarry stools: seek care now",
+    "Trouble swallowing, losing weight without trying, or pain that wakes you",
+    "New indigestion after age 55, or indigestion lasting more than a few weeks",
+    "Chest pain with sweating or breathlessness can be a heart attack: call 112"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

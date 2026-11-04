@@ -1,0 +1,75 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "nariyal-tel",
+  "name": "Nariyal tel",
+  "hindi": "नारियल तेल",
+  "sanskrit": "Narikela taila",
+  "english": "Coconut oil",
+  "latin": "Cocos nucifera",
+  "kind": "food",
+  "part": "Oil from the kernel",
+  "properties": {
+    "rasa": [
+      "madhura"
+    ],
+    "guna": [
+      "guru",
+      "snigdha"
+    ],
+    "virya": "shita",
+    "vipaka": "madhura",
+    "pacifies": [
+      "vata",
+      "pitta"
+    ],
+    "aggravates": [
+      "kapha"
+    ]
+  },
+  "actions": [
+    "Moisturises dry skin and scalp",
+    "Cooling massage oil",
+    "Cooking fat"
+  ],
+  "traditionalUses": [
+    "Dry skin and eczema patches",
+    "Scalp and hair care",
+    "Massage in hot weather"
+  ],
+  "kitchenUse": "Warmed slightly and massaged into dry skin or the scalp; used for cooking in South Indian kitchens.",
+  "typicalUse": {
+    "forms": [
+      "On skin and hair",
+      "Cooking oil"
+    ],
+    "adultAmount": "On the skin as needed; in cooking, sparingly",
+    "note": "Virgin coconut oil is the form studied for the skin."
+  },
+  "cautions": [
+    {
+      "group": "cholesterol",
+      "note": "Coconut oil is high in saturated fat and raises LDL cholesterol; use sparingly in cooking if your cholesterol is high."
+    },
+    {
+      "group": "allergy",
+      "note": "Avoid if you are allergic to coconut."
+    }
+  ],
+  "interactions": [],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Small trials found virgin coconut oil moisturises dry skin and may help mild atopic dermatitis in children.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=virgin%20coconut%20oil%20atopic%20dermatitis%20randomized"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

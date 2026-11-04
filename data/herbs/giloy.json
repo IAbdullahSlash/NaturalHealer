@@ -1,0 +1,104 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "giloy",
+  "name": "Giloy",
+  "hindi": "गिलोय",
+  "sanskrit": "Guduchi, Amrita",
+  "english": "Heart-leaved moonseed",
+  "latin": "Tinospora cordifolia",
+  "kind": "herb",
+  "part": "Stem",
+  "properties": {
+    "rasa": [
+      "tikta",
+      "kashaya"
+    ],
+    "guna": [
+      "guru",
+      "snigdha"
+    ],
+    "virya": "ushna",
+    "vipaka": "madhura",
+    "pacifies": [
+      "vata",
+      "pitta",
+      "kapha"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Rejuvenative (rasayana)",
+    "Traditionally used in fevers",
+    "Supports immunity in tradition"
+  ],
+  "traditionalUses": [
+    "Recurring fevers (traditional)",
+    "General immunity",
+    "Joint complaints"
+  ],
+  "kitchenUse": "Fresh stem decoction or powder in water, usually for limited periods.",
+  "typicalUse": {
+    "forms": [
+      "Stem decoction",
+      "Powder",
+      "Tablets"
+    ],
+    "adultAmount": "3–6 g of powder a day",
+    "note": "Make sure the product is Tinospora cordifolia; look-alike species exist."
+  },
+  "cautions": [
+    {
+      "group": "autoimmune",
+      "note": "May stimulate the immune system; avoid with autoimmune conditions."
+    },
+    {
+      "group": "liver",
+      "note": "Cases of liver injury have been reported, mostly with long or heavy use."
+    },
+    {
+      "group": "pregnancy",
+      "note": "Avoid in pregnancy and breastfeeding."
+    },
+    {
+      "group": "diabetes",
+      "note": "Can lower blood sugar."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "immunosuppressants",
+      "effect": "May work against immune-suppressing medicines.",
+      "level": "avoid"
+    },
+    {
+      "drugClass": "antidiabetics",
+      "effect": "May lower blood sugar further.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Small human studies only. Reports of liver injury, ranging from mild to severe, have prompted caution.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Tinospora%20cordifolia%20clinical"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    },
+    {
+      "kind": "safety",
+      "title": "LiverTox (NIH): Tinospora",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK608429/"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "shahad",
+  "name": "Shahad",
+  "hindi": "शहद",
+  "sanskrit": "Madhu",
+  "english": "Honey",
+  "latin": null,
+  "kind": "food",
+  "part": "Honey",
+  "properties": {
+    "rasa": [
+      "madhura",
+      "kashaya"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "shita",
+    "vipaka": null,
+    "pacifies": [
+      "kapha"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Soothes cough",
+    "Clears kapha",
+    "Carries herbs (yogavahi)"
+  ],
+  "traditionalUses": [
+    "Cough and sore throat",
+    "Mixed with herb powders to take them"
+  ],
+  "kitchenUse": "A teaspoon on its own or mixed with ginger juice or black pepper. Add to drinks only once they are warm, not hot.",
+  "typicalUse": {
+    "forms": [
+      "Raw honey"
+    ],
+    "adultAmount": "1–2 teaspoons a day",
+    "note": "Classical texts advise against heating honey or mixing it with equal amounts of ghee."
+  },
+  "cautions": [
+    {
+      "group": "infants",
+      "note": "Never give honey to babies under 1 year old (risk of infant botulism)."
+    },
+    {
+      "group": "diabetes",
+      "note": "Honey is sugar; count it in a diabetic diet."
+    }
+  ],
+  "interactions": [],
+  "evidence": {
+    "level": "moderate-human",
+    "summary": "Reviews suggest honey can ease cough in children over 1 year at least as well as some common cough remedies.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=honey%20cough%20children%20systematic%20review"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu",
+      "detail": "Madhu varga"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

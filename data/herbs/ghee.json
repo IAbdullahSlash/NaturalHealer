@@ -1,0 +1,75 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "ghee",
+  "name": "Ghee",
+  "hindi": "घी",
+  "sanskrit": "Ghrita",
+  "english": "Clarified butter",
+  "latin": null,
+  "kind": "food",
+  "part": "Clarified butter (cow)",
+  "properties": {
+    "rasa": [
+      "madhura"
+    ],
+    "guna": [
+      "guru",
+      "snigdha"
+    ],
+    "virya": "shita",
+    "vipaka": "madhura",
+    "pacifies": [
+      "vata",
+      "pitta"
+    ],
+    "aggravates": [
+      "kapha"
+    ]
+  },
+  "actions": [
+    "Nourishing and lubricating",
+    "Carries herbs into the body (yogavahi)",
+    "Kindles digestion in small amounts"
+  ],
+  "traditionalUses": [
+    "Dry, vata-type constitution",
+    "Base for medicated ghees",
+    "Dryness and constipation"
+  ],
+  "kitchenUse": "A teaspoon in warm rice, dal or khichdi; used for tempering spices.",
+  "typicalUse": {
+    "forms": [
+      "In food"
+    ],
+    "adultAmount": "1–2 teaspoons a day in food",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "cholesterol",
+      "note": "Rich in saturated fat; keep amounts small with high cholesterol or heart disease."
+    },
+    {
+      "group": "digestive-illness",
+      "note": "Avoid during indigestion with heaviness or nausea (ama)."
+    }
+  ],
+  "interactions": [],
+  "evidence": {
+    "level": "traditional",
+    "summary": "Mainly traditional use; little clinical research on medicinal effects.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=ghee%20health"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu",
+      "detail": "Ghrita varga"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

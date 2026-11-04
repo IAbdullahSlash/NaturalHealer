@@ -1,0 +1,98 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "anar",
+  "name": "Anar",
+  "hindi": "अनार",
+  "sanskrit": "Dadima",
+  "english": "Pomegranate",
+  "latin": "Punica granatum",
+  "kind": "food",
+  "part": "Fruit",
+  "properties": {
+    "rasa": [
+      "madhura",
+      "amla",
+      "kashaya"
+    ],
+    "guna": [
+      "laghu",
+      "snigdha"
+    ],
+    "virya": null,
+    "vipaka": "madhura",
+    "pacifies": [
+      "vata",
+      "pitta",
+      "kapha"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Settles loose motions (the astringent rind)",
+    "Refreshing and appetising",
+    "Nourishing in recovery"
+  ],
+  "traditionalUses": [
+    "Diarrhoea",
+    "Poor appetite",
+    "Recovery after illness"
+  ],
+  "kitchenUse": "Fresh seeds eaten as a fruit or in raita; fresh juice; dried seeds (anardana) in chutneys.",
+  "typicalUse": {
+    "forms": [
+      "Fresh fruit",
+      "Juice",
+      "Dried seeds"
+    ],
+    "adultAmount": "Food amounts",
+    "note": "The sweet fruit is said to balance all three doshas; the sour variety can raise pitta."
+  },
+  "cautions": [
+    {
+      "group": "allergy",
+      "note": "Avoid if pomegranate has caused an allergic reaction."
+    },
+    {
+      "group": "digestive-illness",
+      "note": "Large amounts of the root, stem or peel contain harmful substances; eat the fruit, not extracts of these parts."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "anticoagulants",
+      "effect": "Pomegranate juice has been linked to changes in warfarin effect; keep the amount steady and tell your doctor.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "antihypertensives",
+      "effect": "Juice may lower blood pressure further.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Juice or extract may lower blood pressure and blood sugar a little, but more research is needed.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=pomegranate%20juice%20blood%20pressure%20meta-analysis"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    },
+    {
+      "kind": "safety",
+      "title": "NCCIH: Pomegranate: Usefulness and Safety",
+      "detail": "Last updated April 2025",
+      "url": "https://www.nccih.nih.gov/health/pomegranate"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

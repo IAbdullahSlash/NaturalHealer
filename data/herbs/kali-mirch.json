@@ -1,0 +1,81 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "kali-mirch",
+  "name": "Kali mirch",
+  "hindi": "काली मिर्च",
+  "sanskrit": "Maricha",
+  "english": "Black pepper",
+  "latin": "Piper nigrum",
+  "kind": "spice",
+  "part": "Fruit",
+  "properties": {
+    "rasa": [
+      "katu"
+    ],
+    "guna": [
+      "laghu",
+      "tikshna"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "vata"
+    ],
+    "aggravates": [
+      "pitta"
+    ]
+  },
+  "actions": [
+    "Kindles digestion",
+    "Clears congestion",
+    "Increases absorption of other substances (yogavahi)"
+  ],
+  "traditionalUses": [
+    "Coughs and colds with honey",
+    "Sluggish digestion",
+    "Added to turmeric to improve absorption"
+  ],
+  "kitchenUse": "A pinch of freshly ground pepper with honey for a wet cough, or with turmeric in food.",
+  "typicalUse": {
+    "forms": [
+      "Ground pepper",
+      "Whole peppercorns"
+    ],
+    "adultAmount": "0.5–1 g a day",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "gerd",
+      "note": "Can aggravate acidity and ulcers."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "many-medicines",
+      "effect": "Piperine can raise blood levels of some medicines by increasing absorption; avoid concentrated piperine supplements with regular medication.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Piperine's effect on absorption, including of curcumin, is shown in human studies. Evidence for direct health effects is limited.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=piperine%20bioavailability%20human"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

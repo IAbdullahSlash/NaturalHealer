@@ -1,0 +1,79 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "vasaka",
+  "name": "Vasaka",
+  "hindi": "अडूसा",
+  "sanskrit": "Vasa",
+  "english": "Malabar nut",
+  "latin": "Justicia adhatoda",
+  "kind": "herb",
+  "part": "Leaf",
+  "properties": {
+    "rasa": [
+      "tikta",
+      "kashaya"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "shita",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "pitta"
+    ],
+    "aggravates": [
+      "vata"
+    ]
+  },
+  "actions": [
+    "Loosens phlegm (expectorant) in tradition",
+    "Soothes cough"
+  ],
+  "traditionalUses": [
+    "Cough with phlegm",
+    "Bronchitis in tradition"
+  ],
+  "kitchenUse": "Not a kitchen herb; the leaf juice or decoction is taken with honey, or as a syrup.",
+  "typicalUse": {
+    "forms": [
+      "Leaf juice",
+      "Syrup",
+      "Decoction"
+    ],
+    "adultAmount": "Only as a qualified practitioner advises; products and strengths vary",
+    "note": "Its alkaloid vasicine led to the medicine bromhexine."
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Avoid in pregnancy; it has traditionally been used to bring on contractions."
+    },
+    {
+      "group": "breastfeeding",
+      "note": "Not enough is known; avoid while breastfeeding."
+    }
+  ],
+  "interactions": [],
+  "evidence": {
+    "level": "preclinical",
+    "summary": "Laboratory and animal studies; small human studies of its alkaloids. The herb itself is little studied in people.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Adhatoda%20vasica"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

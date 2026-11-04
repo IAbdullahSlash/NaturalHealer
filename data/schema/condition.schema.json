@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://natural-healer.vercel.app/dataset/schema/condition.schema.json",
+  "title": "Condition entry",
+  "description": "One everyday condition in the Natural Healer remedy library, with home remedies, prevention and its ICD-11 classification.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "category", "summary", "severity", "icon", "duration", "doshas", "ayurvedicView", "remedies", "prevention", "tips", "herbs", "codes", "review"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$", "description": "Stable id, also the URL /conditions/<id> and the file name" },
+    "title": { "type": "string", "minLength": 3 },
+    "category": { "enum": ["respiratory", "digestive", "mental", "skin", "musculoskeletal", "chronic"] },
+    "summary": { "type": "string", "minLength": 10, "description": "One line shown on cards" },
+    "severity": { "enum": ["mild", "moderate", "serious"], "description": "serious means the condition needs a doctor; remedies are only support" },
+    "icon": { "type": "string", "minLength": 1 },
+    "duration": { "type": "string", "minLength": 3 },
+    "doshas": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "enum": ["vata", "pitta", "kapha"] } },
+    "ayurvedicView": { "type": ["string", "null"] },
+    "remedies": { "type": "array", "minItems": 3, "items": { "type": "string", "minLength": 8 } },
+    "prevention": { "type": "array", "minItems": 2, "items": { "type": "string", "minLength": 8 } },
+    "tips": { "type": "array", "items": { "type": "string" } },
+    "herbs": { "type": "array", "items": { "type": "string" }, "description": "Herbs the Ayurvedic view commonly names for this condition" },
+    "seeDoctor": { "type": "array", "items": { "type": "string", "minLength": 8 }, "description": "Warning signs that mean home care is not enough" },
+    "codes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["icd11", "tm2Group"],
+      "properties": {
+        "icd11": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["code", "title"],
+          "properties": {
+            "code": { "type": "string", "pattern": "^[0-9A-Z]{4}(\\.[0-9A-Z]{1,2})?$" },
+            "title": { "type": "string" },
+            "note": { "type": "string" }
+          }
+        },
+        "tm2Group": {
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["range", "title"],
+              "properties": {
+                "range": { "type": "string", "pattern": "^S[A-Z0-9]{3}–S[A-Z0-9]{3}$" },
+                "title": { "type": "string" }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "review": { "$ref": "herb.schema.json#/$defs/review" }
+  }
+}

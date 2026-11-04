@@ -52,6 +52,7 @@ function conditionText(d) {
     k.overview ? `Ayurvedic view: ${k.overview}` : '',
     `Home remedies: ${list(d.remedies)}.`,
     `Prevention: ${list(d.prevention)}.`,
+    d.seeDoctor?.length ? `See a doctor if: ${list(d.seeDoctor)}.` : '',
     shelf.length ? `Kitchen ingredients used: ${shelf.join(', ')}.` : '',
   ].filter(Boolean).join('\n')
 }

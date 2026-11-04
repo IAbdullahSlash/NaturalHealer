@@ -1,0 +1,77 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "til-tel",
+  "name": "Til tel",
+  "hindi": "तिल का तेल",
+  "sanskrit": "Tila taila",
+  "english": "Sesame oil",
+  "latin": "Sesamum indicum",
+  "kind": "food",
+  "part": "Seed oil",
+  "properties": {
+    "rasa": [
+      "madhura",
+      "kashaya",
+      "tikta"
+    ],
+    "guna": [
+      "guru",
+      "snigdha",
+      "sukshma"
+    ],
+    "virya": "ushna",
+    "vipaka": "madhura",
+    "pacifies": [
+      "vata"
+    ],
+    "aggravates": [
+      "pitta"
+    ]
+  },
+  "actions": [
+    "Warming oil for massage (abhyanga)",
+    "Nourishing to dry skin"
+  ],
+  "traditionalUses": [
+    "Daily self-massage for vata",
+    "Dry skin",
+    "Oil pulling (gandusha)"
+  ],
+  "kitchenUse": "Warm oil massaged into the body before bathing; a tablespoon swished in the mouth for oil pulling.",
+  "typicalUse": {
+    "forms": [
+      "Massage oil",
+      "Cooking oil"
+    ],
+    "adultAmount": "External use as needed",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "allergy",
+      "note": "Avoid with sesame allergy."
+    },
+    {
+      "group": "skin-infection",
+      "note": "Do not massage over broken or infected skin."
+    }
+  ],
+  "interactions": [],
+  "evidence": {
+    "level": "traditional",
+    "summary": "Mainly traditional use; small studies on oil pulling and oral health.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=sesame%20oil%20pulling"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu",
+      "detail": "Taila varga"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

@@ -15,6 +15,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Dataset is valid and generated modules are current
+        run: npm run data:check
       - name: Server tests
         run: npm test
       - name: Frontend tests

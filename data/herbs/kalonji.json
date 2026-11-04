@@ -1,0 +1,102 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "kalonji",
+  "name": "Kalonji",
+  "hindi": "कलौंजी",
+  "sanskrit": "Upakunchika",
+  "english": "Black cumin, nigella",
+  "latin": "Nigella sativa",
+  "kind": "spice",
+  "part": "Seed",
+  "properties": {
+    "rasa": [
+      "katu",
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha",
+      "tikshna"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "vata"
+    ],
+    "aggravates": [
+      "pitta"
+    ]
+  },
+  "actions": [
+    "Kindles digestion",
+    "Relieves gas",
+    "Warming"
+  ],
+  "traditionalUses": [
+    "Indigestion and bloating",
+    "Coughs and colds",
+    "Tempering for pickles and bread"
+  ],
+  "kitchenUse": "A pinch of seeds in tadka, on naan or in pickles; some take half a teaspoon with honey.",
+  "typicalUse": {
+    "forms": [
+      "Seeds in food",
+      "Seed powder",
+      "Oil"
+    ],
+    "adultAmount": "Food amounts; up to about a teaspoon of seeds a day",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Amounts above those in food are not advised in pregnancy."
+    },
+    {
+      "group": "surgery",
+      "note": "May slow blood clotting and lower blood sugar; stop medicinal amounts two weeks before surgery."
+    },
+    {
+      "group": "skin-use",
+      "note": "The oil can cause allergic skin rashes; test on a small area first."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "antidiabetics",
+      "effect": "May lower blood sugar further.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "antihypertensives",
+      "effect": "May lower blood pressure further.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "anticoagulants",
+      "effect": "May add to the effect of blood thinners.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Small human trials suggest modest effects on blood sugar, cholesterol and blood pressure; most were short and of mixed quality.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Nigella%20sativa%20randomized%20controlled%20trial"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "mulethi",
+  "name": "Mulethi",
+  "hindi": "मुलेठी",
+  "sanskrit": "Yashtimadhu",
+  "english": "Liquorice root",
+  "latin": "Glycyrrhiza glabra",
+  "kind": "herb",
+  "part": "Root",
+  "properties": {
+    "rasa": [
+      "madhura"
+    ],
+    "guna": [
+      "guru",
+      "snigdha"
+    ],
+    "virya": "shita",
+    "vipaka": "madhura",
+    "pacifies": [
+      "vata",
+      "pitta"
+    ],
+    "aggravates": [
+      "kapha"
+    ]
+  },
+  "actions": [
+    "Soothes the throat",
+    "Soothing to the stomach lining",
+    "Rejuvenative (rasayana)"
+  ],
+  "traditionalUses": [
+    "Sore throat and dry cough",
+    "Hoarse voice",
+    "Acidity"
+  ],
+  "kitchenUse": "A small piece of root chewed or simmered in tea for a sore throat, for a few days only.",
+  "typicalUse": {
+    "forms": [
+      "Root stick",
+      "Powder",
+      "Tea"
+    ],
+    "adultAmount": "2–4 g of powder a day, for short periods",
+    "note": "Long or heavy use is unsafe because of glycyrrhizin. Deglycyrrhizinated licorice (DGL) products remove it."
+  },
+  "cautions": [
+    {
+      "group": "hypertension",
+      "note": "Raises blood pressure and lowers potassium with regular use. Even small amounts have caused serious problems in people with high blood pressure or a salty diet. Avoid."
+    },
+    {
+      "group": "heart",
+      "note": "Large or long use can cause an irregular heartbeat and, rarely, cardiac arrest. Avoid with heart disease."
+    },
+    {
+      "group": "kidney",
+      "note": "Avoid with kidney disease."
+    },
+    {
+      "group": "pregnancy",
+      "note": "Avoid in pregnancy; large amounts are linked to earlier delivery."
+    },
+    {
+      "group": "breastfeeding",
+      "note": "Little is known about safety while breastfeeding; avoid."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "antihypertensives",
+      "effect": "Works against blood pressure medicines.",
+      "level": "avoid"
+    },
+    {
+      "drugClass": "diuretics",
+      "effect": "Can cause dangerously low potassium with water pills.",
+      "level": "avoid"
+    },
+    {
+      "drugClass": "corticosteroids",
+      "effect": "Increases steroid effects and side effects.",
+      "level": "avoid"
+    },
+    {
+      "drugClass": "heart-rhythm",
+      "effect": "Low potassium raises the risk with digoxin.",
+      "level": "avoid"
+    }
+  ],
+  "evidence": {
+    "level": "moderate-human",
+    "summary": "Its side effects (high blood pressure, low potassium, heart rhythm problems) are well documented in humans. Evidence for benefits is limited; a licorice gargle may ease sore throat after surgery.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=glycyrrhizin%20hypokalemia%20hypertension"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    },
+    {
+      "kind": "safety",
+      "title": "NCCIH: Licorice Root: Usefulness and Safety",
+      "detail": "Last updated April 2025",
+      "url": "https://www.nccih.nih.gov/health/licorice-root"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

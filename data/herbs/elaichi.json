@@ -1,0 +1,75 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "elaichi",
+  "name": "Elaichi",
+  "hindi": "इलायची",
+  "sanskrit": "Ela, Sukshmaila",
+  "english": "Green cardamom",
+  "latin": "Elettaria cardamomum",
+  "kind": "spice",
+  "part": "Seed",
+  "properties": {
+    "rasa": [
+      "katu",
+      "madhura"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "shita",
+    "vipaka": "madhura",
+    "pacifies": [
+      "vata",
+      "pitta",
+      "kapha"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Freshens the mouth",
+    "Settles nausea",
+    "Gentle digestive"
+  ],
+  "traditionalUses": [
+    "Nausea",
+    "Bad breath",
+    "Added to milk or tea to make it easier to digest"
+  ],
+  "kitchenUse": "One or two pods crushed into tea or warm milk.",
+  "typicalUse": {
+    "forms": [
+      "Pods",
+      "Seed powder"
+    ],
+    "adultAmount": "1–2 g a day",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "gallstones",
+      "note": "Avoid medicinal amounts with gallstones."
+    }
+  ],
+  "interactions": [],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Few human studies; mostly traditional use and laboratory work.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Elettaria%20cardamomum%20clinical"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

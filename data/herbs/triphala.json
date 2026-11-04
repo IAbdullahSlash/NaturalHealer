@@ -1,0 +1,91 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "triphala",
+  "name": "Triphala",
+  "hindi": "त्रिफला",
+  "sanskrit": "Triphala",
+  "english": "Three-fruit blend",
+  "latin": "Phyllanthus emblica, Terminalia chebula, Terminalia bellirica",
+  "kind": "formulation",
+  "part": "Dried fruit (amalaki, haritaki, bibhitaki)",
+  "properties": {
+    "rasa": [
+      "madhura",
+      "amla",
+      "katu",
+      "tikta",
+      "kashaya"
+    ],
+    "guna": [],
+    "virya": null,
+    "vipaka": null,
+    "pacifies": [
+      "vata",
+      "pitta",
+      "kapha"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Gentle bowel regulator (anulomana)",
+    "Rejuvenative (rasayana)",
+    "Used as an eyewash in tradition"
+  ],
+  "traditionalUses": [
+    "Occasional constipation",
+    "General digestive balance",
+    "Eye care (traditional; not advised at home)"
+  ],
+  "kitchenUse": "Half to one teaspoon of powder in warm water at bedtime.",
+  "typicalUse": {
+    "forms": [
+      "Powder",
+      "Tablets"
+    ],
+    "adultAmount": "3–5 g of powder at night",
+    "note": "Start low; it can loosen stools."
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Avoid in pregnancy."
+    },
+    {
+      "group": "children",
+      "note": "Not for young children without a practitioner."
+    },
+    {
+      "group": "digestive-illness",
+      "note": "Avoid with diarrhoea or inflammatory bowel disease."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "many-medicines",
+      "effect": "Take two hours apart from other medicines, as it can change how they are absorbed.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "A few small human studies on constipation and dental plaque. Not established as a treatment.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=triphala%20clinical%20trial"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu",
+      "detail": "Each of the three fruits"
+    },
+    {
+      "kind": "classical",
+      "title": "Ayurvedic Formulary of India",
+      "detail": "Triphala churna"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

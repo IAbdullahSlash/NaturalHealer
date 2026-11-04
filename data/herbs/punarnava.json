@@ -1,0 +1,95 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "punarnava",
+  "name": "Punarnava",
+  "hindi": "पुनर्नवा",
+  "sanskrit": "Punarnava",
+  "english": "Spreading hogweed",
+  "latin": "Boerhavia diffusa",
+  "kind": "herb",
+  "part": "Root and whole plant",
+  "properties": {
+    "rasa": [
+      "madhura",
+      "tikta",
+      "kashaya"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "ushna",
+    "vipaka": "madhura",
+    "pacifies": [
+      "vata",
+      "pitta",
+      "kapha"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Diuretic in tradition",
+    "Reduces swelling (shothaghna)",
+    "Name means \"renews the body\""
+  ],
+  "traditionalUses": [
+    "Swelling and water retention",
+    "Urinary complaints",
+    "Liver support in tradition"
+  ],
+  "kitchenUse": "The leaves are cooked as a green in some regions; as a remedy it is taken as powder or decoction.",
+  "typicalUse": {
+    "forms": [
+      "Powder",
+      "Decoction"
+    ],
+    "adultAmount": "Only as a qualified practitioner advises; products and strengths vary",
+    "note": "Swelling of the legs or face needs a doctor to find the cause first."
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Not enough is known; avoid in pregnancy and while breastfeeding."
+    },
+    {
+      "group": "kidney",
+      "note": "Swelling can be a sign of kidney or heart disease; see a doctor rather than treating it at home."
+    },
+    {
+      "group": "heart",
+      "note": "Do not use for swelling from heart failure without your doctor."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "diuretics",
+      "effect": "May add to the effect of water pills.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "lithium",
+      "effect": "Diuretic herbs can raise lithium to harmful levels.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "preclinical",
+    "summary": "Mostly laboratory and animal studies; little research in people.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Boerhavia%20diffusa"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

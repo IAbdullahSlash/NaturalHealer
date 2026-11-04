@@ -1,0 +1,58 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "diarrhoea",
+  "title": "Diarrhoea",
+  "category": "digestive",
+  "summary": "Replace fluids first, then eat light",
+  "severity": "moderate",
+  "icon": "💧",
+  "duration": "1-3 days",
+  "doshas": [
+    "pitta",
+    "vata"
+  ],
+  "ayurvedicView": "Loose motions are linked to Pitta and weak digestive fire. Replacing lost fluids comes first; light, binding foods help recovery.",
+  "remedies": [
+    "Oral rehydration solution (ORS) after every loose stool; this matters most",
+    "Thin buttermilk with a pinch of roasted jeera and salt",
+    "Soft khichdi, rice with curd, and ripe banana",
+    "A little fresh pomegranate (anar) or its juice",
+    "Isabgol (psyllium husk) stirred into curd to firm the stools once the first day has passed"
+  ],
+  "prevention": [
+    "Drink safe, boiled or filtered water",
+    "Wash hands before eating and after using the toilet",
+    "Eat freshly cooked food and avoid street food that has stood out"
+  ],
+  "tips": [
+    "Keep drinking even if you are not hungry",
+    "Avoid milk, fried food and very sweet drinks until better",
+    "Rest"
+  ],
+  "herbs": [
+    "Kutaja",
+    "Bilva",
+    "Anar",
+    "Isabgol",
+    "Jaiphal"
+  ],
+  "seeDoctor": [
+    "Signs of dehydration: very little urine, dizziness, a dry mouth, or a baby with a sunken soft spot",
+    "Blood in the stool, or high fever",
+    "Diarrhoea lasting more than two days in an adult or one day in a child",
+    "Any diarrhoea in a baby under six months, an older person, or someone with a long-term illness"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "ME05.1",
+      "title": "Diarrhoea",
+      "note": "A symptom code; infections are coded separately once diagnosed."
+    },
+    "tm2Group": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

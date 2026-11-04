@@ -1,0 +1,95 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "shatavari",
+  "name": "Shatavari",
+  "hindi": "शतावरी",
+  "sanskrit": "Shatavari",
+  "english": "Asparagus root",
+  "latin": "Asparagus racemosus",
+  "kind": "herb",
+  "part": "Root",
+  "properties": {
+    "rasa": [
+      "madhura",
+      "tikta"
+    ],
+    "guna": [
+      "guru",
+      "snigdha"
+    ],
+    "virya": "shita",
+    "vipaka": "madhura",
+    "pacifies": [
+      "vata",
+      "pitta"
+    ],
+    "aggravates": [
+      "kapha"
+    ]
+  },
+  "actions": [
+    "Nourishing and cooling",
+    "Rejuvenative for women in tradition (rasayana)",
+    "Soothes acidity"
+  ],
+  "traditionalUses": [
+    "Women's health across life stages (traditional)",
+    "Acidity",
+    "Weakness"
+  ],
+  "kitchenUse": "Powder in warm milk.",
+  "typicalUse": {
+    "forms": [
+      "Powder in milk",
+      "Granules"
+    ],
+    "adultAmount": "3–6 g of powder a day",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "hormone-sensitive",
+      "note": "May have estrogen-like effects; avoid with hormone-sensitive conditions."
+    },
+    {
+      "group": "allergy",
+      "note": "Avoid if allergic to asparagus."
+    },
+    {
+      "group": "pregnancy",
+      "note": "Traditionally used, but check with a doctor in pregnancy."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "diuretics",
+      "effect": "May add to the effect of water pills.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "lithium",
+      "effect": "A diuretic effect may change lithium levels.",
+      "level": "avoid"
+    }
+  ],
+  "evidence": {
+    "level": "preclinical",
+    "summary": "Mostly laboratory and animal research; few human trials.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Asparagus%20racemosus%20clinical"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

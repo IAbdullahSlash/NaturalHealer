@@ -1,0 +1,82 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "shallaki",
+  "name": "Shallaki",
+  "hindi": "सलई",
+  "sanskrit": "Shallaki",
+  "english": "Indian frankincense, boswellia",
+  "latin": "Boswellia serrata",
+  "kind": "herb",
+  "part": "Gum resin",
+  "properties": {
+    "rasa": [
+      "kashaya",
+      "tikta",
+      "madhura"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "shita",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "pitta"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Traditionally used for joint pain and swelling"
+  ],
+  "traditionalUses": [
+    "Osteoarthritis and joint stiffness",
+    "Swelling"
+  ],
+  "kitchenUse": "Not a kitchen herb; taken as standardised extract capsules or in formulations.",
+  "typicalUse": {
+    "forms": [
+      "Extract capsules",
+      "Resin in formulations"
+    ],
+    "adultAmount": "Only as a qualified practitioner advises; products and strengths vary",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "asthma",
+      "note": "Talk to your doctor first if you have asthma; it may interact with asthma medicines."
+    },
+    {
+      "group": "cancer",
+      "note": "If you are being treated for cancer, ask your cancer team before using it."
+    },
+    {
+      "group": "pregnancy",
+      "note": "Little is known about medicinal amounts in pregnancy or while breastfeeding."
+    }
+  ],
+  "interactions": [],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Trials suggest boswellia may ease osteoarthritis pain and swelling, but more rigorous studies are needed.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Boswellia%20serrata%20osteoarthritis%20randomized"
+  },
+  "sources": [
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    },
+    {
+      "kind": "safety",
+      "title": "NCCIH: Boswellia: Usefulness and Safety",
+      "detail": "Last updated April 2025",
+      "url": "https://www.nccih.nih.gov/health/boswellia"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

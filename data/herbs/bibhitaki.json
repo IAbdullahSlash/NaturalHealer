@@ -1,0 +1,77 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "bibhitaki",
+  "name": "Bibhitaki",
+  "hindi": "बहेड़ा",
+  "sanskrit": "Bibhitaki",
+  "english": "Belleric myrobalan",
+  "latin": "Terminalia bellirica",
+  "kind": "herb",
+  "part": "Fruit",
+  "properties": {
+    "rasa": [
+      "kashaya"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "ushna",
+    "vipaka": "madhura",
+    "pacifies": [
+      "kapha",
+      "pitta"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Clears phlegm in tradition",
+    "Mild laxative",
+    "One of the three fruits of triphala"
+  ],
+  "traditionalUses": [
+    "Cough and hoarse voice",
+    "Constipation (in triphala)",
+    "Eye and hair care in tradition"
+  ],
+  "kitchenUse": "Not a kitchen herb; the powder is taken with honey for cough, or as part of triphala.",
+  "typicalUse": {
+    "forms": [
+      "Powder",
+      "Part of triphala"
+    ],
+    "adultAmount": "3–6 g of powder a day, per classical sources",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Not enough is known; avoid in pregnancy."
+    },
+    {
+      "group": "digestive-illness",
+      "note": "Avoid during diarrhoea."
+    }
+  ],
+  "interactions": [],
+  "evidence": {
+    "level": "preclinical",
+    "summary": "Laboratory and animal studies; human research is mainly on triphala as a whole.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Terminalia%20bellirica"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "dhania",
+  "name": "Dhania",
+  "hindi": "धनिया",
+  "sanskrit": "Dhanyaka",
+  "english": "Coriander",
+  "latin": "Coriandrum sativum",
+  "kind": "spice",
+  "part": "Seed and leaf",
+  "properties": {
+    "rasa": [
+      "kashaya",
+      "tikta",
+      "madhura",
+      "katu"
+    ],
+    "guna": [
+      "laghu",
+      "snigdha"
+    ],
+    "virya": null,
+    "vipaka": "madhura",
+    "pacifies": [
+      "vata",
+      "pitta",
+      "kapha"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Kindles digestion without heating",
+    "Eases burning and thirst",
+    "Mild diuretic in tradition"
+  ],
+  "traditionalUses": [
+    "Indigestion and acidity",
+    "Burning urination",
+    "Summer heat"
+  ],
+  "kitchenUse": "A teaspoon of seeds soaked overnight in a glass of water, strained and sipped in the morning; fresh leaves on food.",
+  "typicalUse": {
+    "forms": [
+      "Seed water",
+      "Seed powder",
+      "Fresh leaves"
+    ],
+    "adultAmount": "Food amounts; 1–2 teaspoons of seeds a day as seed water",
+    "note": "Texts differ on its potency (virya): the seed is often called cooling, so the field is left empty until review."
+  },
+  "cautions": [
+    {
+      "group": "allergy",
+      "note": "Coriander can cause allergic reactions, including in people allergic to related plants such as celery or fennel."
+    }
+  ],
+  "interactions": [],
+  "evidence": {
+    "level": "preclinical",
+    "summary": "Mostly laboratory and animal studies on digestion and blood sugar; little research in people.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Coriandrum%20sativum%20clinical"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

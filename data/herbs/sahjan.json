@@ -1,0 +1,93 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "sahjan",
+  "name": "Sahjan",
+  "hindi": "सहजन",
+  "sanskrit": "Shigru",
+  "english": "Drumstick, moringa",
+  "latin": "Moringa oleifera",
+  "kind": "food",
+  "part": "Leaf and pod",
+  "properties": {
+    "rasa": [
+      "katu",
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha",
+      "tikshna"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "vata"
+    ],
+    "aggravates": [
+      "pitta"
+    ]
+  },
+  "actions": [
+    "Nourishing leafy green",
+    "Warming and digestive",
+    "Reduces swelling in tradition"
+  ],
+  "traditionalUses": [
+    "Joint swelling",
+    "Poor appetite",
+    "Drumsticks in sambar"
+  ],
+  "kitchenUse": "Drumstick pods cooked in sambar or curry; fresh leaves cooked like spinach or dried as powder.",
+  "typicalUse": {
+    "forms": [
+      "Cooked pods and leaves",
+      "Leaf powder"
+    ],
+    "adultAmount": "Food amounts; leaf powder about a teaspoon a day",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "The root, bark and flowers may cause contractions; avoid them in pregnancy. The cooked leaves and pods are eaten as food."
+    },
+    {
+      "group": "diabetes",
+      "note": "May lower blood sugar; check levels if you take diabetes medicines."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "antidiabetics",
+      "effect": "May lower blood sugar further.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "antihypertensives",
+      "effect": "May lower blood pressure further.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "thyroid",
+      "effect": "May change how levothyroxine is absorbed; take them apart.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "A nutritious food; small human studies on blood sugar are inconclusive.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Moringa%20oleifera%20randomized%20controlled%20trial"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

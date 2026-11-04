@@ -1,0 +1,62 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "anxiety",
+  "title": "Anxiety & Stress",
+  "category": "mental",
+  "summary": "Balance nervous system with herbs and practices",
+  "severity": "moderate",
+  "icon": "🧠",
+  "duration": "Ongoing",
+  "doshas": [
+    "vata",
+    "pitta"
+  ],
+  "ayurvedicView": "Anxiety reflects aggravated Vata and sometimes Pitta. Grounding practices and nervine herbs help restore calm.",
+  "remedies": [
+    "Brahmi tea or supplement (consult practitioner)",
+    "Practice Pranayama (breathwork) - especially Nadi Shodhana",
+    "Warm oil massage (Abhyanga) before shower",
+    "Meditation and mindfulness practices",
+    "Reduce caffeine and stimulants",
+    "Shankhpushpi syrup only if a practitioner advises (never with anti-seizure medicines)"
+  ],
+  "prevention": [
+    "Regular meditation practice",
+    "Adequate sleep",
+    "Balanced lifestyle"
+  ],
+  "tips": [
+    "Practice daily meditation",
+    "Use breathwork (Pranayama)",
+    "Maintain regular routines",
+    "Reduce stimulants like caffeine"
+  ],
+  "herbs": [
+    "Ashwagandha",
+    "Brahmi",
+    "Jatamansi",
+    "Shankhpushpi",
+    "Holy Basil"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "MB24.3",
+      "title": "Anxiety",
+      "note": "A symptom code. Anxiety disorders are diagnosed by a clinician and coded separately."
+    },
+    "tm2Group": {
+      "range": "SQ00–SQ4Z",
+      "title": "Mental, emotional and behavioural disorders (TM2)"
+    }
+  },
+  "seeDoctor": [
+    "Panic attacks, or worry that stops you working, studying or sleeping",
+    "Thoughts of harming yourself: call Tele-MANAS 14416, or 112 in an emergency",
+    "Chest pain, fainting or a racing heart that does not settle"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

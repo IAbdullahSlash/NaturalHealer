@@ -1,0 +1,84 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "laung",
+  "name": "Laung",
+  "hindi": "लौंग",
+  "sanskrit": "Lavanga",
+  "english": "Clove",
+  "latin": "Syzygium aromaticum",
+  "kind": "spice",
+  "part": "Flower bud",
+  "properties": {
+    "rasa": [
+      "katu",
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "snigdha"
+    ],
+    "virya": "shita",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "pitta"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Numbs local tooth pain",
+    "Freshens the mouth",
+    "Eases cough"
+  ],
+  "traditionalUses": [
+    "Toothache (a clove held near the tooth)",
+    "Cough",
+    "Bad breath"
+  ],
+  "kitchenUse": "A whole clove held in the mouth, or one or two cloves in tea.",
+  "typicalUse": {
+    "forms": [
+      "Whole clove",
+      "Clove oil (diluted, on the gum only)"
+    ],
+    "adultAmount": "1–2 cloves a day",
+    "note": "Clove oil is strong; never swallow it, and never use it for children."
+  },
+  "cautions": [
+    {
+      "group": "children",
+      "note": "Clove oil can be poisonous to children, even in small amounts."
+    },
+    {
+      "group": "bleeding-disorder",
+      "note": "Eugenol may slow clotting."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "anticoagulants",
+      "effect": "Clove oil may add to the effect of blood thinners.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Eugenol, the main oil in clove, is used in dentistry as a local anaesthetic. Little other human research.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=clove%20eugenol%20dental%20pain"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

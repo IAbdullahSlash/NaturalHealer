@@ -1,0 +1,86 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "pudina",
+  "name": "Pudina",
+  "hindi": "पुदीना",
+  "sanskrit": "Putiha",
+  "english": "Mint",
+  "latin": "Mentha spicata",
+  "kind": "herb",
+  "part": "Leaf",
+  "properties": {
+    "rasa": [
+      "katu"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "vata"
+    ],
+    "aggravates": [
+      "pitta"
+    ]
+  },
+  "actions": [
+    "Eases bloating and gas",
+    "Freshens the mouth",
+    "Cooling to the taste though warming in Ayurveda"
+  ],
+  "traditionalUses": [
+    "Indigestion and gas",
+    "Nausea",
+    "Summer drinks and chutneys"
+  ],
+  "kitchenUse": "A handful of fresh leaves in chutney, raita or water, or steeped in hot water as mint tea after meals.",
+  "typicalUse": {
+    "forms": [
+      "Fresh leaves",
+      "Tea",
+      "Chutney"
+    ],
+    "adultAmount": "Food amounts; a cup or two of mint tea a day",
+    "note": "Research on peppermint oil capsules for irritable bowel does not apply directly to kitchen mint leaves."
+  },
+  "cautions": [
+    {
+      "group": "gerd",
+      "note": "Mint can relax the valve at the top of the stomach and make acid reflux worse."
+    },
+    {
+      "group": "infants",
+      "note": "Never put mint or peppermint oil on or near a baby's or small child's face; menthol can affect their breathing."
+    },
+    {
+      "group": "allergy",
+      "note": "Avoid if mint has caused an allergic reaction before."
+    }
+  ],
+  "interactions": [],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Peppermint oil capsules have reasonable evidence for easing irritable bowel symptoms; evidence for mint leaf tea is limited.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=peppermint%20oil%20irritable%20bowel%20syndrome%20randomized"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "safety",
+      "title": "NCCIH: Peppermint Oil: Usefulness and Safety",
+      "detail": "Last updated May 2025",
+      "url": "https://www.nccih.nih.gov/health/peppermint-oil"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

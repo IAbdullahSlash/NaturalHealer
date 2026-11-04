@@ -1,0 +1,104 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "dalchini",
+  "name": "Dalchini",
+  "hindi": "दालचीनी",
+  "sanskrit": "Twak",
+  "english": "Cinnamon",
+  "latin": "Cinnamomum verum",
+  "kind": "spice",
+  "part": "Bark",
+  "properties": {
+    "rasa": [
+      "katu",
+      "tikta",
+      "madhura"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha",
+      "tikshna"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "vata"
+    ],
+    "aggravates": [
+      "pitta"
+    ]
+  },
+  "actions": [
+    "Warming digestive",
+    "Clears kapha",
+    "Aromatic"
+  ],
+  "traditionalUses": [
+    "Colds and congestion",
+    "Sluggish digestion",
+    "Part of a blood-sugar-aware diet"
+  ],
+  "kitchenUse": "A small stick simmered in tea or cooked into rice and dal.",
+  "typicalUse": {
+    "forms": [
+      "Bark in cooking",
+      "Tea",
+      "Powder"
+    ],
+    "adultAmount": "1–2 g of powder a day",
+    "note": "Most shop \"cinnamon\" is cassia, which contains coumarin; large daily amounts of cassia are not advised."
+  },
+  "cautions": [
+    {
+      "group": "liver",
+      "note": "Large daily amounts of cassia cinnamon contain coumarin, which can harm the liver."
+    },
+    {
+      "group": "pregnancy",
+      "note": "Food amounts appear safe; larger amounts of Ceylon cinnamon are considered unsafe in pregnancy."
+    },
+    {
+      "group": "skin-use",
+      "note": "Cinnamon oil or powder on the skin can cause irritation."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "antidiabetics",
+      "effect": "May lower blood sugar further.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Research does not clearly support cinnamon for any health condition; results on blood sugar are mixed.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=cinnamon%20glycemic%20control%20meta-analysis"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    },
+    {
+      "kind": "safety",
+      "title": "NCCIH: Cinnamon: Usefulness and Safety",
+      "detail": "Last updated November 2024",
+      "url": "https://www.nccih.nih.gov/health/cinnamon"
+    },
+    {
+      "kind": "safety",
+      "title": "LiverTox (NIH): Cinnamon",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK623885/"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

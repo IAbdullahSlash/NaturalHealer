@@ -1,0 +1,93 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "mandukparni",
+  "name": "Mandukparni",
+  "hindi": "मंडूकपर्णी",
+  "sanskrit": "Mandukaparni",
+  "english": "Gotu kola",
+  "latin": "Centella asiatica",
+  "kind": "herb",
+  "part": "Whole plant",
+  "properties": {
+    "rasa": [
+      "tikta",
+      "kashaya",
+      "madhura"
+    ],
+    "guna": [
+      "laghu"
+    ],
+    "virya": "shita",
+    "vipaka": "madhura",
+    "pacifies": [
+      "kapha",
+      "pitta"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Traditionally used as a brain tonic (medhya)",
+    "Wound healing on the skin"
+  ],
+  "traditionalUses": [
+    "Memory",
+    "Wounds and skin conditions",
+    "Leaves in salads and chutneys in some regions"
+  ],
+  "kitchenUse": "Fresh leaves are eaten in chutneys and salads in some regions; as a remedy it is taken as juice or powder.",
+  "typicalUse": {
+    "forms": [
+      "Fresh leaves",
+      "Juice",
+      "Powder"
+    ],
+    "adultAmount": "Only as a qualified practitioner advises; products and strengths vary",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "liver",
+      "note": "Rare cases of liver injury have been reported, usually resolving after stopping."
+    },
+    {
+      "group": "pregnancy",
+      "note": "Not enough is known; avoid medicinal amounts in pregnancy and while breastfeeding."
+    },
+    {
+      "group": "skin-use",
+      "note": "Can cause allergic skin rashes when applied."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "sedatives",
+      "effect": "May add to drowsiness.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Some trials suggest it may help leg vein problems and wound healing; evidence for memory is weak.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Centella%20asiatica%20randomized"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    },
+    {
+      "kind": "safety",
+      "title": "LiverTox (NIH): Centella asiatica",
+      "url": "https://www.ncbi.nlm.nih.gov/books/n/livertox/Centella/"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

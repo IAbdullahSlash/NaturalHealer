@@ -1,0 +1,58 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "diabetes",
+  "title": "Diabetes Support",
+  "category": "chronic",
+  "summary": "Supportive habits alongside medical care",
+  "severity": "serious",
+  "icon": "💊",
+  "duration": "Ongoing management",
+  "doshas": [
+    "kapha"
+  ],
+  "ayurvedicView": "Type 2 diabetes relates to Kapha imbalance. Lifestyle modifications alongside medical care are essential.",
+  "remedies": [
+    "Soaked methi (fenugreek) seeds in the morning",
+    "Light walks after meals for blood sugar control",
+    "Bitter melon (karela) juice in moderation",
+    "Cinnamon tea between meals",
+    "Work closely with healthcare provider for medication",
+    "Fibre-rich isabgol or ground alsi (flaxseed) with meals, taking medicines two hours apart"
+  ],
+  "prevention": [
+    "Maintain healthy weight",
+    "Regular exercise",
+    "Balanced, low-glycemic diet"
+  ],
+  "tips": [
+    "Monitor blood sugar regularly",
+    "Take short walks after meals",
+    "Choose low-glycemic foods",
+    "Work closely with your healthcare team"
+  ],
+  "herbs": [
+    "Fenugreek",
+    "Bitter melon",
+    "Cinnamon",
+    "Gymnema",
+    "Turmeric"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "5A11",
+      "title": "Type 2 diabetes mellitus",
+      "note": "The library entry supports type 2 diabetes alongside medical care."
+    },
+    "tm2Group": null
+  },
+  "seeDoctor": [
+    "Blood sugar readings that stay above your target, or fall below 70 mg/dL",
+    "Great thirst, passing a lot of urine, confusion or drowsiness",
+    "A foot wound or sore that is not healing"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "manjistha",
+  "name": "Manjistha",
+  "hindi": "मंजिष्ठा",
+  "sanskrit": "Manjishtha",
+  "english": "Indian madder",
+  "latin": "Rubia cordifolia",
+  "kind": "herb",
+  "part": "Root",
+  "properties": {
+    "rasa": [
+      "tikta",
+      "kashaya",
+      "madhura"
+    ],
+    "guna": [
+      "guru",
+      "ruksha"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "pitta"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Traditionally used to \"purify the blood\" (raktashodhaka)",
+    "Improves complexion (varnya)"
+  ],
+  "traditionalUses": [
+    "Acne and skin blemishes",
+    "Skin rashes",
+    "Face packs"
+  ],
+  "kitchenUse": "Not a kitchen herb; the powder is mixed with honey or rose water as a face pack, or taken as powder or decoction.",
+  "typicalUse": {
+    "forms": [
+      "Powder",
+      "Face pack"
+    ],
+    "adultAmount": "Only as a qualified practitioner advises; products and strengths vary",
+    "note": "It can turn urine reddish; this is harmless."
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Not enough is known; avoid in pregnancy and while breastfeeding."
+    },
+    {
+      "group": "kidney",
+      "note": "Related madder species contain compounds of concern for long-term use; avoid with kidney disease."
+    }
+  ],
+  "interactions": [],
+  "evidence": {
+    "level": "preclinical",
+    "summary": "Laboratory and animal studies only; no reliable trials in people.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Rubia%20cordifolia"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

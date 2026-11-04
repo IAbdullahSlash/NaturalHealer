@@ -1,0 +1,88 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "kudampuli",
+  "name": "Kudampuli",
+  "hindi": "कुडम्पुली",
+  "sanskrit": "Vrikshamla",
+  "english": "Malabar tamarind, garcinia",
+  "latin": "Garcinia gummi-gutta",
+  "kind": "food",
+  "part": "Fruit rind",
+  "properties": {
+    "rasa": [
+      "amla"
+    ],
+    "guna": null,
+    "virya": "ushna",
+    "vipaka": null,
+    "pacifies": [
+      "vata",
+      "kapha"
+    ],
+    "aggravates": [
+      "pitta"
+    ]
+  },
+  "actions": [
+    "Souring agent in cooking",
+    "Sold as a weight-loss supplement (hydroxycitric acid)"
+  ],
+  "traditionalUses": [
+    "Sour fish and vegetable curries in Kerala and coastal Karnataka",
+    "Digestion in tradition"
+  ],
+  "kitchenUse": "A piece or two of the dried rind soaked and simmered in fish curry, like tamarind.",
+  "typicalUse": {
+    "forms": [
+      "Dried rind in cooking",
+      "Extract capsules (not advised)"
+    ],
+    "adultAmount": "Food amounts",
+    "note": "The Sanskrit name vrikshamla is also used for kokum (Garcinia indica); texts differ."
+  },
+  "cautions": [
+    {
+      "group": "liver",
+      "note": "Weight-loss supplements containing garcinia have been linked to liver injury; avoid them, especially with liver disease. The rind used in cooking is a food."
+    },
+    {
+      "group": "pregnancy",
+      "note": "Avoid the supplements in pregnancy and while breastfeeding."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "antidepressants",
+      "effect": "Supplements have been reported to interact with medicines that affect serotonin.",
+      "level": "avoid"
+    },
+    {
+      "drugClass": "many-medicines",
+      "effect": "Supplements may interact with medicines processed by the liver.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Supplements may have a small effect on weight loss, but the evidence is mixed.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Garcinia%20cambogia%20hydroxycitric%20acid%20weight%20loss%20meta-analysis"
+  },
+  "sources": [
+    {
+      "kind": "safety",
+      "title": "NCCIH: Garcinia Cambogia: Usefulness and Safety",
+      "detail": "Last updated February 2025",
+      "url": "https://www.nccih.nih.gov/health/garcinia-cambogia"
+    },
+    {
+      "kind": "safety",
+      "title": "LiverTox (NIH): Garcinia Cambogia",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK548087/"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

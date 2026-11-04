@@ -1,0 +1,78 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "curry-patta",
+  "name": "Curry patta",
+  "hindi": "करी पत्ता",
+  "sanskrit": "Kaidarya",
+  "english": "Curry leaf",
+  "latin": "Bergera koenigii",
+  "kind": "herb",
+  "part": "Leaf",
+  "properties": {
+    "rasa": [
+      "tikta",
+      "kashaya",
+      "katu"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": null,
+    "vipaka": null,
+    "pacifies": [
+      "kapha",
+      "pitta"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Kindles appetite",
+    "Settles the stomach",
+    "Aromatic"
+  ],
+  "traditionalUses": [
+    "Indigestion and loose motions",
+    "Hair care in oils",
+    "Tempering dal and chutneys"
+  ],
+  "kitchenUse": "A sprig of fresh leaves crackled in hot oil for tadka; some chew a few fresh leaves in the morning.",
+  "typicalUse": {
+    "forms": [
+      "Fresh leaves in food",
+      "Infused in hair oil"
+    ],
+    "adultAmount": "Food amounts",
+    "note": "Classical sources give differing potency, so virya and vipaka are left empty until review."
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Food amounts are fine; medicinal amounts have not been studied in pregnancy."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "antidiabetics",
+      "effect": "Studied for lowering blood sugar in animals; medicinal amounts may add to diabetes medicines.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "preclinical",
+    "summary": "Laboratory and animal studies on blood sugar and cholesterol; almost no research in people.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Murraya%20koenigii"
+  },
+  "sources": [
+    {
+      "kind": "research",
+      "title": "PubMed: research on Murraya koenigii",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Murraya%20koenigii"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

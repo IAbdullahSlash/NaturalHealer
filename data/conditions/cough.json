@@ -1,0 +1,58 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "cough",
+  "title": "Cough",
+  "category": "respiratory",
+  "summary": "Loosen phlegm and soothe the throat",
+  "severity": "mild",
+  "icon": "😮‍💨",
+  "duration": "1-3 weeks",
+  "doshas": [
+    "kapha",
+    "vata"
+  ],
+  "ayurvedicView": "A wet cough with phlegm is linked to excess Kapha, a dry, tickly cough to Vata. Warm, moist remedies and rest help the body clear it.",
+  "remedies": [
+    "Half a teaspoon of honey with a pinch of pippali or black pepper, two to three times a day (no honey for children under one)",
+    "Mulethi (licorice) tea for a dry cough, for a few days only",
+    "Vasaka syrup, if a practitioner advises",
+    "Steam inhalation with a teaspoon of ajwain seeds",
+    "Warm water and warm soups through the day"
+  ],
+  "prevention": [
+    "Wash hands often and cover coughs",
+    "Avoid smoke, dust and incense smoke",
+    "Stay warm in cold weather"
+  ],
+  "tips": [
+    "Sip warm fluids rather than cold drinks",
+    "Sleep with your head slightly raised",
+    "Rest your voice"
+  ],
+  "herbs": [
+    "Vasaka",
+    "Tulsi",
+    "Mulethi",
+    "Pippali",
+    "Honey"
+  ],
+  "seeDoctor": [
+    "Coughing up blood",
+    "Breathlessness, wheezing or chest pain",
+    "A cough lasting more than three weeks, or with weight loss or night sweats",
+    "High fever, or a child who is struggling to breathe"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "MD12",
+      "title": "Cough",
+      "note": "A symptom code; the cause is diagnosed and coded separately."
+    },
+    "tm2Group": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

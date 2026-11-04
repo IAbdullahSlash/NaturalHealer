@@ -1,0 +1,141 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "ashwagandha",
+  "name": "Ashwagandha",
+  "hindi": "अश्वगंधा",
+  "sanskrit": "Ashvagandha",
+  "english": "Winter cherry",
+  "latin": "Withania somnifera",
+  "kind": "herb",
+  "part": "Root",
+  "properties": {
+    "rasa": [
+      "tikta",
+      "kashaya",
+      "madhura"
+    ],
+    "guna": [
+      "laghu",
+      "snigdha"
+    ],
+    "virya": "ushna",
+    "vipaka": "madhura",
+    "pacifies": [
+      "vata",
+      "kapha"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Strengthening (balya)",
+    "Rejuvenative (rasayana)",
+    "Calming; supports sleep"
+  ],
+  "traditionalUses": [
+    "Stress and poor sleep",
+    "Weakness and fatigue",
+    "Vata-type joint aches"
+  ],
+  "kitchenUse": "Powder simmered in warm milk at night, sometimes with a little ghee.",
+  "typicalUse": {
+    "forms": [
+      "Root powder in milk",
+      "Capsules"
+    ],
+    "adultAmount": "3–6 g of powder a day",
+    "note": "Leaf products differ from root; use root."
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Avoid in pregnancy."
+    },
+    {
+      "group": "breastfeeding",
+      "note": "Do not use while breastfeeding."
+    },
+    {
+      "group": "thyroid",
+      "note": "Not recommended with thyroid disorders; it may raise thyroid hormone levels."
+    },
+    {
+      "group": "autoimmune",
+      "note": "Not recommended with autoimmune conditions."
+    },
+    {
+      "group": "hormone-sensitive",
+      "note": "May raise testosterone; avoid with hormone-sensitive prostate cancer."
+    },
+    {
+      "group": "liver",
+      "note": "Rare cases of liver injury have been reported with supplements."
+    },
+    {
+      "group": "surgery",
+      "note": "Not recommended before surgery; stop at least two weeks ahead."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "sedatives",
+      "effect": "May add to drowsiness from sleeping pills and sedatives.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "thyroid",
+      "effect": "May add to thyroid hormone medicine.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "immunosuppressants",
+      "effect": "May work against immune-suppressing medicines.",
+      "level": "avoid"
+    },
+    {
+      "drugClass": "antidiabetics",
+      "effect": "May lower blood sugar further.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "antihypertensives",
+      "effect": "May interact with blood pressure medicines.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "anticonvulsants",
+      "effect": "May interact with anti-seizure medicines.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Some preparations may help with insomnia and stress; the evidence on anxiety is unclear. Studies are short, and products vary.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Withania%20somnifera%20randomized%20controlled%20trial%20stress"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    },
+    {
+      "kind": "safety",
+      "title": "NCCIH: Ashwagandha: Usefulness and Safety",
+      "detail": "Last updated March 2023",
+      "url": "https://www.nccih.nih.gov/health/ashwagandha"
+    },
+    {
+      "kind": "safety",
+      "title": "LiverTox (NIH): Ashwagandha",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK548536/"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

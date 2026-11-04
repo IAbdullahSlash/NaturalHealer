@@ -1,0 +1,86 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "pippali",
+  "name": "Pippali",
+  "hindi": "पिप्पली",
+  "sanskrit": "Pippali",
+  "english": "Long pepper",
+  "latin": "Piper longum",
+  "kind": "spice",
+  "part": "Fruit",
+  "properties": {
+    "rasa": [
+      "katu"
+    ],
+    "guna": [
+      "laghu",
+      "snigdha",
+      "tikshna"
+    ],
+    "virya": null,
+    "vipaka": "madhura",
+    "pacifies": [
+      "kapha",
+      "vata"
+    ],
+    "aggravates": [
+      "pitta"
+    ]
+  },
+  "actions": [
+    "Kindles digestion",
+    "Clears phlegm",
+    "Rejuvenating (rasayana) for the lungs in tradition"
+  ],
+  "traditionalUses": [
+    "Cough and cold (with honey)",
+    "Sluggish digestion",
+    "Part of trikatu with ginger and black pepper"
+  ],
+  "kitchenUse": "A pinch of powder with honey for cough, or with ginger and black pepper as trikatu.",
+  "typicalUse": {
+    "forms": [
+      "Powder with honey",
+      "Part of trikatu"
+    ],
+    "adultAmount": "Up to about 1 g of powder a day, for short periods",
+    "note": "Classical texts call it only mildly heating (anushna) when fresh, so virya is left empty until review."
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Avoid amounts above food use in pregnancy."
+    },
+    {
+      "group": "gerd",
+      "note": "Pungent; can worsen acidity, reflux and ulcers."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "many-medicines",
+      "effect": "Its piperine increases absorption of many medicines, which can raise their levels.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "preclinical",
+    "summary": "Mostly laboratory and animal studies; small human studies of piperine.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Piper%20longum"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

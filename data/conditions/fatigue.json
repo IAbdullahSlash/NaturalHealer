@@ -1,0 +1,58 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "fatigue",
+  "title": "Tiredness and Low Energy",
+  "category": "mental",
+  "summary": "Rebuild energy with sleep, food and routine",
+  "severity": "mild",
+  "icon": "🔋",
+  "duration": "Varies",
+  "doshas": [
+    "vata",
+    "kapha"
+  ],
+  "ayurvedicView": "Lasting tiredness is linked to depleted ojas, weak digestion or excess Kapha. A steady routine, regular meals, sleep and gentle activity restore energy.",
+  "remedies": [
+    "Regular sleep and waking times, aiming for seven to eight hours",
+    "Warm, freshly cooked meals at regular times, with dals and leafy greens for iron",
+    "A daily walk, ideally in morning light",
+    "Amla or seasonal fruit every day",
+    "Ashwagandha in warm milk at night, if a practitioner advises"
+  ],
+  "prevention": [
+    "Keep a steady daily routine",
+    "Limit late-night screens",
+    "Drink enough water"
+  ],
+  "tips": [
+    "Notice whether tiredness follows poor sleep, heavy meals or stress",
+    "Short breaks during work help more than one long rest",
+    "Cut down on caffeine after midday"
+  ],
+  "herbs": [
+    "Ashwagandha",
+    "Shatavari",
+    "Amla",
+    "Chyawanprash",
+    "Gokshura"
+  ],
+  "seeDoctor": [
+    "Tiredness lasting more than two to three weeks without a clear reason",
+    "Tiredness with weight loss, fever, night sweats or breathlessness",
+    "Feeling low or hopeless, or losing interest in things",
+    "Pale skin, a racing heart or breathlessness on stairs (possible anaemia)"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "MG22",
+      "title": "Fatigue",
+      "note": "A symptom code; the cause is diagnosed and coded separately."
+    },
+    "tm2Group": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

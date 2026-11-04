@@ -1,0 +1,88 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "haritaki",
+  "name": "Haritaki",
+  "hindi": "हरड़",
+  "sanskrit": "Haritaki",
+  "english": "Chebulic myrobalan",
+  "latin": "Terminalia chebula",
+  "kind": "herb",
+  "part": "Fruit",
+  "properties": {
+    "rasa": [
+      "kashaya",
+      "madhura",
+      "amla",
+      "katu",
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "ushna",
+    "vipaka": "madhura",
+    "pacifies": [
+      "vata",
+      "pitta",
+      "kapha"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Gentle laxative",
+    "Rejuvenating (rasayana) in tradition",
+    "One of the three fruits of triphala"
+  ],
+  "traditionalUses": [
+    "Constipation",
+    "Indigestion",
+    "Mouth and gum care (gargle)"
+  ],
+  "kitchenUse": "Not a kitchen herb; a little powder is taken with warm water at bedtime, often as part of triphala.",
+  "typicalUse": {
+    "forms": [
+      "Powder",
+      "Part of triphala"
+    ],
+    "adultAmount": "3–6 g of powder a day, per classical sources",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Avoid in pregnancy; it is a laxative."
+    },
+    {
+      "group": "digestive-illness",
+      "note": "Avoid during diarrhoea or with dehydration, weakness or after fasting."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "many-medicines",
+      "effect": "As a laxative it can reduce absorption of medicines taken at the same time; take them apart.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "preclinical",
+    "summary": "Mostly laboratory and animal studies; small human studies of triphala, of which it is part.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Terminalia%20chebula%20clinical"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

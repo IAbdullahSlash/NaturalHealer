@@ -1,0 +1,61 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "eczema",
+  "title": "Eczema (Dry Skin)",
+  "category": "skin",
+  "summary": "Nourish and soothe irritated skin",
+  "severity": "mild",
+  "icon": "🌸",
+  "duration": "Varies",
+  "doshas": [
+    "vata",
+    "pitta"
+  ],
+  "ayurvedicView": "Eczema shows Pitta and Vata imbalance in the skin. Gentle care, moisturization, and cooling help heal.",
+  "remedies": [
+    "Coconut oil or ghee applied to affected areas",
+    "Avoid harsh soaps and hot water",
+    "Neem and turmeric paste for inflammation",
+    "Oatmeal baths for soothing relief",
+    "Stay hydrated and avoid triggers",
+    "Short, lukewarm baths, patting the skin dry and moisturising straight after"
+  ],
+  "prevention": [
+    "Use gentle, natural products",
+    "Keep skin moisturized",
+    "Identify and avoid triggers"
+  ],
+  "tips": [
+    "Avoid harsh chemicals and fragrances",
+    "Keep skin well-moisturized",
+    "Identify and avoid triggers",
+    "Use lukewarm (not hot) water"
+  ],
+  "herbs": [
+    "Neem",
+    "Turmeric",
+    "Aloe vera",
+    "Coconut oil",
+    "Manjistha"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "EA80",
+      "title": "Atopic eczema"
+    },
+    "tm2Group": {
+      "range": "SN40–SN5Z",
+      "title": "Skin disorders (TM2)"
+    }
+  },
+  "seeDoctor": [
+    "Weeping, crusted or painful skin that may be infected",
+    "Eczema that keeps you awake or does not improve with care",
+    "A sudden widespread rash, especially with fever"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

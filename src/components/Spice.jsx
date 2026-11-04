@@ -12,6 +12,9 @@ const powders = {
   brahmi: { base: '#6C7B45', grains: ['#5A6838', '#7F8F55', '#4D5A2F'] },
   arjuna: { base: '#7A4B35', grains: ['#643A28', '#8E5B43', '#58321F'] },
   karela: { base: '#5F7B3B', grains: ['#4E6830', '#73914A', '#445B28'] },
+  isabgol: { base: '#E6DCCB', grains: ['#D9CDB8', '#F0E8DA', '#CFC2AA', '#E0D3BE'] },
+  mulethi: { base: '#B8894A', grains: ['#A3763C', '#C99A5A', '#8F6531', '#D4A968'] },
+  amla: { base: '#8A8A4A', grains: ['#77783D', '#9C9C58', '#666733', '#ABAA66'] },
 }
 
 const liquids = {
@@ -36,6 +39,12 @@ const seeds = {
   sendha: { base: '#C9A9A2', colors: ['#E9CFC8', '#D8B7AF', '#F3E0DB', '#C79E95'], rx: 0.03, ry: 0.024, ridge: false },
   tulsi: { base: '#22301A', colors: ['#3F5A2C', '#4C6B34', '#355024', '#5A7A3E'], rx: 0.075, ry: 0.042, ridge: true },
   neem: { base: '#1F2C17', colors: ['#4A6A2E', '#3D5B26', '#57793A', '#30481E'], rx: 0.08, ry: 0.03, ridge: true },
+  pudina: { base: '#1E3A1E', colors: ['#4E8A3E', '#5E9C48', '#3F7533', '#6FAE55'], rx: 0.07, ry: 0.045, ridge: true },
+  'curry-patta': { base: '#1A2A14', colors: ['#3E6A2A', '#4B7A32', '#335A22', '#578A3C'], rx: 0.085, ry: 0.034, ridge: true },
+  dhania: { base: '#6B5532', colors: ['#B89A62', '#C9AC73', '#A78A54', '#D2B884'], rx: 0.03, ry: 0.028, ridge: true },
+  pippali: { base: '#1E1712', colors: ['#4A3A2C', '#5A4636', '#3A2D22'], rx: 0.07, ry: 0.018, ridge: true },
+  alsi: { base: '#3A2414', colors: ['#7A4A26', '#8C5A30', '#6A3D1E', '#9A6638'], rx: 0.03, ry: 0.016, ridge: false },
+  anar: { base: '#5A0E16', colors: ['#B3243A', '#C8324A', '#9A1B2E', '#D9475D'], rx: 0.03, ry: 0.024, ridge: false },
 }
 
 function drawLiquid(ctx, w, spec, rand) {
@@ -185,7 +194,8 @@ function drawSeeds(ctx, w, spec, rand) {
 
 const cache = new Map()
 const SEEDS = {
-  haldi: 11, saunth: 23, dalchini: 37, rai: 41, ajwain: 53, jeera: 67, elaichi: 79, tulsi: 83, neem: 89 }
+  haldi: 11, saunth: 23, dalchini: 37, rai: 41, ajwain: 53, jeera: 67, elaichi: 79, tulsi: 83, neem: 89,
+  pudina: 97, dhania: 101, pippali: 103, alsi: 107, anar: 109, 'curry-patta': 113 }
 
 export function spiceTexture(spice, size) {
   if (typeof document === 'undefined') return ''

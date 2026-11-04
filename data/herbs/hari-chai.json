@@ -1,0 +1,85 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "hari-chai",
+  "name": "Hari chai",
+  "hindi": "हरी चाय",
+  "sanskrit": null,
+  "english": "Green tea",
+  "latin": "Camellia sinensis",
+  "kind": "food",
+  "part": "Leaf",
+  "properties": {
+    "rasa": null,
+    "guna": null,
+    "virya": null,
+    "vipaka": null,
+    "pacifies": [],
+    "aggravates": []
+  },
+  "actions": [
+    "Mild stimulant (caffeine)",
+    "Source of catechins",
+    "Refreshing drink"
+  ],
+  "traditionalUses": [
+    "Alertness",
+    "A lighter alternative to milk tea"
+  ],
+  "kitchenUse": "A teaspoon of leaves or one bag steeped in water just off the boil for two to three minutes.",
+  "typicalUse": {
+    "forms": [
+      "Brewed tea"
+    ],
+    "adultAmount": "Up to 3–4 cups of brewed tea a day",
+    "note": "Not a classical Ayurvedic herb, so no classical properties are recorded. Brewed tea is very different from concentrated extract capsules."
+  },
+  "cautions": [
+    {
+      "group": "liver",
+      "note": "Concentrated green tea extract (capsules and weight-loss products) has caused liver injury, sometimes severe. Brewed tea has not been linked to this."
+    },
+    {
+      "group": "pregnancy",
+      "note": "Contains caffeine; keep total caffeine within what your doctor advises in pregnancy and while breastfeeding."
+    },
+    {
+      "group": "heart",
+      "note": "Caffeine can raise heart rate and blood pressure in sensitive people."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "antihypertensives",
+      "effect": "Large amounts can reduce the effect of the beta-blocker nadolol.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "statins",
+      "effect": "Green tea extract can lower blood levels of atorvastatin.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Many studies, but results for weight, heart health and other uses are inconsistent.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=green%20tea%20catechins%20meta-analysis"
+  },
+  "sources": [
+    {
+      "kind": "safety",
+      "title": "NCCIH: Green Tea: Usefulness and Safety",
+      "detail": "Last updated February 2025",
+      "url": "https://www.nccih.nih.gov/health/green-tea"
+    },
+    {
+      "kind": "safety",
+      "title": "LiverTox (NIH): Green Tea",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547925/"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

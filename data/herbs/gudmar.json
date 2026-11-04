@@ -1,0 +1,90 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "gudmar",
+  "name": "Gudmar",
+  "hindi": "गुड़मार",
+  "sanskrit": "Meshashringi",
+  "english": "Gymnema",
+  "latin": "Gymnema sylvestre",
+  "kind": "herb",
+  "part": "Leaf",
+  "properties": {
+    "rasa": [
+      "kashaya",
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "vata"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Blunts the taste of sugar when chewed",
+    "Traditionally used for diabetes (\"sugar destroyer\")"
+  ],
+  "traditionalUses": [
+    "Diabetes (madhumeha) alongside treatment",
+    "Sugar cravings"
+  ],
+  "kitchenUse": "Not a kitchen herb; chewing a leaf briefly stops sweet foods tasting sweet. Taken as powder or tablets.",
+  "typicalUse": {
+    "forms": [
+      "Leaf powder",
+      "Tablets"
+    ],
+    "adultAmount": "Only as a qualified practitioner advises; products and strengths vary",
+    "note": "Never replace diabetes medicines with gudmar."
+  },
+  "cautions": [
+    {
+      "group": "diabetes",
+      "note": "Can lower blood sugar; check levels closely and tell your doctor if you take it."
+    },
+    {
+      "group": "pregnancy",
+      "note": "Not enough is known; avoid in pregnancy and while breastfeeding."
+    },
+    {
+      "group": "surgery",
+      "note": "May affect blood sugar control around surgery; stop two weeks before."
+    },
+    {
+      "group": "liver",
+      "note": "Rare cases of liver injury have been reported with gymnema products."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "antidiabetics",
+      "effect": "May lower blood sugar too far when combined with diabetes medicines.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Small, mostly older trials suggest modest drops in blood sugar; better trials are needed.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Gymnema%20sylvestre%20diabetes%20clinical%20trial"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

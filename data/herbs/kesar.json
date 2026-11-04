@@ -1,0 +1,84 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "kesar",
+  "name": "Kesar",
+  "hindi": "केसर",
+  "sanskrit": "Kumkuma",
+  "english": "Saffron",
+  "latin": "Crocus sativus",
+  "kind": "spice",
+  "part": "Stigma",
+  "properties": {
+    "rasa": [
+      "katu",
+      "tikta"
+    ],
+    "guna": [
+      "snigdha"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "vata",
+      "pitta",
+      "kapha"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Uplifting in tradition",
+    "Improves complexion in tradition",
+    "Fragrant and colouring"
+  ],
+  "traditionalUses": [
+    "Low mood",
+    "Skin glow (in milk or face packs)",
+    "Festive sweets and milk"
+  ],
+  "kitchenUse": "A few strands soaked in warm milk, then stirred into kheer, biryani or kesar doodh.",
+  "typicalUse": {
+    "forms": [
+      "Strands in milk or food"
+    ],
+    "adultAmount": "A few strands (well under 100 mg) a day",
+    "note": "Saffron is often adulterated; buy from a trusted source."
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Food amounts are fine, but larger amounts can stimulate the uterus and should be avoided in pregnancy."
+    },
+    {
+      "group": "allergy",
+      "note": "Rare allergic reactions are reported."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "antihypertensives",
+      "effect": "Medicinal amounts may lower blood pressure further.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "antidepressants",
+      "effect": "Studied for low mood; do not combine medicinal amounts with antidepressants without your doctor.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Several small trials suggest saffron extracts may help mild to moderate low mood, but most were short and small.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=saffron%20Crocus%20sativus%20depression%20randomized"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

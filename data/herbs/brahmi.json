@@ -1,0 +1,98 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "brahmi",
+  "name": "Brahmi",
+  "hindi": "ब्राह्मी",
+  "sanskrit": "Brahmi",
+  "english": "Water hyssop",
+  "latin": "Bacopa monnieri",
+  "kind": "herb",
+  "part": "Whole plant",
+  "properties": {
+    "rasa": [
+      "tikta",
+      "kashaya",
+      "madhura"
+    ],
+    "guna": [
+      "laghu"
+    ],
+    "virya": "shita",
+    "vipaka": "madhura",
+    "pacifies": [
+      "kapha",
+      "vata"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Supports memory and focus (medhya)",
+    "Calming"
+  ],
+  "traditionalUses": [
+    "Memory and concentration",
+    "Restlessness and anxiety",
+    "Sleep"
+  ],
+  "kitchenUse": "Usually taken as powder in warm milk or water, or as brahmi ghee.",
+  "typicalUse": {
+    "forms": [
+      "Powder",
+      "Medicated ghee",
+      "Capsules"
+    ],
+    "adultAmount": "1–3 g of powder a day",
+    "note": "Gotu kola (mandukaparni) is also sometimes sold as \"brahmi\"; they are different plants."
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Not enough is known; avoid in pregnancy."
+    },
+    {
+      "group": "thyroid",
+      "note": "May affect thyroid hormone levels."
+    },
+    {
+      "group": "digestive-illness",
+      "note": "Can cause stomach upset or loose stools."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "sedatives",
+      "effect": "May add to the effect of sedatives.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "thyroid",
+      "effect": "May change thyroid medicine needs.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Several small human trials suggest modest effects on memory over weeks of use.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Bacopa%20monnieri%20memory%20randomized"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    },
+    {
+      "kind": "safety",
+      "title": "LiverTox (NIH): Bacopa monnieri",
+      "url": "https://www.ncbi.nlm.nih.gov/books/n/livertox/Bacopa/"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

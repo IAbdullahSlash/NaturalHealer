@@ -1,0 +1,59 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "headache",
+  "title": "Tension Headache",
+  "category": "mental",
+  "summary": "Relax Vata and release tension",
+  "severity": "mild",
+  "icon": "🧘",
+  "duration": "2-6 hours",
+  "doshas": [
+    "vata"
+  ],
+  "ayurvedicView": "Tension headaches often stem from Vata imbalance. Relaxation, proper hydration, and stress management are key.",
+  "remedies": [
+    "Apply diluted peppermint or lavender oil to temples",
+    "Drink ginger tea and stay well-hydrated",
+    "Gentle head and neck massage with warm sesame oil",
+    "Practice deep breathing exercises",
+    "Rest in a quiet, dimly lit room",
+    "Pudina (mint) tea and a few minutes away from screens"
+  ],
+  "prevention": [
+    "Maintain regular sleep schedule",
+    "Take regular breaks from screens",
+    "Practice stress management"
+  ],
+  "tips": [
+    "Take regular breaks from screens",
+    "Practice deep breathing",
+    "Maintain regular sleep patterns",
+    "Stay well-hydrated"
+  ],
+  "herbs": [
+    "Brahmi",
+    "Ashwagandha",
+    "Jatamansi",
+    "Peppermint"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "8A81",
+      "title": "Tension-type headache"
+    },
+    "tm2Group": {
+      "range": "SK00–SK5Z",
+      "title": "Head, brain, nerve and movement disorders (TM2)"
+    }
+  },
+  "seeDoctor": [
+    "A sudden, severe headache, the worst you have had: seek care now",
+    "Headache with fever and a stiff neck, confusion, weakness, or trouble speaking or seeing: call 112",
+    "Headache after a head injury, or new headaches after age 50"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "constipation",
+  "title": "Constipation",
+  "category": "digestive",
+  "summary": "Encourage regular elimination with gentle support",
+  "severity": "mild",
+  "icon": "🌾",
+  "duration": "1-3 days",
+  "doshas": [
+    "vata"
+  ],
+  "ayurvedicView": "Constipation is a classic Vata imbalance. Hydration, fiber, healthy fats, and routine help restore regularity.",
+  "remedies": [
+    "Triphala powder in warm water before bed",
+    "Warm water with lemon in the morning",
+    "Include fiber-rich foods and healthy fats",
+    "Gentle abdominal massage in clockwise direction",
+    "Regular physical activity",
+    "One to two teaspoons of isabgol (psyllium husk) in a full glass of water at bedtime"
+  ],
+  "prevention": [
+    "Stay hydrated",
+    "Eat fiber-rich diet",
+    "Establish regular bathroom routine"
+  ],
+  "tips": [
+    "Drink warm water first thing in morning",
+    "Include healthy fats in diet",
+    "Establish regular bathroom timing",
+    "Stay physically active"
+  ],
+  "herbs": [
+    "Triphala",
+    "Psyllium husk",
+    "Flaxseed",
+    "Castor oil"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "ME05.0",
+      "title": "Constipation",
+      "note": "Functional constipation, diagnosed by a clinician, is DD91.1."
+    },
+    "tm2Group": {
+      "range": "SM10–SM7Z",
+      "title": "Gastro-intestinal disorders (TM2)"
+    }
+  },
+  "seeDoctor": [
+    "Blood in the stool, or black stools",
+    "Constipation with vomiting, a swollen belly, or being unable to pass wind",
+    "A lasting change in bowel habit, especially after age 50 or with weight loss"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "jeera",
+  "name": "Jeera",
+  "hindi": "जीरा",
+  "sanskrit": "Jiraka",
+  "english": "Cumin",
+  "latin": "Cuminum cyminum",
+  "kind": "spice",
+  "part": "Seed",
+  "properties": {
+    "rasa": [
+      "katu"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "vata"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Kindles digestion (deepana)",
+    "Relieves gas and bloating",
+    "Settles the stomach (grahi)"
+  ],
+  "traditionalUses": [
+    "Bloating and gas after meals",
+    "Indigestion",
+    "Loose stools (roasted jeera in buttermilk)"
+  ],
+  "kitchenUse": "Jeera water (a teaspoon of seeds boiled in a cup and a half of water), roasted jeera in buttermilk, or tempered in ghee.",
+  "typicalUse": {
+    "forms": [
+      "Seeds in cooking",
+      "Jeera water",
+      "Roasted powder"
+    ],
+    "adultAmount": "1–3 g of seeds a day",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Culinary amounts are fine; avoid concentrated preparations."
+    },
+    {
+      "group": "surgery",
+      "note": "Stop concentrated use two weeks before surgery (possible effect on blood sugar and clotting)."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "antidiabetics",
+      "effect": "May lower blood sugar further in large amounts.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Small human studies suggest help with bloating and digestive comfort. Most other evidence is from laboratory studies.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Cuminum%20cyminum%20clinical%20trial"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

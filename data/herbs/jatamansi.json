@@ -1,0 +1,81 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "jatamansi",
+  "name": "Jatamansi",
+  "hindi": "जटामांसी",
+  "sanskrit": "Jatamamsi",
+  "english": "Spikenard",
+  "latin": "Nardostachys jatamansi",
+  "kind": "herb",
+  "part": "Rhizome",
+  "properties": {
+    "rasa": [
+      "tikta",
+      "kashaya",
+      "madhura"
+    ],
+    "guna": [
+      "laghu",
+      "snigdha"
+    ],
+    "virya": "shita",
+    "vipaka": "katu",
+    "pacifies": [
+      "vata",
+      "pitta",
+      "kapha"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Calming (traditionally a \"nervine\")",
+    "Supports sleep in tradition"
+  ],
+  "traditionalUses": [
+    "Poor sleep",
+    "Anxiety and restlessness",
+    "Hair oils"
+  ],
+  "kitchenUse": "Not a kitchen herb; taken as powder or in formulations, or in hair oil.",
+  "typicalUse": {
+    "forms": [
+      "Powder",
+      "Hair oil"
+    ],
+    "adultAmount": "Only as a qualified practitioner advises; products and strengths vary",
+    "note": "The plant is endangered in the wild; choose cultivated, certified sources."
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Not enough is known; avoid in pregnancy and while breastfeeding."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "sedatives",
+      "effect": "May add to drowsiness from sleeping pills and sedatives.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "preclinical",
+    "summary": "Animal studies suggest calming effects; there are almost no trials in people.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Nardostachys%20jatamansi"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

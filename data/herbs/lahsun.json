@@ -1,0 +1,116 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "lahsun",
+  "name": "Lahsun",
+  "hindi": "लहसुन",
+  "sanskrit": "Lashuna, Rasona",
+  "english": "Garlic",
+  "latin": "Allium sativum",
+  "kind": "spice",
+  "part": "Bulb",
+  "properties": {
+    "rasa": [
+      "katu",
+      "madhura",
+      "tikta",
+      "lavana",
+      "kashaya"
+    ],
+    "guna": [
+      "guru",
+      "snigdha",
+      "tikshna"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "vata",
+      "kapha"
+    ],
+    "aggravates": [
+      "pitta"
+    ]
+  },
+  "actions": [
+    "Warming",
+    "Traditionally used for joints and heart",
+    "Kindles digestion"
+  ],
+  "traditionalUses": [
+    "Vata-type joint pain",
+    "Cough",
+    "Part of a heart-healthy diet"
+  ],
+  "kitchenUse": "Cooked in food, or one clove crushed into warm food.",
+  "typicalUse": {
+    "forms": [
+      "Raw or cooked cloves"
+    ],
+    "adultAmount": "1–2 cloves a day",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "surgery",
+      "note": "Garlic supplements may increase bleeding; stop them at least a week before surgery and tell your surgeon."
+    },
+    {
+      "group": "gerd",
+      "note": "Can worsen heartburn."
+    },
+    {
+      "group": "bleeding-disorder",
+      "note": "Avoid supplements with bleeding disorders."
+    },
+    {
+      "group": "pregnancy",
+      "note": "Food amounts are fine; garlic supplements may not be safe in pregnancy."
+    },
+    {
+      "group": "breastfeeding",
+      "note": "Food amounts are fine; garlic supplements may not be safe while breastfeeding."
+    },
+    {
+      "group": "skin-use",
+      "note": "Raw garlic held on the skin can cause severe irritation and chemical burns."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "anticoagulants",
+      "effect": "Supplements may increase bleeding risk with blood thinners.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "antiretrovirals",
+      "effect": "Garlic supplements can lower levels of some HIV medicines.",
+      "level": "avoid"
+    }
+  ],
+  "evidence": {
+    "level": "moderate-human",
+    "summary": "Garlic supplements may lower total and LDL cholesterol slightly in people with high cholesterol; limited evidence suggests a small drop in high blood pressure.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=garlic%20blood%20pressure%20meta-analysis"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    },
+    {
+      "kind": "safety",
+      "title": "NCCIH: Garlic: Usefulness and Safety",
+      "detail": "Last updated February 2025",
+      "url": "https://www.nccih.nih.gov/health/garlic"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

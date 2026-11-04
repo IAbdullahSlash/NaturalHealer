@@ -1,0 +1,58 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "insomnia",
+  "title": "Insomnia",
+  "category": "mental",
+  "summary": "Calm Vata and mind for restful sleep",
+  "severity": "moderate",
+  "icon": "🌙",
+  "duration": "Varies",
+  "doshas": [
+    "vata"
+  ],
+  "ayurvedicView": "Sleep issues often relate to excess Vata in the nervous system. Calming routines and grounding practices promote rest.",
+  "remedies": [
+    "Ashwagandha milk before bedtime (consult practitioner)",
+    "Warm foot bath with essential oils",
+    "Dim lights 1 hour before sleep",
+    "Gentle yoga nidra or meditation",
+    "Maintain consistent sleep schedule",
+    "Jatamansi only if a practitioner advises (never with sleeping pills)"
+  ],
+  "prevention": [
+    "Avoid screens before bed",
+    "Create calming bedtime routine",
+    "Keep bedroom cool and dark"
+  ],
+  "tips": [
+    "Establish a consistent sleep schedule",
+    "Create a calming bedtime routine",
+    "Avoid screens 1-2 hours before bed",
+    "Keep your bedroom cool and dark"
+  ],
+  "herbs": [
+    "Ashwagandha",
+    "Brahmi",
+    "Jatamansi",
+    "Chamomile",
+    "Valerian"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "7A0Z",
+      "title": "Insomnia disorders, unspecified",
+      "note": "Chronic insomnia is 7A00; short-term insomnia is 7A01."
+    },
+    "tm2Group": null
+  },
+  "seeDoctor": [
+    "Poor sleep for more than three months, or daytime sleepiness that affects driving or work",
+    "Loud snoring with pauses in breathing",
+    "Low mood, worry or thoughts of self-harm alongside poor sleep"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

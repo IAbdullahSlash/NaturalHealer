@@ -1,0 +1,77 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "tejpatta",
+  "name": "Tejpatta",
+  "hindi": "तेजपत्ता",
+  "sanskrit": "Tamalapatra",
+  "english": "Indian bay leaf",
+  "latin": "Cinnamomum tamala",
+  "kind": "spice",
+  "part": "Leaf",
+  "properties": {
+    "rasa": [
+      "madhura",
+      "katu",
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "tikshna"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "vata"
+    ],
+    "aggravates": [
+      "pitta"
+    ]
+  },
+  "actions": [
+    "Aromatic digestive",
+    "Relieves gas",
+    "Warming"
+  ],
+  "traditionalUses": [
+    "Bloating after heavy meals",
+    "Flavouring dals, rice and curries"
+  ],
+  "kitchenUse": "One or two leaves fried in ghee at the start of cooking dal, pulao or curry, then removed before eating.",
+  "typicalUse": {
+    "forms": [
+      "Whole leaf in cooking"
+    ],
+    "adultAmount": "Food amounts",
+    "note": "Remove the whole leaf before serving; it does not soften and can be a choking hazard."
+  },
+  "cautions": [
+    {
+      "group": "children",
+      "note": "Take whole leaves out of food before serving children; they can catch in the throat."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "antidiabetics",
+      "effect": "Medicinal amounts have been studied for lowering blood sugar and may add to diabetes medicines.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "preclinical",
+    "summary": "Mostly laboratory and animal studies; very little research in people.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Cinnamomum%20tamala"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

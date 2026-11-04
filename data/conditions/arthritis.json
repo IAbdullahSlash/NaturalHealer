@@ -1,0 +1,61 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "arthritis",
+  "title": "Arthritis Support",
+  "category": "musculoskeletal",
+  "summary": "Reduce inflammation and improve mobility",
+  "severity": "moderate",
+  "icon": "🦿",
+  "duration": "Ongoing management",
+  "doshas": [
+    "vata"
+  ],
+  "ayurvedicView": "Arthritis involves Vata imbalance with inflammation. Anti-inflammatory herbs and gentle movement help.",
+  "remedies": [
+    "Turmeric and ginger supplements or tea",
+    "Warm oil massage with mahanarayana oil",
+    "Gentle stretching and yoga",
+    "Anti-inflammatory diet with omega-3s",
+    "Stay warm and avoid dampness",
+    "Shallaki (boswellia) extract, if a practitioner advises"
+  ],
+  "prevention": [
+    "Maintain healthy weight",
+    "Regular low-impact exercise",
+    "Avoid joint strain"
+  ],
+  "tips": [
+    "Practice gentle, regular exercise",
+    "Apply warmth to affected joints",
+    "Maintain healthy weight",
+    "Avoid cold, damp environments"
+  ],
+  "herbs": [
+    "Turmeric",
+    "Ginger",
+    "Guggulu",
+    "Shallaki",
+    "Ashwagandha"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "FA0Z",
+      "title": "Osteoarthritis, unspecified",
+      "note": "Closest match for general arthritis support; inflammatory arthritis such as rheumatoid arthritis is coded differently."
+    },
+    "tm2Group": {
+      "range": "SP10–SP1Z",
+      "title": "Joint disorders (TM2)"
+    }
+  },
+  "seeDoctor": [
+    "A hot, red, swollen joint, especially with fever",
+    "Morning stiffness that lasts more than an hour",
+    "Pain that stops you walking or sleeping"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

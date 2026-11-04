@@ -1,0 +1,58 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "hypertension",
+  "title": "High Blood Pressure",
+  "category": "chronic",
+  "summary": "Calm, breathe, and reduce stress",
+  "severity": "serious",
+  "icon": "❤️",
+  "duration": "Ongoing management",
+  "doshas": [
+    "pitta",
+    "vata"
+  ],
+  "ayurvedicView": "High blood pressure involves Pitta and Vata. Stress reduction and dietary changes support cardiovascular health.",
+  "remedies": [
+    "Arjuna bark tea (consult on suitability)",
+    "Slow deep breathing exercises (4-6 breaths/min) for 10 min daily",
+    "Reduce sodium intake significantly",
+    "Emphasize fresh, home-cooked, whole foods",
+    "Regular monitoring with healthcare provider",
+    "Keep tea and coffee to a cup or two a day"
+  ],
+  "prevention": [
+    "Regular exercise",
+    "Stress management",
+    "Healthy diet low in sodium"
+  ],
+  "tips": [
+    "Practice daily stress management",
+    "Reduce sodium intake",
+    "Monitor blood pressure regularly",
+    "Maintain healthy weight"
+  ],
+  "herbs": [
+    "Arjuna",
+    "Ashwagandha",
+    "Garlic",
+    "Hawthorn",
+    "Gotu kola"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "BA00",
+      "title": "Essential hypertension"
+    },
+    "tm2Group": null
+  },
+  "seeDoctor": [
+    "A reading of 180/120 or higher, especially with chest pain, breathlessness or a severe headache: call 112",
+    "Dizziness or fainting after starting or changing a medicine",
+    "Never stop blood pressure medicines without your doctor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

@@ -18,6 +18,7 @@ export function conditionBrief(id) {
     k.overview ? `Ayurvedic view: ${k.overview}` : '',
     `Library remedies:\n${d.remedies.map(r => `- ${r}`).join('\n')}`,
     `Prevention:\n${d.prevention.map(p => `- ${p}`).join('\n')}`,
+    d.seeDoctor?.length ? `See a doctor if:\n${d.seeDoctor.map(p => `- ${p}`).join('\n')}` : '',
   ].filter(Boolean).join('\n')
 }
 

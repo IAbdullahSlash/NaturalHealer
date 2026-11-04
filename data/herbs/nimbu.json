@@ -1,0 +1,73 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "nimbu",
+  "name": "Nimbu",
+  "hindi": "नींबू",
+  "sanskrit": "Jambira",
+  "english": "Lemon",
+  "latin": "Citrus limon",
+  "kind": "food",
+  "part": "Fruit",
+  "properties": {
+    "rasa": [
+      "amla"
+    ],
+    "guna": null,
+    "virya": "ushna",
+    "vipaka": null,
+    "pacifies": [
+      "vata",
+      "kapha"
+    ],
+    "aggravates": [
+      "pitta"
+    ]
+  },
+  "actions": [
+    "Appetising and refreshing",
+    "Source of vitamin C",
+    "Cuts heaviness after meals"
+  ],
+  "traditionalUses": [
+    "Poor appetite and nausea",
+    "Colds (with honey in warm water)",
+    "Summer drinks"
+  ],
+  "kitchenUse": "Half a lemon squeezed into warm water with honey, or over dal and salads; nimbu pani with a pinch of salt.",
+  "typicalUse": {
+    "forms": [
+      "Juice",
+      "Pickle",
+      "Rind in cooking"
+    ],
+    "adultAmount": "Food amounts",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "gerd",
+      "note": "Its acid can worsen reflux, ulcers and sensitive teeth; rinse with water after sipping."
+    },
+    {
+      "group": "skin-use",
+      "note": "Lemon juice on the skin followed by sun can cause burns and dark patches (phytophotodermatitis)."
+    }
+  ],
+  "interactions": [],
+  "evidence": {
+    "level": "traditional",
+    "summary": "A food with traditional household uses; little research on it as a remedy.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Citrus%20limon%20juice%20clinical"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

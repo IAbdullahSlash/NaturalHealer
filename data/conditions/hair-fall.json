@@ -1,0 +1,57 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "hair-fall",
+  "title": "Hair Fall",
+  "category": "skin",
+  "summary": "Nourish the scalp and look for the cause",
+  "severity": "mild",
+  "icon": "💇",
+  "duration": "Months",
+  "doshas": [
+    "pitta",
+    "vata"
+  ],
+  "ayurvedicView": "Hair fall is linked to excess Pitta and Vata. Stress, poor diet, illness and hormonal changes are common triggers, so finding the cause matters.",
+  "remedies": [
+    "Warm coconut or sesame oil massaged into the scalp once or twice a week, washed off after an hour",
+    "Curry leaves warmed in coconut oil as a hair oil",
+    "Amla eaten fresh or as juice",
+    "Protein- and iron-rich foods: dals, leafy greens, nuts and seeds",
+    "Gentle combing, and avoiding tight hairstyles and hot styling tools"
+  ],
+  "prevention": [
+    "Eat enough protein and iron",
+    "Manage stress and sleep",
+    "Avoid harsh chemical treatments"
+  ],
+  "tips": [
+    "Normal shedding is up to about 100 hairs a day",
+    "Hair often falls more for a few months after illness, childbirth or stress, then recovers",
+    "Be patient: new growth takes months"
+  ],
+  "herbs": [
+    "Bhringraj",
+    "Amla",
+    "Curry patta",
+    "Brahmi",
+    "Nariyal tel"
+  ],
+  "seeDoctor": [
+    "Sudden round patches of hair loss, or hair falling out in clumps",
+    "Hair loss with tiredness, weight change or irregular periods (thyroid and iron can be checked)",
+    "Scalp pain, redness, scaling or scarring",
+    "Hair loss after starting a new medicine"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "ED70",
+      "title": "Alopecia or hair loss"
+    },
+    "tm2Group": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

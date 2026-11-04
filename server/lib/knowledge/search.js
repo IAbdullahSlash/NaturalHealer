@@ -112,13 +112,24 @@ export function herbsMentioned(text) {
  * - the condition the user is reading, when scoped to one
  * - safety notes for every herb that comes up, because safety is never optional
  */
+// A condition must score at least this share of the top passage to be kept in view
+const CONDITION_SHARE = 0.35
+
 export function retrieve(query, { conditionId = null, limit = 6, maxSafety = 3 } = {}) {
   const { byId } = getIndex()
   const picked = new Map()
   const add = (chunk) => { if (chunk && !picked.has(chunk.id)) picked.set(chunk.id, chunk) }
 
   if (conditionId) add(byId.get(`condition:${conditionId}`))
-  for (const { chunk } of search(query, { limit })) add(chunk)
+  const ranked = search(query, { limit: Infinity })
+  for (const { chunk } of ranked.slice(0, limit)) add(chunk)
+
+  // Keep the best-matching library condition in view even when many herbs score higher,
+  // so its remedies and doctor guidance still reach the answer
+  if (![...picked.values()].some(c => c.kind === 'condition')) {
+    const best = ranked.find(r => r.chunk.kind === 'condition')
+    if (best && best.score >= ranked[0].score * CONDITION_SHARE) add(best.chunk)
+  }
 
   const herbIds = new Set([...picked.values()].filter(c => c.kind === 'herb').map(c => c.entityId))
   for (const id of herbsMentioned(query)) herbIds.add(id)

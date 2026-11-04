@@ -1,0 +1,95 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "neem",
+  "name": "Neem",
+  "hindi": "नीम",
+  "sanskrit": "Nimba",
+  "english": "Neem",
+  "latin": "Azadirachta indica",
+  "kind": "herb",
+  "part": "Leaf, bark",
+  "properties": {
+    "rasa": [
+      "tikta",
+      "kashaya"
+    ],
+    "guna": [
+      "laghu"
+    ],
+    "virya": "shita",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "pitta"
+    ],
+    "aggravates": [
+      "vata"
+    ]
+  },
+  "actions": [
+    "Cleansing and bitter",
+    "Used for skin complaints",
+    "Traditionally used for oral hygiene (neem twig)"
+  ],
+  "traditionalUses": [
+    "Skin rashes and acne (external)",
+    "Oral hygiene",
+    "Itching"
+  ],
+  "kitchenUse": "Mainly external: a paste of leaves on skin or neem water for washing. Neem twigs are used as a toothbrush.",
+  "typicalUse": {
+    "forms": [
+      "Leaf paste (external)",
+      "Neem water (external)",
+      "Leaf powder"
+    ],
+    "adultAmount": "External use; internal use only with a practitioner",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "children",
+      "note": "Neem oil taken by mouth has caused serious poisoning in infants and children. Never give it to children."
+    },
+    {
+      "group": "pregnancy",
+      "note": "Avoid taking neem by mouth in pregnancy or when trying to conceive."
+    },
+    {
+      "group": "autoimmune",
+      "note": "May stimulate the immune system."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "antidiabetics",
+      "effect": "May lower blood sugar further if taken by mouth.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "immunosuppressants",
+      "effect": "May work against immune-suppressing medicines.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "preclinical",
+    "summary": "Mostly laboratory and animal studies. Some small studies on dental plaque.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Azadirachta%20indica%20clinical"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "alsi",
+  "name": "Alsi",
+  "hindi": "अलसी",
+  "sanskrit": "Atasi",
+  "english": "Flaxseed, linseed",
+  "latin": "Linum usitatissimum",
+  "kind": "food",
+  "part": "Seed",
+  "properties": {
+    "rasa": [
+      "madhura",
+      "tikta"
+    ],
+    "guna": [
+      "guru",
+      "snigdha"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "vata"
+    ],
+    "aggravates": [
+      "kapha",
+      "pitta"
+    ]
+  },
+  "actions": [
+    "Bulks and softens stools",
+    "Source of fibre and plant omega-3 fat",
+    "Nourishing to dry skin"
+  ],
+  "traditionalUses": [
+    "Constipation",
+    "Dry skin and joints",
+    "Roasted seeds as a mouth freshener"
+  ],
+  "kitchenUse": "A tablespoon of freshly ground, roasted seeds stirred into roti dough, curd or a glass of water.",
+  "typicalUse": {
+    "forms": [
+      "Ground roasted seeds",
+      "Seed oil"
+    ],
+    "adultAmount": "1–2 tablespoons of ground seeds a day, with plenty of water",
+    "note": "Grind seeds just before use; whole seeds often pass through undigested."
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Medicinal amounts may not be safe in pregnancy; the evidence is unclear, so keep to food amounts."
+    },
+    {
+      "group": "breastfeeding",
+      "note": "Little is known about medicinal amounts while breastfeeding."
+    },
+    {
+      "group": "digestive-illness",
+      "note": "Avoid with a narrowed or blocked bowel. Take with enough water; large amounts can cause bloating. Do not eat raw or unripe seeds."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "anticoagulants",
+      "effect": "Flaxseed or its oil may add to the effect of blood thinners.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "many-medicines",
+      "effect": "The fibre can slow absorption of medicines; take them an hour before or two hours after.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Flaxseed may modestly help weight loss in adults with obesity and insulin resistance in gestational diabetes; its effect on other conditions is unclear.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=flaxseed%20randomized%20controlled%20trial"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    },
+    {
+      "kind": "safety",
+      "title": "NCCIH: Flaxseed and Flaxseed Oil: Usefulness and Safety",
+      "detail": "Last updated February 2025",
+      "url": "https://www.nccih.nih.gov/health/flaxseed-and-flaxseed-oil"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

@@ -2,92 +2,12 @@
 // The World Checklist of Vascular Plants (WCVP), Royal Botanic Gardens, Kew, via GBIF.org. Licence: CC BY 4.0.
 // Wikidata. Licence: CC0 1.0 (public domain).
 export default {
-  "generatedAt": "2026-10-23",
+  "generatedAt": "2026-11-04",
   "attribution": {
     "wcvp": "The World Checklist of Vascular Plants (WCVP), Royal Botanic Gardens, Kew, via GBIF.org. Licence: CC BY 4.0.",
     "wikidata": "Wikidata. Licence: CC0 1.0 (public domain)."
   },
   "herbs": {
-    "tulsi": {
-      "query": "Ocimum tenuiflorum",
-      "botanical": {
-        "matchedName": "Ocimum tenuiflorum L.",
-        "matchedStatus": "ACCEPTED",
-        "acceptedName": "Ocimum tenuiflorum",
-        "acceptedWithAuthor": "Ocimum tenuiflorum L.",
-        "family": "Lamiaceae",
-        "gbifKey": 207234565,
-        "synonyms": [
-          "Geniosporum tenuiflorum",
-          "Lumnitzera tenuiflora",
-          "Moschosma tenuiflorum",
-          "Ocimum flexuosum",
-          "Ocimum hirsutum",
-          "Ocimum inodorum",
-          "Ocimum monachorum",
-          "Ocimum sanctum",
-          "Ocimum scutellarioides",
-          "Ocimum subserratum",
-          "Ocimum tomentosum",
-          "Ocimum villosum",
-          "Plectranthus monachorum"
-        ]
-      },
-      "wikidata": {
-        "qid": "Q960124",
-        "labels": {
-          "ml": "തുളസി",
-          "bn": "তুলসী",
-          "kn": "ತುಳಸಿ",
-          "ta": "துளசி",
-          "te": "తులసి",
-          "gu": "તુલસી",
-          "hi": "तुलसी",
-          "mr": "तुळस",
-          "pa": "ਤੁਲਸੀ",
-          "sa": "तुलसी",
-          "ur": "تلسى"
-        }
-      }
-    },
-    "haldi": {
-      "query": "Curcuma longa",
-      "botanical": {
-        "matchedName": "Curcuma longa L.",
-        "matchedStatus": "ACCEPTED",
-        "acceptedName": "Curcuma longa",
-        "acceptedWithAuthor": "Curcuma longa L.",
-        "family": "Zingiberaceae",
-        "gbifKey": 207878290,
-        "synonyms": [
-          "Amomum curcuma",
-          "Amomum latifolium",
-          "Curcuma brog",
-          "Curcuma domestica",
-          "Curcuma ochrorhiza",
-          "Curcuma soloensis",
-          "Curcuma tinctoria",
-          "Kua domestica",
-          "Stissera curcuma"
-        ]
-      },
-      "wikidata": {
-        "qid": "Q42562",
-        "labels": {
-          "ml": "മഞ്ഞൾ",
-          "bn": "হলুদ",
-          "hi": "हल्दी",
-          "ta": "மஞ்சள்",
-          "pa": "ਹਲਦੀ",
-          "ur": "ہلدی",
-          "te": "పసుపు",
-          "gu": "હળદર",
-          "kn": "ಅರಿಸಿನ",
-          "mr": "हळद",
-          "sa": "हरिद्रा"
-        }
-      }
-    },
     "adrak": {
       "query": "Zingiber officinale",
       "botanical": {
@@ -114,56 +34,17 @@ export default {
       "wikidata": {
         "qid": "Q35625",
         "labels": {
-          "gu": "આદુ",
-          "mr": "आले",
           "kn": "ಶುಂಠಿ",
           "ml": "ഇഞ്ചി ചെടിയുടെ സ്പീഷീസ്",
+          "sa": "आर्द्रकम्",
+          "te": "అల్లం",
           "hi": "अदरक",
           "pa": "ਅਦਰਕ",
           "ur": "ادرک",
           "bn": "আদা",
           "ta": "இஞ்சி",
-          "sa": "आर्द्रकम्",
-          "te": "అల్లం"
-        }
-      }
-    },
-    "jeera": {
-      "query": "Cuminum cyminum",
-      "botanical": {
-        "matchedName": "Cuminum cyminum L.",
-        "matchedStatus": "ACCEPTED",
-        "acceptedName": "Cuminum cyminum",
-        "acceptedWithAuthor": "Cuminum cyminum L.",
-        "family": "Apiaceae",
-        "gbifKey": 206524324,
-        "synonyms": [
-          "Cuminia cyminum",
-          "Cuminum aegyptiacum",
-          "Cuminum hispanicum",
-          "Cuminum odorum",
-          "Cuminum officinale",
-          "Cuminum sativum",
-          "Cyminon longeinvolucellatum",
-          "Ligusticum cuminum",
-          "Luerssenia cyminum",
-          "Selinum cuminum"
-        ]
-      },
-      "wikidata": {
-        "qid": "Q132624",
-        "labels": {
-          "hi": "जीरा",
-          "bn": "জিরা",
-          "ml": "ജീരകം",
-          "gu": "જીરું",
-          "kn": "ಜೀರಿಗೆ",
-          "mr": "जिरे",
-          "pa": "ਜੀਰਾ",
-          "sa": "जीरकम्",
-          "ta": "சீரகம்",
-          "te": "జీలకర్ర",
-          "ur": "زیرہ"
+          "gu": "આદુ",
+          "mr": "आले"
         }
       }
     },
@@ -210,91 +91,302 @@ export default {
         }
       }
     },
-    "saunf": {
-      "query": "Foeniculum vulgare",
+    "alsi": {
+      "query": "Linum usitatissimum",
       "botanical": {
-        "matchedName": "Foeniculum vulgare Mill.",
+        "matchedName": "Linum usitatissimum L.",
         "matchedStatus": "ACCEPTED",
-        "acceptedName": "Foeniculum vulgare",
-        "acceptedWithAuthor": "Foeniculum vulgare Mill.",
-        "family": "Apiaceae",
-        "gbifKey": 206520674,
-        "synonyms": [
-          "Anethum dulce",
-          "Anethum foeniculum",
-          "Anethum minus",
-          "Anethum panmori",
-          "Anethum panmorium",
-          "Anethum rupestre",
-          "Foeniculum azoricum",
-          "Foeniculum capillaceum",
-          "Foeniculum divaricatum",
-          "Foeniculum dulce",
-          "Foeniculum foeniculum",
-          "Foeniculum giganteum",
-          "Foeniculum officinale",
-          "Foeniculum panmorium",
-          "Foeniculum rigidum"
-        ]
+        "acceptedName": "Linum usitatissimum",
+        "acceptedWithAuthor": "Linum usitatissimum L.",
+        "family": "Linaceae",
+        "gbifKey": 207222727,
+        "synonyms": []
       },
       "wikidata": {
-        "qid": "Q43511",
+        "qid": "Q45108",
         "labels": {
-          "ml": "പെരുംജീരകം",
-          "pa": "ਮੇਥੀ",
-          "bn": "মৌরি",
-          "gu": "વરિયાળી",
-          "hi": "सौंफ",
-          "kn": "ಸೊಂಪು",
-          "mr": "बडीशेप",
-          "ta": "பெருஞ்சீரகம்",
-          "te": "సోంపు",
-          "ur": "سونف"
+          "hi": "अलसी",
+          "pa": "ਅਲਸੀ",
+          "ur": "السی",
+          "ta": "ஆளி",
+          "bn": "তিসি",
+          "gu": "અળસી",
+          "kn": "ಅಗಸೆನಾರು",
+          "ml": "ചെറുചണ",
+          "mr": "जवस",
+          "te": "మదన గింజ"
         }
       }
     },
-    "methi": {
-      "query": "Trigonella foenum-graecum",
+    "amla": {
+      "query": "Phyllanthus emblica",
       "botanical": {
-        "matchedName": "Trigonella foenum-graecum L.",
+        "matchedName": "Phyllanthus emblica L.",
         "matchedStatus": "ACCEPTED",
-        "acceptedName": "Trigonella foenum-graecum",
-        "acceptedWithAuthor": "Trigonella foenum-graecum L.",
-        "family": "Fabaceae",
-        "gbifKey": 207101201,
+        "acceptedName": "Phyllanthus emblica",
+        "acceptedWithAuthor": "Phyllanthus emblica L.",
+        "family": "Phyllanthaceae",
+        "gbifKey": 207484835,
         "synonyms": [
-          "Buceras foenum-graecum",
-          "Buceras odoratissima",
-          "Fenugraecum officinale",
-          "Foenum-graecum officinale",
-          "Foenum-graecum sativum",
-          "Folliculigera graveolens",
-          "Medicago foenugraeca",
-          "Telis foenum-graecum",
-          "Trigonella ensifera",
-          "Trigonella graeca",
-          "Trigonella haussknechtii",
-          "Trigonella jemenensis",
-          "Trigonella rhodantha",
-          "Trigonella tibetana",
-          "Xiphostylis erectus"
+          "Cicca emblica",
+          "Cicca macrocarpa",
+          "Diasperus emblica",
+          "Diasperus pomifer",
+          "Dichelactina nodicaulis",
+          "Emblica arborea",
+          "Emblica officinalis",
+          "Emblica pisiformis",
+          "Phyllanthus glomeratus",
+          "Phyllanthus mairei",
+          "Phyllanthus mimosifolius",
+          "Phyllanthus pomifer",
+          "Phyllanthus taxifolius"
         ]
       },
       "wikidata": {
-        "qid": "Q133205",
+        "qid": "Q310050",
         "labels": {
-          "ml": "ഉലുവ",
-          "pa": "ਮੇਥੀ",
-          "bn": "মেথি",
-          "gu": "મેથી",
-          "hi": "मेथी",
-          "kn": "ಮೆಂತೆ",
-          "mr": "मेथी",
-          "sa": "मेथिका",
-          "ta": "வெந்தயம்",
-          "te": "మెంతులు",
-          "ur": "میتھی"
+          "bn": "আমলকী",
+          "ml": "നെല്ലി",
+          "te": "ఉసిరి",
+          "gu": "આમળાં",
+          "hi": "आँवला",
+          "kn": "ನೆಲ್ಲಿ",
+          "mr": "आवळा",
+          "pa": "ਔਲਾ",
+          "sa": "धात्री",
+          "ta": "நெல்லி",
+          "ur": "آملہ"
         }
+      }
+    },
+    "anar": {
+      "query": "Punica granatum",
+      "botanical": {
+        "matchedName": "Punica granatum L.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Punica granatum",
+        "acceptedWithAuthor": "Punica granatum L.",
+        "family": "Lythraceae",
+        "gbifKey": 207250800,
+        "synonyms": [
+          "Granatum punicum",
+          "Punica florida",
+          "Punica grandiflora",
+          "Punica legrellei",
+          "Punica multiflora",
+          "Punica nana",
+          "Punica spinosa",
+          "Rhoea punica"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q13188",
+        "labels": {
+          "gu": "દાડમ",
+          "kn": "ದಾಳಿಂಬೆ",
+          "mr": "डाळिंब",
+          "pa": "ਅਨਾਰ",
+          "sa": "दाडिमफलम्",
+          "bn": "বেদানা",
+          "hi": "अनार",
+          "ml": "മാതളനാരകം",
+          "ta": "மாதுளை",
+          "te": "దానిమ్మ",
+          "ur": "انار"
+        }
+      }
+    },
+    "arjuna": {
+      "query": "Terminalia arjuna",
+      "botanical": {
+        "matchedName": "Terminalia arjuna (Roxb. ex DC.) Wight & Arn.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Terminalia arjuna",
+        "acceptedWithAuthor": "Terminalia arjuna (Roxb. ex DC.) Wight & Arn.",
+        "family": "Combretaceae",
+        "gbifKey": 206915610,
+        "synonyms": [
+          "Myrobalanus cuneata",
+          "Pentaptera angustifolia",
+          "Pentaptera arjuna",
+          "Pentaptera glabra",
+          "Pentaptera obovata",
+          "Terminalia berryi",
+          "Terminalia cuneata",
+          "Terminalia glabra",
+          "Terminalia ovalifolia",
+          "Terminalia psidiifolia",
+          "Terminalia urjan"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q2719381",
+        "labels": {
+          "bn": "অর্জুন",
+          "pa": "ਅਰਜੁਨ",
+          "hi": "अर्जुन वृक्ष",
+          "kn": "ಮತ್ತಿ",
+          "ml": "നീർമരുത്",
+          "mr": "अर्जुन वृक्ष",
+          "sa": "अर्जुनवृक्षः",
+          "ta": "வெண் மருது",
+          "te": "తెల్ల మద్ది",
+          "ur": "ارجن (درخت)"
+        }
+      }
+    },
+    "ashwagandha": {
+      "query": "Withania somnifera",
+      "botanical": {
+        "matchedName": "Withania somnifera (L.) Dunal",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Withania somnifera",
+        "acceptedWithAuthor": "Withania somnifera (L.) Dunal",
+        "family": "Solanaceae",
+        "gbifKey": 207847398,
+        "synonyms": [
+          "Alicabon somniferum",
+          "Hypnoticum somniferum",
+          "Larnax morrisonii",
+          "Physalis alpini",
+          "Physalis arborescens",
+          "Physalis flexuosa",
+          "Physalis scariosa",
+          "Physalis somnifera",
+          "Physalis sugunda",
+          "Physalis tomentosa",
+          "Physalis villosa",
+          "Physaloides somnifera",
+          "Withania arborescens",
+          "Withania chevalieri",
+          "Withania kansuensis"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q852660",
+        "labels": {
+          "gu": "અશ્વગંધા",
+          "kn": "ಅಶ್ವಗಂಧಾ",
+          "mr": "आसकंद",
+          "pa": "ਅਸ਼ਵਗੰਧਾ",
+          "te": "అశ్వగంధ",
+          "ur": "اسگندھ ناگواری",
+          "ml": "അമുക്കുരം",
+          "ta": "அமுக்கிரா",
+          "hi": "अश्वगंधा",
+          "bn": "অশ্বগন্ধা"
+        }
+      }
+    },
+    "bibhitaki": {
+      "query": "Terminalia bellirica",
+      "botanical": {
+        "matchedName": "Terminalia bellirica (Gaertn.) Roxb.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Terminalia bellirica",
+        "acceptedWithAuthor": "Terminalia bellirica (Gaertn.) Roxb.",
+        "family": "Combretaceae",
+        "gbifKey": 206915666,
+        "synonyms": [
+          "Buceras bellirica",
+          "Myrobalanus bellirica",
+          "Myrobalanus punctata",
+          "Myrobalanus tania",
+          "Myrobalanus taria",
+          "Terminalia attenuata",
+          "Terminalia belirica",
+          "Terminalia biticaria",
+          "Terminalia eglandulosa",
+          "Terminalia gella",
+          "Terminalia laurinoides",
+          "Terminalia moluccana",
+          "Terminalia myrobalana",
+          "Terminalia punctata",
+          "Terminalia taria"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q1983629",
+        "labels": {
+          "pa": "ਬਹੇੜਾ",
+          "ml": "താന്നി",
+          "ta": "தான்றி",
+          "bn": "বহেড়া",
+          "gu": "બહેડો",
+          "hi": "बहेड़ा",
+          "kn": "ಶಾಂತಿಮರ",
+          "mr": "बेहडा",
+          "sa": "बिभीतकीवृक्षः",
+          "te": "తాండ్రచెట్టు"
+        }
+      }
+    },
+    "brahmi": {
+      "query": "Bacopa monnieri",
+      "botanical": {
+        "matchedName": "Bacopa monnieri (L.) Wettst.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Bacopa monnieri",
+        "acceptedWithAuthor": "Bacopa monnieri (L.) Wettst.",
+        "family": "Plantaginaceae",
+        "gbifKey": 207494199,
+        "synonyms": [
+          "Allocalyx microphylla",
+          "Alonsoa hirsuta",
+          "Anisocalyx limnanthiflorus",
+          "Bacopa monnieria",
+          "Bramia indica",
+          "Bramia monnieri",
+          "Calytriplex obovata",
+          "Capraria monnieria",
+          "Gratiola monnieri",
+          "Gratiola monnieria",
+          "Gratiola portulacacea",
+          "Gratiola tetrandra",
+          "Habershamia cuneifolia",
+          "Hemimeris hirsuta",
+          "Herpestis africana"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q1366575",
+        "labels": {
+          "sa": "ब्राह्मी",
+          "ml": "ബ്രഹ്മി",
+          "bn": "ব্রাহ্মী",
+          "hi": "ब्राह्मी जड़ी बूटी",
+          "kn": "ಬ್ರಾಹ್ಮಿ",
+          "mr": "ब्राम्ही",
+          "pa": "ਬ੍ਰਾਹਮੀ",
+          "ta": "நீர்ப்பிரமி",
+          "te": "నీటిబ్రాహ్మీ"
+        }
+      }
+    },
+    "curry-patta": {
+      "query": "Bergera koenigii",
+      "botanical": {
+        "matchedName": "Bergera koenigii L.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Bergera koenigii",
+        "acceptedWithAuthor": "Bergera koenigii L.",
+        "family": "Rutaceae",
+        "gbifKey": 207772226,
+        "synonyms": [
+          "Bergera siamensis",
+          "Camunium koenigii",
+          "Chalcas koenigii",
+          "Chalcas siamensis",
+          "Murraya foetidissima",
+          "Murraya koenigii",
+          "Murraya siamensis",
+          "Nimbo melioides"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q39837286",
+        "labels": {}
       }
     },
     "dalchini": {
@@ -333,46 +425,40 @@ export default {
         }
       }
     },
-    "kali-mirch": {
-      "query": "Piper nigrum",
+    "dhania": {
+      "query": "Coriandrum sativum",
       "botanical": {
-        "matchedName": "Piper nigrum L.",
+        "matchedName": "Coriandrum sativum L.",
         "matchedStatus": "ACCEPTED",
-        "acceptedName": "Piper nigrum",
-        "acceptedWithAuthor": "Piper nigrum L.",
-        "family": "Piperaceae",
-        "gbifKey": 207478568,
+        "acceptedName": "Coriandrum sativum",
+        "acceptedWithAuthor": "Coriandrum sativum L.",
+        "family": "Apiaceae",
+        "gbifKey": 206524837,
         "synonyms": [
-          "Muldera multinervis",
-          "Muldera wightiana",
-          "Piper aromaticum",
-          "Piper baccatum",
-          "Piper colonum",
-          "Piper denudatum",
-          "Piper glabrispica",
-          "Piper glyphicum",
-          "Piper laxum",
-          "Piper malabarense",
-          "Piper nigricans",
-          "Piper rotundum",
-          "Piper trioicum",
-          "Rhyncholepis haeankeana"
+          "Bifora loureiroi",
+          "Coriandropsis syriaca",
+          "Coriandrum diversifolium",
+          "Coriandrum globosum",
+          "Coriandrum majus",
+          "Coriandrum melphitense",
+          "Selinum coriandrum",
+          "Sium coriandrum"
         ]
       },
       "wikidata": {
-        "qid": "Q43084",
+        "qid": "Q41611",
         "labels": {
-          "hi": "काली मिर्च",
-          "ta": "மிளகு",
-          "ur": "کالی مرچ",
-          "ml": "കുരുമുളക്",
-          "bn": "গোল মরিচ",
-          "gu": "કાળા મરી",
-          "kn": "ಕರಿಮೆಣಸು",
-          "mr": "मिरवेल",
-          "pa": "ਕਾਲੀ ਮਿਰਚ",
-          "sa": "मरीचम्",
-          "te": "నల్ల మిరియాలు"
+          "sa": "कुस्तुम्बरी",
+          "ta": "கொத்தமல்லி",
+          "te": "ధనియాలు",
+          "ur": "دھنیا",
+          "bn": "ধনে",
+          "hi": "धनिया",
+          "ml": "മല്ലി",
+          "gu": "કોથમીર",
+          "kn": "ಕೊತ್ತುಂಬರಿ",
+          "mr": "कोथिंबीर",
+          "pa": "ਧਨੀਆ"
         }
       }
     },
@@ -419,170 +505,6 @@ export default {
         }
       }
     },
-    "laung": {
-      "query": "Syzygium aromaticum",
-      "botanical": {
-        "matchedName": "Syzygium aromaticum (L.) Merr. & L.M.Perry",
-        "matchedStatus": "ACCEPTED",
-        "acceptedName": "Syzygium aromaticum",
-        "acceptedWithAuthor": "Syzygium aromaticum (L.) Merr. & L.M.Perry",
-        "family": "Myrtaceae",
-        "gbifKey": 207344240,
-        "synonyms": [
-          "Caryophyllus aromaticus",
-          "Caryophyllus hortensis",
-          "Caryophyllus silvestris",
-          "Eugenia aromatica",
-          "Eugenia caryophyllata",
-          "Eugenia caryophyllus",
-          "Jambosa caryophyllus",
-          "Myrtus caryophyllus"
-        ]
-      },
-      "wikidata": {
-        "qid": "Q26736",
-        "labels": {
-          "mr": "लवंग",
-          "sa": "लवङ्गम्",
-          "ta": "கிராம்பு",
-          "te": "లవంగము",
-          "ur": "لونگ",
-          "hi": "लौंग",
-          "ml": "കരയാമ്പൂ",
-          "pa": "ਲੌਂਗ",
-          "bn": "লবঙ্গ",
-          "gu": "લવિંગ",
-          "kn": "ಲವಂಗ"
-        }
-      }
-    },
-    "amla": {
-      "query": "Phyllanthus emblica",
-      "botanical": {
-        "matchedName": "Phyllanthus emblica L.",
-        "matchedStatus": "ACCEPTED",
-        "acceptedName": "Phyllanthus emblica",
-        "acceptedWithAuthor": "Phyllanthus emblica L.",
-        "family": "Phyllanthaceae",
-        "gbifKey": 207484835,
-        "synonyms": [
-          "Cicca emblica",
-          "Cicca macrocarpa",
-          "Diasperus emblica",
-          "Diasperus pomifer",
-          "Dichelactina nodicaulis",
-          "Emblica arborea",
-          "Emblica officinalis",
-          "Emblica pisiformis",
-          "Phyllanthus glomeratus",
-          "Phyllanthus mairei",
-          "Phyllanthus mimosifolius",
-          "Phyllanthus pomifer",
-          "Phyllanthus taxifolius"
-        ]
-      },
-      "wikidata": {
-        "qid": "Q310050",
-        "labels": {
-          "bn": "আমলকী",
-          "ml": "നെല്ലി",
-          "te": "ఉసిరి",
-          "gu": "આમળાં",
-          "hi": "आँवला",
-          "kn": "ನೆಲ್ಲಿ",
-          "mr": "आवळा",
-          "pa": "ਔਲਾ",
-          "sa": "धात्री",
-          "ta": "நெல்லி",
-          "ur": "آملہ"
-        }
-      }
-    },
-    "ashwagandha": {
-      "query": "Withania somnifera",
-      "botanical": {
-        "matchedName": "Withania somnifera (L.) Dunal",
-        "matchedStatus": "ACCEPTED",
-        "acceptedName": "Withania somnifera",
-        "acceptedWithAuthor": "Withania somnifera (L.) Dunal",
-        "family": "Solanaceae",
-        "gbifKey": 207847398,
-        "synonyms": [
-          "Alicabon somniferum",
-          "Hypnoticum somniferum",
-          "Larnax morrisonii",
-          "Physalis alpini",
-          "Physalis arborescens",
-          "Physalis flexuosa",
-          "Physalis scariosa",
-          "Physalis somnifera",
-          "Physalis sugunda",
-          "Physalis tomentosa",
-          "Physalis villosa",
-          "Physaloides somnifera",
-          "Withania arborescens",
-          "Withania chevalieri",
-          "Withania kansuensis"
-        ]
-      },
-      "wikidata": {
-        "qid": "Q852660",
-        "labels": {
-          "ml": "അമുക്കുരം",
-          "ta": "அமுக்கிரா",
-          "hi": "अश्वगंधा",
-          "bn": "অশ্বগন্ধা",
-          "gu": "અશ્વગંધા",
-          "kn": "ಅಶ್ವಗಂಧಾ",
-          "mr": "आसकंद",
-          "pa": "ਅਸ਼ਵਗੰਧਾ",
-          "te": "అశ్వగంధ",
-          "ur": "اسگندھ ناگواری"
-        }
-      }
-    },
-    "brahmi": {
-      "query": "Bacopa monnieri",
-      "botanical": {
-        "matchedName": "Bacopa monnieri (L.) Wettst.",
-        "matchedStatus": "ACCEPTED",
-        "acceptedName": "Bacopa monnieri",
-        "acceptedWithAuthor": "Bacopa monnieri (L.) Wettst.",
-        "family": "Plantaginaceae",
-        "gbifKey": 207494199,
-        "synonyms": [
-          "Allocalyx microphylla",
-          "Alonsoa hirsuta",
-          "Anisocalyx limnanthiflorus",
-          "Bacopa monnieria",
-          "Bramia indica",
-          "Bramia monnieri",
-          "Calytriplex obovata",
-          "Capraria monnieria",
-          "Gratiola monnieri",
-          "Gratiola monnieria",
-          "Gratiola portulacacea",
-          "Gratiola tetrandra",
-          "Habershamia cuneifolia",
-          "Hemimeris hirsuta",
-          "Herpestis africana"
-        ]
-      },
-      "wikidata": {
-        "qid": "Q1366575",
-        "labels": {
-          "sa": "ब्राह्मी",
-          "ml": "ബ്രഹ്മി",
-          "bn": "ব্রাহ্মী",
-          "hi": "ब्राह्मी जड़ी बूटी",
-          "kn": "ಬ್ರಾಹ್ಮಿ",
-          "mr": "ब्राम्ही",
-          "pa": "ਬ੍ਰਾਹਮੀ",
-          "ta": "நீர்ப்பிரமி",
-          "te": "నీటిబ్రాహ్మీ"
-        }
-      }
-    },
     "giloy": {
       "query": "Tinospora cordifolia",
       "botanical": {
@@ -614,43 +536,782 @@ export default {
         }
       }
     },
-    "neem": {
-      "query": "Azadirachta indica",
+    "gokshura": {
+      "query": "Tribulus terrestris",
       "botanical": {
-        "matchedName": "Azadirachta indica A.Juss.",
+        "matchedName": "Tribulus terrestris L.",
         "matchedStatus": "ACCEPTED",
-        "acceptedName": "Azadirachta indica",
-        "acceptedWithAuthor": "Azadirachta indica A.Juss.",
-        "family": "Meliaceae",
-        "gbifKey": 207289909,
+        "acceptedName": "Tribulus terrestris",
+        "acceptedWithAuthor": "Tribulus terrestris L.",
+        "family": "Zygophyllaceae",
+        "gbifKey": 207879416,
+        "synonyms": []
+      },
+      "wikidata": {
+        "qid": "Q235889",
+        "labels": {
+          "bn": "গোক্ষুর",
+          "gu": "ગોખરુ",
+          "hi": "गोखरू",
+          "kn": "ನೆಗ್ಗಿಲು",
+          "ml": "ചെറിയ ഞെരിഞ്ഞിൽ",
+          "mr": "गोखरू",
+          "pa": "ਗੋਖਰੂ",
+          "sa": "गोकुरासस्यम्",
+          "ta": "நெருஞ்சி"
+        }
+      }
+    },
+    "gudmar": {
+      "query": "Gymnema sylvestre",
+      "botanical": {
+        "matchedName": "Gymnema sylvestre (Retz.) R.Br. ex Sm.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Gymnema sylvestre",
+        "acceptedWithAuthor": "Gymnema sylvestre (Retz.) R.Br. ex Sm.",
+        "family": "Apocynaceae",
+        "gbifKey": 206548208,
         "synonyms": [
-          "Antelaea azadirachta",
-          "Antelaea canescens",
-          "Antelaea javanica",
-          "Claderia parviflora",
-          "Melia azadirachta",
-          "Melia fraxinifolia",
-          "Melia hasskarlii",
-          "Melia indica",
-          "Melia japonica",
-          "Melia parviflora",
-          "Melia pinnata"
+          "Apocynum alterniflorum",
+          "Asclepias geminata",
+          "Conocalpis umbellata",
+          "Cynanchum senegalense",
+          "Cynanchum subvolubile",
+          "Gymnema affine",
+          "Gymnema alterniflorum",
+          "Gymnema formosanum",
+          "Gymnema humile",
+          "Gymnema mckenii",
+          "Gymnema melicida",
+          "Gymnema parvifolium",
+          "Gymnema rufescens",
+          "Gymnema subvolubile",
+          "Marsdenia sylvestris"
         ]
       },
       "wikidata": {
-        "qid": "Q170461",
+        "qid": "Q2725835",
         "labels": {
-          "ta": "வேம்பு",
-          "te": "వేప చెట్టు",
-          "ur": "نیم",
-          "ml": "ആര്യവേപ്പ്",
-          "bn": "নিম",
-          "gu": "લીમડો",
-          "hi": "नीम",
-          "kn": "ಬೇವು",
-          "mr": "कडुलिंब",
-          "pa": "ਨਿੰਮ",
-          "sa": "निम्बः"
+          "bn": "মেষশৃঙ্গ",
+          "hi": "गुड़मार",
+          "kn": "ಮಧುನಾಶಿನಿ",
+          "ml": "ചക്കരക്കൊല്ലി",
+          "pa": "ਗੁੜਮਾਰ",
+          "ta": "சிறுகுறிஞ்சா",
+          "te": "పొడపత్రి",
+          "ur": "گڑ مار"
+        }
+      }
+    },
+    "guggul": {
+      "query": "Commiphora wightii",
+      "botanical": {
+        "matchedName": "Commiphora wightii (Arn.) Bhandari",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Commiphora wightii",
+        "acceptedWithAuthor": "Commiphora wightii (Arn.) Bhandari",
+        "family": "Burseraceae",
+        "gbifKey": 206821733,
+        "synonyms": [
+          "Balsamea mukul",
+          "Balsamodendrum mukul",
+          "Balsamodendrum roxburghii",
+          "Balsamodendrum wightii",
+          "Commiphora mukul",
+          "Commiphora roxburghii"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q901803",
+        "labels": {
+          "ml": "ഗുൽഗുലു",
+          "hi": "गुग्गुल",
+          "mr": "गुग्गुळ",
+          "pa": "ਗੁੱਗਲ",
+          "sa": "गुग्गुलुसस्यम्"
+        }
+      }
+    },
+    "aloe": {
+      "query": "Aloe vera",
+      "botanical": {
+        "matchedName": "Aloe vera (L.) Burm.f.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Aloe vera",
+        "acceptedWithAuthor": "Aloe vera (L.) Burm.f.",
+        "family": "Asphodelaceae",
+        "gbifKey": 206597037,
+        "synonyms": [
+          "Aloe barbadensis",
+          "Aloe chinensis",
+          "Aloe elongata",
+          "Aloe flava",
+          "Aloe indica",
+          "Aloe lanzae",
+          "Aloe littoralis",
+          "Aloe maculata",
+          "Aloe rubescens",
+          "Aloe variegata",
+          "Aloe vulgaris"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q80079",
+        "labels": {
+          "bn": "ঘৃতকুমারী",
+          "kn": "ಲೋಳೆ ಸರ",
+          "gu": "કુંવારપાઠું",
+          "hi": "घृत कुमारी",
+          "ml": "കറ്റാർവാഴ",
+          "pa": "ਕੁਆਰ ਗੰਦਲ",
+          "sa": "घृतकुमारी",
+          "te": "కలబంద",
+          "ur": "کوار گندل"
+        }
+      }
+    },
+    "haldi": {
+      "query": "Curcuma longa",
+      "botanical": {
+        "matchedName": "Curcuma longa L.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Curcuma longa",
+        "acceptedWithAuthor": "Curcuma longa L.",
+        "family": "Zingiberaceae",
+        "gbifKey": 207878290,
+        "synonyms": [
+          "Amomum curcuma",
+          "Amomum latifolium",
+          "Curcuma brog",
+          "Curcuma domestica",
+          "Curcuma ochrorhiza",
+          "Curcuma soloensis",
+          "Curcuma tinctoria",
+          "Kua domestica",
+          "Stissera curcuma"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q42562",
+        "labels": {
+          "ml": "മഞ്ഞൾ",
+          "bn": "হলুদ",
+          "hi": "हल्दी",
+          "ta": "மஞ்சள்",
+          "pa": "ਹਲਦੀ",
+          "ur": "ہلدی",
+          "te": "పసుపు",
+          "gu": "હળદર",
+          "kn": "ಅರಿಸಿನ",
+          "mr": "हळद",
+          "sa": "हरिद्रा"
+        }
+      }
+    },
+    "hari-chai": {
+      "query": "Camellia sinensis",
+      "botanical": {
+        "matchedName": "Camellia sinensis (L.) Kuntze",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Camellia sinensis",
+        "acceptedWithAuthor": "Camellia sinensis (L.) Kuntze",
+        "family": "Theaceae",
+        "gbifKey": 207839167,
+        "synonyms": [
+          "Camellia thea",
+          "Thea sinensis"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q101815",
+        "labels": {
+          "ml": "തേയില",
+          "bn": "ক্যামেলিয়া সাইনেনসিস",
+          "hi": "कामेल्या सीनेन्सीस्",
+          "sa": "चायसस्यम्",
+          "ta": "தேயிலை",
+          "te": "తేయాకు"
+        }
+      }
+    },
+    "haritaki": {
+      "query": "Terminalia chebula",
+      "botanical": {
+        "matchedName": "Terminalia chebula Retz.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Terminalia chebula",
+        "acceptedWithAuthor": "Terminalia chebula Retz.",
+        "family": "Combretaceae",
+        "gbifKey": 206915967,
+        "synonyms": [
+          "Buceras chebula",
+          "Combretum argyrophyllum",
+          "Myrobalanifera citrina",
+          "Myrobalanifera fertilis",
+          "Myrobalanus chebula",
+          "Myrobalanus gangetica",
+          "Myrobalanus tomentella",
+          "Terminalia acuta",
+          "Terminalia argyrophylla",
+          "Terminalia aruta",
+          "Terminalia bengalensis",
+          "Terminalia gangetica",
+          "Terminalia glandulipetiolata",
+          "Terminalia reticulata",
+          "Terminalia rotata"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q3595915",
+        "labels": {
+          "bn": "হরিতকী",
+          "ml": "കടുക്ക",
+          "gu": "હરડે",
+          "hi": "हरीतकी",
+          "kn": "ಅಳಲೆ ಕಾಯಿ",
+          "mr": "हिरडा",
+          "pa": "ਹਰੜ",
+          "sa": "हरीतकी",
+          "ta": "கடுக்காய்",
+          "te": "కరక్కాయ"
+        }
+      }
+    },
+    "hing": {
+      "query": "Ferula assa-foetida",
+      "botanical": {
+        "matchedName": "Ferula assa-foetida L.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Ferula assa-foetida",
+        "acceptedWithAuthor": "Ferula assa-foetida L.",
+        "family": "Apiaceae",
+        "gbifKey": 206538255,
+        "synonyms": [
+          "Ferula foetida",
+          "Ferula hooshee",
+          "Narthex polakii",
+          "Narthex silphium",
+          "Peucedanum assa-foetida",
+          "Peucedanum hooshee",
+          "Scorodosma assa-foetida"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q111185",
+        "labels": {
+          "sa": "हिङ्गु",
+          "ta": "பெருங்காயம்",
+          "te": "ఇంగువ",
+          "ur": "ہينگ",
+          "ml": "കായം",
+          "bn": "হিং",
+          "gu": "હિંગ",
+          "hi": "हींग",
+          "kn": "ಇಂಗು",
+          "mr": "हिंग"
+        }
+      }
+    },
+    "isabgol": {
+      "query": "Plantago ovata",
+      "botanical": {
+        "matchedName": "Plantago ovata Forssk.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Plantago ovata",
+        "acceptedWithAuthor": "Plantago ovata Forssk.",
+        "family": "Plantaginaceae",
+        "gbifKey": 207499270,
+        "synonyms": [
+          "Plantago albicans",
+          "Plantago argentea",
+          "Plantago brunnea",
+          "Plantago declinata",
+          "Plantago decumbens",
+          "Plantago fastigiata",
+          "Plantago gooddingii",
+          "Plantago insularis",
+          "Plantago ispaghul",
+          "Plantago leiocephala",
+          "Plantago mauritii",
+          "Plantago microcephala",
+          "Plantago minima",
+          "Plantago monspeliensis",
+          "Plantago ovatifolia"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q311228",
+        "labels": {
+          "bn": "ইসবগুল",
+          "hi": "ईसबगोल",
+          "ml": "ഇഷദ്ഗോൾ",
+          "mr": "इसबगोल",
+          "pa": "ਈਸਬਗੋਲ"
+        }
+      }
+    },
+    "jaiphal": {
+      "query": "Myristica fragrans",
+      "botanical": {
+        "matchedName": "Myristica fragrans Houtt.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Myristica fragrans",
+        "acceptedWithAuthor": "Myristica fragrans Houtt.",
+        "family": "Myristicaceae",
+        "gbifKey": 207317407,
+        "synonyms": [
+          "Aruana silvestris",
+          "Myristica amboinensis",
+          "Myristica aromatica",
+          "Myristica laurella",
+          "Myristica moschata",
+          "Myristica officinalis",
+          "Myristica philippinensis",
+          "Palala fragrans"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q2724976",
+        "labels": {
+          "sa": "जाती",
+          "ur": "جائفل",
+          "bn": "জয়ত্রি",
+          "hi": "मिरिस्तिका फ्राग्रान्स",
+          "kn": "ಮೈರಿಸ್ಟಿಕಾ ಫ್ರಾಗ್ರನ್ಸ್",
+          "ml": "ജാതി (മരം)"
+        }
+      }
+    },
+    "jatamansi": {
+      "query": "Nardostachys jatamansi",
+      "botanical": {
+        "matchedName": "Nardostachys jatamansi (D.Don) DC.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Nardostachys jatamansi",
+        "acceptedWithAuthor": "Nardostachys jatamansi (D.Don) DC.",
+        "family": "Caprifoliaceae",
+        "gbifKey": 206875482,
+        "synonyms": [
+          "Fedia grandiflora",
+          "Fedia jatamansi",
+          "Nardostachys chinensis",
+          "Nardostachys gracilis",
+          "Nardostachys grandiflora",
+          "Nardostachys jatamansi",
+          "Patrinia jatamansi",
+          "Valeriana jatamansi"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q24853263",
+        "labels": {
+          "ml": "ജടാമാഞ്ചി",
+          "hi": "जटामांसी",
+          "mr": "जटामांसी",
+          "pa": "ਜਟਾਮਾਂਸੀ",
+          "ta": "ஜாதமாசி",
+          "te": "జటామాంసి",
+          "kn": "ಜಟಾಮಾಂಸಿ"
+        }
+      }
+    },
+    "jeera": {
+      "query": "Cuminum cyminum",
+      "botanical": {
+        "matchedName": "Cuminum cyminum L.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Cuminum cyminum",
+        "acceptedWithAuthor": "Cuminum cyminum L.",
+        "family": "Apiaceae",
+        "gbifKey": 206524324,
+        "synonyms": [
+          "Cuminia cyminum",
+          "Cuminum aegyptiacum",
+          "Cuminum hispanicum",
+          "Cuminum odorum",
+          "Cuminum officinale",
+          "Cuminum sativum",
+          "Cyminon longeinvolucellatum",
+          "Ligusticum cuminum",
+          "Luerssenia cyminum",
+          "Selinum cuminum"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q132624",
+        "labels": {
+          "hi": "जीरा",
+          "bn": "জিরা",
+          "ml": "ജീരകം",
+          "gu": "જીરું",
+          "kn": "ಜೀರಿಗೆ",
+          "mr": "जिरे",
+          "pa": "ਜੀਰਾ",
+          "sa": "जीरकम्",
+          "ta": "சீரகம்",
+          "te": "జీలకర్ర",
+          "ur": "زیرہ"
+        }
+      }
+    },
+    "kali-mirch": {
+      "query": "Piper nigrum",
+      "botanical": {
+        "matchedName": "Piper nigrum L.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Piper nigrum",
+        "acceptedWithAuthor": "Piper nigrum L.",
+        "family": "Piperaceae",
+        "gbifKey": 207478568,
+        "synonyms": [
+          "Muldera multinervis",
+          "Muldera wightiana",
+          "Piper aromaticum",
+          "Piper baccatum",
+          "Piper colonum",
+          "Piper denudatum",
+          "Piper glabrispica",
+          "Piper glyphicum",
+          "Piper laxum",
+          "Piper malabarense",
+          "Piper nigricans",
+          "Piper rotundum",
+          "Piper trioicum",
+          "Rhyncholepis haeankeana"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q43084",
+        "labels": {
+          "ur": "کالی مرچ",
+          "ml": "കുരുമുളക്",
+          "bn": "গোল মরিচ",
+          "gu": "કાળા મરી",
+          "kn": "ಕರಿಮೆಣಸು",
+          "mr": "मिरवेल",
+          "pa": "ਕਾਲੀ ਮਿਰਚ",
+          "sa": "मरीचम्",
+          "te": "నల్ల మిరియాలు",
+          "hi": "काली मिर्च",
+          "ta": "மிளகு"
+        }
+      }
+    },
+    "kalmegh": {
+      "query": "Andrographis paniculata",
+      "botanical": {
+        "matchedName": "Andrographis paniculata (Burm.f.) Wall. ex Nees",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Andrographis paniculata",
+        "acceptedWithAuthor": "Andrographis paniculata (Burm.f.) Wall. ex Nees",
+        "family": "Acanthaceae",
+        "gbifKey": 206467744,
+        "synonyms": [
+          "Andrographis subspathulata",
+          "Justicia latebrosa",
+          "Justicia paniculata",
+          "Justicia stricta"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q1551608",
+        "labels": {
+          "ta": "நிலவேம்பு",
+          "bn": "কালমেঘ",
+          "gu": "કરિયાતું",
+          "hi": "कालमेघ",
+          "kn": "ನೆಲಬೇವು",
+          "ml": "നിലവേപ്പ്",
+          "pa": "ਕਾਲਮੇਘ",
+          "sa": "कालमेघः",
+          "te": "నేలవేము"
+        }
+      }
+    },
+    "kalonji": {
+      "query": "Nigella sativa",
+      "botanical": {
+        "matchedName": "Nigella sativa L.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Nigella sativa",
+        "acceptedWithAuthor": "Nigella sativa L.",
+        "family": "Ranunculaceae",
+        "gbifKey": 207681188,
+        "synonyms": []
+      },
+      "wikidata": {
+        "qid": "Q160575",
+        "labels": {
+          "bn": "কালোজিরা",
+          "kn": "ಕರೀಜೀರಿಗೆ",
+          "ml": "നിഗെല്ല സറ്റൈവ",
+          "pa": "ਕਲੌਂਜੀ",
+          "ta": "கருஞ்சீரகம்",
+          "ur": "کلونجی"
+        }
+      }
+    },
+    "karela": {
+      "query": "Momordica charantia",
+      "botanical": {
+        "matchedName": "Momordica charantia L.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Momordica charantia",
+        "acceptedWithAuthor": "Momordica charantia L.",
+        "family": "Cucurbitaceae",
+        "gbifKey": 206944230,
+        "synonyms": []
+      },
+      "wikidata": {
+        "qid": "Q428750",
+        "labels": {
+          "gu": "કારેલું",
+          "kn": "ಹಾಗಲಕಾಯಿ",
+          "ml": "പാവല്",
+          "mr": "कारले",
+          "sa": "कारवेल्लम्",
+          "ta": "பாகல்",
+          "te": "కాకర",
+          "ur": "کریلا",
+          "pa": "ਕਰੇਲਾ",
+          "bn": "করলা",
+          "hi": "करेला"
+        }
+      }
+    },
+    "kesar": {
+      "query": "Crocus sativus",
+      "botanical": {
+        "matchedName": "Crocus sativus L.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Crocus sativus",
+        "acceptedWithAuthor": "Crocus sativus L.",
+        "family": "Iridaceae",
+        "gbifKey": 207175263,
+        "synonyms": [
+          "Crocus autumnalis",
+          "Crocus officinalis",
+          "Crocus orsinii",
+          "Crocus pendulus",
+          "Crocus setifolius",
+          "Geanthus autumnalis",
+          "Safran officinarum"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q15041677",
+        "labels": {
+          "ml": "ക്രോക്കസ് സാറ്റിവസ്",
+          "bn": "জাফরান"
+        }
+      }
+    },
+    "kudampuli": {
+      "query": "Garcinia gummi-gutta",
+      "botanical": {
+        "matchedName": "Garcinia gummi-gutta (L.) N.Robson",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Garcinia gummi-gutta",
+        "acceptedWithAuthor": "Garcinia gummi-gutta (L.) N.Robson",
+        "family": "Clusiaceae",
+        "gbifKey": 206906888,
+        "synonyms": [
+          "Cambogia gummi-gutta",
+          "Cambogia gutta",
+          "Garcinia cambogia",
+          "Garcinia gutta",
+          "Mangostana cambogia"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q18187249",
+        "labels": {
+          "kn": "ಉಪ್ಪಾಗೆ",
+          "ml": "കുടംപുളി",
+          "ta": "குடம்புளி",
+          "te": "మలబారు చింత"
+        }
+      }
+    },
+    "lahsun": {
+      "query": "Allium sativum",
+      "botanical": {
+        "matchedName": "Allium sativum L.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Allium sativum",
+        "acceptedWithAuthor": "Allium sativum L.",
+        "family": "Amaryllidaceae",
+        "gbifKey": 206505946,
+        "synonyms": [
+          "Allium arenarium",
+          "Allium controversum",
+          "Allium longicuspis",
+          "Allium ophioscorodon",
+          "Allium pekinense",
+          "Porrum ophioscorodon",
+          "Porrum sativum"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q23400",
+        "labels": {
+          "bn": "রসুন",
+          "hi": "लहसुन",
+          "ta": "பூண்டு",
+          "ml": "വെളുത്തുള്ളി",
+          "pa": "ਲਸਣ",
+          "sa": "लशुनम्",
+          "te": "వెల్లుల్లి",
+          "ur": "لہسن",
+          "gu": "લસણ",
+          "kn": "ಬೆಳ್ಳುಳ್ಳಿ",
+          "mr": "लसूण"
+        }
+      }
+    },
+    "laung": {
+      "query": "Syzygium aromaticum",
+      "botanical": {
+        "matchedName": "Syzygium aromaticum (L.) Merr. & L.M.Perry",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Syzygium aromaticum",
+        "acceptedWithAuthor": "Syzygium aromaticum (L.) Merr. & L.M.Perry",
+        "family": "Myrtaceae",
+        "gbifKey": 207344240,
+        "synonyms": [
+          "Caryophyllus aromaticus",
+          "Caryophyllus hortensis",
+          "Caryophyllus silvestris",
+          "Eugenia aromatica",
+          "Eugenia caryophyllata",
+          "Eugenia caryophyllus",
+          "Jambosa caryophyllus",
+          "Myrtus caryophyllus"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q26736",
+        "labels": {
+          "hi": "लौंग",
+          "ml": "കരയാമ്പൂ",
+          "pa": "ਲੌਂਗ",
+          "bn": "লবঙ্গ",
+          "gu": "લવિંગ",
+          "kn": "ಲವಂಗ",
+          "mr": "लवंग",
+          "sa": "लवङ्गम्",
+          "ta": "கிராம்பு",
+          "te": "లవంగము",
+          "ur": "لونگ"
+        }
+      }
+    },
+    "mandukparni": {
+      "query": "Centella asiatica",
+      "botanical": {
+        "matchedName": "Centella asiatica (L.) Urb.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Centella asiatica",
+        "acceptedWithAuthor": "Centella asiatica (L.) Urb.",
+        "family": "Apiaceae",
+        "gbifKey": 206526296,
+        "synonyms": [
+          "Centella boninensis",
+          "Centella hirtella",
+          "Centella ulugurensis",
+          "Chondrocarpus asiaticus",
+          "Chondrocarpus triflorus",
+          "Glyceria asiatica",
+          "Glyceria triflora",
+          "Hydrocotyle abyssinica",
+          "Hydrocotyle artensis",
+          "Hydrocotyle asiatica",
+          "Hydrocotyle brasiliensis",
+          "Hydrocotyle brevipedata",
+          "Hydrocotyle brevipes",
+          "Hydrocotyle dentata",
+          "Hydrocotyle ficarifolia"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q324714",
+        "labels": {
+          "bn": "থানকুনি",
+          "hi": "मण्डूकपर्णी",
+          "kn": "ಒಂದೆಲಗ",
+          "ml": "മുത്തിൾ",
+          "pa": "ਗੋਟੂ ਕੋਲਾ",
+          "ta": "வல்லாரை",
+          "te": "సరస్వతీ ఆకు"
+        }
+      }
+    },
+    "manjistha": {
+      "query": "Rubia cordifolia",
+      "botanical": {
+        "matchedName": "Rubia cordifolia L.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Rubia cordifolia",
+        "acceptedWithAuthor": "Rubia cordifolia L.",
+        "family": "Rubiaceae",
+        "gbifKey": 207740592,
+        "synonyms": [
+          "Galium cordifolium"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q3237818",
+        "labels": {
+          "ml": "മഞ്ചട്ടി",
+          "hi": "रुबिया  कॉर्डिफ़ोलिया",
+          "kn": "ರುಬಿಯಾ ಕಾರ್ಡಿಫೋಲಿಯಾ",
+          "pa": "ਮਜੀਠ",
+          "sa": "रुबिअ कोर्दिफ़्ओलिअ",
+          "te": "మంజిష్ఠ"
+        }
+      }
+    },
+    "methi": {
+      "query": "Trigonella foenum-graecum",
+      "botanical": {
+        "matchedName": "Trigonella foenum-graecum L.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Trigonella foenum-graecum",
+        "acceptedWithAuthor": "Trigonella foenum-graecum L.",
+        "family": "Fabaceae",
+        "gbifKey": 207101201,
+        "synonyms": [
+          "Buceras foenum-graecum",
+          "Buceras odoratissima",
+          "Fenugraecum officinale",
+          "Foenum-graecum officinale",
+          "Foenum-graecum sativum",
+          "Folliculigera graveolens",
+          "Medicago foenugraeca",
+          "Telis foenum-graecum",
+          "Trigonella ensifera",
+          "Trigonella graeca",
+          "Trigonella haussknechtii",
+          "Trigonella jemenensis",
+          "Trigonella rhodantha",
+          "Trigonella tibetana",
+          "Xiphostylis erectus"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q133205",
+        "labels": {
+          "pa": "ਮੇਥੀ",
+          "bn": "মেথি",
+          "gu": "મેથી",
+          "hi": "मेथी",
+          "kn": "ಮೆಂತೆ",
+          "mr": "मेथी",
+          "sa": "मेथिका",
+          "ta": "வெந்தயம்",
+          "te": "మెంతులు",
+          "ur": "میتھی",
+          "ml": "ഉലുവ"
         }
       }
     },
@@ -698,42 +1359,339 @@ export default {
         }
       }
     },
-    "arjuna": {
-      "query": "Terminalia arjuna",
+    "nariyal-tel": {
+      "query": "Cocos nucifera",
       "botanical": {
-        "matchedName": "Terminalia arjuna (Roxb. ex DC.) Wight & Arn.",
+        "matchedName": "Cocos nucifera L.",
         "matchedStatus": "ACCEPTED",
-        "acceptedName": "Terminalia arjuna",
-        "acceptedWithAuthor": "Terminalia arjuna (Roxb. ex DC.) Wight & Arn.",
-        "family": "Combretaceae",
-        "gbifKey": 206915610,
+        "acceptedName": "Cocos nucifera",
+        "acceptedWithAuthor": "Cocos nucifera L.",
+        "family": "Arecaceae",
+        "gbifKey": 206581667,
         "synonyms": [
-          "Myrobalanus cuneata",
-          "Pentaptera angustifolia",
-          "Pentaptera arjuna",
-          "Pentaptera glabra",
-          "Pentaptera obovata",
-          "Terminalia berryi",
-          "Terminalia cuneata",
-          "Terminalia glabra",
-          "Terminalia ovalifolia",
-          "Terminalia psidiifolia",
-          "Terminalia urjan"
+          "Calappa nucifera",
+          "Cocos indica",
+          "Cocos mamillaris",
+          "Cocos nana"
         ]
       },
       "wikidata": {
-        "qid": "Q2719381",
+        "qid": "Q13187",
         "labels": {
-          "bn": "অর্জুন",
-          "pa": "ਅਰਜੁਨ",
-          "hi": "अर्जुन वृक्ष",
-          "kn": "ಮತ್ತಿ",
-          "ml": "നീർമരുത്",
-          "mr": "अर्जुन वृक्ष",
-          "sa": "अर्जुनवृक्षः",
-          "ta": "வெண் மருது",
-          "te": "తెల్ల మద్ది",
-          "ur": "ارجن (درخت)"
+          "pa": "ਨਾਰੀਅਲ",
+          "ta": "தேங்காய்",
+          "hi": "नारियल",
+          "ml": "തെങ്ങ്",
+          "bn": "নারিকেল",
+          "gu": "નારિયેળ",
+          "kn": "ತೆಂಗಿನಕಾಯಿ",
+          "mr": "नारळ",
+          "sa": "नारिकेलम्",
+          "te": "కొబ్బరి",
+          "ur": "ناریل"
+        }
+      }
+    },
+    "neem": {
+      "query": "Azadirachta indica",
+      "botanical": {
+        "matchedName": "Azadirachta indica A.Juss.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Azadirachta indica",
+        "acceptedWithAuthor": "Azadirachta indica A.Juss.",
+        "family": "Meliaceae",
+        "gbifKey": 207289909,
+        "synonyms": [
+          "Antelaea azadirachta",
+          "Antelaea canescens",
+          "Antelaea javanica",
+          "Claderia parviflora",
+          "Melia azadirachta",
+          "Melia fraxinifolia",
+          "Melia hasskarlii",
+          "Melia indica",
+          "Melia japonica",
+          "Melia parviflora",
+          "Melia pinnata"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q170461",
+        "labels": {
+          "ml": "ആര്യവേപ്പ്",
+          "bn": "নিম",
+          "gu": "લીમડો",
+          "hi": "नीम",
+          "kn": "ಬೇವು",
+          "mr": "कडुलिंब",
+          "pa": "ਨਿੰਮ",
+          "sa": "निम्बः",
+          "ta": "வேம்பு",
+          "te": "వేప చెట్టు",
+          "ur": "نیم"
+        }
+      }
+    },
+    "nimbu": {
+      "query": "Citrus limon",
+      "botanical": {
+        "matchedName": "Citrus ×limon (L.) Osbeck",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Citrus limon",
+        "acceptedWithAuthor": "Citrus ×limon (L.) Osbeck",
+        "family": "Rutaceae",
+        "gbifKey": 207775042,
+        "synonyms": [
+          "Citrus adami",
+          "Citrus aurata",
+          "Citrus bergamia",
+          "Citrus bergamota",
+          "Citrus dimorphocarpa",
+          "Citrus gordonia",
+          "Citrus limetta",
+          "Citrus limettioides",
+          "Citrus limodulcis",
+          "Citrus limonelloides",
+          "Citrus limonia",
+          "Citrus limonum"
+        ]
+      },
+      "wikidata": null
+    },
+    "pippali": {
+      "query": "Piper longum",
+      "botanical": {
+        "matchedName": "Piper longum L.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Piper longum",
+        "acceptedWithAuthor": "Piper longum L.",
+        "family": "Piperaceae",
+        "gbifKey": 207480992,
+        "synonyms": [
+          "Chavica longa",
+          "Chavica roxburghii",
+          "Chavica sarmentosa",
+          "Piper roxburghii",
+          "Piper sarmentosum",
+          "Piper turbinatum"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q685336",
+        "labels": {
+          "ml": "തിപ്പലി",
+          "pa": "ਲੌਂਗ",
+          "bn": "পিপুল",
+          "hi": "पिप्पली",
+          "kn": "ಹಿಪ್ಪಲಿ",
+          "mr": "पिंपळी",
+          "sa": "पिप्पली",
+          "ta": "திப்பிலி",
+          "te": "పిప్పలి"
+        }
+      }
+    },
+    "pudina": {
+      "query": "Mentha spicata",
+      "botanical": {
+        "matchedName": "Mentha spicata L.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Mentha spicata",
+        "acceptedWithAuthor": "Mentha spicata L.",
+        "family": "Lamiaceae",
+        "gbifKey": 207239413,
+        "synonyms": []
+      },
+      "wikidata": {
+        "qid": "Q160114",
+        "labels": {
+          "bn": "পুদিনা",
+          "te": "పుదీనా"
+        }
+      }
+    },
+    "punarnava": {
+      "query": "Boerhavia diffusa",
+      "botanical": {
+        "matchedName": "Boerhavia diffusa L.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Boerhavia diffusa",
+        "acceptedWithAuthor": "Boerhavia diffusa L.",
+        "family": "Nyctaginaceae",
+        "gbifKey": 207322866,
+        "synonyms": [
+          "Axia cochinchinensis",
+          "Boerhavia adscendens",
+          "Boerhavia africana",
+          "Boerhavia caespitosa",
+          "Boerhavia decumbens",
+          "Boerhavia friesii",
+          "Boerhavia laxa",
+          "Boerhavia obtusifolia",
+          "Boerhavia paniculata",
+          "Boerhavia rottleri",
+          "Boerhavia rugosa",
+          "Boerhavia xerophila",
+          "Commicarpus africanus"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q311457",
+        "labels": {
+          "ml": "തഴുതാമ",
+          "hi": "पुनर्नवा",
+          "kn": "ಕೊಮ್ಮೆ ಗಿಡ",
+          "mr": "पुनर्नवा",
+          "pa": "ਇੱਟਸਿੱਟ",
+          "sa": "पुनर्नवा",
+          "ta": "மூக்கரட்டி சாரை",
+          "te": "అటికమామిడి"
+        }
+      }
+    },
+    "sahjan": {
+      "query": "Moringa oleifera",
+      "botanical": {
+        "matchedName": "Moringa oleifera Lam.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Moringa oleifera",
+        "acceptedWithAuthor": "Moringa oleifera Lam.",
+        "family": "Moringaceae",
+        "gbifKey": 207315499,
+        "synonyms": [
+          "Anoma moringa",
+          "Guilandina moringa",
+          "Hyperanthera decandra",
+          "Hyperanthera moringa",
+          "Hyperanthera pterygosperma",
+          "Moringa amara",
+          "Moringa domestica",
+          "Moringa edulis",
+          "Moringa erecta",
+          "Moringa moringa",
+          "Moringa nux-eben",
+          "Moringa octogona",
+          "Moringa parvifolia",
+          "Moringa polygona",
+          "Moringa pterygosperma"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q234193",
+        "labels": {
+          "ur": "سوہانجنا",
+          "gu": "સરગવો (વૃક્ષ)",
+          "hi": "सहजन",
+          "ml": "മുരിങ്ങ",
+          "bn": "সজনে",
+          "kn": "ನುಗ್ಗೆಕಾಯಿ",
+          "mr": "शेवगा",
+          "pa": "ਸੁਹਾਂਜਣਾ",
+          "sa": "शिग्रुः",
+          "ta": "முருங்கை",
+          "te": "మునగ"
+        }
+      }
+    },
+    "saunf": {
+      "query": "Foeniculum vulgare",
+      "botanical": {
+        "matchedName": "Foeniculum vulgare Mill.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Foeniculum vulgare",
+        "acceptedWithAuthor": "Foeniculum vulgare Mill.",
+        "family": "Apiaceae",
+        "gbifKey": 206520674,
+        "synonyms": [
+          "Anethum dulce",
+          "Anethum foeniculum",
+          "Anethum minus",
+          "Anethum panmori",
+          "Anethum panmorium",
+          "Anethum rupestre",
+          "Foeniculum azoricum",
+          "Foeniculum capillaceum",
+          "Foeniculum divaricatum",
+          "Foeniculum dulce",
+          "Foeniculum foeniculum",
+          "Foeniculum giganteum",
+          "Foeniculum officinale",
+          "Foeniculum panmorium",
+          "Foeniculum rigidum"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q43511",
+        "labels": {
+          "kn": "ಸೊಂಪು",
+          "mr": "बडीशेप",
+          "ta": "பெருஞ்சீரகம்",
+          "te": "సోంపు",
+          "ur": "سونف",
+          "ml": "പെരുംജീരകം",
+          "pa": "ਮੇਥੀ",
+          "bn": "মৌরি",
+          "gu": "વરિયાળી",
+          "hi": "सौंफ"
+        }
+      }
+    },
+    "shallaki": {
+      "query": "Boswellia serrata",
+      "botanical": {
+        "matchedName": "Boswellia serrata Roxb.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Boswellia serrata",
+        "acceptedWithAuthor": "Boswellia serrata Roxb.",
+        "family": "Burseraceae",
+        "gbifKey": 206821607,
+        "synonyms": [
+          "Boswellia glabra",
+          "Boswellia hirsuta",
+          "Boswellia thurifera",
+          "Chloroxylon dupada",
+          "Libanotus asiaticus",
+          "Libanus thurifer"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q2367334",
+        "labels": {
+          "ml": "കുന്തിരിക്കം",
+          "kn": "ಗುಗ್ಗುಳ ಧೂಪ",
+          "mr": "सालई",
+          "ta": "பறங்கி சாம்ராணி"
+        }
+      }
+    },
+    "shankhpushpi": {
+      "query": "Convolvulus prostratus",
+      "botanical": {
+        "matchedName": "Convolvulus prostratus Forssk.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Convolvulus prostratus",
+        "acceptedWithAuthor": "Convolvulus prostratus Forssk.",
+        "family": "Convolvulaceae",
+        "gbifKey": 206923833,
+        "synonyms": [
+          "Convolvulus austroaegyptiacus",
+          "Convolvulus cancerianus",
+          "Convolvulus deserti",
+          "Convolvulus evolvuloides",
+          "Convolvulus heterotrichus",
+          "Convolvulus microphyllus",
+          "Convolvulus parvifolius",
+          "Convolvulus pluricaulis",
+          "Convolvulus scindicus",
+          "Evolvulus pilosus",
+          "Ipomoea microphylla"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q16552588",
+        "labels": {
+          "hi": "शंखपुष्पी",
+          "mr": "शंख पुष्प"
         }
       }
     },
@@ -767,151 +1725,74 @@ export default {
       "wikidata": {
         "qid": "Q4807702",
         "labels": {
+          "bn": "শতমূলী",
+          "ml": "ശതാവരി",
           "hi": "सतावर",
           "kn": "ಶತಾವರಿ (ದಕ್ಷಿಣ ಏಷ್ಯಾ ಪ್ರಭೇದ)",
           "mr": "शतावरी",
           "sa": "शतावरीसस्यम्",
           "ta": "சாத்தாவாரி",
-          "te": "శతావరి",
-          "bn": "শতমূলী",
-          "ml": "ശതാവരി"
+          "te": "శతావరి"
         }
       }
     },
-    "karela": {
-      "query": "Momordica charantia",
+    "sonamukhi": {
+      "query": "Senna alexandrina",
       "botanical": {
-        "matchedName": "Momordica charantia L.",
+        "matchedName": "Senna alexandrina Mill.",
         "matchedStatus": "ACCEPTED",
-        "acceptedName": "Momordica charantia",
-        "acceptedWithAuthor": "Momordica charantia L.",
-        "family": "Cucurbitaceae",
-        "gbifKey": 206944230,
-        "synonyms": []
-      },
-      "wikidata": {
-        "qid": "Q428750",
-        "labels": {
-          "gu": "કારેલું",
-          "kn": "ಹಾಗಲಕಾಯಿ",
-          "ml": "പാവല്",
-          "mr": "कारले",
-          "sa": "कारवेल्लम्",
-          "ta": "பாகல்",
-          "te": "కాకర",
-          "ur": "کریلا",
-          "pa": "ਕਰੇਲਾ",
-          "bn": "করলা",
-          "hi": "करेला"
-        }
-      }
-    },
-    "lahsun": {
-      "query": "Allium sativum",
-      "botanical": {
-        "matchedName": "Allium sativum L.",
-        "matchedStatus": "ACCEPTED",
-        "acceptedName": "Allium sativum",
-        "acceptedWithAuthor": "Allium sativum L.",
-        "family": "Amaryllidaceae",
-        "gbifKey": 206505946,
+        "acceptedName": "Senna alexandrina",
+        "acceptedWithAuthor": "Senna alexandrina Mill.",
+        "family": "Fabaceae",
+        "gbifKey": 207094595,
         "synonyms": [
-          "Allium arenarium",
-          "Allium controversum",
-          "Allium longicuspis",
-          "Allium ophioscorodon",
-          "Allium pekinense",
-          "Porrum ophioscorodon",
-          "Porrum sativum"
+          "Cassia alexandrina",
+          "Cassia senna"
         ]
       },
       "wikidata": {
-        "qid": "Q23400",
+        "qid": "Q132675",
         "labels": {
-          "gu": "લસણ",
-          "kn": "ಬೆಳ್ಳುಳ್ಳಿ",
-          "mr": "लसूण",
-          "pa": "ਲਸਣ",
-          "sa": "लशुनम्",
-          "te": "వెల్లుల్లి",
-          "bn": "রসুন",
-          "hi": "लहसुन",
-          "ta": "பூண்டு",
-          "ml": "വെളുത്തുള്ളി",
-          "ur": "لہسن"
+          "hi": "सनाय",
+          "kn": "ಸೋನಾಮುಖಿ",
+          "ml": "നിലവാക",
+          "ta": "நிலாவாரை",
+          "te": "సునాముఖి"
         }
       }
     },
-    "hing": {
-      "query": "Ferula assa-foetida",
+    "tejpatta": {
+      "query": "Cinnamomum tamala",
       "botanical": {
-        "matchedName": "Ferula assa-foetida L.",
+        "matchedName": "Cinnamomum tamala (Buch.-Ham.) T.Nees & C.H.Eberm.",
         "matchedStatus": "ACCEPTED",
-        "acceptedName": "Ferula assa-foetida",
-        "acceptedWithAuthor": "Ferula assa-foetida L.",
-        "family": "Apiaceae",
-        "gbifKey": 206538255,
+        "acceptedName": "Cinnamomum tamala",
+        "acceptedWithAuthor": "Cinnamomum tamala (Buch.-Ham.) T.Nees & C.H.Eberm.",
+        "family": "Lauraceae",
+        "gbifKey": 207196034,
         "synonyms": [
-          "Ferula foetida",
-          "Ferula hooshee",
-          "Narthex polakii",
-          "Narthex silphium",
-          "Peucedanum assa-foetida",
-          "Peucedanum hooshee",
-          "Scorodosma assa-foetida"
+          "Cinnamomum albiflorum",
+          "Cinnamomum lindleyi",
+          "Cinnamomum reinwardtii",
+          "Cinnamomum veitchii",
+          "Cinnamomum zwartzii",
+          "Laurus albiflora",
+          "Laurus cassia",
+          "Laurus culilawan",
+          "Laurus sailyana",
+          "Laurus soilyana",
+          "Laurus tamala",
+          "Laurus triplinervia",
+          "Persea tamala"
         ]
       },
       "wikidata": {
-        "qid": "Q111185",
+        "qid": "Q1661611",
         "labels": {
-          "bn": "হিং",
-          "gu": "હિંગ",
-          "hi": "हींग",
-          "kn": "ಇಂಗು",
-          "mr": "हिंग",
-          "sa": "हिङ्गु",
-          "ta": "பெருங்காயம்",
-          "te": "ఇంగువ",
-          "ur": "ہينگ",
-          "ml": "കായം"
-        }
-      }
-    },
-    "aloe": {
-      "query": "Aloe vera",
-      "botanical": {
-        "matchedName": "Aloe vera (L.) Burm.f.",
-        "matchedStatus": "ACCEPTED",
-        "acceptedName": "Aloe vera",
-        "acceptedWithAuthor": "Aloe vera (L.) Burm.f.",
-        "family": "Asphodelaceae",
-        "gbifKey": 206597037,
-        "synonyms": [
-          "Aloe barbadensis",
-          "Aloe chinensis",
-          "Aloe elongata",
-          "Aloe flava",
-          "Aloe indica",
-          "Aloe lanzae",
-          "Aloe littoralis",
-          "Aloe maculata",
-          "Aloe rubescens",
-          "Aloe variegata",
-          "Aloe vulgaris"
-        ]
-      },
-      "wikidata": {
-        "qid": "Q80079",
-        "labels": {
-          "bn": "ঘৃতকুমারী",
-          "kn": "ಲೋಳೆ ಸರ",
-          "gu": "કુંવારપાઠું",
-          "hi": "घृत कुमारी",
-          "ml": "കറ്റാർവാഴ",
-          "pa": "ਕੁਆਰ ਗੰਦਲ",
-          "sa": "घृतकुमारी",
-          "te": "కలబంద",
-          "ur": "کوار گندل"
+          "ml": "വഴന",
+          "bn": "তেজপাতা",
+          "kn": "ಕಾಡು ದಾಲ್ಚಿನ್ನಿ",
+          "te": "తమాల వృక్షము"
         }
       }
     },
@@ -945,17 +1826,97 @@ export default {
       "wikidata": {
         "qid": "Q2763698",
         "labels": {
+          "sa": "तिलः",
+          "ml": "എള്ള്",
           "bn": "তিল",
           "gu": "તલ",
           "hi": "तिल",
           "kn": "ಎಳ್ಳು",
           "mr": "तीळ",
           "pa": "ਤਿਲ",
-          "sa": "तिलः",
-          "ml": "എള്ള്",
           "ta": "எள்",
           "te": "నువ్వులు",
           "ur": "سمسم"
+        }
+      }
+    },
+    "tulsi": {
+      "query": "Ocimum tenuiflorum",
+      "botanical": {
+        "matchedName": "Ocimum tenuiflorum L.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Ocimum tenuiflorum",
+        "acceptedWithAuthor": "Ocimum tenuiflorum L.",
+        "family": "Lamiaceae",
+        "gbifKey": 207234565,
+        "synonyms": [
+          "Geniosporum tenuiflorum",
+          "Lumnitzera tenuiflora",
+          "Moschosma tenuiflorum",
+          "Ocimum flexuosum",
+          "Ocimum hirsutum",
+          "Ocimum inodorum",
+          "Ocimum monachorum",
+          "Ocimum sanctum",
+          "Ocimum scutellarioides",
+          "Ocimum subserratum",
+          "Ocimum tomentosum",
+          "Ocimum villosum",
+          "Plectranthus monachorum"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q960124",
+        "labels": {
+          "ml": "തുളസി",
+          "bn": "তুলসী",
+          "kn": "ತುಳಸಿ",
+          "ta": "துளசி",
+          "te": "తులసి",
+          "gu": "તુલસી",
+          "hi": "तुलसी",
+          "mr": "तुळस",
+          "pa": "ਤੁਲਸੀ",
+          "sa": "तुलसी",
+          "ur": "تلسى"
+        }
+      }
+    },
+    "vasaka": {
+      "query": "Justicia adhatoda",
+      "botanical": {
+        "matchedName": "Justicia adhatoda L.",
+        "matchedStatus": "ACCEPTED",
+        "acceptedName": "Justicia adhatoda",
+        "acceptedWithAuthor": "Justicia adhatoda L.",
+        "family": "Acanthaceae",
+        "gbifKey": 206502577,
+        "synonyms": [
+          "Adeloda serrata",
+          "Adhatoda adhatoda",
+          "Adhatoda arborea",
+          "Adhatoda pubescens",
+          "Adhatoda vasica",
+          "Adhatoda zeylanica",
+          "Dianthera latifolia",
+          "Ecbolium adhatoda",
+          "Gendarussa adhadota",
+          "Justicia caracasana"
+        ]
+      },
+      "wikidata": {
+        "qid": "Q61022811",
+        "labels": {
+          "pa": "ਕਾਲਾ ਬਾਂਸਾ",
+          "ur": "وہیکڑ",
+          "ml": "ആടലോടകം",
+          "ta": "ஆடாதோடை",
+          "te": "అడ్డసరం",
+          "bn": "বাসক",
+          "gu": "અરડૂસી",
+          "hi": "वसाका",
+          "kn": "ಆಡು ಸೋಗೆ",
+          "mr": "अडुळसा"
         }
       }
     }

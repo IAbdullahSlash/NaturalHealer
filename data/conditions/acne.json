@@ -1,0 +1,60 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "acne",
+  "title": "Acne (Pitta)",
+  "category": "skin",
+  "summary": "Cool and cleanse gently for clear skin",
+  "severity": "mild",
+  "icon": "✨",
+  "duration": "Varies",
+  "doshas": [
+    "pitta"
+  ],
+  "ayurvedicView": "Acne is often a Pitta condition showing heat and inflammation. Cooling herbs and gentle care help restore skin balance.",
+  "remedies": [
+    "Neem + turmeric paste, rinse after 10-15 minutes",
+    "Apply thin layer of pure aloe vera gel",
+    "Avoid harsh scrubs and over-washing",
+    "Reduce intake of fried and spicy foods",
+    "Drink plenty of water throughout the day",
+    "Manjistha powder with rose water as a face pack (test on a small patch first)"
+  ],
+  "prevention": [
+    "Gentle cleansing routine",
+    "Avoid touching face",
+    "Use non-comedogenic products"
+  ],
+  "tips": [
+    "Keep skin clean but don't over-wash",
+    "Avoid touching your face",
+    "Reduce spicy and fried foods",
+    "Stay hydrated"
+  ],
+  "herbs": [
+    "Neem",
+    "Turmeric",
+    "Manjistha",
+    "Aloe vera",
+    "Sandalwood"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "ED80",
+      "title": "Acne"
+    },
+    "tm2Group": {
+      "range": "SN40–SN5Z",
+      "title": "Skin disorders (TM2)"
+    }
+  },
+  "seeDoctor": [
+    "Painful, deep lumps (cysts) or acne that leaves scars",
+    "Acne that does not improve after two to three months of care",
+    "Sudden severe acne in adulthood, or with irregular periods or extra hair growth"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

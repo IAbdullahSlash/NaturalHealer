@@ -1,0 +1,110 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "sonamukhi",
+  "name": "Sonamukhi",
+  "hindi": "सोनामुखी",
+  "sanskrit": "Svarnapatri",
+  "english": "Senna",
+  "latin": "Senna alexandrina",
+  "kind": "herb",
+  "part": "Leaf and pod",
+  "properties": {
+    "rasa": [
+      "katu",
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha",
+      "tikshna"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "vata"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Strong stimulant laxative"
+  ],
+  "traditionalUses": [
+    "Occasional constipation",
+    "Bowel clearing before procedures (medical use)"
+  ],
+  "kitchenUse": "Not a kitchen herb; taken as tablets or a tea at bedtime for occasional constipation.",
+  "typicalUse": {
+    "forms": [
+      "Tablets",
+      "Tea"
+    ],
+    "adultAmount": "Follow the label; use for no more than a week without a doctor",
+    "note": "Gentler options such as isabgol, fluids and fibre come first."
+  },
+  "cautions": [
+    {
+      "group": "digestive-illness",
+      "note": "Never use with stomach pain of unknown cause, blocked bowel, appendicitis or inflammatory bowel disease. Long use causes dependence and loss of potassium."
+    },
+    {
+      "group": "children",
+      "note": "Do not give to children without a doctor's advice."
+    },
+    {
+      "group": "pregnancy",
+      "note": "Use in pregnancy or while breastfeeding only if your doctor advises."
+    },
+    {
+      "group": "liver",
+      "note": "High doses taken for a long time have caused liver injury."
+    },
+    {
+      "group": "heart",
+      "note": "Potassium loss from overuse can upset the heart rhythm."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "diuretics",
+      "effect": "Together they can lower potassium too far.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "corticosteroids",
+      "effect": "Together they can lower potassium too far.",
+      "level": "caution"
+    },
+    {
+      "drugClass": "heart-rhythm",
+      "effect": "Low potassium from senna increases the risk of side effects from digoxin.",
+      "level": "avoid"
+    },
+    {
+      "drugClass": "anticoagulants",
+      "effect": "Diarrhoea from senna can change the effect of warfarin.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "moderate-human",
+    "summary": "An established laxative for short-term constipation, available as a standard over-the-counter medicine.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=senna%20constipation%20randomized"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "safety",
+      "title": "LiverTox (NIH): Senna",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547922/"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

@@ -124,6 +124,20 @@ export default function DiseaseModal({ disease, onClose, isFavorite, onToggleFav
             </ul>
           </section>
 
+          {disease.seeDoctor?.length > 0 && (
+            <section className="thali-section thali-doctor">
+              <h3 className="thali-section-title">When to see a doctor</h3>
+              <ul>
+                {disease.seeDoctor.map(sign => (
+                  <li key={sign}>
+                    <Icon name="alert" size={16} strokeWidth={2.2} />
+                    <span>{sign}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
           <p className="thali-fineprint">
             Educational information, not medical advice. Check with a qualified practitioner before
             starting a new remedy, especially if you are pregnant, nursing or on medication.

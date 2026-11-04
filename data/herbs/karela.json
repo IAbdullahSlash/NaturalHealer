@@ -1,0 +1,89 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "karela",
+  "name": "Karela",
+  "hindi": "करेला",
+  "sanskrit": "Karavellaka",
+  "english": "Bitter gourd",
+  "latin": "Momordica charantia",
+  "kind": "food",
+  "part": "Fruit",
+  "properties": {
+    "rasa": [
+      "tikta",
+      "katu"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "pitta"
+    ],
+    "aggravates": [
+      "vata"
+    ]
+  },
+  "actions": [
+    "Bitter; supports a blood-sugar-aware diet",
+    "Kindles digestion"
+  ],
+  "traditionalUses": [
+    "Part of the diet in diabetes (alongside treatment)",
+    "Skin complaints"
+  ],
+  "kitchenUse": "Cooked as a vegetable. Juice is strong; take only small amounts.",
+  "typicalUse": {
+    "forms": [
+      "Cooked vegetable",
+      "Juice"
+    ],
+    "adultAmount": "As a vegetable; juice no more than 30–50 ml a day",
+    "note": null
+  },
+  "cautions": [
+    {
+      "group": "diabetes",
+      "note": "Can cause low blood sugar alongside diabetes medicines; monitor closely."
+    },
+    {
+      "group": "pregnancy",
+      "note": "Avoid juice and supplements in pregnancy."
+    },
+    {
+      "group": "children",
+      "note": "Do not give juice or seeds to children."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "antidiabetics",
+      "effect": "May cause low blood sugar together with diabetes medicines.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "Human trials on blood sugar show small and inconsistent effects.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Momordica%20charantia%20glycemic%20randomized"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "safety",
+      "title": "LiverTox (NIH): Bitter Melon",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK590483/"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

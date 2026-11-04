@@ -1,0 +1,90 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "jaiphal",
+  "name": "Jaiphal",
+  "hindi": "जायफल",
+  "sanskrit": "Jatiphala",
+  "english": "Nutmeg",
+  "latin": "Myristica fragrans",
+  "kind": "spice",
+  "part": "Seed",
+  "properties": {
+    "rasa": [
+      "tikta",
+      "katu",
+      "kashaya"
+    ],
+    "guna": [
+      "laghu",
+      "tikshna"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "pacifies": [
+      "kapha",
+      "vata"
+    ],
+    "aggravates": [
+      "pitta"
+    ]
+  },
+  "actions": [
+    "Kindles digestion",
+    "Settles loose motions in tradition",
+    "Calming at bedtime in tradition"
+  ],
+  "traditionalUses": [
+    "Diarrhoea",
+    "Poor sleep (a pinch in warm milk)",
+    "Flavouring sweets"
+  ],
+  "kitchenUse": "A tiny pinch grated into warm milk, kheer or garam masala.",
+  "typicalUse": {
+    "forms": [
+      "Grated pinch in food"
+    ],
+    "adultAmount": "A pinch only; never more than food amounts",
+    "note": "Large amounts are poisonous."
+  },
+  "cautions": [
+    {
+      "group": "pregnancy",
+      "note": "Avoid more than a culinary pinch in pregnancy."
+    },
+    {
+      "group": "children",
+      "note": "Keep whole nutmeg away from children; swallowing even one or two teaspoons can cause poisoning."
+    },
+    {
+      "group": "heart",
+      "note": "Large amounts (around two teaspoons or more) can cause a racing heart, confusion, vomiting and hallucinations from myristicin."
+    }
+  ],
+  "interactions": [
+    {
+      "drugClass": "sedatives",
+      "effect": "Large amounts may add to drowsiness from sleeping pills.",
+      "level": "caution"
+    }
+  ],
+  "evidence": {
+    "level": "traditional",
+    "summary": "Traditional use only for digestion and sleep. Poisoning from large amounts is well documented.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=nutmeg%20intoxication%20myristicin"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "../schema/condition.schema.json",
+  "id": "acidity",
+  "title": "Acidity and Reflux",
+  "category": "digestive",
+  "summary": "Cool Pitta and ease burning after meals",
+  "severity": "mild",
+  "icon": "🔥",
+  "duration": "Varies",
+  "doshas": [
+    "pitta"
+  ],
+  "ayurvedicView": "Burning in the chest, sour belching and heartburn are linked to excess Pitta. Cooling foods, regular meals and not lying down after eating help.",
+  "remedies": [
+    "A teaspoon of saunf (fennel) seeds chewed after meals",
+    "Coriander seed water: a teaspoon of dhania seeds soaked overnight, the water sipped in the morning",
+    "A glass of fresh coconut water or cool buttermilk in the afternoon",
+    "Eat dinner at least three hours before lying down",
+    "Cut down on spicy, fried and sour foods, tea, coffee and alcohol"
+  ],
+  "prevention": [
+    "Eat smaller meals at regular times",
+    "Raise the head of the bed slightly",
+    "Stop smoking"
+  ],
+  "tips": [
+    "Avoid mint, which can make reflux worse",
+    "Do not skip meals for long stretches",
+    "Loosen tight clothing around the waist"
+  ],
+  "herbs": [
+    "Amla",
+    "Mulethi",
+    "Saunf",
+    "Dhania",
+    "Shatavari"
+  ],
+  "seeDoctor": [
+    "Chest pain with sweating or breathlessness, or pain spreading to the arm or jaw: call 112",
+    "Pain or difficulty swallowing, or food sticking",
+    "Vomiting blood, or black stools",
+    "Heartburn more than twice a week, or needing antacids for more than two weeks"
+  ],
+  "codes": {
+    "icd11": {
+      "code": "DA22",
+      "title": "Gastro-oesophageal reflux disease",
+      "note": "Occasional acidity after meals is a symptom; this is the closest disease code."
+    },
+    "tm2Group": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

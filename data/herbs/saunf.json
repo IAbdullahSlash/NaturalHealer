@@ -1,0 +1,83 @@
+{
+  "$schema": "../schema/herb.schema.json",
+  "id": "saunf",
+  "name": "Saunf",
+  "hindi": "सौंफ",
+  "sanskrit": "Mishreya, Madhurika",
+  "english": "Fennel",
+  "latin": "Foeniculum vulgare",
+  "kind": "spice",
+  "part": "Seed",
+  "properties": {
+    "rasa": [
+      "madhura",
+      "katu",
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "snigdha"
+    ],
+    "virya": null,
+    "vipaka": "madhura",
+    "pacifies": [
+      "vata",
+      "pitta"
+    ],
+    "aggravates": []
+  },
+  "actions": [
+    "Relieves gas and bloating (anulomana)",
+    "Freshens the mouth",
+    "Gentle digestive suited to pitta"
+  ],
+  "traditionalUses": [
+    "After-meal digestive",
+    "Bloating",
+    "Acidity-prone digestion"
+  ],
+  "kitchenUse": "Chewed after meals, or saunf tea (a teaspoon steeped in hot water).",
+  "typicalUse": {
+    "forms": [
+      "Seeds",
+      "Tea"
+    ],
+    "adultAmount": "3–6 g of seeds a day",
+    "note": "Classical texts differ on whether fennel is cooling or warming, so virya is left unrecorded."
+  },
+  "cautions": [
+    {
+      "group": "children",
+      "note": "Do not give fennel oil or concentrated fennel preparations to babies."
+    },
+    {
+      "group": "hormone-sensitive",
+      "note": "Contains mildly estrogen-like compounds; avoid concentrated use with hormone-sensitive conditions."
+    },
+    {
+      "group": "pregnancy",
+      "note": "Culinary amounts are fine; avoid concentrated preparations."
+    }
+  ],
+  "interactions": [],
+  "evidence": {
+    "level": "limited-human",
+    "summary": "A few small human studies on bloating and menstrual cramps. Not established as a treatment.",
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Foeniculum%20vulgare%20clinical%20trial"
+  },
+  "sources": [
+    {
+      "kind": "classical",
+      "title": "Bhavaprakasha Nighantu"
+    },
+    {
+      "kind": "pharmacopoeia",
+      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+  }
+}

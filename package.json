@@ -14,7 +14,10 @@
     "kb:enrich": "node scripts/kb/enrich.mjs",
     "test:web": "vitest run",
     "check:api": "node --no-experimental-require-module scripts/check-api-load.mjs",
-    "kb:compounds": "node scripts/kb/duke.mjs"
+    "kb:compounds": "node scripts/kb/duke.mjs",
+    "data:build": "node scripts/data/build.mjs",
+    "data:check": "node scripts/data/build.mjs --check",
+    "data:export": "node scripts/data/export.mjs"
   },
   "dependencies": {
     "@google-cloud/firestore": "^9.4.0",
@@ -29,6 +32,7 @@
   "devDependencies": {
     "@testing-library/dom": "^10.4.2",
     "@testing-library/react": "^16.3.3",
+    "ajv": "^8.20.0",
     "jsdom": "^29.1.1",
     "vite": "^8.3.5",
     "vitest": "^5.1.0"
