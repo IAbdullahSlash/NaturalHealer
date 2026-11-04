@@ -29,7 +29,8 @@
     ],
     "aggravates": [
       "pitta"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Warming",
@@ -52,60 +53,64 @@
   "cautions": [
     {
       "group": "surgery",
-      "note": "Garlic supplements may increase bleeding; stop them at least a week before surgery and tell your surgeon."
+      "note": "Garlic supplements may increase bleeding; stop them at least a week before surgery and tell your surgeon.",
+      "refs": []
     },
     {
       "group": "gerd",
-      "note": "Can worsen heartburn."
+      "note": "Can worsen heartburn.",
+      "refs": []
     },
     {
       "group": "bleeding-disorder",
-      "note": "Avoid supplements with bleeding disorders."
+      "note": "Avoid supplements with bleeding disorders.",
+      "refs": []
     },
     {
       "group": "pregnancy",
-      "note": "Food amounts are fine; garlic supplements may not be safe in pregnancy."
+      "note": "Food amounts are fine; garlic supplements may not be safe in pregnancy.",
+      "refs": []
     },
     {
       "group": "breastfeeding",
-      "note": "Food amounts are fine; garlic supplements may not be safe while breastfeeding."
+      "note": "Food amounts are fine; garlic supplements may not be safe while breastfeeding.",
+      "refs": []
     },
     {
       "group": "skin-use",
-      "note": "Raw garlic held on the skin can cause severe irritation and chemical burns."
+      "note": "Raw garlic held on the skin can cause severe irritation and chemical burns.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "anticoagulants",
       "effect": "Supplements may increase bleeding risk with blood thinners.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "antiretrovirals",
       "effect": "Garlic supplements can lower levels of some HIV medicines.",
-      "level": "avoid"
+      "level": "avoid",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "moderate-human",
     "summary": "Garlic supplements may lower total and LDL cholesterol slightly in people with high cholesterol; limited evidence suggests a small drop in high blood pressure.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=garlic%20blood%20pressure%20meta-analysis"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=garlic%20blood%20pressure%20meta-analysis",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     },
     {
-      "kind": "safety",
-      "title": "NCCIH: Garlic: Usefulness and Safety",
-      "detail": "Last updated February 2025",
-      "url": "https://www.nccih.nih.gov/health/garlic"
+      "source": "nccih-garlic"
     }
   ],
   "review": {

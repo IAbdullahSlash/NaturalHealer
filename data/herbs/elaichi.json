@@ -24,7 +24,8 @@
       "pitta",
       "kapha"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Freshens the mouth",
@@ -48,23 +49,23 @@
   "cautions": [
     {
       "group": "gallstones",
-      "note": "Avoid medicinal amounts with gallstones."
+      "note": "Avoid medicinal amounts with gallstones.",
+      "refs": []
     }
   ],
   "interactions": [],
   "evidence": {
     "level": "limited-human",
     "summary": "Few human studies; mostly traditional use and laboratory work.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Elettaria%20cardamomum%20clinical"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Elettaria%20cardamomum%20clinical",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

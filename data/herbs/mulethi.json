@@ -24,7 +24,8 @@
     ],
     "aggravates": [
       "kapha"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Soothes the throat",
@@ -49,66 +50,71 @@
   "cautions": [
     {
       "group": "hypertension",
-      "note": "Raises blood pressure and lowers potassium with regular use. Even small amounts have caused serious problems in people with high blood pressure or a salty diet. Avoid."
+      "note": "Raises blood pressure and lowers potassium with regular use. Even small amounts have caused serious problems in people with high blood pressure or a salty diet. Avoid.",
+      "refs": []
     },
     {
       "group": "heart",
-      "note": "Large or long use can cause an irregular heartbeat and, rarely, cardiac arrest. Avoid with heart disease."
+      "note": "Large or long use can cause an irregular heartbeat and, rarely, cardiac arrest. Avoid with heart disease.",
+      "refs": []
     },
     {
       "group": "kidney",
-      "note": "Avoid with kidney disease."
+      "note": "Avoid with kidney disease.",
+      "refs": []
     },
     {
       "group": "pregnancy",
-      "note": "Avoid in pregnancy; large amounts are linked to earlier delivery."
+      "note": "Avoid in pregnancy; large amounts are linked to earlier delivery.",
+      "refs": []
     },
     {
       "group": "breastfeeding",
-      "note": "Little is known about safety while breastfeeding; avoid."
+      "note": "Little is known about safety while breastfeeding; avoid.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "antihypertensives",
       "effect": "Works against blood pressure medicines.",
-      "level": "avoid"
+      "level": "avoid",
+      "refs": []
     },
     {
       "drugClass": "diuretics",
       "effect": "Can cause dangerously low potassium with water pills.",
-      "level": "avoid"
+      "level": "avoid",
+      "refs": []
     },
     {
       "drugClass": "corticosteroids",
       "effect": "Increases steroid effects and side effects.",
-      "level": "avoid"
+      "level": "avoid",
+      "refs": []
     },
     {
       "drugClass": "heart-rhythm",
       "effect": "Low potassium raises the risk with digoxin.",
-      "level": "avoid"
+      "level": "avoid",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "moderate-human",
     "summary": "Its side effects (high blood pressure, low potassium, heart rhythm problems) are well documented in humans. Evidence for benefits is limited; a licorice gargle may ease sore throat after surgery.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=glycyrrhizin%20hypokalemia%20hypertension"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=glycyrrhizin%20hypokalemia%20hypertension",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     },
     {
-      "kind": "safety",
-      "title": "NCCIH: Licorice Root: Usefulness and Safety",
-      "detail": "Last updated April 2025",
-      "url": "https://www.nccih.nih.gov/health/licorice-root"
+      "source": "nccih-licorice-root"
     }
   ],
   "review": {

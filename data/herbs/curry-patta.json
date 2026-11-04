@@ -24,7 +24,8 @@
       "kapha",
       "pitta"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Kindles appetite",
@@ -48,26 +49,27 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Food amounts are fine; medicinal amounts have not been studied in pregnancy."
+      "note": "Food amounts are fine; medicinal amounts have not been studied in pregnancy.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "antidiabetics",
       "effect": "Studied for lowering blood sugar in animals; medicinal amounts may add to diabetes medicines.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "preclinical",
     "summary": "Laboratory and animal studies on blood sugar and cholesterol; almost no research in people.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Murraya%20koenigii"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Murraya%20koenigii",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "research",
-      "title": "PubMed: research on Murraya koenigii",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Murraya%20koenigii"
+      "source": "pubmed-search-murraya-koenigii"
     }
   ],
   "review": {

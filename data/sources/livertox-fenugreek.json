@@ -1,0 +1,15 @@
+{
+  "$schema": "../schema/source.schema.json",
+  "id": "livertox-fenugreek",
+  "kind": "safety",
+  "title": "LiverTox: Fenugreek",
+  "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK548826/",
+  "updated": null,
+  "accessed": "2026-10-23",
+  "pmid": null,
+  "doi": null,
+  "year": null,
+  "licence": null,
+  "notes": "NCBI shows a CAPTCHA to scripts, so links are checked by hand."
+}

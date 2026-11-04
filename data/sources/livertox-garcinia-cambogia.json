@@ -1,0 +1,15 @@
+{
+  "$schema": "../schema/source.schema.json",
+  "id": "livertox-garcinia-cambogia",
+  "kind": "safety",
+  "title": "LiverTox: Garcinia Cambogia",
+  "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK548087/",
+  "updated": null,
+  "accessed": "2026-11-04",
+  "pmid": null,
+  "doi": null,
+  "year": null,
+  "licence": null,
+  "notes": "NCBI shows a CAPTCHA to scripts, so links are checked by hand."
+}

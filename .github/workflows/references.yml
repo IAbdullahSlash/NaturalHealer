@@ -1,0 +1,24 @@
+name: Source check
+
+# Weekly: are cited links alive, have NIH fact sheets changed, do cited papers match their records?
+# Runs on a schedule rather than on every push, so a slow website cannot block a deploy.
+on:
+  schedule:
+    - cron: "0 4 * * 1"
+  workflow_dispatch:
+
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Check sources against the live web
+        run: npm run data:sources
+      - name: Reference coverage report
+        if: always()
+        run: npm run data:refs -- --markdown "$GITHUB_STEP_SUMMARY"

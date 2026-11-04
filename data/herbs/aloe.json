@@ -23,7 +23,8 @@
       "pitta",
       "vata"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Cooling and soothing on the skin",
@@ -44,70 +45,73 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Aloe gel, latex or whole-leaf extract taken by mouth may be unsafe in pregnancy."
+      "note": "Aloe gel, latex or whole-leaf extract taken by mouth may be unsafe in pregnancy.",
+      "refs": []
     },
     {
       "group": "breastfeeding",
-      "note": "Aloe taken by mouth may be unsafe while breastfeeding."
+      "note": "Aloe taken by mouth may be unsafe while breastfeeding.",
+      "refs": []
     },
     {
       "group": "liver",
-      "note": "Aloe leaf extracts taken by mouth have been linked to acute hepatitis."
+      "note": "Aloe leaf extracts taken by mouth have been linked to acute hepatitis.",
+      "refs": []
     },
     {
       "group": "kidney",
-      "note": "Oral aloe latex can harm the kidneys with regular use."
+      "note": "Oral aloe latex can harm the kidneys with regular use.",
+      "refs": []
     },
     {
       "group": "children",
-      "note": "Do not give aloe by mouth to children."
+      "note": "Do not give aloe by mouth to children.",
+      "refs": []
     },
     {
       "group": "skin-use",
-      "note": "The gel is usually well tolerated, but it occasionally causes burning, itching or a rash."
+      "note": "The gel is usually well tolerated, but it occasionally causes burning, itching or a rash.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "antidiabetics",
       "effect": "Oral aloe may lower blood sugar further.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "diuretics",
       "effect": "Oral latex can lower potassium with water pills.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "heart-rhythm",
       "effect": "Overuse of aloe latex can increase side effects of digoxin.",
-      "level": "avoid"
+      "level": "avoid",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Clinical research suggests the gel on the skin may speed burn healing and reduce burn pain. Evidence for oral use is weak.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=aloe%20vera%20burn%20healing"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=aloe%20vera%20burn%20healing",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     },
     {
-      "kind": "safety",
-      "title": "NCCIH: Aloe Vera: Usefulness and Safety",
-      "detail": "Last updated February 2025",
-      "url": "https://www.nccih.nih.gov/health/aloe-vera"
+      "source": "nccih-aloe-vera"
     },
     {
-      "kind": "safety",
-      "title": "LiverTox (NIH): Aloe Vera",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK548634/"
+      "source": "livertox-aloe-vera"
     }
   ],
   "review": {

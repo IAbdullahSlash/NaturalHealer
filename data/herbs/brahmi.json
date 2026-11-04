@@ -23,7 +23,8 @@
       "kapha",
       "vata"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Supports memory and focus (medhya)",
@@ -47,47 +48,49 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Not enough is known; avoid in pregnancy."
+      "note": "Not enough is known; avoid in pregnancy.",
+      "refs": []
     },
     {
       "group": "thyroid",
-      "note": "May affect thyroid hormone levels."
+      "note": "May affect thyroid hormone levels.",
+      "refs": []
     },
     {
       "group": "digestive-illness",
-      "note": "Can cause stomach upset or loose stools."
+      "note": "Can cause stomach upset or loose stools.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "sedatives",
       "effect": "May add to the effect of sedatives.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "thyroid",
       "effect": "May change thyroid medicine needs.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Several small human trials suggest modest effects on memory over weeks of use.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Bacopa%20monnieri%20memory%20randomized"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Bacopa%20monnieri%20memory%20randomized",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     },
     {
-      "kind": "safety",
-      "title": "LiverTox (NIH): Bacopa monnieri",
-      "url": "https://www.ncbi.nlm.nih.gov/books/n/livertox/Bacopa/"
+      "source": "livertox-bacopa-monnieri"
     }
   ],
   "review": {

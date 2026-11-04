@@ -22,7 +22,8 @@
       "kapha",
       "pitta"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Clears phlegm in tradition",
@@ -46,27 +47,28 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Not enough is known; avoid in pregnancy."
+      "note": "Not enough is known; avoid in pregnancy.",
+      "refs": []
     },
     {
       "group": "digestive-illness",
-      "note": "Avoid during diarrhoea."
+      "note": "Avoid during diarrhoea.",
+      "refs": []
     }
   ],
   "interactions": [],
   "evidence": {
     "level": "preclinical",
     "summary": "Laboratory and animal studies; human research is mainly on triphala as a whole.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Terminalia%20bellirica"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Terminalia%20bellirica",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

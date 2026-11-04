@@ -1,0 +1,15 @@
+{
+  "$schema": "../schema/source.schema.json",
+  "id": "pubmed-search-murraya-koenigii",
+  "kind": "search",
+  "title": "PubMed: research on Murraya koenigii",
+  "publisher": "National Library of Medicine (NIH)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Murraya%20koenigii",
+  "updated": null,
+  "accessed": null,
+  "pmid": null,
+  "doi": null,
+  "year": null,
+  "licence": null,
+  "notes": null
+}

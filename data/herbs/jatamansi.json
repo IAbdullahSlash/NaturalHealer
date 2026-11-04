@@ -25,7 +25,8 @@
       "pitta",
       "kapha"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Calming (traditionally a \"nervine\")",
@@ -48,29 +49,30 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Not enough is known; avoid in pregnancy and while breastfeeding."
+      "note": "Not enough is known; avoid in pregnancy and while breastfeeding.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "sedatives",
       "effect": "May add to drowsiness from sleeping pills and sedatives.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "preclinical",
     "summary": "Animal studies suggest calming effects; there are almost no trials in people.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Nardostachys%20jatamansi"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Nardostachys%20jatamansi",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

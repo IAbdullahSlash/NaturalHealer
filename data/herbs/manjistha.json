@@ -24,7 +24,8 @@
       "kapha",
       "pitta"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Traditionally used to \"purify the blood\" (raktashodhaka)",
@@ -47,27 +48,28 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Not enough is known; avoid in pregnancy and while breastfeeding."
+      "note": "Not enough is known; avoid in pregnancy and while breastfeeding.",
+      "refs": []
     },
     {
       "group": "kidney",
-      "note": "Related madder species contain compounds of concern for long-term use; avoid with kidney disease."
+      "note": "Related madder species contain compounds of concern for long-term use; avoid with kidney disease.",
+      "refs": []
     }
   ],
   "interactions": [],
   "evidence": {
     "level": "preclinical",
     "summary": "Laboratory and animal studies only; no reliable trials in people.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Rubia%20cordifolia"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Rubia%20cordifolia",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

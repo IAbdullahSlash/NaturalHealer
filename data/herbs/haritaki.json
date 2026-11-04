@@ -27,7 +27,8 @@
       "pitta",
       "kapha"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Gentle laxative",
@@ -51,33 +52,35 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Avoid in pregnancy; it is a laxative."
+      "note": "Avoid in pregnancy; it is a laxative.",
+      "refs": []
     },
     {
       "group": "digestive-illness",
-      "note": "Avoid during diarrhoea or with dehydration, weakness or after fasting."
+      "note": "Avoid during diarrhoea or with dehydration, weakness or after fasting.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "many-medicines",
       "effect": "As a laxative it can reduce absorption of medicines taken at the same time; take them apart.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "preclinical",
     "summary": "Mostly laboratory and animal studies; small human studies of triphala, of which it is part.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Terminalia%20chebula%20clinical"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Terminalia%20chebula%20clinical",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

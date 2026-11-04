@@ -12,6 +12,8 @@ import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { herbs } from '../../src/data/generated/herbs.js'
 import { conditions } from '../../src/data/generated/conditions.js'
+import { sources } from '../../src/data/generated/sources.js'
+import { herbCitations } from './references.mjs'
 import enrichment from '../../src/data/knowledge/enrichment.js'
 import compounds from '../../src/data/knowledge/compounds.js'
 import { CAUTION_GROUPS, DRUG_CLASSES, EVIDENCE_LEVELS } from '../../src/data/knowledge/vocabulary.js'
@@ -97,6 +99,27 @@ export function datasetFiles({ siteUrl = 'https://natural-healer.vercel.app' } =
     { ...field('synonyms', 'string', 'Older botanical names, semicolon-separated'), get: r => r.b.synonyms },
   ]
 
+  const sourceColumns = [
+    { ...field('id', 'string', 'Source id, used in claim-references.csv'), get: s => s.id },
+    { ...field('kind', 'string', 'classical, pharmacopoeia, safety, paper, database or search'), get: s => s.kind },
+    { ...field('title', 'string', 'Title'), get: s => s.title },
+    { ...field('publisher', 'string', 'Publisher'), get: s => s.publisher },
+    { ...field('url', 'string', 'Link'), get: s => s.url },
+    { ...field('updated', 'string', 'Version or last-updated date the publisher states'), get: s => s.updated },
+    { ...field('accessed', 'date', 'When we last checked our entries against it'), get: s => s.accessed },
+    { ...field('pmid', 'string', 'PubMed id, for papers'), get: s => s.pmid },
+    { ...field('doi', 'string', 'DOI, for papers'), get: s => s.doi },
+    { ...field('year', 'integer', 'Year of publication'), get: s => s.year },
+  ]
+  const claimRefColumns = [
+    { ...field('herb_id', 'string', 'Herb id'), get: r => r.herb },
+    { ...field('claim', 'string', 'entry (the whole entry), properties, caution, interaction or evidence'), get: r => r.claim },
+    { ...field('claim_key', 'string', 'Caution group, medicine class or evidence level the citation supports'), get: r => r.key },
+    { ...field('source_id', 'string', 'Source id from references.csv'), get: r => r.ref.id },
+    { ...field('locator', 'string', 'Page, section or verse within the source'), get: r => r.ref.locator },
+  ]
+  const claimRefRows = herbs.flatMap(h => herbCitations(h).map(c => ({ herb: h.id, ...c })))
+
   const cautionRows = herbs.flatMap(h => h.cautions.map(c => ({ herb: h.id, ...c })))
   const interactionRows = herbs.flatMap(h => h.interactions.map(i => ({ herb: h.id, ...i })))
   const remedyRows = conditions.flatMap(c => c.remedies.map((text, i) => ({ condition: c.id, n: i + 1, text })))
@@ -135,6 +158,8 @@ export function datasetFiles({ siteUrl = 'https://natural-healer.vercel.app' } =
       resource('remedies', 'remedies.csv', 'Home remedies for each condition', remedyColumns, ours),
       resource('botany', 'botany.csv', 'Accepted botanical names and synonyms (WCVP)', botanyColumns, wcvp),
       resource('regional-names', 'regional-names.csv', 'Names in Indian languages (Wikidata)', nameColumns, cc0),
+      resource('references', 'references.csv', 'Every source cited', sourceColumns, ours),
+      resource('claim-references', 'claim-references.csv', 'Which source supports which claim', claimRefColumns, ours),
       { name: 'plant-chemistry', path: 'plant-chemistry.json', title: "Recorded compounds per plant (Dr. Duke's databases)", format: 'json', mediatype: 'application/json', licenses: cc0 },
     ],
   }
@@ -151,7 +176,7 @@ ${datapackage.resources.map(r => `- \`${r.path}\`: ${r.title}`).join('\n')}
 - \`datapackage.json\`: Frictionless Data Package descriptor with column definitions and licences
 - \`schema/\`: JSON Schemas the entries are validated against
 
-Lists inside CSV cells are separated by semicolons.
+Lists inside CSV cells are separated by semicolons. \`claim-references.csv\` links each claim (a caution, an interaction, the evidence summary or the classical properties) to the sources in \`references.csv\` that support it. Claims with no row there have not yet been linked to a source.
 
 ## Licences
 
@@ -179,9 +204,12 @@ Every entry is a draft until a qualified Ayurvedic practitioner (BAMS or higher)
     'remedies.csv': csv(remedyColumns, remedyRows),
     'botany.csv': csv(botanyColumns, botanyRows),
     'regional-names.csv': csv(nameColumns, nameRows),
+    'references.csv': csv(sourceColumns, sources),
+    'claim-references.csv': csv(claimRefColumns, claimRefRows),
     'plant-chemistry.json': json({ attribution: compounds.attribution, source: compounds.source, herbs: compounds.herbs }),
     'schema/herb.schema.json': readFileSync(join(root, 'data/schema/herb.schema.json'), 'utf8'),
     'schema/condition.schema.json': readFileSync(join(root, 'data/schema/condition.schema.json'), 'utf8'),
+    'schema/source.schema.json': readFileSync(join(root, 'data/schema/source.schema.json'), 'utf8'),
   }
 }
 

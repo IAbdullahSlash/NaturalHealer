@@ -26,7 +26,8 @@
     ],
     "aggravates": [
       "pitta"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Kindles digestion",
@@ -49,37 +50,40 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Avoid more than a culinary pinch in pregnancy."
+      "note": "Avoid more than a culinary pinch in pregnancy.",
+      "refs": []
     },
     {
       "group": "children",
-      "note": "Keep whole nutmeg away from children; swallowing even one or two teaspoons can cause poisoning."
+      "note": "Keep whole nutmeg away from children; swallowing even one or two teaspoons can cause poisoning.",
+      "refs": []
     },
     {
       "group": "heart",
-      "note": "Large amounts (around two teaspoons or more) can cause a racing heart, confusion, vomiting and hallucinations from myristicin."
+      "note": "Large amounts (around two teaspoons or more) can cause a racing heart, confusion, vomiting and hallucinations from myristicin.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "sedatives",
       "effect": "Large amounts may add to drowsiness from sleeping pills.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "traditional",
     "summary": "Traditional use only for digestion and sleep. Poisoning from large amounts is well documented.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=nutmeg%20intoxication%20myristicin"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=nutmeg%20intoxication%20myristicin",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

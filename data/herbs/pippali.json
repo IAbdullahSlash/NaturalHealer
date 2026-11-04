@@ -25,7 +25,8 @@
     ],
     "aggravates": [
       "pitta"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Kindles digestion",
@@ -49,33 +50,35 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Avoid amounts above food use in pregnancy."
+      "note": "Avoid amounts above food use in pregnancy.",
+      "refs": []
     },
     {
       "group": "gerd",
-      "note": "Pungent; can worsen acidity, reflux and ulcers."
+      "note": "Pungent; can worsen acidity, reflux and ulcers.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "many-medicines",
       "effect": "Its piperine increases absorption of many medicines, which can raise their levels.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "preclinical",
     "summary": "Mostly laboratory and animal studies; small human studies of piperine.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Piper%20longum"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Piper%20longum",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

@@ -22,7 +22,8 @@
       "kapha",
       "pitta"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Traditionally used as a heart tonic (hridya)"
@@ -42,43 +43,47 @@
   "cautions": [
     {
       "group": "heart",
-      "note": "Heart conditions need a cardiologist. Do not start without telling them."
+      "note": "Heart conditions need a cardiologist. Do not start without telling them.",
+      "refs": []
     },
     {
       "group": "pregnancy",
-      "note": "Avoid in pregnancy."
+      "note": "Avoid in pregnancy.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "heart-rhythm",
       "effect": "May interact with heart medicines; check with a cardiologist.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "antihypertensives",
       "effect": "May add to blood-pressure-lowering effects.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "anticoagulants",
       "effect": "May add to the effect of blood thinners.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Small human studies in heart conditions, mostly short and of limited quality.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Terminalia%20arjuna%20clinical%20trial"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Terminalia%20arjuna%20clinical%20trial",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

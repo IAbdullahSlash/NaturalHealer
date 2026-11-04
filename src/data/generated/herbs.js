@@ -26,7 +26,8 @@ export const herbs = [
       ],
       "aggravates": [
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Kindles digestion (deepana)",
@@ -53,57 +54,90 @@ export const herbs = [
     "cautions": [
       {
         "group": "gerd",
-        "note": "Large amounts can worsen heartburn and acidity."
+        "note": "Large amounts can worsen heartburn and acidity.",
+        "refs": []
       },
       {
         "group": "bleeding-disorder",
-        "note": "Use medicinal amounts carefully with bleeding disorders."
+        "note": "Use medicinal amounts carefully with bleeding disorders.",
+        "refs": []
       },
       {
         "group": "pregnancy",
-        "note": "Small amounts are widely used for morning sickness; check with a doctor before regular use."
+        "note": "Small amounts are widely used for morning sickness; check with a doctor before regular use.",
+        "refs": []
       },
       {
         "group": "breastfeeding",
-        "note": "Little is known about ginger supplements while breastfeeding; keep to food amounts."
+        "note": "Little is known about ginger supplements while breastfeeding; keep to food amounts.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "anticoagulants",
         "effect": "High amounts may add to the effect of blood thinners.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "antidiabetics",
         "effect": "May lower blood sugar slightly.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "moderate-human",
       "summary": "Human research supports ginger for nausea and vomiting in pregnancy, and it may ease menstrual cramps. It has mostly not helped motion sickness, and evidence for other uses is weaker.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=ginger%20nausea%20randomized%20controlled%20trial"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=ginger%20nausea%20randomized%20controlled%20trial",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "nccih-ginger",
         "kind": "safety",
-        "title": "NCCIH: Ginger: Usefulness and Safety",
-        "detail": "Last updated February 2025",
-        "url": "https://www.nccih.nih.gov/health/ginger"
+        "title": "Ginger: Usefulness and Safety",
+        "url": "https://www.nccih.nih.gov/health/ginger",
+        "publisher": "National Center for Complementary and Integrative Health (NIH)",
+        "updated": "February 2025",
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "detail": "Last updated February 2025"
       },
       {
+        "id": "livertox-ginger",
         "kind": "safety",
-        "title": "LiverTox (NIH): Ginger",
-        "url": "https://www.ncbi.nlm.nih.gov/books/NBK600585/"
+        "title": "LiverTox: Ginger",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK600585/",
+        "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -139,7 +173,8 @@ export const herbs = [
       ],
       "aggravates": [
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Relieves colic and gas (shulaghna)",
@@ -164,27 +199,44 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Avoid medicinal amounts in pregnancy."
+        "note": "Avoid medicinal amounts in pregnancy.",
+        "refs": []
       },
       {
         "group": "gerd",
-        "note": "Strongly heating; can aggravate acidity and ulcers."
+        "note": "Strongly heating; can aggravate acidity and ulcers.",
+        "refs": []
       }
     ],
     "interactions": [],
     "evidence": {
       "level": "preclinical",
       "summary": "Mostly laboratory and animal studies on digestion and its main oil, thymol. Little human research.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Trachyspermum%20ammi"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Trachyspermum%20ammi",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -219,7 +271,8 @@ export const herbs = [
       "aggravates": [
         "kapha",
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Bulks and softens stools",
@@ -243,48 +296,74 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Medicinal amounts may not be safe in pregnancy; the evidence is unclear, so keep to food amounts."
+        "note": "Medicinal amounts may not be safe in pregnancy; the evidence is unclear, so keep to food amounts.",
+        "refs": []
       },
       {
         "group": "breastfeeding",
-        "note": "Little is known about medicinal amounts while breastfeeding."
+        "note": "Little is known about medicinal amounts while breastfeeding.",
+        "refs": []
       },
       {
         "group": "digestive-illness",
-        "note": "Avoid with a narrowed or blocked bowel. Take with enough water; large amounts can cause bloating. Do not eat raw or unripe seeds."
+        "note": "Avoid with a narrowed or blocked bowel. Take with enough water; large amounts can cause bloating. Do not eat raw or unripe seeds.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "anticoagulants",
         "effect": "Flaxseed or its oil may add to the effect of blood thinners.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "many-medicines",
         "effect": "The fibre can slow absorption of medicines; take them an hour before or two hours after.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Flaxseed may modestly help weight loss in adults with obesity and insulin resistance in gestational diabetes; its effect on other conditions is unclear.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=flaxseed%20randomized%20controlled%20trial"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=flaxseed%20randomized%20controlled%20trial",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "nccih-flaxseed-and-flaxseed-oil",
         "kind": "safety",
-        "title": "NCCIH: Flaxseed and Flaxseed Oil: Usefulness and Safety",
-        "detail": "Last updated February 2025",
-        "url": "https://www.nccih.nih.gov/health/flaxseed-and-flaxseed-oil"
+        "title": "Flaxseed and Flaxseed Oil: Usefulness and Safety",
+        "url": "https://www.nccih.nih.gov/health/flaxseed-and-flaxseed-oil",
+        "publisher": "National Center for Complementary and Integrative Health (NIH)",
+        "updated": "February 2025",
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "detail": "Last updated February 2025"
       }
     ],
     "review": {
@@ -321,7 +400,8 @@ export const herbs = [
         "vata",
         "kapha"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Rejuvenative (rasayana)",
@@ -347,38 +427,57 @@ export const herbs = [
     "cautions": [
       {
         "group": "bleeding-disorder",
-        "note": "Use medicinal amounts carefully with bleeding disorders."
+        "note": "Use medicinal amounts carefully with bleeding disorders.",
+        "refs": []
       },
       {
         "group": "surgery",
-        "note": "Stop concentrated use two weeks before surgery."
+        "note": "Stop concentrated use two weeks before surgery.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "anticoagulants",
         "effect": "May add to the effect of blood thinners in large amounts.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "antidiabetics",
         "effect": "May lower blood sugar further.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Small human trials on cholesterol, blood sugar and digestion. Not established as a treatment.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Phyllanthus%20emblica%20clinical%20trial"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Phyllanthus%20emblica%20clinical%20trial",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -413,7 +512,8 @@ export const herbs = [
         "pitta",
         "kapha"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Settles loose motions (the astringent rind)",
@@ -438,44 +538,69 @@ export const herbs = [
     "cautions": [
       {
         "group": "allergy",
-        "note": "Avoid if pomegranate has caused an allergic reaction."
+        "note": "Avoid if pomegranate has caused an allergic reaction.",
+        "refs": []
       },
       {
         "group": "digestive-illness",
-        "note": "Large amounts of the root, stem or peel contain harmful substances; eat the fruit, not extracts of these parts."
+        "note": "Large amounts of the root, stem or peel contain harmful substances; eat the fruit, not extracts of these parts.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "anticoagulants",
         "effect": "Pomegranate juice has been linked to changes in warfarin effect; keep the amount steady and tell your doctor.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "antihypertensives",
         "effect": "Juice may lower blood pressure further.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Juice or extract may lower blood pressure and blood sugar a little, but more research is needed.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=pomegranate%20juice%20blood%20pressure%20meta-analysis"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=pomegranate%20juice%20blood%20pressure%20meta-analysis",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "nccih-pomegranate",
         "kind": "safety",
-        "title": "NCCIH: Pomegranate: Usefulness and Safety",
-        "detail": "Last updated April 2025",
-        "url": "https://www.nccih.nih.gov/health/pomegranate"
+        "title": "Pomegranate: Usefulness and Safety",
+        "url": "https://www.nccih.nih.gov/health/pomegranate",
+        "publisher": "National Center for Complementary and Integrative Health (NIH)",
+        "updated": "April 2025",
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "detail": "Last updated April 2025"
       }
     ],
     "review": {
@@ -507,7 +632,8 @@ export const herbs = [
         "kapha",
         "pitta"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Traditionally used as a heart tonic (hridya)"
@@ -527,43 +653,63 @@ export const herbs = [
     "cautions": [
       {
         "group": "heart",
-        "note": "Heart conditions need a cardiologist. Do not start without telling them."
+        "note": "Heart conditions need a cardiologist. Do not start without telling them.",
+        "refs": []
       },
       {
         "group": "pregnancy",
-        "note": "Avoid in pregnancy."
+        "note": "Avoid in pregnancy.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "heart-rhythm",
         "effect": "May interact with heart medicines; check with a cardiologist.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "antihypertensives",
         "effect": "May add to blood-pressure-lowering effects.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "anticoagulants",
         "effect": "May add to the effect of blood thinners.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Small human studies in heart conditions, mostly short and of limited quality.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Terminalia%20arjuna%20clinical%20trial"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Terminalia%20arjuna%20clinical%20trial",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -597,7 +743,8 @@ export const herbs = [
         "vata",
         "kapha"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Strengthening (balya)",
@@ -621,89 +768,129 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Avoid in pregnancy."
+        "note": "Avoid in pregnancy.",
+        "refs": []
       },
       {
         "group": "breastfeeding",
-        "note": "Do not use while breastfeeding."
+        "note": "Do not use while breastfeeding.",
+        "refs": []
       },
       {
         "group": "thyroid",
-        "note": "Not recommended with thyroid disorders; it may raise thyroid hormone levels."
+        "note": "Not recommended with thyroid disorders; it may raise thyroid hormone levels.",
+        "refs": []
       },
       {
         "group": "autoimmune",
-        "note": "Not recommended with autoimmune conditions."
+        "note": "Not recommended with autoimmune conditions.",
+        "refs": []
       },
       {
         "group": "hormone-sensitive",
-        "note": "May raise testosterone; avoid with hormone-sensitive prostate cancer."
+        "note": "May raise testosterone; avoid with hormone-sensitive prostate cancer.",
+        "refs": []
       },
       {
         "group": "liver",
-        "note": "Rare cases of liver injury have been reported with supplements."
+        "note": "Rare cases of liver injury have been reported with supplements.",
+        "refs": []
       },
       {
         "group": "surgery",
-        "note": "Not recommended before surgery; stop at least two weeks ahead."
+        "note": "Not recommended before surgery; stop at least two weeks ahead.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "sedatives",
         "effect": "May add to drowsiness from sleeping pills and sedatives.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "thyroid",
         "effect": "May add to thyroid hormone medicine.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "immunosuppressants",
         "effect": "May work against immune-suppressing medicines.",
-        "level": "avoid"
+        "level": "avoid",
+        "refs": []
       },
       {
         "drugClass": "antidiabetics",
         "effect": "May lower blood sugar further.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "antihypertensives",
         "effect": "May interact with blood pressure medicines.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "anticonvulsants",
         "effect": "May interact with anti-seizure medicines.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Some preparations may help with insomnia and stress; the evidence on anxiety is unclear. Studies are short, and products vary.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Withania%20somnifera%20randomized%20controlled%20trial%20stress"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Withania%20somnifera%20randomized%20controlled%20trial%20stress",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "nccih-ashwagandha",
         "kind": "safety",
-        "title": "NCCIH: Ashwagandha: Usefulness and Safety",
-        "detail": "Last updated March 2023",
-        "url": "https://www.nccih.nih.gov/health/ashwagandha"
+        "title": "Ashwagandha: Usefulness and Safety",
+        "url": "https://www.nccih.nih.gov/health/ashwagandha",
+        "publisher": "National Center for Complementary and Integrative Health (NIH)",
+        "updated": "March 2023",
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "detail": "Last updated March 2023"
       },
       {
+        "id": "livertox-ashwagandha",
         "kind": "safety",
-        "title": "LiverTox (NIH): Ashwagandha",
-        "url": "https://www.ncbi.nlm.nih.gov/books/NBK548536/"
+        "title": "LiverTox: Ashwagandha",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK548536/",
+        "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -735,7 +922,8 @@ export const herbs = [
         "kapha",
         "pitta"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Clears phlegm in tradition",
@@ -759,27 +947,44 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Not enough is known; avoid in pregnancy."
+        "note": "Not enough is known; avoid in pregnancy.",
+        "refs": []
       },
       {
         "group": "digestive-illness",
-        "note": "Avoid during diarrhoea."
+        "note": "Avoid during diarrhoea.",
+        "refs": []
       }
     ],
     "interactions": [],
     "evidence": {
       "level": "preclinical",
       "summary": "Laboratory and animal studies; human research is mainly on triphala as a whole.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Terminalia%20bellirica"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Terminalia%20bellirica",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -812,7 +1017,8 @@ export const herbs = [
         "kapha",
         "vata"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Supports memory and focus (medhya)",
@@ -836,47 +1042,73 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Not enough is known; avoid in pregnancy."
+        "note": "Not enough is known; avoid in pregnancy.",
+        "refs": []
       },
       {
         "group": "thyroid",
-        "note": "May affect thyroid hormone levels."
+        "note": "May affect thyroid hormone levels.",
+        "refs": []
       },
       {
         "group": "digestive-illness",
-        "note": "Can cause stomach upset or loose stools."
+        "note": "Can cause stomach upset or loose stools.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "sedatives",
         "effect": "May add to the effect of sedatives.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "thyroid",
         "effect": "May change thyroid medicine needs.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Several small human trials suggest modest effects on memory over weeks of use.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Bacopa%20monnieri%20memory%20randomized"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Bacopa%20monnieri%20memory%20randomized",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "livertox-bacopa-monnieri",
         "kind": "safety",
-        "title": "LiverTox (NIH): Bacopa monnieri",
-        "url": "https://www.ncbi.nlm.nih.gov/books/n/livertox/Bacopa/"
+        "title": "LiverTox: Bacopa monnieri",
+        "url": "https://www.ncbi.nlm.nih.gov/books/n/livertox/Bacopa/",
+        "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -910,7 +1142,8 @@ export const herbs = [
         "kapha",
         "pitta"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Kindles appetite",
@@ -934,26 +1167,35 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Food amounts are fine; medicinal amounts have not been studied in pregnancy."
+        "note": "Food amounts are fine; medicinal amounts have not been studied in pregnancy.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "antidiabetics",
         "effect": "Studied for lowering blood sugar in animals; medicinal amounts may add to diabetes medicines.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "preclinical",
       "summary": "Laboratory and animal studies on blood sugar and cholesterol; almost no research in people.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Murraya%20koenigii"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Murraya%20koenigii",
+      "refs": []
     },
     "sources": [
       {
-        "kind": "research",
+        "id": "pubmed-search-murraya-koenigii",
+        "kind": "search",
         "title": "PubMed: research on Murraya koenigii",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Murraya%20koenigii"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Murraya%20koenigii",
+        "publisher": "National Library of Medicine (NIH)",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -990,7 +1232,8 @@ export const herbs = [
       ],
       "aggravates": [
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Warming digestive",
@@ -1015,48 +1258,79 @@ export const herbs = [
     "cautions": [
       {
         "group": "liver",
-        "note": "Large daily amounts of cassia cinnamon contain coumarin, which can harm the liver."
+        "note": "Large daily amounts of cassia cinnamon contain coumarin, which can harm the liver.",
+        "refs": []
       },
       {
         "group": "pregnancy",
-        "note": "Food amounts appear safe; larger amounts of Ceylon cinnamon are considered unsafe in pregnancy."
+        "note": "Food amounts appear safe; larger amounts of Ceylon cinnamon are considered unsafe in pregnancy.",
+        "refs": []
       },
       {
         "group": "skin-use",
-        "note": "Cinnamon oil or powder on the skin can cause irritation."
+        "note": "Cinnamon oil or powder on the skin can cause irritation.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "antidiabetics",
         "effect": "May lower blood sugar further.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Research does not clearly support cinnamon for any health condition; results on blood sugar are mixed.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=cinnamon%20glycemic%20control%20meta-analysis"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=cinnamon%20glycemic%20control%20meta-analysis",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "nccih-cinnamon",
         "kind": "safety",
-        "title": "NCCIH: Cinnamon: Usefulness and Safety",
-        "detail": "Last updated November 2024",
-        "url": "https://www.nccih.nih.gov/health/cinnamon"
+        "title": "Cinnamon: Usefulness and Safety",
+        "url": "https://www.nccih.nih.gov/health/cinnamon",
+        "publisher": "National Center for Complementary and Integrative Health (NIH)",
+        "updated": "November 2024",
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "detail": "Last updated November 2024"
       },
       {
+        "id": "livertox-cinnamon",
         "kind": "safety",
-        "title": "LiverTox (NIH): Cinnamon",
-        "url": "https://www.ncbi.nlm.nih.gov/books/NBK623885/"
+        "title": "LiverTox: Cinnamon",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK623885/",
+        "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -1092,7 +1366,8 @@ export const herbs = [
         "pitta",
         "kapha"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Kindles digestion without heating",
@@ -1117,23 +1392,39 @@ export const herbs = [
     "cautions": [
       {
         "group": "allergy",
-        "note": "Coriander can cause allergic reactions, including in people allergic to related plants such as celery or fennel."
+        "note": "Coriander can cause allergic reactions, including in people allergic to related plants such as celery or fennel.",
+        "refs": []
       }
     ],
     "interactions": [],
     "evidence": {
       "level": "preclinical",
       "summary": "Mostly laboratory and animal studies on digestion and blood sugar; little research in people.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Coriandrum%20sativum%20clinical"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Coriandrum%20sativum%20clinical",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -1167,7 +1458,8 @@ export const herbs = [
         "pitta",
         "kapha"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Freshens the mouth",
@@ -1191,23 +1483,39 @@ export const herbs = [
     "cautions": [
       {
         "group": "gallstones",
-        "note": "Avoid medicinal amounts with gallstones."
+        "note": "Avoid medicinal amounts with gallstones.",
+        "refs": []
       }
     ],
     "interactions": [],
     "evidence": {
       "level": "limited-human",
       "summary": "Few human studies; mostly traditional use and laboratory work.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Elettaria%20cardamomum%20clinical"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Elettaria%20cardamomum%20clinical",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -1241,7 +1549,8 @@ export const herbs = [
       ],
       "aggravates": [
         "kapha"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Nourishing and lubricating",
@@ -1264,23 +1573,34 @@ export const herbs = [
     "cautions": [
       {
         "group": "cholesterol",
-        "note": "Rich in saturated fat; keep amounts small with high cholesterol or heart disease."
+        "note": "Rich in saturated fat; keep amounts small with high cholesterol or heart disease.",
+        "refs": []
       },
       {
         "group": "digestive-illness",
-        "note": "Avoid during indigestion with heaviness or nausea (ama)."
+        "note": "Avoid during indigestion with heaviness or nausea (ama).",
+        "refs": []
       }
     ],
     "interactions": [],
     "evidence": {
       "level": "traditional",
       "summary": "Mainly traditional use; little clinical research on medicinal effects.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=ghee%20health"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=ghee%20health",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
         "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "locator": "Ghrita varga",
         "detail": "Ghrita varga"
       }
     ],
@@ -1315,7 +1635,8 @@ export const herbs = [
         "pitta",
         "kapha"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Rejuvenative (rasayana)",
@@ -1340,51 +1661,78 @@ export const herbs = [
     "cautions": [
       {
         "group": "autoimmune",
-        "note": "May stimulate the immune system; avoid with autoimmune conditions."
+        "note": "May stimulate the immune system; avoid with autoimmune conditions.",
+        "refs": []
       },
       {
         "group": "liver",
-        "note": "Cases of liver injury have been reported, mostly with long or heavy use."
+        "note": "Cases of liver injury have been reported, mostly with long or heavy use.",
+        "refs": []
       },
       {
         "group": "pregnancy",
-        "note": "Avoid in pregnancy and breastfeeding."
+        "note": "Avoid in pregnancy and breastfeeding.",
+        "refs": []
       },
       {
         "group": "diabetes",
-        "note": "Can lower blood sugar."
+        "note": "Can lower blood sugar.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "immunosuppressants",
         "effect": "May work against immune-suppressing medicines.",
-        "level": "avoid"
+        "level": "avoid",
+        "refs": []
       },
       {
         "drugClass": "antidiabetics",
         "effect": "May lower blood sugar further.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Small human studies only. Reports of liver injury, ranging from mild to severe, have prompted caution.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Tinospora%20cordifolia%20clinical"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Tinospora%20cordifolia%20clinical",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "livertox-tinospora",
         "kind": "safety",
-        "title": "LiverTox (NIH): Tinospora",
-        "url": "https://www.ncbi.nlm.nih.gov/books/NBK608429/"
+        "title": "LiverTox: Tinospora",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK608429/",
+        "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -1418,7 +1766,8 @@ export const herbs = [
       ],
       "aggravates": [
         "kapha"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Diuretic in tradition",
@@ -1440,42 +1789,62 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Animal studies raise concern for the developing baby; avoid in pregnancy and while breastfeeding."
+        "note": "Animal studies raise concern for the developing baby; avoid in pregnancy and while breastfeeding.",
+        "refs": []
       },
       {
         "group": "hormone-sensitive",
-        "note": "Sold to raise hormones; avoid with hormone-sensitive conditions."
+        "note": "Sold to raise hormones; avoid with hormone-sensitive conditions.",
+        "refs": []
       },
       {
         "group": "diabetes",
-        "note": "May lower blood sugar."
+        "note": "May lower blood sugar.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "antidiabetics",
         "effect": "May lower blood sugar further.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "lithium",
         "effect": "Diuretic herbs can raise lithium to harmful levels.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Small trials on sexual function and hormones give mixed results; not established.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Tribulus%20terrestris%20randomized"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Tribulus%20terrestris%20randomized",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -1508,7 +1877,8 @@ export const herbs = [
         "kapha",
         "vata"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Blunts the taste of sugar when chewed",
@@ -1530,41 +1900,61 @@ export const herbs = [
     "cautions": [
       {
         "group": "diabetes",
-        "note": "Can lower blood sugar; check levels closely and tell your doctor if you take it."
+        "note": "Can lower blood sugar; check levels closely and tell your doctor if you take it.",
+        "refs": []
       },
       {
         "group": "pregnancy",
-        "note": "Not enough is known; avoid in pregnancy and while breastfeeding."
+        "note": "Not enough is known; avoid in pregnancy and while breastfeeding.",
+        "refs": []
       },
       {
         "group": "surgery",
-        "note": "May affect blood sugar control around surgery; stop two weeks before."
+        "note": "May affect blood sugar control around surgery; stop two weeks before.",
+        "refs": []
       },
       {
         "group": "liver",
-        "note": "Rare cases of liver injury have been reported with gymnema products."
+        "note": "Rare cases of liver injury have been reported with gymnema products.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "antidiabetics",
         "effect": "May lower blood sugar too far when combined with diabetes medicines.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Small, mostly older trials suggest modest drops in blood sugar; better trials are needed.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Gymnema%20sylvestre%20diabetes%20clinical%20trial"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Gymnema%20sylvestre%20diabetes%20clinical%20trial",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -1601,7 +1991,8 @@ export const herbs = [
       ],
       "aggravates": [
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Traditionally used for joint pain",
@@ -1624,59 +2015,83 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Avoid in pregnancy; it is traditionally said to stimulate the uterus."
+        "note": "Avoid in pregnancy; it is traditionally said to stimulate the uterus.",
+        "refs": []
       },
       {
         "group": "breastfeeding",
-        "note": "Not enough is known; avoid while breastfeeding."
+        "note": "Not enough is known; avoid while breastfeeding.",
+        "refs": []
       },
       {
         "group": "thyroid",
-        "note": "May affect thyroid hormones; avoid with thyroid disease unless your doctor agrees."
+        "note": "May affect thyroid hormones; avoid with thyroid disease unless your doctor agrees.",
+        "refs": []
       },
       {
         "group": "hormone-sensitive",
-        "note": "May act like oestrogen; avoid with hormone-sensitive conditions."
+        "note": "May act like oestrogen; avoid with hormone-sensitive conditions.",
+        "refs": []
       },
       {
         "group": "surgery",
-        "note": "May slow blood clotting; stop two weeks before surgery."
+        "note": "May slow blood clotting; stop two weeks before surgery.",
+        "refs": []
       },
       {
         "group": "skin-use",
-        "note": "Can cause itchy skin rashes when taken by mouth."
+        "note": "Can cause itchy skin rashes when taken by mouth.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "thyroid",
         "effect": "May change thyroid hormone levels and the effect of thyroid medicines.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "anticoagulants",
         "effect": "May add to the effect of blood thinners.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "many-medicines",
         "effect": "May reduce absorption of some heart medicines such as propranolol and diltiazem.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Trials on cholesterol are conflicting; one well-run trial found no benefit and a small rise in LDL. Some small trials suggest help for knee osteoarthritis.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=guggulsterone%20Commiphora%20clinical%20trial"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=guggulsterone%20Commiphora%20clinical%20trial",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -1709,7 +2124,8 @@ export const herbs = [
         "pitta",
         "vata"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Cooling and soothing on the skin",
@@ -1730,70 +2146,106 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Aloe gel, latex or whole-leaf extract taken by mouth may be unsafe in pregnancy."
+        "note": "Aloe gel, latex or whole-leaf extract taken by mouth may be unsafe in pregnancy.",
+        "refs": []
       },
       {
         "group": "breastfeeding",
-        "note": "Aloe taken by mouth may be unsafe while breastfeeding."
+        "note": "Aloe taken by mouth may be unsafe while breastfeeding.",
+        "refs": []
       },
       {
         "group": "liver",
-        "note": "Aloe leaf extracts taken by mouth have been linked to acute hepatitis."
+        "note": "Aloe leaf extracts taken by mouth have been linked to acute hepatitis.",
+        "refs": []
       },
       {
         "group": "kidney",
-        "note": "Oral aloe latex can harm the kidneys with regular use."
+        "note": "Oral aloe latex can harm the kidneys with regular use.",
+        "refs": []
       },
       {
         "group": "children",
-        "note": "Do not give aloe by mouth to children."
+        "note": "Do not give aloe by mouth to children.",
+        "refs": []
       },
       {
         "group": "skin-use",
-        "note": "The gel is usually well tolerated, but it occasionally causes burning, itching or a rash."
+        "note": "The gel is usually well tolerated, but it occasionally causes burning, itching or a rash.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "antidiabetics",
         "effect": "Oral aloe may lower blood sugar further.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "diuretics",
         "effect": "Oral latex can lower potassium with water pills.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "heart-rhythm",
         "effect": "Overuse of aloe latex can increase side effects of digoxin.",
-        "level": "avoid"
+        "level": "avoid",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Clinical research suggests the gel on the skin may speed burn healing and reduce burn pain. Evidence for oral use is weak.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=aloe%20vera%20burn%20healing"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=aloe%20vera%20burn%20healing",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "nccih-aloe-vera",
         "kind": "safety",
-        "title": "NCCIH: Aloe Vera: Usefulness and Safety",
-        "detail": "Last updated February 2025",
-        "url": "https://www.nccih.nih.gov/health/aloe-vera"
+        "title": "Aloe Vera: Usefulness and Safety",
+        "url": "https://www.nccih.nih.gov/health/aloe-vera",
+        "publisher": "National Center for Complementary and Integrative Health (NIH)",
+        "updated": "February 2025",
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "detail": "Last updated February 2025"
       },
       {
+        "id": "livertox-aloe-vera",
         "kind": "safety",
-        "title": "LiverTox (NIH): Aloe Vera",
-        "url": "https://www.ncbi.nlm.nih.gov/books/NBK548634/"
+        "title": "LiverTox: Aloe Vera",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK548634/",
+        "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -1826,7 +2278,8 @@ export const herbs = [
         "kapha",
         "vata"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Anti-inflammatory",
@@ -1852,61 +2305,95 @@ export const herbs = [
     "cautions": [
       {
         "group": "gallstones",
-        "note": "Avoid medicinal amounts with gallstones or bile duct obstruction."
+        "note": "Avoid medicinal amounts with gallstones or bile duct obstruction.",
+        "refs": []
       },
       {
         "group": "surgery",
-        "note": "Stop supplements two weeks before surgery."
+        "note": "Stop supplements two weeks before surgery.",
+        "refs": []
       },
       {
         "group": "liver",
-        "note": "Liver injury has been reported with turmeric and curcumin supplements, especially products made to be highly absorbed. Stop and see a doctor if you notice tiredness, nausea, poor appetite, dark urine or yellowing of the skin or eyes."
+        "note": "Liver injury has been reported with turmeric and curcumin supplements, especially products made to be highly absorbed. Stop and see a doctor if you notice tiredness, nausea, poor appetite, dark urine or yellowing of the skin or eyes.",
+        "refs": []
       },
       {
         "group": "pregnancy",
-        "note": "Culinary amounts are fine; turmeric supplements may be unsafe in pregnancy."
+        "note": "Culinary amounts are fine; turmeric supplements may be unsafe in pregnancy.",
+        "refs": []
       },
       {
         "group": "breastfeeding",
-        "note": "Little is known about amounts above those in food while breastfeeding; keep to culinary use."
+        "note": "Little is known about amounts above those in food while breastfeeding; keep to culinary use.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "anticoagulants",
         "effect": "Supplements may increase bleeding risk with blood thinners.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "antidiabetics",
         "effect": "May lower blood sugar further.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Many human trials, especially for knee osteoarthritis pain, look promising, but higher-quality studies are needed before firm conclusions. Absorption from plain turmeric is low.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=curcumin%20randomized%20controlled%20trial%20osteoarthritis"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=curcumin%20randomized%20controlled%20trial%20osteoarthritis",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "nccih-turmeric",
         "kind": "safety",
-        "title": "NCCIH: Turmeric: Usefulness and Safety",
-        "detail": "Last updated April 2025",
-        "url": "https://www.nccih.nih.gov/health/turmeric"
+        "title": "Turmeric: Usefulness and Safety",
+        "url": "https://www.nccih.nih.gov/health/turmeric",
+        "publisher": "National Center for Complementary and Integrative Health (NIH)",
+        "updated": "April 2025",
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "detail": "Last updated April 2025"
       },
       {
+        "id": "livertox-turmeric",
         "kind": "safety",
-        "title": "LiverTox (NIH): Turmeric",
-        "url": "https://www.ncbi.nlm.nih.gov/books/NBK548561/"
+        "title": "LiverTox: Turmeric",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK548561/",
+        "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -1930,7 +2417,8 @@ export const herbs = [
       "virya": null,
       "vipaka": null,
       "pacifies": [],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Mild stimulant (caffeine)",
@@ -1952,45 +2440,63 @@ export const herbs = [
     "cautions": [
       {
         "group": "liver",
-        "note": "Concentrated green tea extract (capsules and weight-loss products) has caused liver injury, sometimes severe. Brewed tea has not been linked to this."
+        "note": "Concentrated green tea extract (capsules and weight-loss products) has caused liver injury, sometimes severe. Brewed tea has not been linked to this.",
+        "refs": []
       },
       {
         "group": "pregnancy",
-        "note": "Contains caffeine; keep total caffeine within what your doctor advises in pregnancy and while breastfeeding."
+        "note": "Contains caffeine; keep total caffeine within what your doctor advises in pregnancy and while breastfeeding.",
+        "refs": []
       },
       {
         "group": "heart",
-        "note": "Caffeine can raise heart rate and blood pressure in sensitive people."
+        "note": "Caffeine can raise heart rate and blood pressure in sensitive people.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "antihypertensives",
         "effect": "Large amounts can reduce the effect of the beta-blocker nadolol.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "statins",
         "effect": "Green tea extract can lower blood levels of atorvastatin.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Many studies, but results for weight, heart health and other uses are inconsistent.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=green%20tea%20catechins%20meta-analysis"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=green%20tea%20catechins%20meta-analysis",
+      "refs": []
     },
     "sources": [
       {
+        "id": "nccih-green-tea",
         "kind": "safety",
-        "title": "NCCIH: Green Tea: Usefulness and Safety",
-        "detail": "Last updated February 2025",
-        "url": "https://www.nccih.nih.gov/health/green-tea"
+        "title": "Green Tea: Usefulness and Safety",
+        "url": "https://www.nccih.nih.gov/health/green-tea",
+        "publisher": "National Center for Complementary and Integrative Health (NIH)",
+        "updated": "February 2025",
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "detail": "Last updated February 2025"
       },
       {
+        "id": "livertox-green-tea",
         "kind": "safety",
-        "title": "LiverTox (NIH): Green Tea",
-        "url": "https://www.ncbi.nlm.nih.gov/books/NBK547925/"
+        "title": "LiverTox: Green Tea",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK547925/",
+        "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -2027,7 +2533,8 @@ export const herbs = [
         "pitta",
         "kapha"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Gentle laxative",
@@ -2051,33 +2558,51 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Avoid in pregnancy; it is a laxative."
+        "note": "Avoid in pregnancy; it is a laxative.",
+        "refs": []
       },
       {
         "group": "digestive-illness",
-        "note": "Avoid during diarrhoea or with dehydration, weakness or after fasting."
+        "note": "Avoid during diarrhoea or with dehydration, weakness or after fasting.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "many-medicines",
         "effect": "As a laxative it can reduce absorption of medicines taken at the same time; take them apart.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "preclinical",
       "summary": "Mostly laboratory and animal studies; small human studies of triphala, of which it is part.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Terminalia%20chebula%20clinical"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Terminalia%20chebula%20clinical",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -2112,7 +2637,8 @@ export const herbs = [
       ],
       "aggravates": [
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Relieves gas and colic (vatanulomana)",
@@ -2133,37 +2659,56 @@ export const herbs = [
     "cautions": [
       {
         "group": "infants",
-        "note": "Do not give to babies (risk of a blood disorder in infants)."
+        "note": "Do not give to babies (risk of a blood disorder in infants).",
+        "refs": []
       },
       {
         "group": "pregnancy",
-        "note": "Avoid medicinal amounts in pregnancy."
+        "note": "Avoid medicinal amounts in pregnancy.",
+        "refs": []
       },
       {
         "group": "allergy",
-        "note": "Compounded hing often contains wheat flour; check if you avoid gluten."
+        "note": "Compounded hing often contains wheat flour; check if you avoid gluten.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "anticoagulants",
         "effect": "May add to the effect of blood thinners in medicinal amounts.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "preclinical",
       "summary": "Mostly laboratory and animal studies.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Ferula%20assa-foetida"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Ferula%20assa-foetida",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -2198,7 +2743,8 @@ export const herbs = [
       ],
       "aggravates": [
         "kapha"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Bulk-forming laxative",
@@ -2221,38 +2767,51 @@ export const herbs = [
     "cautions": [
       {
         "group": "digestive-illness",
-        "note": "Do not use with a blocked or narrowed bowel, or difficulty swallowing. Always take with a full glass of water; taken dry it can swell and choke."
+        "note": "Do not use with a blocked or narrowed bowel, or difficulty swallowing. Always take with a full glass of water; taken dry it can swell and choke.",
+        "refs": []
       },
       {
         "group": "allergy",
-        "note": "Breathing in the powder can cause allergies, including asthma, in people who handle it often."
+        "note": "Breathing in the powder can cause allergies, including asthma, in people who handle it often.",
+        "refs": []
       },
       {
         "group": "diabetes",
-        "note": "Can lower blood sugar after meals; check your levels if you take diabetes medicines."
+        "note": "Can lower blood sugar after meals; check your levels if you take diabetes medicines.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "many-medicines",
         "effect": "Slows absorption of many medicines; take them at least two hours apart.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "antidiabetics",
         "effect": "May lower blood sugar further.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "moderate-human",
       "summary": "Good evidence that psyllium relieves chronic constipation and modestly lowers LDL cholesterol.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=psyllium%20constipation%20cholesterol%20meta-analysis"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=psyllium%20constipation%20cholesterol%20meta-analysis",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -2288,7 +2847,8 @@ export const herbs = [
       ],
       "aggravates": [
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Kindles digestion",
@@ -2311,37 +2871,56 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Avoid more than a culinary pinch in pregnancy."
+        "note": "Avoid more than a culinary pinch in pregnancy.",
+        "refs": []
       },
       {
         "group": "children",
-        "note": "Keep whole nutmeg away from children; swallowing even one or two teaspoons can cause poisoning."
+        "note": "Keep whole nutmeg away from children; swallowing even one or two teaspoons can cause poisoning.",
+        "refs": []
       },
       {
         "group": "heart",
-        "note": "Large amounts (around two teaspoons or more) can cause a racing heart, confusion, vomiting and hallucinations from myristicin."
+        "note": "Large amounts (around two teaspoons or more) can cause a racing heart, confusion, vomiting and hallucinations from myristicin.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "sedatives",
         "effect": "Large amounts may add to drowsiness from sleeping pills.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "traditional",
       "summary": "Traditional use only for digestion and sleep. Poisoning from large amounts is well documented.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=nutmeg%20intoxication%20myristicin"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=nutmeg%20intoxication%20myristicin",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -2376,7 +2955,8 @@ export const herbs = [
         "pitta",
         "kapha"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Calming (traditionally a \"nervine\")",
@@ -2399,29 +2979,46 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Not enough is known; avoid in pregnancy and while breastfeeding."
+        "note": "Not enough is known; avoid in pregnancy and while breastfeeding.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "sedatives",
         "effect": "May add to drowsiness from sleeping pills and sedatives.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "preclinical",
       "summary": "Animal studies suggest calming effects; there are almost no trials in people.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Nardostachys%20jatamansi"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Nardostachys%20jatamansi",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -2453,7 +3050,8 @@ export const herbs = [
         "kapha",
         "vata"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Kindles digestion (deepana)",
@@ -2478,33 +3076,51 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Culinary amounts are fine; avoid concentrated preparations."
+        "note": "Culinary amounts are fine; avoid concentrated preparations.",
+        "refs": []
       },
       {
         "group": "surgery",
-        "note": "Stop concentrated use two weeks before surgery (possible effect on blood sugar and clotting)."
+        "note": "Stop concentrated use two weeks before surgery (possible effect on blood sugar and clotting).",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "antidiabetics",
         "effect": "May lower blood sugar further in large amounts.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Small human studies suggest help with bloating and digestive comfort. Most other evidence is from laboratory studies.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Cuminum%20cyminum%20clinical%20trial"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Cuminum%20cyminum%20clinical%20trial",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -2538,7 +3154,8 @@ export const herbs = [
       ],
       "aggravates": [
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Kindles digestion",
@@ -2562,29 +3179,46 @@ export const herbs = [
     "cautions": [
       {
         "group": "gerd",
-        "note": "Can aggravate acidity and ulcers."
+        "note": "Can aggravate acidity and ulcers.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "many-medicines",
         "effect": "Piperine can raise blood levels of some medicines by increasing absorption; avoid concentrated piperine supplements with regular medication.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Piperine's effect on absorption, including of curcumin, is shown in human studies. Evidence for direct health effects is limited.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=piperine%20bioavailability%20human"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=piperine%20bioavailability%20human",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -2618,7 +3252,8 @@ export const herbs = [
       ],
       "aggravates": [
         "vata"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Very bitter",
@@ -2642,51 +3277,73 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Avoid in pregnancy; it may cause miscarriage. Also avoid while breastfeeding."
+        "note": "Avoid in pregnancy; it may cause miscarriage. Also avoid while breastfeeding.",
+        "refs": []
       },
       {
         "group": "allergy",
-        "note": "Serious allergic reactions, including anaphylaxis, have been reported."
+        "note": "Serious allergic reactions, including anaphylaxis, have been reported.",
+        "refs": []
       },
       {
         "group": "autoimmune",
-        "note": "It may stimulate the immune system; avoid with autoimmune conditions."
+        "note": "It may stimulate the immune system; avoid with autoimmune conditions.",
+        "refs": []
       },
       {
         "group": "surgery",
-        "note": "May slow blood clotting; stop two weeks before surgery."
+        "note": "May slow blood clotting; stop two weeks before surgery.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "immunosuppressants",
         "effect": "May work against immune-suppressing medicines.",
-        "level": "avoid"
+        "level": "avoid",
+        "refs": []
       },
       {
         "drugClass": "anticoagulants",
         "effect": "May add to the effect of blood thinners.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "antihypertensives",
         "effect": "May lower blood pressure further.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Several trials suggest andrographis may ease cold and sore throat symptoms, but many were small or of uncertain quality.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Andrographis%20paniculata%20respiratory%20tract%20infection%20systematic%20review"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Andrographis%20paniculata%20respiratory%20tract%20infection%20systematic%20review",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -2722,7 +3379,8 @@ export const herbs = [
       ],
       "aggravates": [
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Kindles digestion",
@@ -2747,47 +3405,68 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Amounts above those in food are not advised in pregnancy."
+        "note": "Amounts above those in food are not advised in pregnancy.",
+        "refs": []
       },
       {
         "group": "surgery",
-        "note": "May slow blood clotting and lower blood sugar; stop medicinal amounts two weeks before surgery."
+        "note": "May slow blood clotting and lower blood sugar; stop medicinal amounts two weeks before surgery.",
+        "refs": []
       },
       {
         "group": "skin-use",
-        "note": "The oil can cause allergic skin rashes; test on a small area first."
+        "note": "The oil can cause allergic skin rashes; test on a small area first.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "antidiabetics",
         "effect": "May lower blood sugar further.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "antihypertensives",
         "effect": "May lower blood pressure further.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "anticoagulants",
         "effect": "May add to the effect of blood thinners.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Small human trials suggest modest effects on blood sugar, cholesterol and blood pressure; most were short and of mixed quality.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Nigella%20sativa%20randomized%20controlled%20trial"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Nigella%20sativa%20randomized%20controlled%20trial",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -2822,7 +3501,8 @@ export const herbs = [
       ],
       "aggravates": [
         "vata"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Bitter; supports a blood-sugar-aware diet",
@@ -2844,38 +3524,56 @@ export const herbs = [
     "cautions": [
       {
         "group": "diabetes",
-        "note": "Can cause low blood sugar alongside diabetes medicines; monitor closely."
+        "note": "Can cause low blood sugar alongside diabetes medicines; monitor closely.",
+        "refs": []
       },
       {
         "group": "pregnancy",
-        "note": "Avoid juice and supplements in pregnancy."
+        "note": "Avoid juice and supplements in pregnancy.",
+        "refs": []
       },
       {
         "group": "children",
-        "note": "Do not give juice or seeds to children."
+        "note": "Do not give juice or seeds to children.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "antidiabetics",
         "effect": "May cause low blood sugar together with diabetes medicines.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Human trials on blood sugar show small and inconsistent effects.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Momordica%20charantia%20glycemic%20randomized"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Momordica%20charantia%20glycemic%20randomized",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "livertox-bitter-melon",
         "kind": "safety",
-        "title": "LiverTox (NIH): Bitter Melon",
-        "url": "https://www.ncbi.nlm.nih.gov/books/NBK590483/"
+        "title": "LiverTox: Bitter Melon",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK590483/",
+        "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -2908,7 +3606,8 @@ export const herbs = [
         "pitta",
         "kapha"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Uplifting in tradition",
@@ -2931,34 +3630,46 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Food amounts are fine, but larger amounts can stimulate the uterus and should be avoided in pregnancy."
+        "note": "Food amounts are fine, but larger amounts can stimulate the uterus and should be avoided in pregnancy.",
+        "refs": []
       },
       {
         "group": "allergy",
-        "note": "Rare allergic reactions are reported."
+        "note": "Rare allergic reactions are reported.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "antihypertensives",
         "effect": "Medicinal amounts may lower blood pressure further.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "antidepressants",
         "effect": "Studied for low mood; do not combine medicinal amounts with antidepressants without your doctor.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Several small trials suggest saffron extracts may help mild to moderate low mood, but most were short and small.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=saffron%20Crocus%20sativus%20depression%20randomized"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=saffron%20Crocus%20sativus%20depression%20randomized",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -2989,7 +3700,8 @@ export const herbs = [
       ],
       "aggravates": [
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Souring agent in cooking",
@@ -3011,41 +3723,58 @@ export const herbs = [
     "cautions": [
       {
         "group": "liver",
-        "note": "Weight-loss supplements containing garcinia have been linked to liver injury; avoid them, especially with liver disease. The rind used in cooking is a food."
+        "note": "Weight-loss supplements containing garcinia have been linked to liver injury; avoid them, especially with liver disease. The rind used in cooking is a food.",
+        "refs": []
       },
       {
         "group": "pregnancy",
-        "note": "Avoid the supplements in pregnancy and while breastfeeding."
+        "note": "Avoid the supplements in pregnancy and while breastfeeding.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "antidepressants",
         "effect": "Supplements have been reported to interact with medicines that affect serotonin.",
-        "level": "avoid"
+        "level": "avoid",
+        "refs": []
       },
       {
         "drugClass": "many-medicines",
         "effect": "Supplements may interact with medicines processed by the liver.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Supplements may have a small effect on weight loss, but the evidence is mixed.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Garcinia%20cambogia%20hydroxycitric%20acid%20weight%20loss%20meta-analysis"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Garcinia%20cambogia%20hydroxycitric%20acid%20weight%20loss%20meta-analysis",
+      "refs": []
     },
     "sources": [
       {
+        "id": "nccih-garcinia-cambogia",
         "kind": "safety",
-        "title": "NCCIH: Garcinia Cambogia: Usefulness and Safety",
-        "detail": "Last updated February 2025",
-        "url": "https://www.nccih.nih.gov/health/garcinia-cambogia"
+        "title": "Garcinia Cambogia: Usefulness and Safety",
+        "url": "https://www.nccih.nih.gov/health/garcinia-cambogia",
+        "publisher": "National Center for Complementary and Integrative Health (NIH)",
+        "updated": "February 2025",
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "detail": "Last updated February 2025"
       },
       {
+        "id": "livertox-garcinia-cambogia",
         "kind": "safety",
-        "title": "LiverTox (NIH): Garcinia Cambogia",
-        "url": "https://www.ncbi.nlm.nih.gov/books/NBK548087/"
+        "title": "LiverTox: Garcinia Cambogia",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK548087/",
+        "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -3084,7 +3813,8 @@ export const herbs = [
       ],
       "aggravates": [
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Warming",
@@ -3107,60 +3837,89 @@ export const herbs = [
     "cautions": [
       {
         "group": "surgery",
-        "note": "Garlic supplements may increase bleeding; stop them at least a week before surgery and tell your surgeon."
+        "note": "Garlic supplements may increase bleeding; stop them at least a week before surgery and tell your surgeon.",
+        "refs": []
       },
       {
         "group": "gerd",
-        "note": "Can worsen heartburn."
+        "note": "Can worsen heartburn.",
+        "refs": []
       },
       {
         "group": "bleeding-disorder",
-        "note": "Avoid supplements with bleeding disorders."
+        "note": "Avoid supplements with bleeding disorders.",
+        "refs": []
       },
       {
         "group": "pregnancy",
-        "note": "Food amounts are fine; garlic supplements may not be safe in pregnancy."
+        "note": "Food amounts are fine; garlic supplements may not be safe in pregnancy.",
+        "refs": []
       },
       {
         "group": "breastfeeding",
-        "note": "Food amounts are fine; garlic supplements may not be safe while breastfeeding."
+        "note": "Food amounts are fine; garlic supplements may not be safe while breastfeeding.",
+        "refs": []
       },
       {
         "group": "skin-use",
-        "note": "Raw garlic held on the skin can cause severe irritation and chemical burns."
+        "note": "Raw garlic held on the skin can cause severe irritation and chemical burns.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "anticoagulants",
         "effect": "Supplements may increase bleeding risk with blood thinners.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "antiretrovirals",
         "effect": "Garlic supplements can lower levels of some HIV medicines.",
-        "level": "avoid"
+        "level": "avoid",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "moderate-human",
       "summary": "Garlic supplements may lower total and LDL cholesterol slightly in people with high cholesterol; limited evidence suggests a small drop in high blood pressure.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=garlic%20blood%20pressure%20meta-analysis"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=garlic%20blood%20pressure%20meta-analysis",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "nccih-garlic",
         "kind": "safety",
-        "title": "NCCIH: Garlic: Usefulness and Safety",
-        "detail": "Last updated February 2025",
-        "url": "https://www.nccih.nih.gov/health/garlic"
+        "title": "Garlic: Usefulness and Safety",
+        "url": "https://www.nccih.nih.gov/health/garlic",
+        "publisher": "National Center for Complementary and Integrative Health (NIH)",
+        "updated": "February 2025",
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "detail": "Last updated February 2025"
       }
     ],
     "review": {
@@ -3193,7 +3952,8 @@ export const herbs = [
         "kapha",
         "pitta"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Numbs local tooth pain",
@@ -3217,33 +3977,51 @@ export const herbs = [
     "cautions": [
       {
         "group": "children",
-        "note": "Clove oil can be poisonous to children, even in small amounts."
+        "note": "Clove oil can be poisonous to children, even in small amounts.",
+        "refs": []
       },
       {
         "group": "bleeding-disorder",
-        "note": "Eugenol may slow clotting."
+        "note": "Eugenol may slow clotting.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "anticoagulants",
         "effect": "Clove oil may add to the effect of blood thinners.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Eugenol, the main oil in clove, is used in dentistry as a local anaesthetic. Little other human research.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=clove%20eugenol%20dental%20pain"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=clove%20eugenol%20dental%20pain",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -3276,7 +4054,8 @@ export const herbs = [
         "kapha",
         "pitta"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Traditionally used as a brain tonic (medhya)",
@@ -3300,42 +4079,67 @@ export const herbs = [
     "cautions": [
       {
         "group": "liver",
-        "note": "Rare cases of liver injury have been reported, usually resolving after stopping."
+        "note": "Rare cases of liver injury have been reported, usually resolving after stopping.",
+        "refs": []
       },
       {
         "group": "pregnancy",
-        "note": "Not enough is known; avoid medicinal amounts in pregnancy and while breastfeeding."
+        "note": "Not enough is known; avoid medicinal amounts in pregnancy and while breastfeeding.",
+        "refs": []
       },
       {
         "group": "skin-use",
-        "note": "Can cause allergic skin rashes when applied."
+        "note": "Can cause allergic skin rashes when applied.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "sedatives",
         "effect": "May add to drowsiness.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Some trials suggest it may help leg vein problems and wound healing; evidence for memory is weak.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Centella%20asiatica%20randomized"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Centella%20asiatica%20randomized",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "livertox-centella-asiatica",
         "kind": "safety",
-        "title": "LiverTox (NIH): Centella asiatica",
-        "url": "https://www.ncbi.nlm.nih.gov/books/n/livertox/Centella/"
+        "title": "LiverTox: Centella asiatica",
+        "url": "https://www.ncbi.nlm.nih.gov/books/n/livertox/Centella/",
+        "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -3369,7 +4173,8 @@ export const herbs = [
         "kapha",
         "pitta"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Traditionally used to \"purify the blood\" (raktashodhaka)",
@@ -3392,27 +4197,44 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Not enough is known; avoid in pregnancy and while breastfeeding."
+        "note": "Not enough is known; avoid in pregnancy and while breastfeeding.",
+        "refs": []
       },
       {
         "group": "kidney",
-        "note": "Related madder species contain compounds of concern for long-term use; avoid with kidney disease."
+        "note": "Related madder species contain compounds of concern for long-term use; avoid with kidney disease.",
+        "refs": []
       }
     ],
     "interactions": [],
     "evidence": {
       "level": "preclinical",
       "summary": "Laboratory and animal studies only; no reliable trials in people.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Rubia%20cordifolia"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Rubia%20cordifolia",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -3447,7 +4269,8 @@ export const herbs = [
       ],
       "aggravates": [
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Kindles digestion",
@@ -3472,61 +4295,95 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Not safe in pregnancy in amounts above those in food; its use has been linked to birth defects."
+        "note": "Not safe in pregnancy in amounts above those in food; its use has been linked to birth defects.",
+        "refs": []
       },
       {
         "group": "breastfeeding",
-        "note": "Little is known about amounts above those in food while breastfeeding."
+        "note": "Little is known about amounts above those in food while breastfeeding.",
+        "refs": []
       },
       {
         "group": "children",
-        "note": "Food amounts are considered safe; larger amounts have not been shown to be safe for children."
+        "note": "Food amounts are considered safe; larger amounts have not been shown to be safe for children.",
+        "refs": []
       },
       {
         "group": "allergy",
-        "note": "Can cause allergic reactions, sometimes serious, and may cross-react with peanut or chickpea allergy."
+        "note": "Can cause allergic reactions, sometimes serious, and may cross-react with peanut or chickpea allergy.",
+        "refs": []
       },
       {
         "group": "diabetes",
-        "note": "Large amounts can lower blood sugar too far; monitor if you have diabetes."
+        "note": "Large amounts can lower blood sugar too far; monitor if you have diabetes.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "antidiabetics",
         "effect": "May lower blood sugar further; monitor closely.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "anticoagulants",
         "effect": "May add to the effect of blood thinners.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "Studies suggest fenugreek may lower blood sugar in type 2 diabetes, but many were not of high quality. Its effect on breast milk supply is uncertain.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=fenugreek%20glycemic%20control%20randomized"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=fenugreek%20glycemic%20control%20randomized",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "nccih-fenugreek",
         "kind": "safety",
-        "title": "NCCIH: Fenugreek: Usefulness and Safety",
-        "detail": "Last updated February 2025",
-        "url": "https://www.nccih.nih.gov/health/fenugreek"
+        "title": "Fenugreek: Usefulness and Safety",
+        "url": "https://www.nccih.nih.gov/health/fenugreek",
+        "publisher": "National Center for Complementary and Integrative Health (NIH)",
+        "updated": "February 2025",
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "detail": "Last updated February 2025"
       },
       {
+        "id": "livertox-fenugreek",
         "kind": "safety",
-        "title": "LiverTox (NIH): Fenugreek",
-        "url": "https://www.ncbi.nlm.nih.gov/books/NBK548826/"
+        "title": "LiverTox: Fenugreek",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK548826/",
+        "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -3560,7 +4417,8 @@ export const herbs = [
       ],
       "aggravates": [
         "kapha"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Soothes the throat",
@@ -3585,66 +4443,96 @@ export const herbs = [
     "cautions": [
       {
         "group": "hypertension",
-        "note": "Raises blood pressure and lowers potassium with regular use. Even small amounts have caused serious problems in people with high blood pressure or a salty diet. Avoid."
+        "note": "Raises blood pressure and lowers potassium with regular use. Even small amounts have caused serious problems in people with high blood pressure or a salty diet. Avoid.",
+        "refs": []
       },
       {
         "group": "heart",
-        "note": "Large or long use can cause an irregular heartbeat and, rarely, cardiac arrest. Avoid with heart disease."
+        "note": "Large or long use can cause an irregular heartbeat and, rarely, cardiac arrest. Avoid with heart disease.",
+        "refs": []
       },
       {
         "group": "kidney",
-        "note": "Avoid with kidney disease."
+        "note": "Avoid with kidney disease.",
+        "refs": []
       },
       {
         "group": "pregnancy",
-        "note": "Avoid in pregnancy; large amounts are linked to earlier delivery."
+        "note": "Avoid in pregnancy; large amounts are linked to earlier delivery.",
+        "refs": []
       },
       {
         "group": "breastfeeding",
-        "note": "Little is known about safety while breastfeeding; avoid."
+        "note": "Little is known about safety while breastfeeding; avoid.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "antihypertensives",
         "effect": "Works against blood pressure medicines.",
-        "level": "avoid"
+        "level": "avoid",
+        "refs": []
       },
       {
         "drugClass": "diuretics",
         "effect": "Can cause dangerously low potassium with water pills.",
-        "level": "avoid"
+        "level": "avoid",
+        "refs": []
       },
       {
         "drugClass": "corticosteroids",
         "effect": "Increases steroid effects and side effects.",
-        "level": "avoid"
+        "level": "avoid",
+        "refs": []
       },
       {
         "drugClass": "heart-rhythm",
         "effect": "Low potassium raises the risk with digoxin.",
-        "level": "avoid"
+        "level": "avoid",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "moderate-human",
       "summary": "Its side effects (high blood pressure, low potassium, heart rhythm problems) are well documented in humans. Evidence for benefits is limited; a licorice gargle may ease sore throat after surgery.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=glycyrrhizin%20hypokalemia%20hypertension"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=glycyrrhizin%20hypokalemia%20hypertension",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "nccih-licorice-root",
         "kind": "safety",
-        "title": "NCCIH: Licorice Root: Usefulness and Safety",
-        "detail": "Last updated April 2025",
-        "url": "https://www.nccih.nih.gov/health/licorice-root"
+        "title": "Licorice Root: Usefulness and Safety",
+        "url": "https://www.nccih.nih.gov/health/licorice-root",
+        "publisher": "National Center for Complementary and Integrative Health (NIH)",
+        "updated": "April 2025",
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "detail": "Last updated April 2025"
       }
     ],
     "review": {
@@ -3678,7 +4566,8 @@ export const herbs = [
       ],
       "aggravates": [
         "kapha"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Moisturises dry skin and scalp",
@@ -3702,23 +4591,33 @@ export const herbs = [
     "cautions": [
       {
         "group": "cholesterol",
-        "note": "Coconut oil is high in saturated fat and raises LDL cholesterol; use sparingly in cooking if your cholesterol is high."
+        "note": "Coconut oil is high in saturated fat and raises LDL cholesterol; use sparingly in cooking if your cholesterol is high.",
+        "refs": []
       },
       {
         "group": "allergy",
-        "note": "Avoid if you are allergic to coconut."
+        "note": "Avoid if you are allergic to coconut.",
+        "refs": []
       }
     ],
     "interactions": [],
     "evidence": {
       "level": "limited-human",
       "summary": "Small trials found virgin coconut oil moisturises dry skin and may help mild atopic dermatitis in children.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=virgin%20coconut%20oil%20atopic%20dermatitis%20randomized"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=virgin%20coconut%20oil%20atopic%20dermatitis%20randomized",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -3752,7 +4651,8 @@ export const herbs = [
       ],
       "aggravates": [
         "vata"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Cleansing and bitter",
@@ -3777,42 +4677,62 @@ export const herbs = [
     "cautions": [
       {
         "group": "children",
-        "note": "Neem oil taken by mouth has caused serious poisoning in infants and children. Never give it to children."
+        "note": "Neem oil taken by mouth has caused serious poisoning in infants and children. Never give it to children.",
+        "refs": []
       },
       {
         "group": "pregnancy",
-        "note": "Avoid taking neem by mouth in pregnancy or when trying to conceive."
+        "note": "Avoid taking neem by mouth in pregnancy or when trying to conceive.",
+        "refs": []
       },
       {
         "group": "autoimmune",
-        "note": "May stimulate the immune system."
+        "note": "May stimulate the immune system.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "antidiabetics",
         "effect": "May lower blood sugar further if taken by mouth.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "immunosuppressants",
         "effect": "May work against immune-suppressing medicines.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "preclinical",
       "summary": "Mostly laboratory and animal studies. Some small studies on dental plaque.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Azadirachta%20indica%20clinical"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Azadirachta%20indica%20clinical",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -3843,7 +4763,8 @@ export const herbs = [
       ],
       "aggravates": [
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Appetising and refreshing",
@@ -3868,23 +4789,33 @@ export const herbs = [
     "cautions": [
       {
         "group": "gerd",
-        "note": "Its acid can worsen reflux, ulcers and sensitive teeth; rinse with water after sipping."
+        "note": "Its acid can worsen reflux, ulcers and sensitive teeth; rinse with water after sipping.",
+        "refs": []
       },
       {
         "group": "skin-use",
-        "note": "Lemon juice on the skin followed by sun can cause burns and dark patches (phytophotodermatitis)."
+        "note": "Lemon juice on the skin followed by sun can cause burns and dark patches (phytophotodermatitis).",
+        "refs": []
       }
     ],
     "interactions": [],
     "evidence": {
       "level": "traditional",
       "summary": "A food with traditional household uses; little research on it as a remedy.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Citrus%20limon%20juice%20clinical"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Citrus%20limon%20juice%20clinical",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -3919,7 +4850,8 @@ export const herbs = [
       ],
       "aggravates": [
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Kindles digestion",
@@ -3943,33 +4875,51 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Avoid amounts above food use in pregnancy."
+        "note": "Avoid amounts above food use in pregnancy.",
+        "refs": []
       },
       {
         "group": "gerd",
-        "note": "Pungent; can worsen acidity, reflux and ulcers."
+        "note": "Pungent; can worsen acidity, reflux and ulcers.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "many-medicines",
         "effect": "Its piperine increases absorption of many medicines, which can raise their levels.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "preclinical",
       "summary": "Mostly laboratory and animal studies; small human studies of piperine.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Piper%20longum"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Piper%20longum",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -4003,7 +4953,8 @@ export const herbs = [
       ],
       "aggravates": [
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Eases bloating and gas",
@@ -4028,33 +4979,50 @@ export const herbs = [
     "cautions": [
       {
         "group": "gerd",
-        "note": "Mint can relax the valve at the top of the stomach and make acid reflux worse."
+        "note": "Mint can relax the valve at the top of the stomach and make acid reflux worse.",
+        "refs": []
       },
       {
         "group": "infants",
-        "note": "Never put mint or peppermint oil on or near a baby's or small child's face; menthol can affect their breathing."
+        "note": "Never put mint or peppermint oil on or near a baby's or small child's face; menthol can affect their breathing.",
+        "refs": []
       },
       {
         "group": "allergy",
-        "note": "Avoid if mint has caused an allergic reaction before."
+        "note": "Avoid if mint has caused an allergic reaction before.",
+        "refs": []
       }
     ],
     "interactions": [],
     "evidence": {
       "level": "limited-human",
       "summary": "Peppermint oil capsules have reasonable evidence for easing irritable bowel symptoms; evidence for mint leaf tea is limited.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=peppermint%20oil%20irritable%20bowel%20syndrome%20randomized"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=peppermint%20oil%20irritable%20bowel%20syndrome%20randomized",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "nccih-peppermint-oil",
         "kind": "safety",
-        "title": "NCCIH: Peppermint Oil: Usefulness and Safety",
-        "detail": "Last updated May 2025",
-        "url": "https://www.nccih.nih.gov/health/peppermint-oil"
+        "title": "Peppermint Oil: Usefulness and Safety",
+        "url": "https://www.nccih.nih.gov/health/peppermint-oil",
+        "publisher": "National Center for Complementary and Integrative Health (NIH)",
+        "updated": "May 2025",
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "detail": "Last updated May 2025"
       }
     ],
     "review": {
@@ -4089,7 +5057,8 @@ export const herbs = [
         "pitta",
         "kapha"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Diuretic in tradition",
@@ -4113,42 +5082,62 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Not enough is known; avoid in pregnancy and while breastfeeding."
+        "note": "Not enough is known; avoid in pregnancy and while breastfeeding.",
+        "refs": []
       },
       {
         "group": "kidney",
-        "note": "Swelling can be a sign of kidney or heart disease; see a doctor rather than treating it at home."
+        "note": "Swelling can be a sign of kidney or heart disease; see a doctor rather than treating it at home.",
+        "refs": []
       },
       {
         "group": "heart",
-        "note": "Do not use for swelling from heart failure without your doctor."
+        "note": "Do not use for swelling from heart failure without your doctor.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "diuretics",
         "effect": "May add to the effect of water pills.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "lithium",
         "effect": "Diuretic herbs can raise lithium to harmful levels.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "preclinical",
       "summary": "Mostly laboratory and animal studies; little research in people.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Boerhavia%20diffusa"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Boerhavia%20diffusa",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -4184,7 +5173,8 @@ export const herbs = [
       ],
       "aggravates": [
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Nourishing leafy green",
@@ -4208,39 +5198,52 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "The root, bark and flowers may cause contractions; avoid them in pregnancy. The cooked leaves and pods are eaten as food."
+        "note": "The root, bark and flowers may cause contractions; avoid them in pregnancy. The cooked leaves and pods are eaten as food.",
+        "refs": []
       },
       {
         "group": "diabetes",
-        "note": "May lower blood sugar; check levels if you take diabetes medicines."
+        "note": "May lower blood sugar; check levels if you take diabetes medicines.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "antidiabetics",
         "effect": "May lower blood sugar further.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "antihypertensives",
         "effect": "May lower blood pressure further.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "thyroid",
         "effect": "May change how levothyroxine is absorbed; take them apart.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "A nutritious food; small human studies on blood sugar are inconclusive.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Moringa%20oleifera%20randomized%20controlled%20trial"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Moringa%20oleifera%20randomized%20controlled%20trial",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -4274,7 +5277,8 @@ export const herbs = [
         "vata",
         "pitta"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Relieves gas and bloating (anulomana)",
@@ -4298,31 +5302,49 @@ export const herbs = [
     "cautions": [
       {
         "group": "children",
-        "note": "Do not give fennel oil or concentrated fennel preparations to babies."
+        "note": "Do not give fennel oil or concentrated fennel preparations to babies.",
+        "refs": []
       },
       {
         "group": "hormone-sensitive",
-        "note": "Contains mildly estrogen-like compounds; avoid concentrated use with hormone-sensitive conditions."
+        "note": "Contains mildly estrogen-like compounds; avoid concentrated use with hormone-sensitive conditions.",
+        "refs": []
       },
       {
         "group": "pregnancy",
-        "note": "Culinary amounts are fine; avoid concentrated preparations."
+        "note": "Culinary amounts are fine; avoid concentrated preparations.",
+        "refs": []
       }
     ],
     "interactions": [],
     "evidence": {
       "level": "limited-human",
       "summary": "A few small human studies on bloating and menstrual cramps. Not established as a treatment.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Foeniculum%20vulgare%20clinical%20trial"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Foeniculum%20vulgare%20clinical%20trial",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -4354,7 +5376,8 @@ export const herbs = [
       "pacifies": [
         "kapha"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Soothes cough",
@@ -4376,23 +5399,34 @@ export const herbs = [
     "cautions": [
       {
         "group": "infants",
-        "note": "Never give honey to babies under 1 year old (risk of infant botulism)."
+        "note": "Never give honey to babies under 1 year old (risk of infant botulism).",
+        "refs": []
       },
       {
         "group": "diabetes",
-        "note": "Honey is sugar; count it in a diabetic diet."
+        "note": "Honey is sugar; count it in a diabetic diet.",
+        "refs": []
       }
     ],
     "interactions": [],
     "evidence": {
       "level": "moderate-human",
       "summary": "Reviews suggest honey can ease cough in children over 1 year at least as well as some common cough remedies.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=honey%20cough%20children%20systematic%20review"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=honey%20cough%20children%20systematic%20review",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
         "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "locator": "Madhu varga",
         "detail": "Madhu varga"
       }
     ],
@@ -4427,7 +5461,8 @@ export const herbs = [
         "kapha",
         "pitta"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Traditionally used for joint pain and swelling"
@@ -4448,33 +5483,50 @@ export const herbs = [
     "cautions": [
       {
         "group": "asthma",
-        "note": "Talk to your doctor first if you have asthma; it may interact with asthma medicines."
+        "note": "Talk to your doctor first if you have asthma; it may interact with asthma medicines.",
+        "refs": []
       },
       {
         "group": "cancer",
-        "note": "If you are being treated for cancer, ask your cancer team before using it."
+        "note": "If you are being treated for cancer, ask your cancer team before using it.",
+        "refs": []
       },
       {
         "group": "pregnancy",
-        "note": "Little is known about medicinal amounts in pregnancy or while breastfeeding."
+        "note": "Little is known about medicinal amounts in pregnancy or while breastfeeding.",
+        "refs": []
       }
     ],
     "interactions": [],
     "evidence": {
       "level": "limited-human",
       "summary": "Trials suggest boswellia may ease osteoarthritis pain and swelling, but more rigorous studies are needed.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Boswellia%20serrata%20osteoarthritis%20randomized"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Boswellia%20serrata%20osteoarthritis%20randomized",
+      "refs": []
     },
     "sources": [
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "nccih-boswellia",
         "kind": "safety",
-        "title": "NCCIH: Boswellia: Usefulness and Safety",
-        "detail": "Last updated April 2025",
-        "url": "https://www.nccih.nih.gov/health/boswellia"
+        "title": "Boswellia: Usefulness and Safety",
+        "url": "https://www.nccih.nih.gov/health/boswellia",
+        "publisher": "National Center for Complementary and Integrative Health (NIH)",
+        "updated": "April 2025",
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "detail": "Last updated April 2025"
       }
     ],
     "review": {
@@ -4507,7 +5559,8 @@ export const herbs = [
         "vata",
         "pitta"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Traditionally used as a brain tonic (medhya)",
@@ -4530,34 +5583,52 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Not enough is known; avoid in pregnancy and while breastfeeding."
+        "note": "Not enough is known; avoid in pregnancy and while breastfeeding.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "anticonvulsants",
         "effect": "In studies it lowered phenytoin levels and seizure control; do not combine.",
-        "level": "avoid"
+        "level": "avoid",
+        "refs": []
       },
       {
         "drugClass": "sedatives",
         "effect": "May add to drowsiness.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "preclinical",
       "summary": "Mostly animal studies on memory and anxiety; very few small human studies.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Convolvulus%20pluricaulis"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Convolvulus%20pluricaulis",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -4592,7 +5663,8 @@ export const herbs = [
       ],
       "aggravates": [
         "kapha"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Nourishing and cooling",
@@ -4616,42 +5688,62 @@ export const herbs = [
     "cautions": [
       {
         "group": "hormone-sensitive",
-        "note": "May have estrogen-like effects; avoid with hormone-sensitive conditions."
+        "note": "May have estrogen-like effects; avoid with hormone-sensitive conditions.",
+        "refs": []
       },
       {
         "group": "allergy",
-        "note": "Avoid if allergic to asparagus."
+        "note": "Avoid if allergic to asparagus.",
+        "refs": []
       },
       {
         "group": "pregnancy",
-        "note": "Traditionally used, but check with a doctor in pregnancy."
+        "note": "Traditionally used, but check with a doctor in pregnancy.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "diuretics",
         "effect": "May add to the effect of water pills.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "lithium",
         "effect": "A diuretic effect may change lithium levels.",
-        "level": "avoid"
+        "level": "avoid",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "preclinical",
       "summary": "Mostly laboratory and animal research; few human trials.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Asparagus%20racemosus%20clinical"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Asparagus%20racemosus%20clinical",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -4685,7 +5777,8 @@ export const herbs = [
         "kapha",
         "vata"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Strong stimulant laxative"
@@ -4706,61 +5799,84 @@ export const herbs = [
     "cautions": [
       {
         "group": "digestive-illness",
-        "note": "Never use with stomach pain of unknown cause, blocked bowel, appendicitis or inflammatory bowel disease. Long use causes dependence and loss of potassium."
+        "note": "Never use with stomach pain of unknown cause, blocked bowel, appendicitis or inflammatory bowel disease. Long use causes dependence and loss of potassium.",
+        "refs": []
       },
       {
         "group": "children",
-        "note": "Do not give to children without a doctor's advice."
+        "note": "Do not give to children without a doctor's advice.",
+        "refs": []
       },
       {
         "group": "pregnancy",
-        "note": "Use in pregnancy or while breastfeeding only if your doctor advises."
+        "note": "Use in pregnancy or while breastfeeding only if your doctor advises.",
+        "refs": []
       },
       {
         "group": "liver",
-        "note": "High doses taken for a long time have caused liver injury."
+        "note": "High doses taken for a long time have caused liver injury.",
+        "refs": []
       },
       {
         "group": "heart",
-        "note": "Potassium loss from overuse can upset the heart rhythm."
+        "note": "Potassium loss from overuse can upset the heart rhythm.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "diuretics",
         "effect": "Together they can lower potassium too far.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "corticosteroids",
         "effect": "Together they can lower potassium too far.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "heart-rhythm",
         "effect": "Low potassium from senna increases the risk of side effects from digoxin.",
-        "level": "avoid"
+        "level": "avoid",
+        "refs": []
       },
       {
         "drugClass": "anticoagulants",
         "effect": "Diarrhoea from senna can change the effect of warfarin.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "moderate-human",
       "summary": "An established laxative for short-term constipation, available as a standard over-the-counter medicine.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=senna%20constipation%20randomized"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=senna%20constipation%20randomized",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "livertox-senna",
         "kind": "safety",
-        "title": "LiverTox (NIH): Senna",
-        "url": "https://www.ncbi.nlm.nih.gov/books/NBK547922/"
+        "title": "LiverTox: Senna",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK547922/",
+        "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -4796,7 +5912,8 @@ export const herbs = [
       ],
       "aggravates": [
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Aromatic digestive",
@@ -4818,25 +5935,35 @@ export const herbs = [
     "cautions": [
       {
         "group": "children",
-        "note": "Take whole leaves out of food before serving children; they can catch in the throat."
+        "note": "Take whole leaves out of food before serving children; they can catch in the throat.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "antidiabetics",
         "effect": "Medicinal amounts have been studied for lowering blood sugar and may add to diabetes medicines.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "preclinical",
       "summary": "Mostly laboratory and animal studies; very little research in people.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Cinnamomum%20tamala"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Cinnamomum%20tamala",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -4872,7 +5999,8 @@ export const herbs = [
       ],
       "aggravates": [
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Warming oil for massage (abhyanga)",
@@ -4895,23 +6023,34 @@ export const herbs = [
     "cautions": [
       {
         "group": "allergy",
-        "note": "Avoid with sesame allergy."
+        "note": "Avoid with sesame allergy.",
+        "refs": []
       },
       {
         "group": "skin-infection",
-        "note": "Do not massage over broken or infected skin."
+        "note": "Do not massage over broken or infected skin.",
+        "refs": []
       }
     ],
     "interactions": [],
     "evidence": {
       "level": "traditional",
       "summary": "Mainly traditional use; small studies on oil pulling and oral health.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=sesame%20oil%20pulling"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=sesame%20oil%20pulling",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
         "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "locator": "Taila varga",
         "detail": "Taila varga"
       }
     ],
@@ -4946,7 +6085,8 @@ export const herbs = [
         "pitta",
         "kapha"
       ],
-      "aggravates": []
+      "aggravates": [],
+      "refs": []
     },
     "actions": [
       "Gentle bowel regulator (anulomana)",
@@ -4970,38 +6110,59 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Avoid in pregnancy."
+        "note": "Avoid in pregnancy.",
+        "refs": []
       },
       {
         "group": "children",
-        "note": "Not for young children without a practitioner."
+        "note": "Not for young children without a practitioner.",
+        "refs": []
       },
       {
         "group": "digestive-illness",
-        "note": "Avoid with diarrhoea or inflammatory bowel disease."
+        "note": "Avoid with diarrhoea or inflammatory bowel disease.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "many-medicines",
         "effect": "Take two hours apart from other medicines, as it can change how they are absorbed.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "A few small human studies on constipation and dental plaque. Not established as a treatment.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=triphala%20clinical%20trial"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=triphala%20clinical%20trial",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
         "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "locator": "Each of the three fruits",
         "detail": "Each of the three fruits"
       },
       {
-        "kind": "classical",
-        "title": "Ayurvedic Formulary of India",
+        "id": "ayurvedic-formulary-of-india",
+        "kind": "pharmacopoeia",
+        "title": "The Ayurvedic Formulary of India",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null,
+        "locator": "Triphala churna",
         "detail": "Triphala churna"
       }
     ],
@@ -5037,7 +6198,8 @@ export const herbs = [
       ],
       "aggravates": [
         "pitta"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Clears congestion (kaphaghna)",
@@ -5062,38 +6224,57 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Avoid medicinal amounts in pregnancy and when trying to conceive; culinary use is generally considered fine."
+        "note": "Avoid medicinal amounts in pregnancy and when trying to conceive; culinary use is generally considered fine.",
+        "refs": []
       },
       {
         "group": "surgery",
-        "note": "Stop medicinal use two weeks before planned surgery because of a possible effect on clotting."
+        "note": "Stop medicinal use two weeks before planned surgery because of a possible effect on clotting.",
+        "refs": []
       }
     ],
     "interactions": [
       {
         "drugClass": "anticoagulants",
         "effect": "May add to the effect of blood thinners.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       },
       {
         "drugClass": "antidiabetics",
         "effect": "May lower blood sugar further.",
-        "level": "caution"
+        "level": "caution",
+        "refs": []
       }
     ],
     "evidence": {
       "level": "limited-human",
       "summary": "A small number of human trials have looked at stress, blood sugar and immunity, mostly short and small. Not established as a treatment.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Ocimum%20tenuiflorum%20clinical%20trial"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Ocimum%20tenuiflorum%20clinical%20trial",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {
@@ -5128,7 +6309,8 @@ export const herbs = [
       ],
       "aggravates": [
         "vata"
-      ]
+      ],
+      "refs": []
     },
     "actions": [
       "Loosens phlegm (expectorant) in tradition",
@@ -5151,27 +6333,44 @@ export const herbs = [
     "cautions": [
       {
         "group": "pregnancy",
-        "note": "Avoid in pregnancy; it has traditionally been used to bring on contractions."
+        "note": "Avoid in pregnancy; it has traditionally been used to bring on contractions.",
+        "refs": []
       },
       {
         "group": "breastfeeding",
-        "note": "Not enough is known; avoid while breastfeeding."
+        "note": "Not enough is known; avoid while breastfeeding.",
+        "refs": []
       }
     ],
     "interactions": [],
     "evidence": {
       "level": "preclinical",
       "summary": "Laboratory and animal studies; small human studies of its alkaloids. The herb itself is little studied in people.",
-      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Adhatoda%20vasica"
+      "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Adhatoda%20vasica",
+      "refs": []
     },
     "sources": [
       {
+        "id": "bhavaprakasha-nighantu",
         "kind": "classical",
-        "title": "Bhavaprakasha Nighantu"
+        "title": "Bhavaprakasha Nighantu",
+        "url": null,
+        "publisher": null,
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       },
       {
+        "id": "api-part-1",
         "kind": "pharmacopoeia",
-        "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+        "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+        "url": null,
+        "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+        "updated": null,
+        "pmid": null,
+        "doi": null,
+        "year": null
       }
     ],
     "review": {

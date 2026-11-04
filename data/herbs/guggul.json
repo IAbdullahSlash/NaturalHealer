@@ -27,7 +27,8 @@
     ],
     "aggravates": [
       "pitta"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Traditionally used for joint pain",
@@ -50,59 +51,67 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Avoid in pregnancy; it is traditionally said to stimulate the uterus."
+      "note": "Avoid in pregnancy; it is traditionally said to stimulate the uterus.",
+      "refs": []
     },
     {
       "group": "breastfeeding",
-      "note": "Not enough is known; avoid while breastfeeding."
+      "note": "Not enough is known; avoid while breastfeeding.",
+      "refs": []
     },
     {
       "group": "thyroid",
-      "note": "May affect thyroid hormones; avoid with thyroid disease unless your doctor agrees."
+      "note": "May affect thyroid hormones; avoid with thyroid disease unless your doctor agrees.",
+      "refs": []
     },
     {
       "group": "hormone-sensitive",
-      "note": "May act like oestrogen; avoid with hormone-sensitive conditions."
+      "note": "May act like oestrogen; avoid with hormone-sensitive conditions.",
+      "refs": []
     },
     {
       "group": "surgery",
-      "note": "May slow blood clotting; stop two weeks before surgery."
+      "note": "May slow blood clotting; stop two weeks before surgery.",
+      "refs": []
     },
     {
       "group": "skin-use",
-      "note": "Can cause itchy skin rashes when taken by mouth."
+      "note": "Can cause itchy skin rashes when taken by mouth.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "thyroid",
       "effect": "May change thyroid hormone levels and the effect of thyroid medicines.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "anticoagulants",
       "effect": "May add to the effect of blood thinners.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "many-medicines",
       "effect": "May reduce absorption of some heart medicines such as propranolol and diltiazem.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Trials on cholesterol are conflicting; one well-run trial found no benefit and a small rise in LDL. Some small trials suggest help for knee osteoarthritis.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=guggulsterone%20Commiphora%20clinical%20trial"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=guggulsterone%20Commiphora%20clinical%20trial",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

@@ -23,7 +23,8 @@
       "vata",
       "pitta"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Traditionally used as a brain tonic (medhya)",
@@ -46,34 +47,36 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Not enough is known; avoid in pregnancy and while breastfeeding."
+      "note": "Not enough is known; avoid in pregnancy and while breastfeeding.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "anticonvulsants",
       "effect": "In studies it lowered phenytoin levels and seizure control; do not combine.",
-      "level": "avoid"
+      "level": "avoid",
+      "refs": []
     },
     {
       "drugClass": "sedatives",
       "effect": "May add to drowsiness.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "preclinical",
     "summary": "Mostly animal studies on memory and anxiety; very few small human studies.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Convolvulus%20pluricaulis"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Convolvulus%20pluricaulis",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

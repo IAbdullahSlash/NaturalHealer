@@ -23,7 +23,8 @@
       "kapha",
       "pitta"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Numbs local tooth pain",
@@ -47,33 +48,35 @@
   "cautions": [
     {
       "group": "children",
-      "note": "Clove oil can be poisonous to children, even in small amounts."
+      "note": "Clove oil can be poisonous to children, even in small amounts.",
+      "refs": []
     },
     {
       "group": "bleeding-disorder",
-      "note": "Eugenol may slow clotting."
+      "note": "Eugenol may slow clotting.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "anticoagulants",
       "effect": "Clove oil may add to the effect of blood thinners.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Eugenol, the main oil in clove, is used in dentistry as a local anaesthetic. Little other human research.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=clove%20eugenol%20dental%20pain"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=clove%20eugenol%20dental%20pain",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

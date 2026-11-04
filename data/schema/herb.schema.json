@@ -2,45 +2,196 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://natural-healer.vercel.app/dataset/schema/herb.schema.json",
   "title": "Herb entry",
-  "description": "One herb, spice, food or formulation in the Natural Healer knowledge base. Enumerated values must match src/data/knowledge/vocabulary.js; npm run data:build checks this.",
+  "description": "One herb, spice, food or formulation in the Natural Healer knowledge base. Enumerated values must match src/data/knowledge/vocabulary.js; npm run data:build checks this, and that every cited source exists in data/sources/.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "name", "hindi", "sanskrit", "english", "latin", "kind", "part", "properties", "actions", "traditionalUses", "kitchenUse", "typicalUse", "cautions", "interactions", "evidence", "sources", "review"],
+  "required": [
+    "id",
+    "name",
+    "hindi",
+    "sanskrit",
+    "english",
+    "latin",
+    "kind",
+    "part",
+    "properties",
+    "actions",
+    "traditionalUses",
+    "kitchenUse",
+    "typicalUse",
+    "cautions",
+    "interactions",
+    "evidence",
+    "sources",
+    "review"
+  ],
   "properties": {
-    "$schema": { "type": "string" },
-    "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$", "description": "Stable id, also the URL /herbs/<id> and the file name" },
-    "name": { "type": "string", "minLength": 2, "description": "Household name" },
-    "hindi": { "type": "string", "minLength": 1 },
-    "sanskrit": { "type": ["string", "null"] },
-    "english": { "type": "string", "minLength": 2 },
-    "latin": { "type": ["string", "null"], "description": "Botanical name; null for foods that are not a single plant (ghee, honey)" },
-    "kind": { "enum": ["herb", "spice", "food", "formulation"] },
-    "part": { "type": "string", "minLength": 2 },
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$",
+      "description": "Stable id, also the URL /herbs/<id> and the file name"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 2,
+      "description": "Household name"
+    },
+    "hindi": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sanskrit": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "english": {
+      "type": "string",
+      "minLength": 2
+    },
+    "latin": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Botanical name; null for foods that are not a single plant (ghee, honey)"
+    },
+    "kind": {
+      "enum": [
+        "herb",
+        "spice",
+        "food",
+        "formulation"
+      ]
+    },
+    "part": {
+      "type": "string",
+      "minLength": 2
+    },
     "properties": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["rasa", "guna", "virya", "vipaka", "pacifies", "aggravates"],
+      "required": [
+        "rasa",
+        "guna",
+        "virya",
+        "vipaka",
+        "pacifies",
+        "aggravates",
+        "refs"
+      ],
       "description": "Classical properties. Leave a field null or empty when sources disagree or you are unsure.",
       "properties": {
-        "rasa": { "type": ["array", "null"], "uniqueItems": true, "items": { "$ref": "#/$defs/rasa" } },
-        "guna": { "type": ["array", "null"], "uniqueItems": true, "items": { "$ref": "#/$defs/guna" } },
-        "virya": { "oneOf": [{ "$ref": "#/$defs/virya" }, { "type": "null" }] },
-        "vipaka": { "oneOf": [{ "$ref": "#/$defs/vipaka" }, { "type": "null" }] },
-        "pacifies": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/dosha" } },
-        "aggravates": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/dosha" } }
+        "rasa": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/rasa"
+          }
+        },
+        "guna": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/guna"
+          }
+        },
+        "virya": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/virya"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "vipaka": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/vipaka"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "pacifies": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/dosha"
+          }
+        },
+        "aggravates": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/dosha"
+          }
+        },
+        "refs": {
+          "$ref": "#/$defs/refs"
+        }
       }
     },
-    "actions": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 3 } },
-    "traditionalUses": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 3 } },
-    "kitchenUse": { "type": "string", "minLength": 10 },
+    "actions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 3
+      }
+    },
+    "traditionalUses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 3
+      }
+    },
+    "kitchenUse": {
+      "type": "string",
+      "minLength": 10
+    },
     "typicalUse": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["forms", "adultAmount", "note"],
+      "required": [
+        "forms",
+        "adultAmount",
+        "note"
+      ],
       "properties": {
-        "forms": { "type": "array", "minItems": 1, "items": { "type": "string" } },
-        "adultAmount": { "type": "string", "minLength": 3, "description": "Always for adults; never give amounts for children" },
-        "note": { "type": ["string", "null"] }
+        "forms": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "adultAmount": {
+          "type": "string",
+          "minLength": 3,
+          "description": "Always for adults; never give amounts for children"
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
       }
     },
     "cautions": {
@@ -48,10 +199,22 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["group", "note"],
+        "required": [
+          "group",
+          "note",
+          "refs"
+        ],
         "properties": {
-          "group": { "$ref": "#/$defs/cautionGroup" },
-          "note": { "type": "string", "minLength": 10 }
+          "group": {
+            "$ref": "#/$defs/cautionGroup"
+          },
+          "note": {
+            "type": "string",
+            "minLength": 10
+          },
+          "refs": {
+            "$ref": "#/$defs/refs"
+          }
         }
       }
     },
@@ -60,61 +223,239 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["drugClass", "effect", "level"],
+        "required": [
+          "drugClass",
+          "effect",
+          "level",
+          "refs"
+        ],
         "properties": {
-          "drugClass": { "$ref": "#/$defs/drugClass" },
-          "effect": { "type": "string", "minLength": 10 },
-          "level": { "enum": ["caution", "avoid"] }
+          "drugClass": {
+            "$ref": "#/$defs/drugClass"
+          },
+          "effect": {
+            "type": "string",
+            "minLength": 10
+          },
+          "level": {
+            "enum": [
+              "caution",
+              "avoid"
+            ]
+          },
+          "refs": {
+            "$ref": "#/$defs/refs"
+          }
         }
       }
     },
     "evidence": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["level", "summary", "pubmedQuery"],
+      "required": [
+        "level",
+        "summary",
+        "pubmedQuery",
+        "refs"
+      ],
       "properties": {
-        "level": { "$ref": "#/$defs/evidenceLevel" },
-        "summary": { "type": "string", "minLength": 20 },
-        "pubmedQuery": { "type": "string", "pattern": "^https://pubmed\\.ncbi\\.nlm\\.nih\\.gov/\\?term=" }
+        "level": {
+          "$ref": "#/$defs/evidenceLevel"
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 20
+        },
+        "pubmedQuery": {
+          "type": "string",
+          "pattern": "^https://pubmed\\.ncbi\\.nlm\\.nih\\.gov/\\?term="
+        },
+        "refs": {
+          "$ref": "#/$defs/refs"
+        }
       }
     },
     "sources": {
       "type": "array",
       "minItems": 1,
       "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": ["kind", "title"],
-        "properties": {
-          "kind": { "enum": ["classical", "pharmacopoeia", "safety", "research"] },
-          "title": { "type": "string", "minLength": 3 },
-          "detail": { "type": "string" },
-          "url": { "type": "string", "pattern": "^https://" }
-        }
-      }
+        "$ref": "#/$defs/ref"
+      },
+      "description": "General sources for the entry as a whole; claims carry their own refs"
     },
-    "review": { "$ref": "#/$defs/review" }
+    "review": {
+      "$ref": "#/$defs/review"
+    }
   },
   "$defs": {
-    "rasa": { "enum": ["madhura", "amla", "lavana", "katu", "tikta", "kashaya"] },
-    "guna": { "enum": ["laghu", "guru", "snigdha", "ruksha", "tikshna", "sukshma", "pichchhila"] },
-    "virya": { "enum": ["ushna", "shita"] },
-    "vipaka": { "enum": ["madhura", "amla", "katu"] },
-    "dosha": { "enum": ["vata", "pitta", "kapha"] },
-    "cautionGroup": { "enum": ["pregnancy", "breastfeeding", "infants", "children", "surgery", "bleeding-disorder", "diabetes", "hypertension", "heart", "cholesterol", "thyroid", "liver", "kidney", "gallstones", "gerd", "digestive-illness", "autoimmune", "hormone-sensitive", "allergy", "skin-infection", "skin-use", "asthma", "cancer"] },
-    "drugClass": { "enum": ["anticoagulants", "antidiabetics", "antihypertensives", "diuretics", "corticosteroids", "sedatives", "thyroid", "immunosuppressants", "heart-rhythm", "lithium", "antiretrovirals", "anticonvulsants", "many-medicines", "statins", "antidepressants"] },
-    "evidenceLevel": { "enum": ["traditional", "preclinical", "limited-human", "moderate-human"] },
+    "rasa": {
+      "enum": [
+        "madhura",
+        "amla",
+        "lavana",
+        "katu",
+        "tikta",
+        "kashaya"
+      ]
+    },
+    "guna": {
+      "enum": [
+        "laghu",
+        "guru",
+        "snigdha",
+        "ruksha",
+        "tikshna",
+        "sukshma",
+        "pichchhila"
+      ]
+    },
+    "virya": {
+      "enum": [
+        "ushna",
+        "shita"
+      ]
+    },
+    "vipaka": {
+      "enum": [
+        "madhura",
+        "amla",
+        "katu"
+      ]
+    },
+    "dosha": {
+      "enum": [
+        "vata",
+        "pitta",
+        "kapha"
+      ]
+    },
+    "cautionGroup": {
+      "enum": [
+        "pregnancy",
+        "breastfeeding",
+        "infants",
+        "children",
+        "surgery",
+        "bleeding-disorder",
+        "diabetes",
+        "hypertension",
+        "heart",
+        "cholesterol",
+        "thyroid",
+        "liver",
+        "kidney",
+        "gallstones",
+        "gerd",
+        "digestive-illness",
+        "autoimmune",
+        "hormone-sensitive",
+        "allergy",
+        "skin-infection",
+        "skin-use",
+        "asthma",
+        "cancer"
+      ]
+    },
+    "drugClass": {
+      "enum": [
+        "anticoagulants",
+        "antidiabetics",
+        "antihypertensives",
+        "diuretics",
+        "corticosteroids",
+        "sedatives",
+        "thyroid",
+        "immunosuppressants",
+        "heart-rhythm",
+        "lithium",
+        "antiretrovirals",
+        "anticonvulsants",
+        "many-medicines",
+        "statins",
+        "antidepressants"
+      ]
+    },
+    "evidenceLevel": {
+      "enum": [
+        "traditional",
+        "preclinical",
+        "limited-human",
+        "moderate-human"
+      ]
+    },
     "review": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["status", "reviewer", "reviewedAt"],
+      "required": [
+        "status",
+        "reviewer",
+        "reviewedAt"
+      ],
       "properties": {
-        "status": { "enum": ["draft", "reviewed"] },
-        "reviewer": { "type": ["string", "null"] },
-        "reviewedAt": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+        "status": {
+          "enum": [
+            "draft",
+            "reviewed"
+          ]
+        },
+        "reviewer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewedAt": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        }
       },
-      "if": { "properties": { "status": { "const": "reviewed" } } },
-      "then": { "properties": { "reviewer": { "type": "string", "minLength": 3 }, "reviewedAt": { "type": "string" } } }
+      "if": {
+        "properties": {
+          "status": {
+            "const": "reviewed"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "reviewer": {
+            "type": "string",
+            "minLength": 3
+          },
+          "reviewedAt": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source"
+      ],
+      "description": "A citation: a source id from data/sources/, and where in it",
+      "properties": {
+        "source": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$"
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 2,
+          "description": "Page, section, verse or heading, for example 'Vol. 1, p. 82' or 'Safety'"
+        }
+      }
+    },
+    "refs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ref"
+      },
+      "description": "Sources that support this claim"
     }
   }
 }

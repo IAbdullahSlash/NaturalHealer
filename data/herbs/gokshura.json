@@ -24,7 +24,8 @@
     ],
     "aggravates": [
       "kapha"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Diuretic in tradition",
@@ -46,42 +47,46 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Animal studies raise concern for the developing baby; avoid in pregnancy and while breastfeeding."
+      "note": "Animal studies raise concern for the developing baby; avoid in pregnancy and while breastfeeding.",
+      "refs": []
     },
     {
       "group": "hormone-sensitive",
-      "note": "Sold to raise hormones; avoid with hormone-sensitive conditions."
+      "note": "Sold to raise hormones; avoid with hormone-sensitive conditions.",
+      "refs": []
     },
     {
       "group": "diabetes",
-      "note": "May lower blood sugar."
+      "note": "May lower blood sugar.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "antidiabetics",
       "effect": "May lower blood sugar further.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "lithium",
       "effect": "Diuretic herbs can raise lithium to harmful levels.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Small trials on sexual function and hormones give mixed results; not established.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Tribulus%20terrestris%20randomized"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Tribulus%20terrestris%20randomized",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

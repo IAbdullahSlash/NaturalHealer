@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://natural-healer.vercel.app/dataset/schema/source.schema.json",
+  "title": "Source",
+  "description": "One reference in the source registry (data/sources/<id>.json). Entries cite sources by id, with an optional locator such as a page, section or verse.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "kind", "title", "publisher", "url", "updated", "accessed", "pmid", "doi", "year", "licence", "notes"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$", "description": "Stable id, also the file name" },
+    "kind": {
+      "enum": ["classical", "pharmacopoeia", "safety", "paper", "database", "search"],
+      "description": "classical: Ayurvedic texts. pharmacopoeia: official standards. safety: government safety monographs and drug labels. paper: a peer-reviewed article (needs a PMID or DOI). database: reference databases. search: a search link, which never counts as support for a claim."
+    },
+    "title": { "type": "string", "minLength": 3 },
+    "publisher": { "type": ["string", "null"] },
+    "url": { "type": ["string", "null"], "pattern": "^https://" },
+    "updated": { "type": ["string", "null"], "description": "Version or 'last updated' date as the publisher states it, for example 'February 2025'. Checked weekly for NIH fact sheets." },
+    "accessed": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "When we last read the source to check our entries against it" },
+    "pmid": { "type": ["string", "null"], "pattern": "^[1-9][0-9]{0,8}$" },
+    "doi": { "type": ["string", "null"], "pattern": "^10\\.\\d{4,9}/\\S+$" },
+    "year": { "type": ["integer", "null"], "minimum": 1000, "maximum": 2100 },
+    "licence": { "type": ["string", "null"] },
+    "notes": { "type": ["string", "null"] }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "kind": { "const": "paper" } } },
+      "then": { "anyOf": [{ "properties": { "pmid": { "type": "string" } } }, { "properties": { "doi": { "type": "string" } } }] }
+    },
+    {
+      "if": { "properties": { "kind": { "enum": ["safety", "database", "search"] } } },
+      "then": { "properties": { "url": { "type": "string" } } }
+    }
+  ]
+}

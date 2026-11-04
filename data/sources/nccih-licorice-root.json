@@ -1,0 +1,15 @@
+{
+  "$schema": "../schema/source.schema.json",
+  "id": "nccih-licorice-root",
+  "kind": "safety",
+  "title": "Licorice Root: Usefulness and Safety",
+  "publisher": "National Center for Complementary and Integrative Health (NIH)",
+  "url": "https://www.nccih.nih.gov/health/licorice-root",
+  "updated": "April 2025",
+  "accessed": "2026-10-23",
+  "pmid": null,
+  "doi": null,
+  "year": null,
+  "licence": "Public domain (US government work)",
+  "notes": null
+}

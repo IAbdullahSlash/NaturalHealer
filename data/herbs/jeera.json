@@ -22,7 +22,8 @@
       "kapha",
       "vata"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Kindles digestion (deepana)",
@@ -47,33 +48,35 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Culinary amounts are fine; avoid concentrated preparations."
+      "note": "Culinary amounts are fine; avoid concentrated preparations.",
+      "refs": []
     },
     {
       "group": "surgery",
-      "note": "Stop concentrated use two weeks before surgery (possible effect on blood sugar and clotting)."
+      "note": "Stop concentrated use two weeks before surgery (possible effect on blood sugar and clotting).",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "antidiabetics",
       "effect": "May lower blood sugar further in large amounts.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Small human studies suggest help with bloating and digestive comfort. Most other evidence is from laboratory studies.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Cuminum%20cyminum%20clinical%20trial"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Cuminum%20cyminum%20clinical%20trial",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

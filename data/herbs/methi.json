@@ -25,7 +25,8 @@
     ],
     "aggravates": [
       "pitta"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Kindles digestion",
@@ -50,61 +51,62 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Not safe in pregnancy in amounts above those in food; its use has been linked to birth defects."
+      "note": "Not safe in pregnancy in amounts above those in food; its use has been linked to birth defects.",
+      "refs": []
     },
     {
       "group": "breastfeeding",
-      "note": "Little is known about amounts above those in food while breastfeeding."
+      "note": "Little is known about amounts above those in food while breastfeeding.",
+      "refs": []
     },
     {
       "group": "children",
-      "note": "Food amounts are considered safe; larger amounts have not been shown to be safe for children."
+      "note": "Food amounts are considered safe; larger amounts have not been shown to be safe for children.",
+      "refs": []
     },
     {
       "group": "allergy",
-      "note": "Can cause allergic reactions, sometimes serious, and may cross-react with peanut or chickpea allergy."
+      "note": "Can cause allergic reactions, sometimes serious, and may cross-react with peanut or chickpea allergy.",
+      "refs": []
     },
     {
       "group": "diabetes",
-      "note": "Large amounts can lower blood sugar too far; monitor if you have diabetes."
+      "note": "Large amounts can lower blood sugar too far; monitor if you have diabetes.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "antidiabetics",
       "effect": "May lower blood sugar further; monitor closely.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "anticoagulants",
       "effect": "May add to the effect of blood thinners.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Studies suggest fenugreek may lower blood sugar in type 2 diabetes, but many were not of high quality. Its effect on breast milk supply is uncertain.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=fenugreek%20glycemic%20control%20randomized"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=fenugreek%20glycemic%20control%20randomized",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     },
     {
-      "kind": "safety",
-      "title": "NCCIH: Fenugreek: Usefulness and Safety",
-      "detail": "Last updated February 2025",
-      "url": "https://www.nccih.nih.gov/health/fenugreek"
+      "source": "nccih-fenugreek"
     },
     {
-      "kind": "safety",
-      "title": "LiverTox (NIH): Fenugreek",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK548826/"
+      "source": "livertox-fenugreek"
     }
   ],
   "review": {

@@ -17,7 +17,9 @@
     "kb:compounds": "node scripts/kb/duke.mjs",
     "data:build": "node scripts/data/build.mjs",
     "data:check": "node scripts/data/build.mjs --check",
-    "data:export": "node scripts/data/export.mjs"
+    "data:export": "node scripts/data/export.mjs",
+    "data:refs": "node scripts/data/refs-report.mjs",
+    "data:sources": "node scripts/data/check-sources.mjs"
   },
   "dependencies": {
     "@google-cloud/firestore": "^9.4.0",

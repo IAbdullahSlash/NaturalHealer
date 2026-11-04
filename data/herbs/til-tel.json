@@ -26,7 +26,8 @@
     ],
     "aggravates": [
       "pitta"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Warming oil for massage (abhyanga)",
@@ -49,24 +50,26 @@
   "cautions": [
     {
       "group": "allergy",
-      "note": "Avoid with sesame allergy."
+      "note": "Avoid with sesame allergy.",
+      "refs": []
     },
     {
       "group": "skin-infection",
-      "note": "Do not massage over broken or infected skin."
+      "note": "Do not massage over broken or infected skin.",
+      "refs": []
     }
   ],
   "interactions": [],
   "evidence": {
     "level": "traditional",
     "summary": "Mainly traditional use; small studies on oil pulling and oral health.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=sesame%20oil%20pulling"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=sesame%20oil%20pulling",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu",
-      "detail": "Taila varga"
+      "source": "bhavaprakasha-nighantu",
+      "locator": "Taila varga"
     }
   ],
   "review": {

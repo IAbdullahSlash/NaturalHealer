@@ -27,7 +27,8 @@
     ],
     "aggravates": [
       "pitta"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Warming digestive",
@@ -52,48 +53,46 @@
   "cautions": [
     {
       "group": "liver",
-      "note": "Large daily amounts of cassia cinnamon contain coumarin, which can harm the liver."
+      "note": "Large daily amounts of cassia cinnamon contain coumarin, which can harm the liver.",
+      "refs": []
     },
     {
       "group": "pregnancy",
-      "note": "Food amounts appear safe; larger amounts of Ceylon cinnamon are considered unsafe in pregnancy."
+      "note": "Food amounts appear safe; larger amounts of Ceylon cinnamon are considered unsafe in pregnancy.",
+      "refs": []
     },
     {
       "group": "skin-use",
-      "note": "Cinnamon oil or powder on the skin can cause irritation."
+      "note": "Cinnamon oil or powder on the skin can cause irritation.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "antidiabetics",
       "effect": "May lower blood sugar further.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Research does not clearly support cinnamon for any health condition; results on blood sugar are mixed.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=cinnamon%20glycemic%20control%20meta-analysis"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=cinnamon%20glycemic%20control%20meta-analysis",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     },
     {
-      "kind": "safety",
-      "title": "NCCIH: Cinnamon: Usefulness and Safety",
-      "detail": "Last updated November 2024",
-      "url": "https://www.nccih.nih.gov/health/cinnamon"
+      "source": "nccih-cinnamon"
     },
     {
-      "kind": "safety",
-      "title": "LiverTox (NIH): Cinnamon",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK623885/"
+      "source": "livertox-cinnamon"
     }
   ],
   "review": {

@@ -27,7 +27,8 @@
       "vata",
       "kapha"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Rejuvenative (rasayana)",
@@ -53,38 +54,41 @@
   "cautions": [
     {
       "group": "bleeding-disorder",
-      "note": "Use medicinal amounts carefully with bleeding disorders."
+      "note": "Use medicinal amounts carefully with bleeding disorders.",
+      "refs": []
     },
     {
       "group": "surgery",
-      "note": "Stop concentrated use two weeks before surgery."
+      "note": "Stop concentrated use two weeks before surgery.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "anticoagulants",
       "effect": "May add to the effect of blood thinners in large amounts.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "antidiabetics",
       "effect": "May lower blood sugar further.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Small human trials on cholesterol, blood sugar and digestion. Not established as a treatment.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Phyllanthus%20emblica%20clinical%20trial"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Phyllanthus%20emblica%20clinical%20trial",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

@@ -26,7 +26,8 @@
     ],
     "aggravates": [
       "pitta"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Nourishing leafy green",
@@ -50,39 +51,44 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "The root, bark and flowers may cause contractions; avoid them in pregnancy. The cooked leaves and pods are eaten as food."
+      "note": "The root, bark and flowers may cause contractions; avoid them in pregnancy. The cooked leaves and pods are eaten as food.",
+      "refs": []
     },
     {
       "group": "diabetes",
-      "note": "May lower blood sugar; check levels if you take diabetes medicines."
+      "note": "May lower blood sugar; check levels if you take diabetes medicines.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "antidiabetics",
       "effect": "May lower blood sugar further.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "antihypertensives",
       "effect": "May lower blood pressure further.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "thyroid",
       "effect": "May change how levothyroxine is absorbed; take them apart.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "A nutritious food; small human studies on blood sugar are inconclusive.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Moringa%20oleifera%20randomized%20controlled%20trial"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Moringa%20oleifera%20randomized%20controlled%20trial",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     }
   ],
   "review": {

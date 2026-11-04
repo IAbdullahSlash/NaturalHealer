@@ -22,7 +22,8 @@
     "pacifies": [
       "kapha"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Soothes cough",
@@ -44,24 +45,26 @@
   "cautions": [
     {
       "group": "infants",
-      "note": "Never give honey to babies under 1 year old (risk of infant botulism)."
+      "note": "Never give honey to babies under 1 year old (risk of infant botulism).",
+      "refs": []
     },
     {
       "group": "diabetes",
-      "note": "Honey is sugar; count it in a diabetic diet."
+      "note": "Honey is sugar; count it in a diabetic diet.",
+      "refs": []
     }
   ],
   "interactions": [],
   "evidence": {
     "level": "moderate-human",
     "summary": "Reviews suggest honey can ease cough in children over 1 year at least as well as some common cough remedies.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=honey%20cough%20children%20systematic%20review"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=honey%20cough%20children%20systematic%20review",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu",
-      "detail": "Madhu varga"
+      "source": "bhavaprakasha-nighantu",
+      "locator": "Madhu varga"
     }
   ],
   "review": {

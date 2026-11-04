@@ -26,7 +26,8 @@
     ],
     "aggravates": [
       "pitta"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Kindles digestion",
@@ -51,47 +52,52 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Amounts above those in food are not advised in pregnancy."
+      "note": "Amounts above those in food are not advised in pregnancy.",
+      "refs": []
     },
     {
       "group": "surgery",
-      "note": "May slow blood clotting and lower blood sugar; stop medicinal amounts two weeks before surgery."
+      "note": "May slow blood clotting and lower blood sugar; stop medicinal amounts two weeks before surgery.",
+      "refs": []
     },
     {
       "group": "skin-use",
-      "note": "The oil can cause allergic skin rashes; test on a small area first."
+      "note": "The oil can cause allergic skin rashes; test on a small area first.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "antidiabetics",
       "effect": "May lower blood sugar further.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "antihypertensives",
       "effect": "May lower blood pressure further.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "anticoagulants",
       "effect": "May add to the effect of blood thinners.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Small human trials suggest modest effects on blood sugar, cholesterol and blood pressure; most were short and of mixed quality.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Nigella%20sativa%20randomized%20controlled%20trial"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Nigella%20sativa%20randomized%20controlled%20trial",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

@@ -26,7 +26,8 @@
       "pitta",
       "kapha"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Kindles digestion without heating",
@@ -51,23 +52,23 @@
   "cautions": [
     {
       "group": "allergy",
-      "note": "Coriander can cause allergic reactions, including in people allergic to related plants such as celery or fennel."
+      "note": "Coriander can cause allergic reactions, including in people allergic to related plants such as celery or fennel.",
+      "refs": []
     }
   ],
   "interactions": [],
   "evidence": {
     "level": "preclinical",
     "summary": "Mostly laboratory and animal studies on digestion and blood sugar; little research in people.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Coriandrum%20sativum%20clinical"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Coriandrum%20sativum%20clinical",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

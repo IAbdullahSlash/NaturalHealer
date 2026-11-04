@@ -24,7 +24,8 @@
       "vata",
       "pitta"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Relieves gas and bloating (anulomana)",
@@ -48,31 +49,33 @@
   "cautions": [
     {
       "group": "children",
-      "note": "Do not give fennel oil or concentrated fennel preparations to babies."
+      "note": "Do not give fennel oil or concentrated fennel preparations to babies.",
+      "refs": []
     },
     {
       "group": "hormone-sensitive",
-      "note": "Contains mildly estrogen-like compounds; avoid concentrated use with hormone-sensitive conditions."
+      "note": "Contains mildly estrogen-like compounds; avoid concentrated use with hormone-sensitive conditions.",
+      "refs": []
     },
     {
       "group": "pregnancy",
-      "note": "Culinary amounts are fine; avoid concentrated preparations."
+      "note": "Culinary amounts are fine; avoid concentrated preparations.",
+      "refs": []
     }
   ],
   "interactions": [],
   "evidence": {
     "level": "limited-human",
     "summary": "A few small human studies on bloating and menstrual cramps. Not established as a treatment.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Foeniculum%20vulgare%20clinical%20trial"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Foeniculum%20vulgare%20clinical%20trial",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

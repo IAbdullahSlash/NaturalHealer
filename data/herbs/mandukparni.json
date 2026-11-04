@@ -23,7 +23,8 @@
       "kapha",
       "pitta"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Traditionally used as a brain tonic (medhya)",
@@ -47,42 +48,43 @@
   "cautions": [
     {
       "group": "liver",
-      "note": "Rare cases of liver injury have been reported, usually resolving after stopping."
+      "note": "Rare cases of liver injury have been reported, usually resolving after stopping.",
+      "refs": []
     },
     {
       "group": "pregnancy",
-      "note": "Not enough is known; avoid medicinal amounts in pregnancy and while breastfeeding."
+      "note": "Not enough is known; avoid medicinal amounts in pregnancy and while breastfeeding.",
+      "refs": []
     },
     {
       "group": "skin-use",
-      "note": "Can cause allergic skin rashes when applied."
+      "note": "Can cause allergic skin rashes when applied.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "sedatives",
       "effect": "May add to drowsiness.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Some trials suggest it may help leg vein problems and wound healing; evidence for memory is weak.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Centella%20asiatica%20randomized"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Centella%20asiatica%20randomized",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     },
     {
-      "kind": "safety",
-      "title": "LiverTox (NIH): Centella asiatica",
-      "url": "https://www.ncbi.nlm.nih.gov/books/n/livertox/Centella/"
+      "source": "livertox-centella-asiatica"
     }
   ],
   "review": {

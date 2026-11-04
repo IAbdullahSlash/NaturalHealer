@@ -23,7 +23,8 @@
       "pitta",
       "kapha"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Uplifting in tradition",
@@ -46,34 +47,38 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Food amounts are fine, but larger amounts can stimulate the uterus and should be avoided in pregnancy."
+      "note": "Food amounts are fine, but larger amounts can stimulate the uterus and should be avoided in pregnancy.",
+      "refs": []
     },
     {
       "group": "allergy",
-      "note": "Rare allergic reactions are reported."
+      "note": "Rare allergic reactions are reported.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "antihypertensives",
       "effect": "Medicinal amounts may lower blood pressure further.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "antidepressants",
       "effect": "Studied for low mood; do not combine medicinal amounts with antidepressants without your doctor.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Several small trials suggest saffron extracts may help mild to moderate low mood, but most were short and small.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=saffron%20Crocus%20sativus%20depression%20randomized"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=saffron%20Crocus%20sativus%20depression%20randomized",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     }
   ],
   "review": {

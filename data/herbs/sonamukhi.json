@@ -24,7 +24,8 @@
       "kapha",
       "vata"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Strong stimulant laxative"
@@ -45,61 +46,68 @@
   "cautions": [
     {
       "group": "digestive-illness",
-      "note": "Never use with stomach pain of unknown cause, blocked bowel, appendicitis or inflammatory bowel disease. Long use causes dependence and loss of potassium."
+      "note": "Never use with stomach pain of unknown cause, blocked bowel, appendicitis or inflammatory bowel disease. Long use causes dependence and loss of potassium.",
+      "refs": []
     },
     {
       "group": "children",
-      "note": "Do not give to children without a doctor's advice."
+      "note": "Do not give to children without a doctor's advice.",
+      "refs": []
     },
     {
       "group": "pregnancy",
-      "note": "Use in pregnancy or while breastfeeding only if your doctor advises."
+      "note": "Use in pregnancy or while breastfeeding only if your doctor advises.",
+      "refs": []
     },
     {
       "group": "liver",
-      "note": "High doses taken for a long time have caused liver injury."
+      "note": "High doses taken for a long time have caused liver injury.",
+      "refs": []
     },
     {
       "group": "heart",
-      "note": "Potassium loss from overuse can upset the heart rhythm."
+      "note": "Potassium loss from overuse can upset the heart rhythm.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "diuretics",
       "effect": "Together they can lower potassium too far.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "corticosteroids",
       "effect": "Together they can lower potassium too far.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "heart-rhythm",
       "effect": "Low potassium from senna increases the risk of side effects from digoxin.",
-      "level": "avoid"
+      "level": "avoid",
+      "refs": []
     },
     {
       "drugClass": "anticoagulants",
       "effect": "Diarrhoea from senna can change the effect of warfarin.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "moderate-human",
     "summary": "An established laxative for short-term constipation, available as a standard over-the-counter medicine.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=senna%20constipation%20randomized"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=senna%20constipation%20randomized",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "safety",
-      "title": "LiverTox (NIH): Senna",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547922/"
+      "source": "livertox-senna"
     }
   ],
   "review": {

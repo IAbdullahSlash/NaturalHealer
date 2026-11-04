@@ -1,0 +1,15 @@
+{
+  "$schema": "../schema/source.schema.json",
+  "id": "nccih-cinnamon",
+  "kind": "safety",
+  "title": "Cinnamon: Usefulness and Safety",
+  "publisher": "National Center for Complementary and Integrative Health (NIH)",
+  "url": "https://www.nccih.nih.gov/health/cinnamon",
+  "updated": "November 2024",
+  "accessed": "2026-10-23",
+  "pmid": null,
+  "doi": null,
+  "year": null,
+  "licence": "Public domain (US government work)",
+  "notes": null
+}

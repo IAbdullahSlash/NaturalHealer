@@ -21,7 +21,8 @@
     ],
     "aggravates": [
       "pitta"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Appetising and refreshing",
@@ -46,23 +47,25 @@
   "cautions": [
     {
       "group": "gerd",
-      "note": "Its acid can worsen reflux, ulcers and sensitive teeth; rinse with water after sipping."
+      "note": "Its acid can worsen reflux, ulcers and sensitive teeth; rinse with water after sipping.",
+      "refs": []
     },
     {
       "group": "skin-use",
-      "note": "Lemon juice on the skin followed by sun can cause burns and dark patches (phytophotodermatitis)."
+      "note": "Lemon juice on the skin followed by sun can cause burns and dark patches (phytophotodermatitis).",
+      "refs": []
     }
   ],
   "interactions": [],
   "evidence": {
     "level": "traditional",
     "summary": "A food with traditional household uses; little research on it as a remedy.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Citrus%20limon%20juice%20clinical"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Citrus%20limon%20juice%20clinical",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     }
   ],
   "review": {

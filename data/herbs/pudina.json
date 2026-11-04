@@ -24,7 +24,8 @@
     ],
     "aggravates": [
       "pitta"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Eases bloating and gas",
@@ -49,33 +50,33 @@
   "cautions": [
     {
       "group": "gerd",
-      "note": "Mint can relax the valve at the top of the stomach and make acid reflux worse."
+      "note": "Mint can relax the valve at the top of the stomach and make acid reflux worse.",
+      "refs": []
     },
     {
       "group": "infants",
-      "note": "Never put mint or peppermint oil on or near a baby's or small child's face; menthol can affect their breathing."
+      "note": "Never put mint or peppermint oil on or near a baby's or small child's face; menthol can affect their breathing.",
+      "refs": []
     },
     {
       "group": "allergy",
-      "note": "Avoid if mint has caused an allergic reaction before."
+      "note": "Avoid if mint has caused an allergic reaction before.",
+      "refs": []
     }
   ],
   "interactions": [],
   "evidence": {
     "level": "limited-human",
     "summary": "Peppermint oil capsules have reasonable evidence for easing irritable bowel symptoms; evidence for mint leaf tea is limited.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=peppermint%20oil%20irritable%20bowel%20syndrome%20randomized"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=peppermint%20oil%20irritable%20bowel%20syndrome%20randomized",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "safety",
-      "title": "NCCIH: Peppermint Oil: Usefulness and Safety",
-      "detail": "Last updated May 2025",
-      "url": "https://www.nccih.nih.gov/health/peppermint-oil"
+      "source": "nccih-peppermint-oil"
     }
   ],
   "review": {

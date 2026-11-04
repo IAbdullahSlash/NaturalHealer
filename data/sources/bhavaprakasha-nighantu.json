@@ -1,0 +1,15 @@
+{
+  "$schema": "../schema/source.schema.json",
+  "id": "bhavaprakasha-nighantu",
+  "kind": "classical",
+  "title": "Bhavaprakasha Nighantu",
+  "publisher": null,
+  "url": null,
+  "updated": null,
+  "accessed": null,
+  "pmid": null,
+  "doi": null,
+  "year": null,
+  "licence": null,
+  "notes": "Cite the varga (section) and verse in the locator once checked in the text."
+}

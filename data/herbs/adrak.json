@@ -24,7 +24,8 @@
     ],
     "aggravates": [
       "pitta"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Kindles digestion (deepana)",
@@ -51,57 +52,57 @@
   "cautions": [
     {
       "group": "gerd",
-      "note": "Large amounts can worsen heartburn and acidity."
+      "note": "Large amounts can worsen heartburn and acidity.",
+      "refs": []
     },
     {
       "group": "bleeding-disorder",
-      "note": "Use medicinal amounts carefully with bleeding disorders."
+      "note": "Use medicinal amounts carefully with bleeding disorders.",
+      "refs": []
     },
     {
       "group": "pregnancy",
-      "note": "Small amounts are widely used for morning sickness; check with a doctor before regular use."
+      "note": "Small amounts are widely used for morning sickness; check with a doctor before regular use.",
+      "refs": []
     },
     {
       "group": "breastfeeding",
-      "note": "Little is known about ginger supplements while breastfeeding; keep to food amounts."
+      "note": "Little is known about ginger supplements while breastfeeding; keep to food amounts.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "anticoagulants",
       "effect": "High amounts may add to the effect of blood thinners.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "antidiabetics",
       "effect": "May lower blood sugar slightly.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "moderate-human",
     "summary": "Human research supports ginger for nausea and vomiting in pregnancy, and it may ease menstrual cramps. It has mostly not helped motion sickness, and evidence for other uses is weaker.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=ginger%20nausea%20randomized%20controlled%20trial"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=ginger%20nausea%20randomized%20controlled%20trial",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     },
     {
-      "kind": "safety",
-      "title": "NCCIH: Ginger: Usefulness and Safety",
-      "detail": "Last updated February 2025",
-      "url": "https://www.nccih.nih.gov/health/ginger"
+      "source": "nccih-ginger"
     },
     {
-      "kind": "safety",
-      "title": "LiverTox (NIH): Ginger",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK600585/"
+      "source": "livertox-ginger"
     }
   ],
   "review": {

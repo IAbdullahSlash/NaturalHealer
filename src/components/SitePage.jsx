@@ -84,6 +84,8 @@ const DATA_FILES = [
   { path: 'herb-interactions.csv', title: 'Medicine interactions', note: 'Medicine classes each herb interacts with' },
   { path: 'conditions.csv', title: 'Conditions', note: 'Severity, duration, ICD-11 code and when to see a doctor' },
   { path: 'remedies.csv', title: 'Remedies', note: 'Home remedies for each condition' },
+  { path: 'references.csv', title: 'References', note: 'Every source cited, with links, dates and paper identifiers' },
+  { path: 'claim-references.csv', title: 'Claim references', note: 'Which source supports which caution, interaction or evidence summary' },
   { path: 'botany.csv', title: 'Botany', note: "Kew-accepted names and synonyms (CC BY 4.0, Royal Botanic Gardens, Kew)" },
   { path: 'regional-names.csv', title: 'Regional names', note: 'Names in Indian languages (Wikidata, CC0)' },
   { path: 'plant-chemistry.json', title: 'Plant chemistry', note: "Recorded compounds (Dr. Duke's databases, USDA, CC0)" },

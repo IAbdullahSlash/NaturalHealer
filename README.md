@@ -65,6 +65,8 @@ Use `npm run dev:api` instead to run against real Firestore and Firebase Auth.
 | `npm run build` | Production build of the site |
 | `npm run data:build` | Validate `data/` against its schemas and regenerate the modules the site uses |
 | `npm run data:check` | Validate and fail if the generated modules are out of date (runs in CI) |
+| `npm run data:refs` | Report claims without sources; `-- --check` fails if gaps grow (runs in CI) |
+| `npm run data:sources` | Check every cited link, NIH fact-sheet date and paper against the live web (runs weekly) |
 | `npm run data:export` | Write the public dataset to `dataset-export/` (it is also published at `/data/` on every build) |
 | `npm run kb:enrich` | Refresh botanical names and Indian-language names from Kew and Wikidata |
 | `npm run kb:compounds` | Refresh plant chemistry from Dr. Duke's databases (USDA, CC0); run after `kb:enrich` |

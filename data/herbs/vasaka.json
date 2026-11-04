@@ -25,7 +25,8 @@
     ],
     "aggravates": [
       "vata"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Loosens phlegm (expectorant) in tradition",
@@ -48,27 +49,28 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Avoid in pregnancy; it has traditionally been used to bring on contractions."
+      "note": "Avoid in pregnancy; it has traditionally been used to bring on contractions.",
+      "refs": []
     },
     {
       "group": "breastfeeding",
-      "note": "Not enough is known; avoid while breastfeeding."
+      "note": "Not enough is known; avoid while breastfeeding.",
+      "refs": []
     }
   ],
   "interactions": [],
   "evidence": {
     "level": "preclinical",
     "summary": "Laboratory and animal studies; small human studies of its alkaloids. The herb itself is little studied in people.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Adhatoda%20vasica"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Adhatoda%20vasica",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

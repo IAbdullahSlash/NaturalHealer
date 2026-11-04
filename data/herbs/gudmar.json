@@ -23,7 +23,8 @@
       "kapha",
       "vata"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Blunts the taste of sugar when chewed",
@@ -45,41 +46,45 @@
   "cautions": [
     {
       "group": "diabetes",
-      "note": "Can lower blood sugar; check levels closely and tell your doctor if you take it."
+      "note": "Can lower blood sugar; check levels closely and tell your doctor if you take it.",
+      "refs": []
     },
     {
       "group": "pregnancy",
-      "note": "Not enough is known; avoid in pregnancy and while breastfeeding."
+      "note": "Not enough is known; avoid in pregnancy and while breastfeeding.",
+      "refs": []
     },
     {
       "group": "surgery",
-      "note": "May affect blood sugar control around surgery; stop two weeks before."
+      "note": "May affect blood sugar control around surgery; stop two weeks before.",
+      "refs": []
     },
     {
       "group": "liver",
-      "note": "Rare cases of liver injury have been reported with gymnema products."
+      "note": "Rare cases of liver injury have been reported with gymnema products.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "antidiabetics",
       "effect": "May lower blood sugar too far when combined with diabetes medicines.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Small, mostly older trials suggest modest drops in blood sugar; better trials are needed.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Gymnema%20sylvestre%20diabetes%20clinical%20trial"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Gymnema%20sylvestre%20diabetes%20clinical%20trial",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

@@ -24,7 +24,8 @@
     ],
     "aggravates": [
       "vata"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Very bitter",
@@ -48,51 +49,57 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Avoid in pregnancy; it may cause miscarriage. Also avoid while breastfeeding."
+      "note": "Avoid in pregnancy; it may cause miscarriage. Also avoid while breastfeeding.",
+      "refs": []
     },
     {
       "group": "allergy",
-      "note": "Serious allergic reactions, including anaphylaxis, have been reported."
+      "note": "Serious allergic reactions, including anaphylaxis, have been reported.",
+      "refs": []
     },
     {
       "group": "autoimmune",
-      "note": "It may stimulate the immune system; avoid with autoimmune conditions."
+      "note": "It may stimulate the immune system; avoid with autoimmune conditions.",
+      "refs": []
     },
     {
       "group": "surgery",
-      "note": "May slow blood clotting; stop two weeks before surgery."
+      "note": "May slow blood clotting; stop two weeks before surgery.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "immunosuppressants",
       "effect": "May work against immune-suppressing medicines.",
-      "level": "avoid"
+      "level": "avoid",
+      "refs": []
     },
     {
       "drugClass": "anticoagulants",
       "effect": "May add to the effect of blood thinners.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "antihypertensives",
       "effect": "May lower blood pressure further.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Several trials suggest andrographis may ease cold and sore throat symptoms, but many were small or of uncertain quality.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Andrographis%20paniculata%20respiratory%20tract%20infection%20systematic%20review"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Andrographis%20paniculata%20respiratory%20tract%20infection%20systematic%20review",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

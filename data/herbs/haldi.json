@@ -23,7 +23,8 @@
       "kapha",
       "vata"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Anti-inflammatory",
@@ -49,61 +50,62 @@
   "cautions": [
     {
       "group": "gallstones",
-      "note": "Avoid medicinal amounts with gallstones or bile duct obstruction."
+      "note": "Avoid medicinal amounts with gallstones or bile duct obstruction.",
+      "refs": []
     },
     {
       "group": "surgery",
-      "note": "Stop supplements two weeks before surgery."
+      "note": "Stop supplements two weeks before surgery.",
+      "refs": []
     },
     {
       "group": "liver",
-      "note": "Liver injury has been reported with turmeric and curcumin supplements, especially products made to be highly absorbed. Stop and see a doctor if you notice tiredness, nausea, poor appetite, dark urine or yellowing of the skin or eyes."
+      "note": "Liver injury has been reported with turmeric and curcumin supplements, especially products made to be highly absorbed. Stop and see a doctor if you notice tiredness, nausea, poor appetite, dark urine or yellowing of the skin or eyes.",
+      "refs": []
     },
     {
       "group": "pregnancy",
-      "note": "Culinary amounts are fine; turmeric supplements may be unsafe in pregnancy."
+      "note": "Culinary amounts are fine; turmeric supplements may be unsafe in pregnancy.",
+      "refs": []
     },
     {
       "group": "breastfeeding",
-      "note": "Little is known about amounts above those in food while breastfeeding; keep to culinary use."
+      "note": "Little is known about amounts above those in food while breastfeeding; keep to culinary use.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "anticoagulants",
       "effect": "Supplements may increase bleeding risk with blood thinners.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "antidiabetics",
       "effect": "May lower blood sugar further.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Many human trials, especially for knee osteoarthritis pain, look promising, but higher-quality studies are needed before firm conclusions. Absorption from plain turmeric is low.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=curcumin%20randomized%20controlled%20trial%20osteoarthritis"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=curcumin%20randomized%20controlled%20trial%20osteoarthritis",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     },
     {
-      "kind": "safety",
-      "title": "NCCIH: Turmeric: Usefulness and Safety",
-      "detail": "Last updated April 2025",
-      "url": "https://www.nccih.nih.gov/health/turmeric"
+      "source": "nccih-turmeric"
     },
     {
-      "kind": "safety",
-      "title": "LiverTox (NIH): Turmeric",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK548561/"
+      "source": "livertox-turmeric"
     }
   ],
   "review": {

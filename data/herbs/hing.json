@@ -25,7 +25,8 @@
     ],
     "aggravates": [
       "pitta"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Relieves gas and colic (vatanulomana)",
@@ -46,37 +47,40 @@
   "cautions": [
     {
       "group": "infants",
-      "note": "Do not give to babies (risk of a blood disorder in infants)."
+      "note": "Do not give to babies (risk of a blood disorder in infants).",
+      "refs": []
     },
     {
       "group": "pregnancy",
-      "note": "Avoid medicinal amounts in pregnancy."
+      "note": "Avoid medicinal amounts in pregnancy.",
+      "refs": []
     },
     {
       "group": "allergy",
-      "note": "Compounded hing often contains wheat flour; check if you avoid gluten."
+      "note": "Compounded hing often contains wheat flour; check if you avoid gluten.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "anticoagulants",
       "effect": "May add to the effect of blood thinners in medicinal amounts.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "preclinical",
     "summary": "Mostly laboratory and animal studies.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Ferula%20assa-foetida"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Ferula%20assa-foetida",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

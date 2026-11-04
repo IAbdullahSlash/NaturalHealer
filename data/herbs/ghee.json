@@ -24,7 +24,8 @@
     ],
     "aggravates": [
       "kapha"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Nourishing and lubricating",
@@ -47,24 +48,26 @@
   "cautions": [
     {
       "group": "cholesterol",
-      "note": "Rich in saturated fat; keep amounts small with high cholesterol or heart disease."
+      "note": "Rich in saturated fat; keep amounts small with high cholesterol or heart disease.",
+      "refs": []
     },
     {
       "group": "digestive-illness",
-      "note": "Avoid during indigestion with heaviness or nausea (ama)."
+      "note": "Avoid during indigestion with heaviness or nausea (ama).",
+      "refs": []
     }
   ],
   "interactions": [],
   "evidence": {
     "level": "traditional",
     "summary": "Mainly traditional use; little clinical research on medicinal effects.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=ghee%20health"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=ghee%20health",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu",
-      "detail": "Ghrita varga"
+      "source": "bhavaprakasha-nighantu",
+      "locator": "Ghrita varga"
     }
   ],
   "review": {

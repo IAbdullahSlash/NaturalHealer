@@ -24,7 +24,8 @@
     ],
     "aggravates": [
       "vata"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Cleansing and bitter",
@@ -49,42 +50,46 @@
   "cautions": [
     {
       "group": "children",
-      "note": "Neem oil taken by mouth has caused serious poisoning in infants and children. Never give it to children."
+      "note": "Neem oil taken by mouth has caused serious poisoning in infants and children. Never give it to children.",
+      "refs": []
     },
     {
       "group": "pregnancy",
-      "note": "Avoid taking neem by mouth in pregnancy or when trying to conceive."
+      "note": "Avoid taking neem by mouth in pregnancy or when trying to conceive.",
+      "refs": []
     },
     {
       "group": "autoimmune",
-      "note": "May stimulate the immune system."
+      "note": "May stimulate the immune system.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "antidiabetics",
       "effect": "May lower blood sugar further if taken by mouth.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "immunosuppressants",
       "effect": "May work against immune-suppressing medicines.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "preclinical",
     "summary": "Mostly laboratory and animal studies. Some small studies on dental plaque.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Azadirachta%20indica%20clinical"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Azadirachta%20indica%20clinical",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

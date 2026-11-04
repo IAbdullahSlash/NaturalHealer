@@ -1,0 +1,15 @@
+{
+  "$schema": "../schema/source.schema.json",
+  "id": "nccih-peppermint-oil",
+  "kind": "safety",
+  "title": "Peppermint Oil: Usefulness and Safety",
+  "publisher": "National Center for Complementary and Integrative Health (NIH)",
+  "url": "https://www.nccih.nih.gov/health/peppermint-oil",
+  "updated": "May 2025",
+  "accessed": "2026-11-04",
+  "pmid": null,
+  "doi": null,
+  "year": null,
+  "licence": "Public domain (US government work)",
+  "notes": null
+}

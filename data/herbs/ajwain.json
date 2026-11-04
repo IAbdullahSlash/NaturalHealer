@@ -26,7 +26,8 @@
     ],
     "aggravates": [
       "pitta"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Relieves colic and gas (shulaghna)",
@@ -51,27 +52,28 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Avoid medicinal amounts in pregnancy."
+      "note": "Avoid medicinal amounts in pregnancy.",
+      "refs": []
     },
     {
       "group": "gerd",
-      "note": "Strongly heating; can aggravate acidity and ulcers."
+      "note": "Strongly heating; can aggravate acidity and ulcers.",
+      "refs": []
     }
   ],
   "interactions": [],
   "evidence": {
     "level": "preclinical",
     "summary": "Mostly laboratory and animal studies on digestion and its main oil, thymol. Little human research.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Trachyspermum%20ammi"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Trachyspermum%20ammi",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

@@ -14,7 +14,8 @@
     "virya": null,
     "vipaka": null,
     "pacifies": [],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Mild stimulant (caffeine)",
@@ -36,45 +37,46 @@
   "cautions": [
     {
       "group": "liver",
-      "note": "Concentrated green tea extract (capsules and weight-loss products) has caused liver injury, sometimes severe. Brewed tea has not been linked to this."
+      "note": "Concentrated green tea extract (capsules and weight-loss products) has caused liver injury, sometimes severe. Brewed tea has not been linked to this.",
+      "refs": []
     },
     {
       "group": "pregnancy",
-      "note": "Contains caffeine; keep total caffeine within what your doctor advises in pregnancy and while breastfeeding."
+      "note": "Contains caffeine; keep total caffeine within what your doctor advises in pregnancy and while breastfeeding.",
+      "refs": []
     },
     {
       "group": "heart",
-      "note": "Caffeine can raise heart rate and blood pressure in sensitive people."
+      "note": "Caffeine can raise heart rate and blood pressure in sensitive people.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "antihypertensives",
       "effect": "Large amounts can reduce the effect of the beta-blocker nadolol.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "statins",
       "effect": "Green tea extract can lower blood levels of atorvastatin.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Many studies, but results for weight, heart health and other uses are inconsistent.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=green%20tea%20catechins%20meta-analysis"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=green%20tea%20catechins%20meta-analysis",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "safety",
-      "title": "NCCIH: Green Tea: Usefulness and Safety",
-      "detail": "Last updated February 2025",
-      "url": "https://www.nccih.nih.gov/health/green-tea"
+      "source": "nccih-green-tea"
     },
     {
-      "kind": "safety",
-      "title": "LiverTox (NIH): Green Tea",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547925/"
+      "source": "livertox-green-tea"
     }
   ],
   "review": {

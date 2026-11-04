@@ -25,7 +25,8 @@
     ],
     "aggravates": [
       "kapha"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Nourishing and cooling",
@@ -49,42 +50,46 @@
   "cautions": [
     {
       "group": "hormone-sensitive",
-      "note": "May have estrogen-like effects; avoid with hormone-sensitive conditions."
+      "note": "May have estrogen-like effects; avoid with hormone-sensitive conditions.",
+      "refs": []
     },
     {
       "group": "allergy",
-      "note": "Avoid if allergic to asparagus."
+      "note": "Avoid if allergic to asparagus.",
+      "refs": []
     },
     {
       "group": "pregnancy",
-      "note": "Traditionally used, but check with a doctor in pregnancy."
+      "note": "Traditionally used, but check with a doctor in pregnancy.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "diuretics",
       "effect": "May add to the effect of water pills.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "lithium",
       "effect": "A diuretic effect may change lithium levels.",
-      "level": "avoid"
+      "level": "avoid",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "preclinical",
     "summary": "Mostly laboratory and animal research; few human trials.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Asparagus%20racemosus%20clinical"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Asparagus%20racemosus%20clinical",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

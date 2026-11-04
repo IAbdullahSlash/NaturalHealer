@@ -25,7 +25,8 @@
     "aggravates": [
       "kapha",
       "pitta"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Bulks and softens stools",
@@ -49,48 +50,49 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Medicinal amounts may not be safe in pregnancy; the evidence is unclear, so keep to food amounts."
+      "note": "Medicinal amounts may not be safe in pregnancy; the evidence is unclear, so keep to food amounts.",
+      "refs": []
     },
     {
       "group": "breastfeeding",
-      "note": "Little is known about medicinal amounts while breastfeeding."
+      "note": "Little is known about medicinal amounts while breastfeeding.",
+      "refs": []
     },
     {
       "group": "digestive-illness",
-      "note": "Avoid with a narrowed or blocked bowel. Take with enough water; large amounts can cause bloating. Do not eat raw or unripe seeds."
+      "note": "Avoid with a narrowed or blocked bowel. Take with enough water; large amounts can cause bloating. Do not eat raw or unripe seeds.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "anticoagulants",
       "effect": "Flaxseed or its oil may add to the effect of blood thinners.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "many-medicines",
       "effect": "The fibre can slow absorption of medicines; take them an hour before or two hours after.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Flaxseed may modestly help weight loss in adults with obesity and insulin resistance in gestational diabetes; its effect on other conditions is unclear.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=flaxseed%20randomized%20controlled%20trial"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=flaxseed%20randomized%20controlled%20trial",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     },
     {
-      "kind": "safety",
-      "title": "NCCIH: Flaxseed and Flaxseed Oil: Usefulness and Safety",
-      "detail": "Last updated February 2025",
-      "url": "https://www.nccih.nih.gov/health/flaxseed-and-flaxseed-oil"
+      "source": "nccih-flaxseed-and-flaxseed-oil"
     }
   ],
   "review": {

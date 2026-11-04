@@ -26,7 +26,8 @@
     ],
     "aggravates": [
       "pitta"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Aromatic digestive",
@@ -48,25 +49,27 @@
   "cautions": [
     {
       "group": "children",
-      "note": "Take whole leaves out of food before serving children; they can catch in the throat."
+      "note": "Take whole leaves out of food before serving children; they can catch in the throat.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "antidiabetics",
       "effect": "Medicinal amounts have been studied for lowering blood sugar and may add to diabetes medicines.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "preclinical",
     "summary": "Mostly laboratory and animal studies; very little research in people.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Cinnamomum%20tamala"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Cinnamomum%20tamala",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     }
   ],
   "review": {

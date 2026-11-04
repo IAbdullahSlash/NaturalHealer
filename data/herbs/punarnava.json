@@ -25,7 +25,8 @@
       "pitta",
       "kapha"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Diuretic in tradition",
@@ -49,42 +50,46 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Not enough is known; avoid in pregnancy and while breastfeeding."
+      "note": "Not enough is known; avoid in pregnancy and while breastfeeding.",
+      "refs": []
     },
     {
       "group": "kidney",
-      "note": "Swelling can be a sign of kidney or heart disease; see a doctor rather than treating it at home."
+      "note": "Swelling can be a sign of kidney or heart disease; see a doctor rather than treating it at home.",
+      "refs": []
     },
     {
       "group": "heart",
-      "note": "Do not use for swelling from heart failure without your doctor."
+      "note": "Do not use for swelling from heart failure without your doctor.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "diuretics",
       "effect": "May add to the effect of water pills.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "lithium",
       "effect": "Diuretic herbs can raise lithium to harmful levels.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "preclinical",
     "summary": "Mostly laboratory and animal studies; little research in people.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Boerhavia%20diffusa"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Boerhavia%20diffusa",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {

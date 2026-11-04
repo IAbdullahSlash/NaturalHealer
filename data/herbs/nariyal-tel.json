@@ -24,7 +24,8 @@
     ],
     "aggravates": [
       "kapha"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Moisturises dry skin and scalp",
@@ -48,23 +49,25 @@
   "cautions": [
     {
       "group": "cholesterol",
-      "note": "Coconut oil is high in saturated fat and raises LDL cholesterol; use sparingly in cooking if your cholesterol is high."
+      "note": "Coconut oil is high in saturated fat and raises LDL cholesterol; use sparingly in cooking if your cholesterol is high.",
+      "refs": []
     },
     {
       "group": "allergy",
-      "note": "Avoid if you are allergic to coconut."
+      "note": "Avoid if you are allergic to coconut.",
+      "refs": []
     }
   ],
   "interactions": [],
   "evidence": {
     "level": "limited-human",
     "summary": "Small trials found virgin coconut oil moisturises dry skin and may help mild atopic dermatitis in children.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=virgin%20coconut%20oil%20atopic%20dermatitis%20randomized"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=virgin%20coconut%20oil%20atopic%20dermatitis%20randomized",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     }
   ],
   "review": {

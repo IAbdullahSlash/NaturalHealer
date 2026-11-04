@@ -25,7 +25,8 @@
     ],
     "aggravates": [
       "kapha"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Bulk-forming laxative",
@@ -48,38 +49,43 @@
   "cautions": [
     {
       "group": "digestive-illness",
-      "note": "Do not use with a blocked or narrowed bowel, or difficulty swallowing. Always take with a full glass of water; taken dry it can swell and choke."
+      "note": "Do not use with a blocked or narrowed bowel, or difficulty swallowing. Always take with a full glass of water; taken dry it can swell and choke.",
+      "refs": []
     },
     {
       "group": "allergy",
-      "note": "Breathing in the powder can cause allergies, including asthma, in people who handle it often."
+      "note": "Breathing in the powder can cause allergies, including asthma, in people who handle it often.",
+      "refs": []
     },
     {
       "group": "diabetes",
-      "note": "Can lower blood sugar after meals; check your levels if you take diabetes medicines."
+      "note": "Can lower blood sugar after meals; check your levels if you take diabetes medicines.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "many-medicines",
       "effect": "Slows absorption of many medicines; take them at least two hours apart.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "antidiabetics",
       "effect": "May lower blood sugar further.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "moderate-human",
     "summary": "Good evidence that psyllium relieves chronic constipation and modestly lowers LDL cholesterol.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=psyllium%20constipation%20cholesterol%20meta-analysis"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=psyllium%20constipation%20cholesterol%20meta-analysis",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     }
   ],
   "review": {

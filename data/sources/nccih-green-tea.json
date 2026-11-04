@@ -1,0 +1,15 @@
+{
+  "$schema": "../schema/source.schema.json",
+  "id": "nccih-green-tea",
+  "kind": "safety",
+  "title": "Green Tea: Usefulness and Safety",
+  "publisher": "National Center for Complementary and Integrative Health (NIH)",
+  "url": "https://www.nccih.nih.gov/health/green-tea",
+  "updated": "February 2025",
+  "accessed": "2026-11-04",
+  "pmid": null,
+  "doi": null,
+  "year": null,
+  "licence": "Public domain (US government work)",
+  "notes": null
+}

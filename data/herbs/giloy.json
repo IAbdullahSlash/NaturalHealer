@@ -24,7 +24,8 @@
       "pitta",
       "kapha"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Rejuvenative (rasayana)",
@@ -49,51 +50,54 @@
   "cautions": [
     {
       "group": "autoimmune",
-      "note": "May stimulate the immune system; avoid with autoimmune conditions."
+      "note": "May stimulate the immune system; avoid with autoimmune conditions.",
+      "refs": []
     },
     {
       "group": "liver",
-      "note": "Cases of liver injury have been reported, mostly with long or heavy use."
+      "note": "Cases of liver injury have been reported, mostly with long or heavy use.",
+      "refs": []
     },
     {
       "group": "pregnancy",
-      "note": "Avoid in pregnancy and breastfeeding."
+      "note": "Avoid in pregnancy and breastfeeding.",
+      "refs": []
     },
     {
       "group": "diabetes",
-      "note": "Can lower blood sugar."
+      "note": "Can lower blood sugar.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "immunosuppressants",
       "effect": "May work against immune-suppressing medicines.",
-      "level": "avoid"
+      "level": "avoid",
+      "refs": []
     },
     {
       "drugClass": "antidiabetics",
       "effect": "May lower blood sugar further.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Small human studies only. Reports of liver injury, ranging from mild to severe, have prompted caution.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Tinospora%20cordifolia%20clinical"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Tinospora%20cordifolia%20clinical",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     },
     {
-      "kind": "safety",
-      "title": "LiverTox (NIH): Tinospora",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK608429/"
+      "source": "livertox-tinospora"
     }
   ],
   "review": {

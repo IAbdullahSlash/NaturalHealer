@@ -25,7 +25,8 @@
     ],
     "aggravates": [
       "vata"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Bitter; supports a blood-sugar-aware diet",
@@ -47,38 +48,40 @@
   "cautions": [
     {
       "group": "diabetes",
-      "note": "Can cause low blood sugar alongside diabetes medicines; monitor closely."
+      "note": "Can cause low blood sugar alongside diabetes medicines; monitor closely.",
+      "refs": []
     },
     {
       "group": "pregnancy",
-      "note": "Avoid juice and supplements in pregnancy."
+      "note": "Avoid juice and supplements in pregnancy.",
+      "refs": []
     },
     {
       "group": "children",
-      "note": "Do not give juice or seeds to children."
+      "note": "Do not give juice or seeds to children.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "antidiabetics",
       "effect": "May cause low blood sugar together with diabetes medicines.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Human trials on blood sugar show small and inconsistent effects.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Momordica%20charantia%20glycemic%20randomized"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Momordica%20charantia%20glycemic%20randomized",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "safety",
-      "title": "LiverTox (NIH): Bitter Melon",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK590483/"
+      "source": "livertox-bitter-melon"
     }
   ],
   "review": {

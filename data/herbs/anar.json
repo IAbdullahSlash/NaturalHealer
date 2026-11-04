@@ -25,7 +25,8 @@
       "pitta",
       "kapha"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Settles loose motions (the astringent rind)",
@@ -50,44 +51,44 @@
   "cautions": [
     {
       "group": "allergy",
-      "note": "Avoid if pomegranate has caused an allergic reaction."
+      "note": "Avoid if pomegranate has caused an allergic reaction.",
+      "refs": []
     },
     {
       "group": "digestive-illness",
-      "note": "Large amounts of the root, stem or peel contain harmful substances; eat the fruit, not extracts of these parts."
+      "note": "Large amounts of the root, stem or peel contain harmful substances; eat the fruit, not extracts of these parts.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "anticoagulants",
       "effect": "Pomegranate juice has been linked to changes in warfarin effect; keep the amount steady and tell your doctor.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "antihypertensives",
       "effect": "Juice may lower blood pressure further.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Juice or extract may lower blood pressure and blood sugar a little, but more research is needed.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=pomegranate%20juice%20blood%20pressure%20meta-analysis"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=pomegranate%20juice%20blood%20pressure%20meta-analysis",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     },
     {
-      "kind": "safety",
-      "title": "NCCIH: Pomegranate: Usefulness and Safety",
-      "detail": "Last updated April 2025",
-      "url": "https://www.nccih.nih.gov/health/pomegranate"
+      "source": "nccih-pomegranate"
     }
   ],
   "review": {

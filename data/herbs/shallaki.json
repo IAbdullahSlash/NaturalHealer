@@ -24,7 +24,8 @@
       "kapha",
       "pitta"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Traditionally used for joint pain and swelling"
@@ -45,33 +46,33 @@
   "cautions": [
     {
       "group": "asthma",
-      "note": "Talk to your doctor first if you have asthma; it may interact with asthma medicines."
+      "note": "Talk to your doctor first if you have asthma; it may interact with asthma medicines.",
+      "refs": []
     },
     {
       "group": "cancer",
-      "note": "If you are being treated for cancer, ask your cancer team before using it."
+      "note": "If you are being treated for cancer, ask your cancer team before using it.",
+      "refs": []
     },
     {
       "group": "pregnancy",
-      "note": "Little is known about medicinal amounts in pregnancy or while breastfeeding."
+      "note": "Little is known about medicinal amounts in pregnancy or while breastfeeding.",
+      "refs": []
     }
   ],
   "interactions": [],
   "evidence": {
     "level": "limited-human",
     "summary": "Trials suggest boswellia may ease osteoarthritis pain and swelling, but more rigorous studies are needed.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Boswellia%20serrata%20osteoarthritis%20randomized"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Boswellia%20serrata%20osteoarthritis%20randomized",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     },
     {
-      "kind": "safety",
-      "title": "NCCIH: Boswellia: Usefulness and Safety",
-      "detail": "Last updated April 2025",
-      "url": "https://www.nccih.nih.gov/health/boswellia"
+      "source": "nccih-boswellia"
     }
   ],
   "review": {

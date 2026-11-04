@@ -55,6 +55,7 @@ export const conditions = [
       "Symptoms lasting more than ten days, or getting worse after improving",
       "Any fever in a baby under three months"
     ],
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,
@@ -112,6 +113,7 @@ export const conditions = [
       },
       "tm2Group": null
     },
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,
@@ -168,6 +170,7 @@ export const conditions = [
       },
       "tm2Group": null
     },
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,
@@ -224,6 +227,7 @@ export const conditions = [
       },
       "tm2Group": null
     },
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,
@@ -283,6 +287,7 @@ export const conditions = [
       "Constipation with vomiting, a swollen belly, or being unable to pass wind",
       "A lasting change in bowel habit, especially after age 50 or with weight loss"
     ],
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,
@@ -340,6 +345,7 @@ export const conditions = [
       },
       "tm2Group": null
     },
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,
@@ -402,6 +408,7 @@ export const conditions = [
       "New indigestion after age 55, or indigestion lasting more than a few weeks",
       "Chest pain with sweating or breathlessness can be a heart attack: call 112"
     ],
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,
@@ -463,6 +470,7 @@ export const conditions = [
       "Thoughts of harming yourself: call Tele-MANAS 14416, or 112 in an emergency",
       "Chest pain, fainting or a racing heart that does not settle"
     ],
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,
@@ -520,6 +528,7 @@ export const conditions = [
       "Loud snoring with pauses in breathing",
       "Low mood, worry or thoughts of self-harm alongside poor sleep"
     ],
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,
@@ -578,6 +587,7 @@ export const conditions = [
       "Headache with fever and a stiff neck, confusion, weakness, or trouble speaking or seeing: call 112",
       "Headache after a head injury, or new headaches after age 50"
     ],
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,
@@ -635,6 +645,7 @@ export const conditions = [
       },
       "tm2Group": null
     },
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,
@@ -694,6 +705,7 @@ export const conditions = [
       "Acne that does not improve after two to three months of care",
       "Sudden severe acne in adulthood, or with irregular periods or extra hair growth"
     ],
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,
@@ -754,6 +766,7 @@ export const conditions = [
       "Eczema that keeps you awake or does not improve with care",
       "A sudden widespread rash, especially with fever"
     ],
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,
@@ -810,6 +823,7 @@ export const conditions = [
       },
       "tm2Group": null
     },
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,
@@ -870,6 +884,7 @@ export const conditions = [
       "Morning stiffness that lasts more than an hour",
       "Pain that stops you walking or sleeping"
     ],
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,
@@ -929,6 +944,7 @@ export const conditions = [
       "Pain after an injury, or being unable to bear weight",
       "Pain that lasts more than a few weeks"
     ],
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,
@@ -986,6 +1002,7 @@ export const conditions = [
       "Great thirst, passing a lot of urine, confusion or drowsiness",
       "A foot wound or sore that is not healing"
     ],
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,
@@ -1043,6 +1060,7 @@ export const conditions = [
       "Dizziness or fainting after starting or changing a medicine",
       "Never stop blood pressure medicines without your doctor"
     ],
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,
@@ -1097,6 +1115,7 @@ export const conditions = [
       },
       "tm2Group": null
     },
+    "sources": [],
     "review": {
       "status": "draft",
       "reviewer": null,

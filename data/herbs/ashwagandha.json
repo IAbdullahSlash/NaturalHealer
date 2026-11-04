@@ -24,7 +24,8 @@
       "vata",
       "kapha"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Strengthening (balya)",
@@ -48,89 +49,96 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Avoid in pregnancy."
+      "note": "Avoid in pregnancy.",
+      "refs": []
     },
     {
       "group": "breastfeeding",
-      "note": "Do not use while breastfeeding."
+      "note": "Do not use while breastfeeding.",
+      "refs": []
     },
     {
       "group": "thyroid",
-      "note": "Not recommended with thyroid disorders; it may raise thyroid hormone levels."
+      "note": "Not recommended with thyroid disorders; it may raise thyroid hormone levels.",
+      "refs": []
     },
     {
       "group": "autoimmune",
-      "note": "Not recommended with autoimmune conditions."
+      "note": "Not recommended with autoimmune conditions.",
+      "refs": []
     },
     {
       "group": "hormone-sensitive",
-      "note": "May raise testosterone; avoid with hormone-sensitive prostate cancer."
+      "note": "May raise testosterone; avoid with hormone-sensitive prostate cancer.",
+      "refs": []
     },
     {
       "group": "liver",
-      "note": "Rare cases of liver injury have been reported with supplements."
+      "note": "Rare cases of liver injury have been reported with supplements.",
+      "refs": []
     },
     {
       "group": "surgery",
-      "note": "Not recommended before surgery; stop at least two weeks ahead."
+      "note": "Not recommended before surgery; stop at least two weeks ahead.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "sedatives",
       "effect": "May add to drowsiness from sleeping pills and sedatives.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "thyroid",
       "effect": "May add to thyroid hormone medicine.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "immunosuppressants",
       "effect": "May work against immune-suppressing medicines.",
-      "level": "avoid"
+      "level": "avoid",
+      "refs": []
     },
     {
       "drugClass": "antidiabetics",
       "effect": "May lower blood sugar further.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "antihypertensives",
       "effect": "May interact with blood pressure medicines.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     },
     {
       "drugClass": "anticonvulsants",
       "effect": "May interact with anti-seizure medicines.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Some preparations may help with insomnia and stress; the evidence on anxiety is unclear. Studies are short, and products vary.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Withania%20somnifera%20randomized%20controlled%20trial%20stress"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=Withania%20somnifera%20randomized%20controlled%20trial%20stress",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     },
     {
-      "kind": "safety",
-      "title": "NCCIH: Ashwagandha: Usefulness and Safety",
-      "detail": "Last updated March 2023",
-      "url": "https://www.nccih.nih.gov/health/ashwagandha"
+      "source": "nccih-ashwagandha"
     },
     {
-      "kind": "safety",
-      "title": "LiverTox (NIH): Ashwagandha",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK548536/"
+      "source": "livertox-ashwagandha"
     }
   ],
   "review": {

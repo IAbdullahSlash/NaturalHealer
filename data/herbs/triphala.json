@@ -24,7 +24,8 @@
       "pitta",
       "kapha"
     ],
-    "aggravates": []
+    "aggravates": [],
+    "refs": []
   },
   "actions": [
     "Gentle bowel regulator (anulomana)",
@@ -48,39 +49,42 @@
   "cautions": [
     {
       "group": "pregnancy",
-      "note": "Avoid in pregnancy."
+      "note": "Avoid in pregnancy.",
+      "refs": []
     },
     {
       "group": "children",
-      "note": "Not for young children without a practitioner."
+      "note": "Not for young children without a practitioner.",
+      "refs": []
     },
     {
       "group": "digestive-illness",
-      "note": "Avoid with diarrhoea or inflammatory bowel disease."
+      "note": "Avoid with diarrhoea or inflammatory bowel disease.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "many-medicines",
       "effect": "Take two hours apart from other medicines, as it can change how they are absorbed.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "A few small human studies on constipation and dental plaque. Not established as a treatment.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=triphala%20clinical%20trial"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=triphala%20clinical%20trial",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu",
-      "detail": "Each of the three fruits"
+      "source": "bhavaprakasha-nighantu",
+      "locator": "Each of the three fruits"
     },
     {
-      "kind": "classical",
-      "title": "Ayurvedic Formulary of India",
-      "detail": "Triphala churna"
+      "source": "ayurvedic-formulary-of-india",
+      "locator": "Triphala churna"
     }
   ],
   "review": {

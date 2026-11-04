@@ -1,0 +1,15 @@
+{
+  "$schema": "../schema/source.schema.json",
+  "id": "api-part-1",
+  "kind": "pharmacopoeia",
+  "title": "The Ayurvedic Pharmacopoeia of India, Part I",
+  "publisher": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy, Ministry of Ayush",
+  "url": null,
+  "updated": null,
+  "accessed": null,
+  "pmid": null,
+  "doi": null,
+  "year": null,
+  "licence": null,
+  "notes": "Cite the volume and monograph page in the locator, from an official copy."
+}

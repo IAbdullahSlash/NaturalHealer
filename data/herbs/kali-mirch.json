@@ -24,7 +24,8 @@
     ],
     "aggravates": [
       "pitta"
-    ]
+    ],
+    "refs": []
   },
   "actions": [
     "Kindles digestion",
@@ -48,29 +49,30 @@
   "cautions": [
     {
       "group": "gerd",
-      "note": "Can aggravate acidity and ulcers."
+      "note": "Can aggravate acidity and ulcers.",
+      "refs": []
     }
   ],
   "interactions": [
     {
       "drugClass": "many-medicines",
       "effect": "Piperine can raise blood levels of some medicines by increasing absorption; avoid concentrated piperine supplements with regular medication.",
-      "level": "caution"
+      "level": "caution",
+      "refs": []
     }
   ],
   "evidence": {
     "level": "limited-human",
     "summary": "Piperine's effect on absorption, including of curcumin, is shown in human studies. Evidence for direct health effects is limited.",
-    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=piperine%20bioavailability%20human"
+    "pubmedQuery": "https://pubmed.ncbi.nlm.nih.gov/?term=piperine%20bioavailability%20human",
+    "refs": []
   },
   "sources": [
     {
-      "kind": "classical",
-      "title": "Bhavaprakasha Nighantu"
+      "source": "bhavaprakasha-nighantu"
     },
     {
-      "kind": "pharmacopoeia",
-      "title": "The Ayurvedic Pharmacopoeia of India, Part I"
+      "source": "api-part-1"
     }
   ],
   "review": {
