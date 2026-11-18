@@ -38,7 +38,7 @@ function AboutPage() {
   return <>
     <PageIntro eyebrow="About Natural Healer" title="Household knowledge, presented with care." lead="A practical reference for common conditions, familiar ingredients, and the moments when home care is not enough." />
     <div className="site-content-grid">
-      <InfoSection title="What you can do here"><p>Browse a small library of conditions and kitchen remedies, read preparation and prevention notes, save entries to your account, and ask Vanya follow-up questions.</p><p>The prakriti questionnaire is a self-assessment. It is optional context for general wellness conversations, not a medical evaluation.</p></InfoSection>
+      <InfoSection title="What you can do here"><p>Browse a small library of conditions and kitchen remedies, read preparation and prevention notes, save entries to your account, and ask Ayu follow-up questions.</p><p>The prakriti questionnaire is a self-assessment. It is optional context for general wellness conversations, not a medical evaluation.</p></InfoSection>
       <InfoSection title="How we approach Ayurveda"><p>We use Ayurvedic terms where they help explain the tradition, alongside familiar ingredient names and botanical identities. A traditional explanation is not proof that a remedy treats a condition.</p><p>We aim to make limits visible and encourage professional care when symptoms are serious or persistent.</p></InfoSection>
       <InfoSection title="A living reference"><p>The library is educational and is not a substitute for a clinician, diagnosis, or prescribed treatment. Content can be incomplete and should be reviewed with a qualified health professional before you act on it.</p><Link className="site-inline-link" to="/safety">Read the safety guide <Icon name="arrowRight" size={16} /></Link></InfoSection>
     </div>
@@ -56,7 +56,7 @@ function SafetyPage() {
     <div className="site-content-grid">
       <InfoSection title="Seek urgent help for warning signs"><p>Examples include severe chest pain, difficulty breathing, stroke signs, fainting or seizures, a serious allergic reaction, poisoning or overdose, heavy bleeding, a serious head injury, or fever in a very young baby.</p><p>This list is not complete. If a symptom feels severe, sudden, or frightening, get medical help.</p></InfoSection>
       <InfoSection title="Check with a clinician before trying a remedy"><p>Ask a qualified clinician or pharmacist first if you are pregnant or breastfeeding, caring for a child, taking prescription medicine, or managing a long-term condition.</p><p>Do not stop or change prescribed medicine because of something on this site or an AI response.</p></InfoSection>
-      <InfoSection title="About Vanya"><p>Vanya is an AI guide. It can misunderstand a question, miss important context, or give incomplete information. It does not diagnose and cannot assess an emergency.</p><p>For symptoms that persist, worsen, or return, arrange a clinical assessment even if a remedy seems to help.</p></InfoSection>
+      <InfoSection title="About Ayu"><p>Ayu is an AI guide. It can misunderstand a question, miss important context, or give incomplete information. It does not diagnose and cannot assess an emergency.</p><p>For symptoms that persist, worsen, or return, arrange a clinical assessment even if a remedy seems to help.</p></InfoSection>
     </div>
     <p className="site-updated">Reviewed {updated}. Emergency contacts and guidance can change; use official local services.</p>
   </>
@@ -96,7 +96,7 @@ const DATA_FILES = [
 
 function DatasetPage() {
   return <>
-    <PageIntro eyebrow="Open dataset" title="The knowledge base, as data." lead={`Everything Vanya answers from, as CSV and JSON files: ${kb.herbs} herb entries, ${kb.conditions} conditions, ${kb.remedies} remedies, ${kb.cautions} cautions and ${kb.interactions} medicine interactions.`} />
+    <PageIntro eyebrow="Open dataset" title="The knowledge base, as data." lead={`Everything Ayu answers from, as CSV and JSON files: ${kb.herbs} herb entries, ${kb.conditions} conditions, ${kb.remedies} remedies, ${kb.cautions} cautions and ${kb.interactions} medicine interactions.`} />
     <div className="site-legal-note"><Icon name="info" size={18} /><p>{kb.reviewed === 0 ? 'Every entry is a draft' : `${kb.herbs - kb.reviewed} entries are drafts`} until a qualified Ayurvedic practitioner reviews it; each row's review_status says which. This is educational information, not medical advice. Do not use it to diagnose or treat anyone.</p></div>
     <section className="condition-section"><h2>Download</h2>
       <ul className="dataset-files">{DATA_FILES.map(f => <li key={f.path}><a href={`/data/${f.path}`} download={f.path.endsWith('.json') && f.path !== 'datapackage.json' ? f.path : undefined}>{f.path}</a><span><strong>{f.title}.</strong> {f.note}</span></li>)}</ul>
@@ -115,7 +115,7 @@ function TermsPage() {
     <div className="site-legal-note"><Icon name="info" size={18} /><p>Last updated {updated}. These terms are a starting point and should receive legal review before the site is offered publicly.</p></div>
     <div className="site-content-grid">
       <InfoSection title="Educational information only"><p>Natural Healer provides general wellness and educational information. It does not provide medical advice, diagnosis, or treatment, and it does not replace a qualified healthcare professional.</p><p>Use the site at your own discretion. Seek professional help for medical concerns and urgent care for emergencies.</p></InfoSection>
-      <InfoSection title="AI guide"><p>Vanya generates responses using artificial intelligence. Responses may be inaccurate, incomplete, or unsuitable for your circumstances. Do not rely on them to make urgent or treatment decisions, and do not stop prescribed care based on an AI response.</p></InfoSection>
+      <InfoSection title="AI guide"><p>Ayu generates responses using artificial intelligence. Responses may be inaccurate, incomplete, or unsuitable for your circumstances. Do not rely on them to make urgent or treatment decisions, and do not stop prescribed care based on an AI response.</p></InfoSection>
       <InfoSection title="Accounts and availability"><p>You are responsible for keeping access to your account secure and for the information you choose to submit. We may update, suspend, or discontinue parts of the service as the project changes. Chat and profile features require a working account and connected services.</p></InfoSection>
       <InfoSection title="Respectful use"><p>Do not use the site to interfere with the service, probe its security, or submit content that is unlawful or intended to harm others. The site and its original design and code are provided under their applicable licenses.</p></InfoSection>
     </div>
@@ -168,7 +168,7 @@ function ConditionPage({ user, onOpenAIChat }) {
     <section className="condition-section"><h2>Prevention and daily care</h2><ul className="condition-prevention">{disease.prevention.map(tip => <li key={tip}><Icon name="check" size={16} /><span>{tip}</span></li>)}</ul></section>
     {disease.seeDoctor?.length > 0 && <section className="condition-section condition-doctor"><h2>When to see a doctor</h2><ul>{disease.seeDoctor.map(sign => <li key={sign}><Icon name="alert" size={16} /><span>{sign}</span></li>)}</ul></section>}
     <p className="site-legal-note"><Icon name="info" size={18} /><span>Educational information, not medical advice. Check with a qualified clinician before starting a remedy, especially if pregnant, breastfeeding, caring for a child, or taking medicine. Ingredient information does not prove a remedy is effective.</span></p>
-    <div className="site-page-actions">{user ? <button className="btn btn-leaf" onClick={onOpenAIChat}><Icon name="sparkle" size={16} /> Ask Vanya about this</button> : <Link className="btn btn-leaf" to="/signup">Create an account to ask Vanya <Icon name="arrowRight" size={17} /></Link>}<Link className="btn btn-paper" to="/remedies">Back to the library</Link></div>
+    <div className="site-page-actions">{user ? <button className="btn btn-leaf" onClick={onOpenAIChat}><Icon name="sparkle" size={16} /> Ask Ayu about this</button> : <Link className="btn btn-leaf" to="/signup">Create an account to ask Ayu <Icon name="arrowRight" size={17} /></Link>}<Link className="btn btn-paper" to="/remedies">Back to the library</Link></div>
     <p className="site-updated">Ingredients shown: {ingredientsFor(disease).map(item => item.name).join(', ') || 'none listed'}.</p>
   </>
 }

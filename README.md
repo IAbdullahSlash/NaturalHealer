@@ -1,6 +1,6 @@
 # Natural Healer
 
-An evidence-led reference for household Ayurvedic remedies, with an AI guide. Browse common conditions, see what to make from an Indian kitchen and when a condition needs a doctor, take a prakriti (constitution) self-assessment, and ask Vanya, the AI guide, follow-up questions.
+An evidence-led reference for household Ayurvedic remedies, with an AI guide. Browse common conditions, see what to make from an Indian kitchen and when a condition needs a doctor, take a prakriti (constitution) self-assessment, and ask Ayu, the AI guide, follow-up questions.
 
 Natural Healer offers general wellness information, not medical advice.
 
@@ -9,7 +9,7 @@ Natural Healer offers general wellness information, not medical advice.
 - **Remedy library:** 12 everyday conditions and 60 kitchen remedies. Each condition has severity, typical duration, doshas and prevention, and serious ones are flagged for a doctor.
 - **Materia medica:** each category is anchored to a herb, shown as a botanical plate with its species, the plant part used and the compounds researchers study.
 - **Knowledge base:** 27 herb and kitchen-substance entries with classical properties, typical adult amounts, cautions, medicine interactions and an honest evidence rating. They're drafts awaiting practitioner review, and the site says so.
-- **AI guide (Vanya):** answers stream in from Google Gemini on the server, grounded in the knowledge base with numbered citations, and personalised by your prakriti. Conversations are saved to your account.
+- **AI guide (Ayu):** answers stream in from Google Gemini on the server, grounded in the knowledge base with numbered citations, and personalised by your prakriti. Conversations are saved to your account.
 - **Safety triage:** emergency signs (for example chest pain, trouble breathing or thoughts of self-harm) get an immediate "seek care now" reply instead of a remedy.
 - **Prakriti assessment:** 12 questions scored on the server, with balancing guidance.
 - **Accounts:** email/password and Google sign-in through Firebase. Favorites and history sync across devices.

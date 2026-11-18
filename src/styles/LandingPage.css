@@ -187,7 +187,7 @@
   font-variant-numeric: lining-nums;
 }
 
-/* The arch: a jharokha window framing Vanya at her table */
+/* The arch: a jharokha window framing an apothecary still life */
 .hero-stage {
   position: relative;
   display: grid;
@@ -217,18 +217,19 @@
   animation: spin 240s linear infinite;
 }
 
-.hero-vaidya {
+.hero-scene {
   position: absolute;
   bottom: -2px;
   left: 50%;
   translate: -50% 0;
+  transform-origin: 50% 100%;
 }
 
 @media (max-width: 960px) {
   .hero-grid { grid-template-columns: 1fr; }
   .hero-stage { justify-items: center; margin-top: 8px; }
   .hero-arch { height: 460px; }
-  .hero-vaidya .vaidya { width: 290px; height: 362px; }
+  .hero-scene { scale: 0.88; }
   .hero { padding-bottom: 120px; }
   .hero-botanical { display: none; }
 }
@@ -238,7 +239,7 @@
   .hero-search-icon { margin-left: 10px; }
   .hero-search-btn { width: 100%; }
   .hero-arch { width: 100%; height: 400px; }
-  .hero-vaidya .vaidya { width: 250px; height: 312px; }
+  .hero-scene { scale: 0.76; }
   .hero-facts > div { padding: 0 16px; }
   .hero-facts dd { font-size: 2rem; }
 }

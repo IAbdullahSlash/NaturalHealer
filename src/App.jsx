@@ -15,7 +15,7 @@ const Account = lazy(() => import('./components/Account'))
 const FloatingAIChat = lazy(() => import('./components/FloatingAIChat'))
 const SitePage = lazy(() => import('./components/SitePage'))
 const HerbPages = lazy(() => import('./components/HerbPages'))
-import { VaidyaAvatar } from './components/Vaidya'
+import { GuideMark } from './components/Apothecary'
 import SiteFooter from './components/SiteFooter'
 
 function AppRoutes() {
@@ -67,7 +67,7 @@ function AppRoutes() {
   // Public pages render immediately; only the private dashboard waits for the session
   const sessionPending = (
     <div className="auth-loading" role="status">
-      <VaidyaAvatar size={72} />
+      <GuideMark size={72} busy />
       <p>Preparing your remedies…</p>
     </div>
   )

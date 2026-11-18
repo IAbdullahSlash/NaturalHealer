@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from './Navbar'
 import Icon from './Icon'
-import { VaidyaAvatar } from './Vaidya'
+import { GuideMark } from './Apothecary'
 import { Mandala } from './Garden'
 import { api } from '../services/api'
 import '../styles/Prakriti.css'
@@ -22,7 +22,7 @@ function Result({ result, guidance, onRetake, onOpenAIChat }) {
       <h1 id="pk-result-title" className="t-title pk-result-title">{result.label}</h1>
       <p className="t-lead">
         Your answers lean towards {focus.map(d => DOSHA[d].name).join(' and ')}. Use this to choose foods and routines that
-        keep you balanced, and as context when you ask Vanya a question.
+        keep you balanced, and as context when you ask Ayu a question.
       </p>
 
       <dl className="pk-bars">
@@ -61,7 +61,7 @@ function Result({ result, guidance, onRetake, onOpenAIChat }) {
       <div className="pk-actions">
         <button type="button" className="btn btn-leaf" onClick={onOpenAIChat}>
           <Icon name="sparkle" size={16} />
-          Ask Vanya with this in mind
+          Ask Ayu with this in mind
         </button>
         <Link to="/home" className="btn btn-paper">Back to remedies</Link>
         <button type="button" className="btn btn-ghost" onClick={onRetake}>Retake assessment</button>
@@ -133,7 +133,7 @@ export default function Prakriti({ user, onLogout, onOpenAIChat }) {
         <Mandala size={560} color="#B08D57" className="pk-mandala" />
 
         {mode === 'loading' && (
-          <div className="pk-loading" role="status"><VaidyaAvatar size={64} /><p>Preparing the assessment…</p></div>
+          <div className="pk-loading" role="status"><GuideMark size={64} busy /><p>Preparing the assessment…</p></div>
         )}
 
         {mode === 'error' && (

@@ -96,7 +96,7 @@ function HerbIndex() {
         <p className="eyebrow">Knowledge base</p>
         <h1 className="t-title">Herbs and kitchen substances.</h1>
         <p className="t-lead">
-          {herbs.length} entries with classical properties, traditional uses, safe amounts, cautions, medicine interactions and an honest rating of the evidence. Vanya answers from these entries and cites them.
+          {herbs.length} entries with classical properties, traditional uses, safe amounts, cautions, medicine interactions and an honest rating of the evidence. Ayu answers from these entries and cites them.
         </p>
       </header>
       <DraftNotice many />
@@ -241,8 +241,8 @@ function HerbDetail({ herb, user, onOpenAIChat }) {
 
       <div className="site-page-actions">
         {user
-          ? <button className="btn btn-leaf" onClick={onOpenAIChat}><Icon name="sparkle" size={16} /> Ask Vanya about {herb.name}</button>
-          : <Link className="btn btn-leaf" to="/signup">Create an account to ask Vanya <Icon name="arrowRight" size={17} /></Link>}
+          ? <button className="btn btn-leaf" onClick={onOpenAIChat}><Icon name="sparkle" size={16} /> Ask Ayu about {herb.name}</button>
+          : <Link className="btn btn-leaf" to="/signup">Create an account to ask Ayu <Icon name="arrowRight" size={17} /></Link>}
         <Link className="btn btn-paper" to="/herbs">All herbs</Link>
       </div>
     </article>

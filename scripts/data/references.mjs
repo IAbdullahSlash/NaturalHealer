@@ -11,7 +11,7 @@
 export const SUPPORTS_SAFETY = new Set(['safety', 'paper'])
 export const CLASSICAL = new Set(['classical', 'pharmacopoeia'])
 
-// What a resolved citation carries into the site, Vanya and the dataset
+// What a resolved citation carries into the site, Ayu and the dataset
 export function resolveRef(ref, sourcesById) {
   const s = sourcesById.get(ref.source)
   if (!s) return null

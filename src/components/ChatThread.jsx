@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import Icon from './Icon'
-import { VaidyaAvatar } from './Vaidya'
+import { GuideMark } from './Apothecary'
 import { formatMessageText } from '../utils/formatMessage'
 import '../styles/Chat.css'
 
@@ -54,7 +54,7 @@ export default function ChatThread({
       <div className="chat-scroll" ref={scrollRef}>
         {isIntro ? (
           <div className="chat-intro">
-            <span className="chat-intro-mark"><VaidyaAvatar size={64} /></span>
+            <span className="chat-intro-mark"><GuideMark size={64} /></span>
             <h3 className="chat-intro-title">{introTitle}</h3>
             <p className="chat-intro-text">{messages[0]?.text}</p>
             {suggestions.length > 0 && (
@@ -90,7 +90,7 @@ export default function ChatThread({
                   title={timeLabel(msg.timestamp)}
                 >
                   <span className="msg-mark" aria-hidden="true">
-                    {msg.isError ? <Icon name="alert" size={16} strokeWidth={2} /> : <VaidyaAvatar size={34} />}
+                    {msg.isError ? <Icon name="alert" size={16} strokeWidth={2} /> : <GuideMark size={34} />}
                   </span>
                   <div className="msg-body">
                     {formatMessageText(msg.text)}
@@ -115,7 +115,7 @@ export default function ChatThread({
             {showTyping && (
               <div className="msg msg-ai" role="status" aria-label="The assistant is writing">
                 <span className="msg-mark" aria-hidden="true">
-                  <VaidyaAvatar size={34} />
+                  <GuideMark size={34} busy />
                 </span>
                 <div className="typing"><span /><span /><span /></div>
               </div>

@@ -10,7 +10,7 @@ const erased = [
   'Your profile and display name',
   'Saved conditions',
   'Your prakriti answers and result',
-  'Every conversation with Vanya',
+  'Every conversation with Ayu',
   'Safety notes recorded from your conversations',
   'Your sign-in, so this email can sign up again as a new account',
 ]

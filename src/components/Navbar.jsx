@@ -65,7 +65,7 @@ export default function Navbar({ user, onLogout, onOpenAIChat, overHero = false 
             <>
               <button className="btn btn-leaf btn-sm navbar-ask" onClick={onOpenAIChat} aria-label="Ask the AI guide">
                 <Icon name="sparkle" size={16} />
-                <span className="navbar-ask-label">Ask Vanya</span>
+                <span className="navbar-ask-label">Ask Ayu</span>
               </button>
               <div className="navbar-user">
                 <Link to="/account" className="navbar-account" title="Account">

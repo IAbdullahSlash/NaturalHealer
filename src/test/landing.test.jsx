@@ -7,7 +7,7 @@ import { herbs } from '../data/knowledge/herbs'
 describe('landing page', () => {
   it('shows the knowledge base figures from the current data and says entries are drafts', () => {
     render(<MemoryRouter><LandingPage user={null} /></MemoryRouter>)
-    expect(screen.getByRole('heading', { name: 'What Vanya answers from.' })).toBeTruthy()
+    expect(screen.getByRole('heading', { name: 'What Ayu answers from.' })).toBeTruthy()
     const herbFigure = screen.getByText('herb and kitchen entries').parentElement
     expect(herbFigure.querySelector('strong').textContent).toBe(String(herbs.length))
     const reviewed = herbs.filter(h => h.review?.status === 'reviewed').length

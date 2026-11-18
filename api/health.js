@@ -9,7 +9,7 @@ export default route({
     const firebase = memory ? 'ok' : firebaseCredentialStatus()
     const database = memory ? 'memory' : { ok: 'firestore', invalid: 'invalid-credentials', missing: 'not-configured' }[firebase]
     const ai = isGeminiConfigured()
-    // ok means sign-in, saving and Vanya can all work with this configuration
+    // ok means sign-in, saving and Ayu can all work with this configuration
     sendJson(res, 200, { ok: firebase === 'ok' && ai, ai, database })
   },
 })

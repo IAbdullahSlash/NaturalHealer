@@ -4,7 +4,7 @@ import { streamChat } from '../services/api'
 import { getUserChatSessions, getChatSessionMessages } from '../services/chatHistoryService'
 import ChatThread from './ChatThread'
 import Icon from './Icon'
-import { VaidyaAvatar } from './Vaidya'
+import { GuideMark } from './Apothecary'
 import '../styles/FloatingAIChat.css'
 
 const GREETING = 'Describe how you feel, or ask about any herb, food or daily habit. I answer from an Ayurvedic point of view and will tell you when something needs a doctor.'
@@ -172,11 +172,11 @@ export default function FloatingAIChat({ isOpen, onClose, user }) {
               <Icon name="arrowLeft" />
             </button>
           ) : (
-            <span className="fchat-mark" aria-hidden="true"><VaidyaAvatar size={44} /></span>
+            <span className="fchat-mark" aria-hidden="true"><GuideMark size={44} /></span>
           )}
 
           <div className="fchat-titles">
-            <h2 className="fchat-title">{showHistory ? 'Past conversations' : 'Vanya'}</h2>
+            <h2 className="fchat-title">{showHistory ? 'Past conversations' : 'Ayu'}</h2>
             {!showHistory && <p className="fchat-sub">AI Ayurveda guide</p>}
           </div>
 

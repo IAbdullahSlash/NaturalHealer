@@ -2,7 +2,7 @@ import React, { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'rea
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import Navbar from './Navbar'
 import Icon from './Icon'
-import Vaidya from './Vaidya'
+import { HerbScene } from './Apothecary'
 import BotanicalPlate, { HerbMark } from './Botanicals'
 import { HerbPlates, ClayBowl } from './Herbs'
 import { Mandala, VineDivider } from './Garden'
@@ -88,7 +88,7 @@ const method = [
   {
     icon: 'sparkle',
     title: 'An assistant with limits',
-    text: 'Vanya, the AI guide, answers from this knowledge base and shows the entries it used. Signs of an emergency get a "seek care now" reply instead of a remedy, and it says so when a question is beyond what it covers.',
+    text: 'Ayu, the AI guide, answers from this knowledge base and shows the entries it used. Signs of an emergency get a "seek care now" reply instead of a remedy, and it says so when a question is beyond what it covers.',
   },
 ]
 
@@ -203,7 +203,7 @@ export default function LandingPage({ user, onLogout, onOpenAIChat }) {
               </h1>
               <p className="t-lead hero-lead">
                 A reference of {diseases.length} everyday conditions, {totalRemedies} kitchen remedies and {kb.herbs} herb entries
-                with botanical names, cautions and medicine interactions. Vanya, the AI guide, answers your
+                with botanical names, cautions and medicine interactions. Ayu, the AI guide, answers your
                 questions from these entries, shows its sources and tells you plainly when to see a doctor.
               </p>
 
@@ -253,8 +253,8 @@ export default function LandingPage({ user, onLogout, onOpenAIChat }) {
             <div className="hero-stage">
               <div className="hero-arch" aria-hidden="true">
                 <Mandala size={460} color="#B08D57" className="hero-mandala" />
-                <div className="hero-vaidya">
-                  <Vaidya size={330} />
+                <div className="hero-scene">
+                  <HerbScene size={380} />
                 </div>
               </div>
             </div>
@@ -286,7 +286,7 @@ export default function LandingPage({ user, onLogout, onOpenAIChat }) {
           <div className="container">
             <header className="section-head" data-reveal>
               <p className="eyebrow">Knowledge base</p>
-              <h2 id="kb-title" className="t-title">What Vanya answers from.</h2>
+              <h2 id="kb-title" className="t-title">What Ayu answers from.</h2>
               <p className="t-lead">
                 Built from open, citable sources and checked against official safety data. Where sources disagree
                 or we aren't sure, the entry says so instead of guessing.
@@ -471,7 +471,7 @@ export default function LandingPage({ user, onLogout, onOpenAIChat }) {
               <h2 id="closing-title" className="t-title">A kitchen remedy is a first step, not a prescription.</h2>
               <p className="t-lead">
                 Every entry states how long a condition usually lasts and when it is time to see a doctor.
-                Create a free account to save the remedies your family relies on and ask Vanya what the page doesn't answer.
+                Create a free account to save the remedies your family relies on and ask Ayu what the page doesn't answer.
                 You can delete the account, and everything saved to it, whenever you like.
               </p>
               <div className="closing-actions">

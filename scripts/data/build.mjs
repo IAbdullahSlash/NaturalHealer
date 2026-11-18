@@ -107,7 +107,7 @@ herbs.sort((a, b) => a.name.localeCompare(b.name))
 sources.sort((a, b) => a.id.localeCompare(b.id))
 conditions.sort((a, b) => CATEGORY_ORDER.indexOf(a.category) - CATEGORY_ORDER.indexOf(b.category) || a.title.localeCompare(b.title))
 
-// Replace citations with the source details the site, Vanya and the dataset show
+// Replace citations with the source details the site, Ayu and the dataset show
 const resolve = (refs) => refs.map(r => resolveRef(r, sourcesById))
 const resolvedHerbs = herbs.map(h => ({
   ...h,

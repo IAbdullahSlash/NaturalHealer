@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Logo } from './Icon'
-import Vaidya from './Vaidya'
+import { HerbScene } from './Apothecary'
 import BotanicalPlate from './Botanicals'
 import { Mandala } from './Garden'
 import '../styles/Auth.css'
@@ -9,7 +9,7 @@ import '../styles/Auth.css'
 export default function AuthLayout({ title, subtitle, children, footer }) {
   return (
     <div className="auth">
-      {/* Vanya at her table, framed in an arch */}
+      {/* An apothecary still life, framed in an arch */}
       <aside className="auth-aside" aria-hidden="true">
         <Mandala size={620} color="#B08D57" className="auth-mandala" />
         <div className="auth-botanical"><BotanicalPlate herb="tulsi" size={180} /></div>
@@ -20,7 +20,7 @@ export default function AuthLayout({ title, subtitle, children, footer }) {
         </Link>
 
         <div className="auth-arch">
-          <Vaidya size={300} />
+          <HerbScene size={260} />
         </div>
 
         <p className="auth-quote">

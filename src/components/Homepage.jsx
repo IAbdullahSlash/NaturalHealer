@@ -7,7 +7,7 @@ import { useFavorites } from '../hooks/useFavorites';
 import Navbar from './Navbar';
 import SearchBar from './SearchBar';
 import { HerbRail } from './Herbs';
-import Vaidya from './Vaidya';
+import { HerbScene } from './Apothecary';
 import { HerbMark } from './Botanicals';
 import { Mandala } from './Garden';
 import ConditionLedger from './ConditionLedger';
@@ -106,11 +106,11 @@ const Homepage = ({ user, onLogout, onOpenAIChat }) => {
               </Link>
             )}
           </div>
-          <div className="dashboard-vanya">
-            <div className="dashboard-vanya-arch" aria-hidden="true"><Vaidya size={176} /></div>
+          <div className="dashboard-guide">
+            <div className="dashboard-guide-arch" aria-hidden="true"><HerbScene size={168} /></div>
             <button type="button" className="btn btn-paper btn-sm dashboard-ask" onClick={onOpenAIChat}>
               <Icon name="sparkle" size={15} />
-              Consult Vanya
+              Consult Ayu
             </button>
           </div>
         </header>
@@ -153,7 +153,7 @@ const Homepage = ({ user, onLogout, onOpenAIChat }) => {
               {!isSavedEmpty && (
                 <button className="btn btn-leaf" onClick={onOpenAIChat}>
                   <Icon name="sparkle" size={16} />
-                  Ask Vanya
+                  Ask Ayu
                 </button>
               )}
             </div>
@@ -170,10 +170,10 @@ const Homepage = ({ user, onLogout, onOpenAIChat }) => {
 
         <aside className="guide-strip">
           <p>
-            <strong>Not sure where to start?</strong> Describe how you feel and Vanya will point you to remedies, foods and habits, answering from the <Link to="/herbs">herb knowledge base</Link> and showing which entries it used.
+            <strong>Not sure where to start?</strong> Describe how you feel and Ayu will point you to remedies, foods and habits, answering from the <Link to="/herbs">herb knowledge base</Link> and showing which entries it used.
           </p>
           <button className="btn btn-leaf" onClick={onOpenAIChat}>
-            Ask Vanya
+            Ask Ayu
             <Icon name="arrowRight" size={18} className="btn-arrow" />
           </button>
         </aside>
